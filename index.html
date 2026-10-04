@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f3ed"><meta name="description" content="拾形 SHAPEFOLIO：独立策展的网站设计灵感库。探索优秀数字产品，收藏视觉语言，寻找下一个好想法。">
+<title>拾形 SHAPEFOLIO — 好设计，值得拾起。</title>
+<link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./src/styles.css">
+<script type="module" src="./src/app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#gallery">跳至灵感图库</a>
+<header class="site-header wrap"><a class="brand" href="./" aria-label="拾形首页"><span class="brand-icon" aria-hidden="true">✳</span><strong>拾形</strong><span class="brand-en">SHAPEFOLIO</span></a><nav aria-label="主导航"><a class="nav-active" href="#gallery">发现灵感 <span>↗</span></a><button id="nav-saved">我的收藏 <span id="saved-count">0</span></button><button id="about-button">关于拾形</button></nav><span class="header-note">A CURATED DESIGN INDEX</span></header>
+<main>
+<section class="hero wrap" aria-labelledby="hero-title"><div class="hero-main"><p class="eyebrow"><span class="orange-dot"></span> 为好奇心，留一点空间。 / EST. 2026</p><h1 id="hero-title">好设计，<br>值得<span class="serif-word">拾起</span><span class="hero-period">。</span></h1><p class="hero-description">从一个界面，到一种可能。<br>收集值得细看的数字作品，给你的下一个想法一点启发。</p><a class="explore-link" href="#gallery">往下看，发现新灵感 <span>↓</span></a></div><aside class="hero-art" aria-label="拾形原创抽象海报"><div class="art-meta"><span>THE ART OF<br>PAYING ATTENTION</span><span>VOL. 001<br>2026 / SELECTED</span></div><div class="orbital" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><div class="art-caption"><span>在日常里，<br>发现不寻常。</span><span class="art-star" aria-hidden="true">✳</span></div><div class="art-tiny">COLLECT MOMENTS. CONNECT IDEAS.</div></aside></section>
+<section id="gallery" class="gallery-section wrap" aria-labelledby="gallery-title"><div class="section-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="gallery-title">灵感，自有形状<span class="small-star">✳</span></h2></div><p>精挑细选，不止好看。<br><span>12 个网站 · 12 种打开思路的方式</span></p></div>
+<div class="toolbar"><div class="filters" role="group" aria-label="按类别筛选"><button class="filter active" data-category="全部" aria-pressed="true">全部 <span>12</span></button><button class="filter" data-category="产品设计" aria-pressed="false">产品设计</button><button class="filter" data-category="开发工具" aria-pressed="false">开发工具</button><button class="filter" data-category="创意设计" aria-pressed="false">创意设计</button><button class="filter" data-category="效率工具" aria-pressed="false">效率工具</button></div><div class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" aria-label="搜索网站、风格或关键词" placeholder="搜索网站、风格或关键词" autocomplete="off"><kbd>/</kbd></div></div>
+<div class="results-bar"><p id="result-count" role="status" aria-live="polite">精选作品 / 12</p><div class="view-options"><button id="saved-filter" aria-pressed="false">♡ 只看收藏</button><label for="sort" class="sr-only">排列方式</label><select id="sort"><option value="curated">策展顺序</option><option value="name">名称 A–Z</option></select></div></div>
+<div id="cards" class="card-grid"></div><div id="empty" class="empty-state" hidden><span>∅</span><h3>好灵感，还在别处等你。</h3><p id="empty-text">换一个关键词，或看看全部作品。</p><button id="reset" class="dark-button">查看全部作品 ↗</button></div>
+<p class="cover-note">注：封面为拾形原创视觉演绎，非官网截图。点击作品查看设计笔记与原站。</p>
+</section>
+<section class="closing wrap"><span class="closing-star" aria-hidden="true">✳</span><div><p class="eyebrow">STAY CURIOUS. KEEP COLLECTING.</p><h2>灵感不是答案，<br>是新的开始。</h2></div><a href="#gallery">再逛一会儿 ↗</a></section>
+</main>
+<footer class="wrap"><a class="brand" href="./"><strong>拾形</strong><span class="brand-en">SHAPEFOLIO</span></a><p>独立整理 · 为设计与好奇心而建</p><span>© 2026 SHAPEFOLIO</span><a href="./ATTRIBUTION.md">来源与版权 ↗</a></footer>
+<dialog id="detail" aria-labelledby="detail-title"><button class="dialog-close" aria-label="关闭详情">×</button><div id="detail-content"></div></dialog>
+<dialog id="about" aria-labelledby="about-title"><button class="dialog-close" aria-label="关闭介绍">×</button><div class="about-content"><p class="eyebrow">ABOUT SHAPEFOLIO</p><h2 id="about-title">拾起形状，<br>留下灵感。</h2><p>拾形是一个独立的网站设计灵感索引。我们关心清晰的表达、有趣的视觉语言，以及让产品更易理解的细节。</p><p>这里的封面均为原创艺术演绎，不是网站截图，也不代表品牌官方设计。设计笔记是编辑视角的学习建议；查看当前实际界面，请访问作品原站。</p><p>收藏仅储存在你的当前浏览器，无需注册，也不会上传到服务器。清除浏览器数据会删除收藏。</p><p class="about-small">品牌名称及相关商标属于各自权利人。本站与收录品牌无隶属或赞助关系。原始代码以 MIT 许可开源。</p><a class="dark-button" href="./ATTRIBUTION.md">阅读来源与版权说明 ↗</a></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<noscript><p class="wrap">请启用 JavaScript 以浏览作品、使用筛选及本地收藏。作品来源也可在<a href="./ATTRIBUTION.md">来源文档</a>中查看。</p></noscript>
+</body></html>
