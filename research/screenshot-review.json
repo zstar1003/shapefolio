@@ -36,14 +36,58 @@
     "patagonia",
     "1password",
     "tailscale",
-    "craft"
+    "craft",
+    "collins",
+    "astro",
+    "monocle",
+    "oil-voice",
+    "oil-components",
+    "oil-stay",
+    "oil-anime",
+    "oil-lingo",
+    "oil-freight",
+    "oil-ride",
+    "oil-recipe",
+    "oil-cards",
+    "oil-pulse",
+    "oil-editor",
+    "oil-contract",
+    "oil-camera",
+    "oil-silver",
+    "oil-reader",
+    "oil-lims",
+    "oil-calendar",
+    "oil-brew",
+    "oil-roast",
+    "oil-sneaker",
+    "oil-copilot",
+    "oil-upload",
+    "oil-canvas",
+    "oil-studio",
+    "oil-podcast",
+    "oil-device",
+    "oil-wrapped",
+    "oil-mail",
+    "oil-reel",
+    "oil-muse",
+    "oil-diary",
+    "oil-home",
+    "oil-tracker",
+    "oil-knot",
+    "oil-keeb",
+    "oil-weather",
+    "oil-ledger",
+    "oil-folio",
+    "oil-checkout",
+    "oil-maker",
+    "oil-trail",
+    "oil-watch",
+    "oil-letter",
+    "oil-scent",
+    "oil-club",
+    "oil-vinyl"
   ],
   "excluded": [
-    {
-      "id": "collins",
-      "sourceUrl": "https://wearecollins.com/",
-      "reason": "blank black capture"
-    },
     {
       "id": "koto",
       "sourceUrl": "https://koto.com/",
@@ -55,19 +99,9 @@
       "reason": "dimmed cookie overlay"
     },
     {
-      "id": "monocle",
-      "sourceUrl": "https://monocle.com/",
-      "reason": "large cookie overlay"
-    },
-    {
       "id": "designmuseum",
       "sourceUrl": "https://designmuseum.org/",
       "reason": "large cookie overlay"
-    },
-    {
-      "id": "astro",
-      "sourceUrl": "https://astro.build/",
-      "reason": "blank white capture"
     },
     {
       "id": "rijksmuseum",
@@ -100,5 +134,10 @@
       "reason": "dimmed cookie overlay"
     }
   ],
-  "notes": "mShots Pentagram and Instrument cropped above cookie overlays; all others reviewed full thumbnail. Capture timestamps not supplied by providers."
+  "notes": "All approved images visually reviewed. mShots Instrument, Pentagram and Monocle cropped above cookie banners; capture timestamps not supplied by providers. Aesop and Vitra security challenges were not retried. Other exclusions remained blank, cookie-obscured or generic-error screenshots after alternate provider.",
+  "oilUi": {
+    "approved": 46,
+    "excluded": [],
+    "method": "Screenshots of actual public live demos, 28 Thum.io + 18 Automattic mShots. No source cover images copied. All visually reviewed."
+  }
 }

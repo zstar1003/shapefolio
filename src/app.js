@@ -13,7 +13,8 @@ try {
 const state = {category: '全部', query: '', savedOnly: false, sort: 'curated', limit: PAGE_SIZE};
 let toastTimer;
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const categories = ['全部', ...new Set(galleryCases.map(c => c.category))];
+const availableCategories = [...new Set(galleryCases.map(c => c.category))];
+const categories = ['全部', ...availableCategories.filter(c => c === 'Oil UI'), ...availableCategories.filter(c => c !== 'Oil UI')];
 $('#categories').innerHTML = categories.map(category => `<button class="filter" data-category="${escape(category)}" aria-pressed="false">${escape(category)}</button>`).join('');
 function placeholder() {
   return '<div class="capture-placeholder"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="5" width="26" height="22" rx="4"/><path d="M3 12h26M8 9h1m3 0h1"/></svg><span>截图待补充</span></div>';
@@ -40,7 +41,7 @@ function syncSaves() {
 }
 function card(c) {
   const domain = new URL(c.url).hostname.replace(/^www\./, '');
-  return `<article class="card"><a class="screenshot-link" href="${c.url}" target="_blank" rel="noopener noreferrer" aria-label="访问 ${escape(c.name)} 官网（新窗口）">${screenshot(c)}<span class="visit-hint">访问网站 ↗</span></a><div class="card-meta"><div class="card-name"><h2><a href="${c.url}" target="_blank" rel="noopener noreferrer">${escape(c.name)}</a></h2><div class="card-domain">${escape(domain)}</div></div><div class="card-actions"><button data-detail="${c.id}" aria-label="查看 ${escape(c.name)} 的设计笔记">ⓘ</button><button class="save-button" data-save="${c.id}"></button></div></div></article>`;
+  return `<article class="card"><a class="screenshot-link" href="${c.url}" target="_blank" rel="noopener noreferrer" aria-label="访问 ${escape(c.name)} ${c.isConcept ? "案例" : "官网"}（新窗口）">${screenshot(c)}<span class="visit-hint">${c.isConcept ? "查看案例" : "访问网站"} ↗</span></a><div class="card-meta"><div class="card-name"><h2><a href="${c.url}" target="_blank" rel="noopener noreferrer">${escape(c.name)}</a></h2><div class="card-domain">${escape(domain)}</div></div><div class="card-actions"><button data-detail="${c.id}" aria-label="查看 ${escape(c.name)} 的设计笔记">ⓘ</button><button class="save-button" data-save="${c.id}"></button></div></div></article>`;
 }
 function render() {
   const visible = filterCases(galleryCases, {...state, saved});
@@ -75,7 +76,7 @@ function toggleSave(id) {
 }
 function showDetail(id) {
   const c = caseById.get(id);
-  $('#detail-content').innerHTML = `<div class="detail-image">${screenshot(c, true)}</div><div class="detail-body"><p class="detail-category">${escape(c.category)}</p><h2 id="detail-title">${escape(c.name)}</h2><p>${escape(c.note)}</p><p class="lesson">${escape(c.lesson)}</p><div class="tags">${c.tags.map(t => `<span class="tag">${escape(t)}</span>`).join('')}</div><div class="detail-actions"><a href="${c.url}" target="_blank" rel="noopener noreferrer">访问原站 ↗</a><button data-save="${c.id}"></button></div><p class="source-caption">来源：${escape(new URL(c.url).hostname)} · 收录核验 2026.10.04<br>${screenshotById[c.id]?.src ? `真实网站截图${screenshotById[c.id].retrievedAt ? ` · 获取日期 ${escape(screenshotById[c.id].retrievedAt)}` : ""}` : "截图待补充"}。截图可能为缓存版本。笔记为编辑学习建议。</p></div>`;
+  $('#detail-content').innerHTML = `<div class="detail-image">${screenshot(c, true)}</div><div class="detail-body"><p class="detail-category">${escape(c.category)}${c.isConcept ? " · 概念案例" : ""}</p><h2 id="detail-title">${escape(c.name)}</h2><p>${escape(c.note)}</p><p class="lesson">${escape(c.lesson)}</p><div class="tags">${c.tags.map(t => `<span class="tag">${escape(t)}</span>`).join('')}</div><div class="detail-actions"><a href="${c.url}" target="_blank" rel="noopener noreferrer">${c.isConcept ? "查看原始案例" : "访问原站"} ↗</a><button data-save="${c.id}"></button></div><p class="source-caption">来源：${escape(new URL(c.url).hostname)} · 收录核验 2026.10.04<br>${screenshotById[c.id]?.src ? `真实网站截图${screenshotById[c.id].retrievedAt ? ` · 获取日期 ${escape(screenshotById[c.id].retrievedAt)}` : ""}` : "截图待补充"}。截图可能为缓存版本。笔记为编辑学习建议。${c.sourceName ? `<br>收录来源：<a href="${escape(c.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escape(c.sourceName)}</a>。${c.isConcept ? "该作品是原站展示的概念案例，不代表同名真实商业产品。" : ""}` : ""}${c.model ? `<br>模型信息来自原站标注，未独立核验：${escape(c.model)}。` : ""}</p></div>`;
   syncSaves();
   $('#detail').showModal();
 }
