@@ -555,5 +555,191 @@ export const screenshotById = {
     "sourceUrl": "https://ui.oiloil.org/works/vinyl/",
     "captureUrl": "https://ui.oiloil.org/works/vinyl/live/index.html",
     "captureProvider": "Automattic mShots"
+  },
+  "zh-flomo": {
+    "src": "./assets/screenshots/zh-flomo.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://flomoapp.com/",
+    "captureProvider": "Thum.io"
+  },
+  "zh-jzn": {
+    "src": "./assets/screenshots/zh-jzn.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://www.jzn.com.tw/",
+    "captureProvider": "Thum.io"
+  },
+  "zh-pocari": {
+    "src": "./assets/screenshots/zh-pocari.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://www.pocari.com.tw/",
+    "captureProvider": "Thum.io"
+  },
+  "zh-jsdesign": {
+    "src": "./assets/screenshots/zh-jsdesign.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://js.design/",
+    "captureProvider": "Thum.io"
+  },
+  "zh-mastergo": {
+    "src": "./assets/screenshots/zh-mastergo.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://mastergo.com/",
+    "captureProvider": "Thum.io"
+  },
+  "zh-cubox": {
+    "src": "./assets/screenshots/zh-cubox.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://cubox.pro/",
+    "captureProvider": "Thum.io"
+  },
+  "zh-eagle": {
+    "src": "./assets/screenshots/zh-eagle.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://cn.eagle.cool/",
+    "captureProvider": "Thum.io"
+  },
+  "zh-jack": {
+    "src": "./assets/screenshots/zh-jack.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://veryjack.com/",
+    "captureProvider": "Automattic mShots"
+  },
+  "zh-slowork": {
+    "src": "./assets/screenshots/zh-slowork.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://sloworkpublishing.com/",
+    "captureProvider": "Automattic mShots"
+  },
+  "zh-vvg": {
+    "src": "./assets/screenshots/zh-vvg.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://vvg.com.tw/",
+    "captureProvider": "Automattic mShots"
+  },
+  "zh-yayu": {
+    "src": "./assets/screenshots/zh-yayu.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://yayuadventure.com/",
+    "captureProvider": "Automattic mShots"
+  },
+  "zh-plainlaw": {
+    "src": "./assets/screenshots/zh-plainlaw.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://plainlaw.me/",
+    "captureProvider": "Automattic mShots"
+  },
+  "zh-kzhik": {
+    "src": "./assets/screenshots/zh-kzhik.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://www.kzhik.cn/",
+    "captureProvider": "Automattic mShots"
+  },
+  "zh-blatr": {
+    "src": "./assets/screenshots/zh-blatr.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://www.blatr.cn/blog",
+    "captureProvider": "Automattic mShots"
+  },
+  "zh-flowus": {
+    "src": "./assets/screenshots/zh-flowus.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://flowus.cn/product",
+    "captureProvider": "Thum.io"
+  },
+  "zh-pixso": {
+    "src": "./assets/screenshots/zh-pixso.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://pixso.cn/",
+    "captureProvider": "Thum.io"
+  },
+  "zh-yuque": {
+    "src": "./assets/screenshots/zh-yuque.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://www.yuque.com/",
+    "captureProvider": "Thum.io"
+  },
+  "zh-feishu-docs": {
+    "src": "./assets/screenshots/zh-feishu-docs.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://docs.feishu.cn/welcome",
+    "captureProvider": "Thum.io"
+  },
+  "zh-yixi": {
+    "src": "./assets/screenshots/zh-yixi.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://yixi.tv/",
+    "captureProvider": "Thum.io"
+  },
+  "zh-ucca": {
+    "src": "./assets/screenshots/zh-ucca.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://ucca.org.cn/",
+    "captureProvider": "Thum.io"
+  },
+  "zh-colorpalette": {
+    "src": "./assets/screenshots/zh-colorpalette.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://www.colorpalette.cn/",
+    "captureProvider": "Thum.io"
+  },
+  "zh-krjojo": {
+    "src": "./assets/screenshots/zh-krjojo.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://www.krjojo.com/",
+    "captureProvider": "Thum.io"
+  },
+  "zh-wolai": {
+    "src": "./assets/screenshots/zh-wolai.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://www.wolai.com/",
+    "captureProvider": "Automattic mShots"
+  },
+  "zh-mubu": {
+    "src": "./assets/screenshots/zh-mubu.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://mubu.com/",
+    "captureProvider": "Automattic mShots"
+  },
+  "zh-sspai": {
+    "src": "./assets/screenshots/zh-sspai.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://sspai.com/",
+    "captureProvider": "Automattic mShots"
+  },
+  "zh-semi": {
+    "src": "./assets/screenshots/zh-semi.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://semi.design/zh-CN/",
+    "captureProvider": "Thum.io"
+  },
+  "zh-tdesign": {
+    "src": "./assets/screenshots/zh-tdesign.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://tdesign.tencent.com/",
+    "captureProvider": "Thum.io"
+  },
+  "zh-gooood": {
+    "src": "./assets/screenshots/zh-gooood.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://www.gooood.cn/",
+    "captureProvider": "Automattic mShots"
+  },
+  "zh-zenart": {
+    "src": "./assets/screenshots/zh-zenart.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://zen-art.studio-on.tw/",
+    "captureProvider": "Automattic mShots"
+  },
+  "zh-islandlife": {
+    "src": "./assets/screenshots/zh-islandlife.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://islandlife-2026.web.app/",
+    "captureProvider": "Automattic mShots"
+  },
+  "zh-leaping": {
+    "src": "./assets/screenshots/zh-leaping.webp",
+    "retrievedAt": "2026-10-04",
+    "sourceUrl": "https://www.leapingcreative.com/",
+    "captureProvider": "Automattic mShots"
   }
 };

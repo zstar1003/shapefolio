@@ -125,3 +125,41 @@
 - Ohm 1 — https://ui.oiloil.org/works/device/
 - Tempo · 2026 Wrapped — https://ui.oiloil.org/works/wrapped/
 - Post — https://ui.oiloil.org/works/mail/
+
+## 中文网站扩充 · 2026-10-04
+
+本次加入 31 个具有中文内容且截图审核通过的公开网站。以下为官网、发现线索和本地截图服务的逐项对应；发现来源不等同于授权或对产品质量的背书。学习笔记依据实际截图与公开页面的信息结构独立撰写，不复制推荐文章的评价。完整候选、排除理由和公开链接检查见 `research/chinese-discovery.json`。公开 X 搜索没有取得可核验的相关推荐帖，因此本批没有 X 来源声明。
+
+全部截图获取日期为 2026-10-04；实际拍摄日期未确认。
+
+- **flomo 浮墨笔记** (zh-CN) — [官网](https://flomoapp.com/) · [ARTsOUT · 设计美学访谈](https://www.xiaoyuzhoufm.com/episode/602b542e6a8854e31c0e8245) · Thum.io · `assets/screenshots/zh-flomo.webp`
+- **舊振南** (zh-TW) — [官网](https://www.jzn.com.tw/) · [twdc · 台灣好網站](https://twdc.design/work/jzn) · Thum.io · `assets/screenshots/zh-jzn.webp`
+- **寶礦力水得** (zh-TW) — [官网](https://www.pocari.com.tw/) · [twdc · 台灣好網站](https://twdc.design/work/pocari) · Thum.io · `assets/screenshots/zh-pocari.webp`
+- **即时设计** (zh-CN) — [官网](https://js.design/) · [优设 · 工具评测](https://www.uisdc.com/jishi-design) · Thum.io · `assets/screenshots/zh-jsdesign.webp`
+- **MasterGo 莫高设计** (zh-CN) — [官网](https://mastergo.com/) · [优设 · MasterGo 评测](https://www.uisdc.com/mastergo) · Thum.io · `assets/screenshots/zh-mastergo.webp`
+- **Cubox** (zh-CN) — [官网](https://cubox.pro/) · [少数派 · Cubox 体验](https://sspai.com/post/100627) · Thum.io · `assets/screenshots/zh-cubox.webp`
+- **Eagle** (zh-CN) — [官网](https://cn.eagle.cool/) · [少数派 · Eagle 使用技巧](https://sspai.com/post/59988) · Thum.io · `assets/screenshots/zh-eagle.webp`
+- **Jack’s Space** (zh-CN) — [官网](https://veryjack.com/) · [HeoAwards 2025](https://blog.zhheo.com/p/5zo43meo.html) · Automattic mShots · `assets/screenshots/zh-jack.webp`
+- **慢工文化** (zh-TW) — [官网](https://sloworkpublishing.com/) · [twdc · 台灣好網站](https://twdc.design/work/slowork-publishing) · Automattic mShots · `assets/screenshots/zh-slowork.webp`
+- **VVG 好樣** (zh-TW) — [官网](https://vvg.com.tw/) · [twdc · 台灣好網站](https://twdc.design/work/vvg) · Automattic mShots · `assets/screenshots/zh-vvg.webp`
+- **野遊 YAYU** (zh-TW) — [官网](https://yayuadventure.com/) · [twdc · 台灣好網站](https://twdc.design/work/yayu-adventure) · Automattic mShots · `assets/screenshots/zh-yayu.webp`
+- **法律白話文運動** (zh-TW) — [官网](https://plainlaw.me/) · [twdc · 台灣好網站](https://twdc.design/work/plainlaw) · Automattic mShots · `assets/screenshots/zh-plainlaw.webp`
+- **kzhik** (zh-CN) — [官网](https://www.kzhik.cn/) · [HeoAwards 2025](https://blog.zhheo.com/p/5zo43meo.html) · Automattic mShots · `assets/screenshots/zh-kzhik.webp`
+- **青灯暮雨** (zh-CN) — [官网](https://www.blatr.cn/blog) · [HeoAwards 2025](https://blog.zhheo.com/p/5zo43meo.html) · Automattic mShots · `assets/screenshots/zh-blatr.webp`
+- **FlowUs 息流** (zh-CN) — [官网](https://flowus.cn/product) · [少数派 · FlowUs 体验](https://sspai.com/post/71687) · Thum.io · `assets/screenshots/zh-flowus.webp`
+- **Pixso** (zh-CN) — [官网](https://pixso.cn/) · [优设 · Pixso 评测](https://www.uisdc.com/pixso) · Thum.io · `assets/screenshots/zh-pixso.webp`
+- **语雀** (zh-CN) — [官网](https://www.yuque.com/) · [Ant Design · 相关产品](https://ant.design/index-cn/) · Thum.io · `assets/screenshots/zh-yuque.webp`
+- **飞书文档** (zh-CN) — [官网](https://docs.feishu.cn/welcome) · [少数派 · 飞书写作工作流](https://sspai.com/post/68135) · Thum.io · `assets/screenshots/zh-feishu-docs.webp`
+- **一席** (zh-CN) — [官网](https://yixi.tv/) · [Bilibili · 一席内容推荐](https://www.bilibili.com/video/BV1ts411T7a5/) · Thum.io · `assets/screenshots/zh-yixi.webp`
+- **UCCA 尤伦斯当代艺术中心** (zh-CN) — [官网](https://ucca.org.cn/) · [UCCA 官方公开网站](https://ucca.org.cn/) · Thum.io · `assets/screenshots/zh-ucca.webp`
+- **派来特 Color Palette** (zh-CN) — [官网](https://www.colorpalette.cn/) · [派来特 · 官方改版记录](https://www.colorpalette.cn/news-redesign.html) · Thum.io · `assets/screenshots/zh-colorpalette.webp`
+- **手里有只毛毛虫** (zh-CN) — [官网](https://www.krjojo.com/) · [HeoAwards 2025](https://blog.zhheo.com/p/5zo43meo.html) · Thum.io · `assets/screenshots/zh-krjojo.webp`
+- **我来 wolai** (zh-CN) — [官网](https://www.wolai.com/) · [少数派 · 知识工具盘点](https://sspai.com/post/72235) · Automattic mShots · `assets/screenshots/zh-wolai.webp`
+- **幕布** (zh-CN) — [官网](https://mubu.com/) · [少数派 · 幕布体验](https://sspai.com/post/59631) · Automattic mShots · `assets/screenshots/zh-mubu.webp`
+- **少数派** (zh-CN) — [官网](https://sspai.com/) · [UI 中国 · 资源欣赏](https://www.ui.cn/detail/427656.html) · Automattic mShots · `assets/screenshots/zh-sspai.webp`
+- **Semi Design** (zh-CN) — [官网](https://semi.design/zh-CN/) · [优设 · 设计资源精选](https://hao.uisdc.com/) · Thum.io · `assets/screenshots/zh-semi.webp`
+- **TDesign** (zh-CN) — [官网](https://tdesign.tencent.com/) · [优设 · 设计资源精选](https://hao.uisdc.com/) · Thum.io · `assets/screenshots/zh-tdesign.webp`
+- **谷德设计网** (zh-CN) — [官网](https://www.gooood.cn/) · [LogoDesign · 创意网站推荐](https://www.logodesign.cn/appreciate/2149.html) · Automattic mShots · `assets/screenshots/zh-gooood.webp`
+- **阿真 Zen Art** (zh-TW) — [官网](https://zen-art.studio-on.tw/) · [twdc · 台灣好網站](https://twdc.design/work/zen-art) · Automattic mShots · `assets/screenshots/zh-zenart.webp`
+- **2026 島嶼生活節** (zh-TW) — [官网](https://islandlife-2026.web.app/) · [twdc · 台灣好網站](https://twdc.design/work/island-life-festival-2026) · Automattic mShots · `assets/screenshots/zh-islandlife.webp`
+- **立品设计** (zh-CN) — [官网](https://www.leapingcreative.com/) · [立品设计 · 官方项目记录](https://www.leapingcreative.com/2022/12/05/ing未来印展示中心/) · Automattic mShots · `assets/screenshots/zh-leaping.webp`

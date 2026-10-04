@@ -1,0 +1,1263 @@
+{
+  "checkedAt": "2026-10-04",
+  "scope": "中文公开网站设计案例；简体与繁体均须由实际中文内容及审核通过的网站截图支持。",
+  "totalCases": 125,
+  "displayableCases": 116,
+  "approvedChineseCount": 31,
+  "originalCaseIds": [
+    "linear",
+    "oil-voice",
+    "figma",
+    "oil-reel",
+    "pentagram",
+    "oil-components",
+    "stripe",
+    "oil-muse",
+    "canva",
+    "oil-stay",
+    "collins",
+    "oil-diary",
+    "framer",
+    "oil-home",
+    "webflow",
+    "oil-anime",
+    "instrument",
+    "oil-lingo",
+    "vercel",
+    "oil-tracker",
+    "spline",
+    "oil-freight",
+    "koto",
+    "oil-ride",
+    "notion",
+    "oil-knot",
+    "loom",
+    "oil-recipe",
+    "itsnicethat",
+    "oil-cards",
+    "raycast",
+    "oil-pulse",
+    "miro",
+    "oil-keeb",
+    "wallpaper",
+    "oil-editor",
+    "arc",
+    "oil-weather",
+    "dropbox",
+    "oil-contract",
+    "gentlewoman",
+    "oil-ledger",
+    "awwwards",
+    "oil-folio",
+    "pitch",
+    "oil-camera",
+    "monocle",
+    "oil-silver",
+    "supabase",
+    "oil-reader",
+    "things",
+    "oil-lims",
+    "moma",
+    "oil-calendar",
+    "resend",
+    "oil-checkout",
+    "todoist",
+    "oil-maker",
+    "designmuseum",
+    "oil-trail",
+    "astro",
+    "oil-brew",
+    "obsidian",
+    "oil-watch",
+    "rijksmuseum",
+    "oil-roast",
+    "shadcn",
+    "oil-letter",
+    "github",
+    "oil-sneaker",
+    "barbican",
+    "oil-copilot",
+    "deno",
+    "oil-scent",
+    "aesop",
+    "oil-upload",
+    "rust",
+    "oil-club",
+    "muji",
+    "oil-vinyl",
+    "firefox",
+    "oil-canvas",
+    "patagonia",
+    "oil-studio",
+    "1password",
+    "oil-podcast",
+    "vitra",
+    "oil-device",
+    "tailscale",
+    "oil-wrapped",
+    "bangolufsen",
+    "oil-mail",
+    "craft",
+    "gentlemonster"
+  ],
+  "approvedIds": [
+    "zh-flomo",
+    "zh-jzn",
+    "zh-pocari",
+    "zh-jsdesign",
+    "zh-mastergo",
+    "zh-cubox",
+    "zh-eagle",
+    "zh-jack",
+    "zh-slowork",
+    "zh-vvg",
+    "zh-yayu",
+    "zh-plainlaw",
+    "zh-kzhik",
+    "zh-blatr",
+    "zh-flowus",
+    "zh-pixso",
+    "zh-yuque",
+    "zh-feishu-docs",
+    "zh-yixi",
+    "zh-ucca",
+    "zh-colorpalette",
+    "zh-krjojo",
+    "zh-wolai",
+    "zh-mubu",
+    "zh-sspai",
+    "zh-semi",
+    "zh-tdesign",
+    "zh-gooood",
+    "zh-zenart",
+    "zh-islandlife",
+    "zh-leaping"
+  ],
+  "methods": [
+    "公开网页搜索",
+    "twdc 台湾网站设计收藏",
+    "HeoAwards 2025 博客推荐",
+    "优设设计工具评测",
+    "少数派产品体验文章",
+    "UI 中国资源文章",
+    "站酷设计发布",
+    "官方网站与改版记录"
+  ],
+  "xSearch": {
+    "attempted": true,
+    "verifiedPosts": [],
+    "result": "公开 X 关键词搜索未获得可直接核验的相关推荐帖；没有将 X 列为任何案例的发现来源。"
+  },
+  "limitations": [
+    "截图服务可返回缓存，因此仅记录获取日期，不宣称拍摄日期。",
+    "发现来源证明候选线索；设计学习笔记以审核截图和公开页面结构为依据，不是对产品质量的背书。",
+    "部分站点因语言不符、弹窗、加载不完整或安全验证未收录。",
+    "亦小封虽有可用截图，但公开直连连续两次返回 502，因此未收录。"
+  ],
+  "candidates": [
+    {
+      "id": "zh-flomo",
+      "name": "flomo 浮墨笔记",
+      "url": "https://flomoapp.com/",
+      "language": "zh-CN",
+      "sourceName": "ARTsOUT · 设计美学访谈",
+      "sourceUrl": "https://www.xiaoyuzhoufm.com/episode/602b542e6a8854e31c0e8245",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-flomo.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://flomoapp.com/",
+        "captureProvider": "Thum.io",
+        "sha256": "6ace0d7ab883798a275c871cc7565d53e8f23378eec0511f8ce162c1277529ab",
+        "bytes": 12664,
+        "review": "approved",
+        "observation": "灰白背景中将标题、说明与绿色注册按钮居中排列，绿色同时强调标题中的核心词。下方通过奖项和设备界面补充产品可信度，可学习单一强调色如何连接文案重点与行动入口。"
+      },
+      "linkCheck": {
+        "id": "zh-flomo",
+        "url": "https://flomoapp.com/",
+        "status": 200,
+        "finalUrl": "https://flomoapp.com/",
+        "bytesRead": 21323,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-cacao",
+      "name": "cacao 可口",
+      "url": "https://cacaomag.co/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/cacaomag",
+      "status": "excluded",
+      "exclusionReason": "Newsletter overlay obscures page",
+      "linkCheck": {
+        "id": "zh-cacao",
+        "url": "https://cacaomag.co/",
+        "status": 200,
+        "finalUrl": "https://cacaomag.co/",
+        "bytesRead": 170543,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-slowork",
+      "name": "慢工文化",
+      "url": "https://sloworkpublishing.com/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/slowork-publishing",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-slowork.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://sloworkpublishing.com/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "608b6726b5a22091f301990fe4597458b1f66db6a9ca8732f3ef569893096d56",
+        "bytes": 28018,
+        "review": "approved",
+        "observation": "书籍封面散布在浅色首屏，左侧中文主标题与右侧简短说明形成分区，绿色标志提供识别点。可学习独立出版网站如何把作品本身作为视觉素材，同时保留清楚的文字阅读位置。"
+      },
+      "linkCheck": {
+        "id": "zh-slowork",
+        "url": "https://sloworkpublishing.com/",
+        "status": 200,
+        "finalUrl": "https://sloworkpublishing.com/",
+        "bytesRead": 4886,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-dechuan",
+      "name": "王德傳茶莊",
+      "url": "https://www.dechuantea.com/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/dechuantea",
+      "status": "excluded",
+      "exclusionReason": "Incomplete faded capture",
+      "linkCheck": {
+        "id": "zh-dechuan",
+        "url": "https://www.dechuantea.com/",
+        "status": 200,
+        "finalUrl": "https://www.dechuantea.com/",
+        "bytesRead": 91455,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-vvg",
+      "name": "VVG 好樣",
+      "url": "https://vvg.com.tw/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/vvg",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-vvg.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://vvg.com.tw/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "06034302da3e5d55b5adfab2fa4e5656b93e5e6b1102ee0bacca0b56a97198b5",
+        "bytes": 55156,
+        "review": "approved",
+        "observation": "米色与深绿色块围合中央空间摄影，标志、菜单和社交入口沿边缘分布。可学习生活方式品牌如何通过框景和留白让空间照片成为主角，并以少量色块建立稳定的品牌气质。"
+      },
+      "linkCheck": {
+        "id": "zh-vvg",
+        "url": "https://vvg.com.tw/",
+        "status": 200,
+        "finalUrl": "https://vvg.com.tw/",
+        "bytesRead": 35780,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-jzn",
+      "name": "舊振南",
+      "url": "https://www.jzn.com.tw/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/jzn",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-jzn.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://www.jzn.com.tw/",
+        "captureProvider": "Thum.io",
+        "sha256": "1790fdbc44138f8ca8b5b0e5b3b65f0069eb2ee406d6815aea65aeaebd860691",
+        "bytes": 26208,
+        "review": "approved",
+        "observation": "糕点和烤盘占据整个首屏，中央仅叠放简短的中英文品牌文案，标志与菜单分别退到上方两角。可学习用产品质感承担氛围表达，让文字与导航保留足够的阅读空间。"
+      },
+      "linkCheck": {
+        "id": "zh-jzn",
+        "url": "https://www.jzn.com.tw/",
+        "status": 200,
+        "finalUrl": "https://www.jzn.com.tw/",
+        "bytesRead": 76420,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-yayu",
+      "name": "野遊 YAYU",
+      "url": "https://yayuadventure.com/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/yayu-adventure",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-yayu.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://yayuadventure.com/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "d67b84741dacbab4399995bd6371815be81acde008e49c7e1e1d6579d1dab4c5",
+        "bytes": 32744,
+        "review": "approved",
+        "observation": "雪山摄影铺满首屏，中文文案和行程按钮放在左侧较平静的画面区域，导航沿顶部展开。可学习旅行品牌如何让背景照片保留空间感，同时确保文案和行动入口容易辨认。"
+      },
+      "linkCheck": {
+        "id": "zh-yayu",
+        "url": "https://yayuadventure.com/",
+        "status": 200,
+        "finalUrl": "https://yayuadventure.com/",
+        "bytesRead": 156086,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-layr",
+      "name": "LAYR. 視覺設計工作室",
+      "url": "https://layr-atelier.com/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/layr-atelier",
+      "status": "excluded",
+      "exclusionReason": "English landing page",
+      "linkCheck": {
+        "id": "zh-layr",
+        "url": "https://layr-atelier.com/",
+        "status": 200,
+        "finalUrl": "https://layr-atelier.com/",
+        "bytesRead": 208621,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-plainlaw",
+      "name": "法律白話文運動",
+      "url": "https://plainlaw.me/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/plainlaw",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-plainlaw.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://plainlaw.me/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "834e3005f5822814e9d2842b100e9de4c8aaab4ba7f56cdfaf65b77d18ee8e8d",
+        "bytes": 46964,
+        "review": "approved",
+        "observation": "紫色目录栏与白色内容区形成鲜明对比，两块区域都以折角轮廓强调边界。期数导航、专题说明和人物照片各有位置，可学习编辑内容如何通过视觉分区保持高密度信息的方向感。"
+      },
+      "linkCheck": {
+        "id": "zh-plainlaw",
+        "url": "https://plainlaw.me/",
+        "status": 200,
+        "finalUrl": "https://plainlaw.me/",
+        "bytesRead": 75744,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-pocari",
+      "name": "寶礦力水得",
+      "url": "https://www.pocari.com.tw/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/pocari",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-pocari.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://www.pocari.com.tw/",
+        "captureProvider": "Thum.io",
+        "sha256": "995cf6250bdffba80b2b064a5e55f65fe0750e61290328e3ec850ee22412558d",
+        "bytes": 36228,
+        "review": "approved",
+        "observation": "蓝色贯穿产品包装、人物主视觉和横向导航，广告标题以较大的倾斜字形强化运动感。可学习成熟品牌如何让摄影、文字方向和品牌色形成共同节奏，同时保留清楚的产品入口。"
+      },
+      "linkCheck": {
+        "id": "zh-pocari",
+        "url": "https://www.pocari.com.tw/",
+        "status": 200,
+        "finalUrl": "https://www.pocari.com.tw/",
+        "bytesRead": 38756,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-expo",
+      "name": "臺灣文博會",
+      "url": "https://creativexpo.tw/zh-TW",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/",
+      "status": "excluded",
+      "exclusionReason": "English capture despite locale",
+      "linkCheck": {
+        "id": "zh-expo",
+        "url": "https://creativexpo.tw/zh-TW",
+        "status": 200,
+        "finalUrl": "https://creativexpo.tw/zh-TW",
+        "bytesRead": 62628,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-tudigong",
+      "name": "桃園市土地公文化館",
+      "url": "https://www.taoyuantudigong.org.tw/main/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/",
+      "status": "excluded",
+      "exclusionReason": "Persistent loading splash",
+      "linkCheck": {
+        "id": "zh-tudigong",
+        "url": "https://www.taoyuantudigong.org.tw/main/",
+        "status": 200,
+        "finalUrl": "https://www.taoyuantudigong.org.tw/main/",
+        "bytesRead": 400771,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-pipu",
+      "name": "皮普的数字花园",
+      "url": "https://pipuwong.com/",
+      "language": "zh-CN",
+      "sourceName": "HeoAwards 2025",
+      "sourceUrl": "https://blog.zhheo.com/p/5zo43meo.html",
+      "status": "excluded",
+      "exclusionReason": "Security verification",
+      "linkCheck": {
+        "status": "not-checked",
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-jack",
+      "name": "Jack’s Space",
+      "url": "https://veryjack.com/",
+      "language": "zh-CN",
+      "sourceName": "HeoAwards 2025",
+      "sourceUrl": "https://blog.zhheo.com/p/5zo43meo.html",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-jack.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://veryjack.com/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "b34a8fc0bcfa967a028e6715d430cc41cf7c5c9d914a22cede10bc7afde10579",
+        "bytes": 22252,
+        "review": "approved",
+        "observation": "轻量顶部导航之下，左侧短句与右侧人物头像形成平衡，下方文章以宽松卡片呈现。可学习个人博客如何用稳定留白、有限的字号变化和作者标记建立舒适的阅读入口。"
+      },
+      "linkCheck": {
+        "id": "zh-jack",
+        "url": "https://veryjack.com/",
+        "status": 200,
+        "finalUrl": "https://veryjack.com/",
+        "bytesRead": 27804,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-fooz",
+      "name": "付之一笑",
+      "url": "https://foo-z.com/",
+      "language": "zh-CN",
+      "sourceName": "HeoAwards 2025",
+      "sourceUrl": "https://blog.zhheo.com/p/5zo43meo.html",
+      "status": "excluded",
+      "exclusionReason": "Security verification",
+      "linkCheck": {
+        "status": "not-checked",
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-jsdesign",
+      "name": "即时设计",
+      "url": "https://js.design/",
+      "language": "zh-CN",
+      "sourceName": "优设 · 工具评测",
+      "sourceUrl": "https://www.uisdc.com/jishi-design",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-jsdesign.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://js.design/",
+        "captureProvider": "Thum.io",
+        "sha256": "86610057d4170eb5c59669d7486fc8dcfecf7c0c5f787c25d83701c1d1587939",
+        "bytes": 17424,
+        "review": "approved",
+        "observation": "浅蓝至淡紫的背景承托居中的中文标题，输入式行动入口和产品界面预览沿中轴排列。可学习设计工具如何同时传达轻松开始的感觉和专业工作区的具体形态。"
+      },
+      "linkCheck": {
+        "id": "zh-jsdesign",
+        "url": "https://js.design/",
+        "status": 200,
+        "finalUrl": "https://js.design/",
+        "bytesRead": 7403,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-mastergo",
+      "name": "MasterGo 莫高设计",
+      "url": "https://mastergo.com/",
+      "language": "zh-CN",
+      "sourceName": "优设 · MasterGo 评测",
+      "sourceUrl": "https://www.uisdc.com/mastergo",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-mastergo.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://mastergo.com/",
+        "captureProvider": "Thum.io",
+        "sha256": "5f5acf4ca72884930ee827c6f12ae43e8c32ae294ce927cdbac0c8317a2cb12a",
+        "bytes": 19014,
+        "review": "approved",
+        "observation": "蓝紫渐变覆盖首屏，主标题、主要按钮和大型编辑器预览保持明确的上下顺序。可学习软件首页如何用真实界面作为视觉证据，让鲜明色彩服务于清楚的产品层级。"
+      },
+      "linkCheck": {
+        "id": "zh-mastergo",
+        "url": "https://mastergo.com/",
+        "status": 200,
+        "finalUrl": "https://mastergo.com/",
+        "bytesRead": 500000,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-cubox",
+      "name": "Cubox",
+      "url": "https://cubox.pro/",
+      "language": "zh-CN",
+      "sourceName": "少数派 · Cubox 体验",
+      "sourceUrl": "https://sspai.com/post/100627",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-cubox.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://cubox.pro/",
+        "captureProvider": "Thum.io",
+        "sha256": "560565ec9bb8436208b63842c5af2ebd99515758582d583bd46cc67ab470e42c",
+        "bytes": 11020,
+        "review": "approved",
+        "observation": "白色页面将产品图标、两行中文价值说明与少量按钮集中在中间，周围保留大量留白。可学习轻量工具怎样通过收敛入口和文字数量，让用户先记住产品要解决的一件事。"
+      },
+      "linkCheck": {
+        "id": "zh-cubox",
+        "url": "https://cubox.pro/",
+        "status": 200,
+        "finalUrl": "https://cubox.pro/",
+        "bytesRead": 141989,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-eagle",
+      "name": "Eagle",
+      "url": "https://cn.eagle.cool/",
+      "language": "zh-CN",
+      "sourceName": "少数派 · Eagle 使用技巧",
+      "sourceUrl": "https://sspai.com/post/59988",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-eagle.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://cn.eagle.cool/",
+        "captureProvider": "Thum.io",
+        "sha256": "edbb418a557b344527aa60edc9eca7fce32f3dd79ce2845163737349e3e66061",
+        "bytes": 19804,
+        "review": "approved",
+        "observation": "黑色背景中以大号中文标题和蓝色下载入口建立重点，下方直接露出素材管理界面与缩略图。可学习深色产品页怎样用真实工作内容解释工具用途，并保持明确的下载路径。"
+      },
+      "linkCheck": {
+        "id": "zh-eagle",
+        "url": "https://cn.eagle.cool/",
+        "status": 200,
+        "finalUrl": "https://cn.eagle.cool/",
+        "bytesRead": 483889,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-flowus",
+      "name": "FlowUs 息流",
+      "url": "https://flowus.cn/product",
+      "language": "zh-CN",
+      "sourceName": "少数派 · FlowUs 体验",
+      "sourceUrl": "https://sspai.com/post/71687",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-flowus.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://flowus.cn/product",
+        "captureProvider": "Thum.io",
+        "sha256": "4251f160a24cfd5816e41171336033f9257f8614b7f889f8fa738238cc02317f",
+        "bytes": 16852,
+        "review": "approved",
+        "observation": "大号中文标题靠左展开，简短说明与黑色行动按钮紧随其后，页面其余部分保留大片白色空间。可学习知识工具如何用文字规模和对齐关系建立重点，再逐步引入产品界面。"
+      },
+      "linkCheck": {
+        "id": "zh-flowus",
+        "url": "https://flowus.cn/product",
+        "status": 200,
+        "finalUrl": "https://flowus.cn/product",
+        "bytesRead": 25170,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-pixso",
+      "name": "Pixso",
+      "url": "https://pixso.cn/",
+      "language": "zh-CN",
+      "sourceName": "优设 · Pixso 评测",
+      "sourceUrl": "https://www.uisdc.com/pixso",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-pixso.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://pixso.cn/",
+        "captureProvider": "Thum.io",
+        "sha256": "e5d0a7de76d46ce8fae4aa3763b64e126543c30c9dded7cc8f9d518623f4816d",
+        "bytes": 10868,
+        "review": "approved",
+        "observation": "居中标题中的关键词以蓝色强调，下方输入区域与少量彩色图形构成主视觉，主要按钮保持紧凑。可学习智能设计工具如何让输入动作成为页面内容的一部分，而不只放置静态介绍。"
+      },
+      "linkCheck": {
+        "id": "zh-pixso",
+        "url": "https://pixso.cn/",
+        "status": 200,
+        "finalUrl": "https://pixso.cn/",
+        "bytesRead": 490281,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-wolai",
+      "name": "我来 wolai",
+      "url": "https://www.wolai.com/",
+      "language": "zh-CN",
+      "sourceName": "少数派 · 知识工具盘点",
+      "sourceUrl": "https://sspai.com/post/72235",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-wolai.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://www.wolai.com/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "b53052d0c25919fc779f340eb5b7e1dcab786afdb401d6cf9f80e1f09c37b829",
+        "bytes": 24854,
+        "review": "approved",
+        "observation": "白色首屏用大号标题突出协作主题，其中关键词以珊瑚色和手绘线强调，输入框与按钮紧接文案。可学习少量手绘元素如何增加亲和力，同时不破坏产品页的清晰结构。"
+      },
+      "linkCheck": {
+        "id": "zh-wolai",
+        "url": "https://www.wolai.com/",
+        "status": 200,
+        "finalUrl": "https://www.wolai.com/",
+        "bytesRead": 16956,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-yuque",
+      "name": "语雀",
+      "url": "https://www.yuque.com/",
+      "language": "zh-CN",
+      "sourceName": "Ant Design · 相关产品",
+      "sourceUrl": "https://ant.design/index-cn/",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-yuque.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://www.yuque.com/",
+        "captureProvider": "Thum.io",
+        "sha256": "0ea50c18aaba95294c5bbe3ff9599b2e47f2bd093a4ef8e6967eac582f3734d2",
+        "bytes": 16104,
+        "review": "approved",
+        "observation": "首屏左侧使用大号中文标题，右侧展示文档工作区，绿色按钮和图形建立少量强调。可学习文档工具如何让抽象的知识管理定位与具体界面并置，形成容易理解的产品说明。"
+      },
+      "linkCheck": {
+        "id": "zh-yuque",
+        "url": "https://www.yuque.com/",
+        "status": 200,
+        "finalUrl": "https://www.yuque.com/",
+        "bytesRead": 35298,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-hellofont",
+      "name": "字由",
+      "url": "https://www.hellofont.cn/",
+      "language": "zh-CN",
+      "sourceName": "优设 · 字由评测",
+      "sourceUrl": "https://www.uisdc.com/ziyou-3-0",
+      "status": "excluded",
+      "exclusionReason": "Missing main carousel and popup",
+      "linkCheck": {
+        "id": "zh-hellofont",
+        "url": "https://www.hellofont.cn/",
+        "status": 200,
+        "finalUrl": "https://www.hellofont.cn/",
+        "bytesRead": 20336,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-mubu",
+      "name": "幕布",
+      "url": "https://mubu.com/",
+      "language": "zh-CN",
+      "sourceName": "少数派 · 幕布体验",
+      "sourceUrl": "https://sspai.com/post/59631",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-mubu.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://mubu.com/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "70e2b72024e3f7ecc9d6424718f10aae19b7efee095cfa4e9dda3ada2f96157c",
+        "bytes": 18768,
+        "review": "approved",
+        "observation": "浅色背景中的紫色标题与行动按钮相互呼应，下方编辑器画面同时露出大纲和导图。可学习工具首页如何用一张具体界面解释核心转换关系，让产品特点比装饰元素更突出。"
+      },
+      "linkCheck": {
+        "id": "zh-mubu",
+        "url": "https://mubu.com/",
+        "status": 200,
+        "finalUrl": "https://mubu.com/home",
+        "bytesRead": 344275,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-topys",
+      "name": "TOPYS",
+      "url": "https://www.topys.cn/",
+      "language": "zh-CN",
+      "sourceName": "LogoDesign · 创意网站推荐",
+      "sourceUrl": "https://www.logodesign.cn/appreciate/2149.html",
+      "status": "excluded",
+      "exclusionReason": "Promotional overlay",
+      "linkCheck": {
+        "id": "zh-topys",
+        "url": "https://www.topys.cn/",
+        "status": 200,
+        "finalUrl": "https://www.topys.cn/",
+        "bytesRead": 78268,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-sspai",
+      "name": "少数派",
+      "url": "https://sspai.com/",
+      "language": "zh-CN",
+      "sourceName": "UI 中国 · 资源欣赏",
+      "sourceUrl": "https://www.ui.cn/detail/427656.html",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-sspai.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://sspai.com/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "8ae3f247658689ea1ee18b4893288c993b6cf9bfb4643627173c5df410b2e7f3",
+        "bytes": 34260,
+        "review": "approved",
+        "observation": "首页以不同大小的圆角内容区形成编辑重点，中央大幅插画与两侧短内容互相平衡。可学习中文媒体怎样在首屏容纳不同形式的信息，同时通过尺寸和位置表达编辑优先级。"
+      },
+      "linkCheck": {
+        "id": "zh-sspai",
+        "url": "https://sspai.com/",
+        "status": 200,
+        "finalUrl": "https://sspai.com/",
+        "bytesRead": 111803,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-feishu-docs",
+      "name": "飞书文档",
+      "url": "https://docs.feishu.cn/welcome",
+      "language": "zh-CN",
+      "sourceName": "少数派 · 飞书写作工作流",
+      "sourceUrl": "https://sspai.com/post/68135",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-feishu-docs.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://docs.feishu.cn/welcome",
+        "captureProvider": "Thum.io",
+        "sha256": "8d2a871592f323549e5a2ceda92ea93cee573c2a7abe6616b76debf3a4d5e4c6",
+        "bytes": 12270,
+        "review": "approved",
+        "observation": "浅蓝背景中叠放一张文档式白色画布，中文标题与彩色工具图形共同说明创作主题。可学习协作产品如何通过画布隐喻连接文案与功能，并保持顶部导航和行动入口的清晰度。"
+      },
+      "linkCheck": {
+        "id": "zh-feishu-docs",
+        "url": "https://docs.feishu.cn/welcome",
+        "status": 200,
+        "finalUrl": "https://docs.feishu.cn/welcome",
+        "bytesRead": 120786,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-meuicat",
+      "name": "亦小封",
+      "url": "https://meuicat.com/",
+      "language": "zh-CN",
+      "sourceName": "HeoAwards 2025",
+      "sourceUrl": "https://blog.zhheo.com/p/5zo43meo.html",
+      "status": "excluded",
+      "exclusionReason": "Live link failed HTTP502 twice",
+      "linkCheck": {
+        "id": "zh-meuicat",
+        "url": "https://meuicat.com/",
+        "error": "HTTP Error 502: Bad Gateway",
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-kzhik",
+      "name": "kzhik",
+      "url": "https://www.kzhik.cn/",
+      "language": "zh-CN",
+      "sourceName": "HeoAwards 2025",
+      "sourceUrl": "https://blog.zhheo.com/p/5zo43meo.html",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-kzhik.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://www.kzhik.cn/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "6052a02756ca5da4bcbf5177d279b888753937fb5f9d11e99625f0d06d904823",
+        "bytes": 26362,
+        "review": "approved",
+        "observation": "大号英文标题以黑蓝两色分行排列，与右侧摄影内容形成左右对照，浅色网格延续页面底纹。中文导航和内容信息保留在辅助层级，可学习强烈标题尺度与较小功能入口如何共存。"
+      },
+      "linkCheck": {
+        "id": "zh-kzhik",
+        "url": "https://www.kzhik.cn/",
+        "status": 200,
+        "finalUrl": "https://www.kzhik.cn/",
+        "bytesRead": 116806,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-blatr",
+      "name": "青灯暮雨",
+      "url": "https://www.blatr.cn/blog",
+      "language": "zh-CN",
+      "sourceName": "HeoAwards 2025",
+      "sourceUrl": "https://blog.zhheo.com/p/5zo43meo.html",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-blatr.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://www.blatr.cn/blog",
+        "captureProvider": "Automattic mShots",
+        "sha256": "bceeaf43b68b2949c88152378f46d3f456ea7ce1002b881104f27f43c216a5ac",
+        "bytes": 37302,
+        "review": "approved",
+        "observation": "当前截图以红色节庆背景围合白色内容面板，文章列表与右侧动态分列，分类按钮集中在列表上方。可学习个人博客如何在季节性主题之外，维持文章、元信息和侧栏的稳定结构。"
+      },
+      "linkCheck": {
+        "id": "zh-blatr",
+        "url": "https://www.blatr.cn/blog",
+        "status": 200,
+        "finalUrl": "https://www.blatr.cn/blog",
+        "bytesRead": 4579,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-krjojo",
+      "name": "手里有只毛毛虫",
+      "url": "https://www.krjojo.com/",
+      "language": "zh-CN",
+      "sourceName": "HeoAwards 2025",
+      "sourceUrl": "https://blog.zhheo.com/p/5zo43meo.html",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-krjojo.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://www.krjojo.com/",
+        "captureProvider": "Thum.io",
+        "sha256": "35ded27fa0e47f44fcc3a05664d18c9879cf3d8bd13d1a7a65ecc059a3ee42e4",
+        "bytes": 30414,
+        "review": "approved",
+        "observation": "首页以最近文章为主要入口，图片、日期、标题与摘要组成规则网格，顶部导航和搜索保持轻量。可学习个人内容站如何让丰富封面保持一致的卡片结构，提升连续浏览的可预期性。"
+      },
+      "linkCheck": {
+        "id": "zh-krjojo",
+        "url": "https://www.krjojo.com/",
+        "status": 200,
+        "finalUrl": "https://www.krjojo.com/",
+        "bytesRead": 137865,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-hanyi",
+      "name": "汉仪字库",
+      "url": "https://www.hanyi.com.cn/",
+      "language": "zh-CN",
+      "sourceName": "站酷 · 汉仪新字发布",
+      "sourceUrl": "https://www.zcool.com.cn/article/ZNDU1MTcy.html",
+      "status": "excluded",
+      "exclusionReason": "Promotional overlay obscures design",
+      "linkCheck": {
+        "id": "zh-hanyi",
+        "url": "https://www.hanyi.com.cn/",
+        "status": 200,
+        "finalUrl": "https://www.hanyi.com.cn/",
+        "bytesRead": 196224,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-yixi",
+      "name": "一席",
+      "url": "https://yixi.tv/",
+      "language": "zh-CN",
+      "sourceName": "Bilibili · 一席内容推荐",
+      "sourceUrl": "https://www.bilibili.com/video/BV1ts411T7a5/",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-yixi.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://yixi.tv/",
+        "captureProvider": "Thum.io",
+        "sha256": "e9b8385a17b8b433975dccb8463012da88e2aa50a045e973b97e5f8224915f49",
+        "bytes": 22914,
+        "review": "approved",
+        "observation": "白色页头以红色标志建立识别，深色首屏区域将演讲封面、播放按钮和讲者资料并置。可学习视频内容平台如何同时提供人物、主题和观看入口，让读者快速形成观看预期。"
+      },
+      "linkCheck": {
+        "id": "zh-yixi",
+        "url": "https://yixi.tv/",
+        "status": 200,
+        "finalUrl": "https://yixi.tv/",
+        "bytesRead": 6051,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-ucca",
+      "name": "UCCA 尤伦斯当代艺术中心",
+      "url": "https://ucca.org.cn/",
+      "language": "zh-CN",
+      "sourceName": "UCCA 官方公开网站",
+      "sourceUrl": "https://ucca.org.cn/",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-ucca.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://ucca.org.cn/",
+        "captureProvider": "Thum.io",
+        "sha256": "926b5bb1c0d1bff25def81492fd61e0f76c65056d1a5bd90d8ef60b459015b47",
+        "bytes": 19442,
+        "review": "approved",
+        "observation": "细线与紧凑导航围出浅色页头，下方大幅展览图像成为视觉重心，红色标志保持克制。可学习艺术机构如何让作品直接建立第一印象，同时将参观、展览和项目入口留在稳定位置。"
+      },
+      "linkCheck": {
+        "id": "zh-ucca",
+        "url": "https://ucca.org.cn/",
+        "status": 200,
+        "finalUrl": "https://ucca.org.cn/",
+        "bytesRead": 13941,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-gooood",
+      "name": "谷德设计网",
+      "url": "https://www.gooood.cn/",
+      "language": "zh-CN",
+      "sourceName": "LogoDesign · 创意网站推荐",
+      "sourceUrl": "https://www.logodesign.cn/appreciate/2149.html",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-gooood.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://www.gooood.cn/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "a376a35817eb793e5adc5e568e4ce7c2f7a1e6e9855aca8c002174f2ad18f8fa",
+        "bytes": 75074,
+        "review": "approved",
+        "observation": "首页以建筑摄影横幅建立重点，项目图与文字资讯采用分栏结构，右侧保留专辑和热榜。可学习视觉媒体如何在较高信息密度下维持固定分区，让项目浏览与资料检索共享一个页面。"
+      },
+      "linkCheck": {
+        "id": "zh-gooood",
+        "url": "https://www.gooood.cn/",
+        "status": 200,
+        "finalUrl": "https://www.gooood.cn/",
+        "bytesRead": 384051,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-colorpalette",
+      "name": "派来特 Color Palette",
+      "url": "https://www.colorpalette.cn/",
+      "language": "zh-CN",
+      "sourceName": "派来特 · 官方改版记录",
+      "sourceUrl": "https://www.colorpalette.cn/news-redesign.html",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-colorpalette.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://www.colorpalette.cn/",
+        "captureProvider": "Thum.io",
+        "sha256": "b7f11d7cc1ca2f86ade3e2329a4d9dea10d79d3da5603f014d246658dcae892e",
+        "bytes": 11352,
+        "review": "approved",
+        "observation": "暖灰底上使用衬线中文标题，右侧大幅淡色汉字作为背景，顶部导航保持轻细。可学习影像工作室如何通过字形、色阶与留白表达文化气质，让主标题仍然保有最清楚的阅读层级。"
+      },
+      "linkCheck": {
+        "id": "zh-colorpalette",
+        "url": "https://www.colorpalette.cn/",
+        "status": 200,
+        "finalUrl": "https://www.colorpalette.cn/",
+        "bytesRead": 63263,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-zenart",
+      "name": "阿真 Zen Art",
+      "url": "https://zen-art.studio-on.tw/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/zen-art",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-zenart.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://zen-art.studio-on.tw/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "4a89e492749ca8f2a291eb8f9131fa5a04eb1b1984564f42172902699fd15503",
+        "bytes": 124888,
+        "review": "approved",
+        "observation": "首屏把插画中的浴室场景铺满画面，鸭子角色位于视觉中心，大号中英文姓名叠放在上方。可学习插画创作者如何让作品直接承担个人识别，并用极少的界面元素保留作品的完整感。"
+      },
+      "linkCheck": {
+        "id": "zh-zenart",
+        "url": "https://zen-art.studio-on.tw/",
+        "status": 200,
+        "finalUrl": "https://zen-art.studio-on.tw/",
+        "bytesRead": 42861,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-islandlife",
+      "name": "2026 島嶼生活節",
+      "url": "https://islandlife-2026.web.app/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/island-life-festival-2026",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-islandlife.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://islandlife-2026.web.app/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "2b1c3e5e70a98cdd7068bf0d86b951a2ac038cb209276e007066a8bab9f23d9f",
+        "bytes": 26754,
+        "review": "approved",
+        "observation": "蓝绿色背景中，大号中文主题与日月意象共同构成节庆主视觉，日期和地点在下方独立标注。可学习活动网站如何把文化氛围、时间信息与多个实用入口组织在同一首屏中。"
+      },
+      "linkCheck": {
+        "id": "zh-islandlife",
+        "url": "https://islandlife-2026.web.app/",
+        "status": 200,
+        "finalUrl": "https://islandlife-2026.web.app/",
+        "bytesRead": 113856,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-antdesign",
+      "name": "Ant Design 中文站",
+      "url": "https://ant.design/index-cn/",
+      "language": "zh-CN",
+      "sourceName": "优设 · 设计资源精选",
+      "sourceUrl": "https://hao.uisdc.com/",
+      "status": "pending",
+      "linkCheck": {
+        "id": "zh-antdesign",
+        "url": "https://ant.design/index-cn/",
+        "status": 200,
+        "finalUrl": "https://ant.design/index-cn/",
+        "bytesRead": 345484,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-semi",
+      "name": "Semi Design",
+      "url": "https://semi.design/zh-CN/",
+      "language": "zh-CN",
+      "sourceName": "优设 · 设计资源精选",
+      "sourceUrl": "https://hao.uisdc.com/",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-semi.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://semi.design/zh-CN/",
+        "captureProvider": "Thum.io",
+        "sha256": "316bbc81c984ffb6a0a5daaa0fa9196a6e34bb8e7bcfb7df91c8b01b40fd570b",
+        "bytes": 17282,
+        "review": "approved",
+        "observation": "左侧以中文标题、说明和蓝色按钮解释定位，右侧展示完整应用界面，底部图标补充技术生态。可学习设计系统如何从组合后的产品结果切入，帮助设计与开发两类读者建立共同理解。"
+      },
+      "linkCheck": {
+        "id": "zh-semi",
+        "url": "https://semi.design/zh-CN/",
+        "status": 200,
+        "finalUrl": "https://semi.design/zh-CN/",
+        "bytesRead": 148414,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-tdesign",
+      "name": "TDesign",
+      "url": "https://tdesign.tencent.com/",
+      "language": "zh-CN",
+      "sourceName": "优设 · 设计资源精选",
+      "sourceUrl": "https://hao.uisdc.com/",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-tdesign.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://tdesign.tencent.com/",
+        "captureProvider": "Thum.io",
+        "sha256": "66b9463093bbadbf4e51628f33d55b3720a7f5e366aa46d34579e60c95241b8d",
+        "bytes": 17840,
+        "review": "approved",
+        "observation": "首屏以浅灰立体键盘图像营造技术背景，蓝色产品名和中文说明叠放在左下，下方按终端拆分入口。可学习设计体系如何通过统一主视觉和明确平台分组连接品牌表达与资源导航。"
+      },
+      "linkCheck": {
+        "id": "zh-tdesign",
+        "url": "https://tdesign.tencent.com/",
+        "status": 200,
+        "finalUrl": "https://tdesign.tencent.com/",
+        "bytesRead": 1580,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-arco",
+      "name": "Arco Design",
+      "url": "https://arco.design/",
+      "language": "zh-CN",
+      "sourceName": "优设 · 设计资源精选",
+      "sourceUrl": "https://hao.uisdc.com/",
+      "status": "pending",
+      "linkCheck": {
+        "id": "zh-arco",
+        "url": "https://arco.design/",
+        "status": 200,
+        "finalUrl": "https://arco.design/",
+        "bytesRead": 2613,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-elephant",
+      "name": "elephant cuppa 大象杯",
+      "url": "https://elephantcuppa.com/",
+      "language": "zh-TW",
+      "sourceName": "很好设计 · 大象杯项目",
+      "sourceUrl": "https://www.goods-design.com.tw/大象杯網站設計-elephant-cuppa/",
+      "status": "excluded",
+      "exclusionReason": "Persistent loading splash",
+      "linkCheck": {
+        "id": "zh-elephant",
+        "url": "https://elephantcuppa.com/",
+        "status": 200,
+        "finalUrl": "https://elephantcuppa.com/",
+        "bytesRead": 125357,
+        "verifiedAt": "2026-10-04"
+      }
+    },
+    {
+      "id": "zh-leaping",
+      "name": "立品设计",
+      "url": "https://www.leapingcreative.com/",
+      "language": "zh-CN",
+      "sourceName": "立品设计 · 官方项目记录",
+      "sourceUrl": "https://www.leapingcreative.com/2022/12/05/ing未来印展示中心/",
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/zh-leaping.webp",
+        "retrievedAt": "2026-10-04",
+        "sourceUrl": "https://www.leapingcreative.com/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "4f6a121d802b1100bce1a4791009cc26c8cfa483f85b136b1e4c989a760350ec",
+        "bytes": 30792,
+        "review": "approved",
+        "observation": "首屏以完整的室内空间摄影作为主体，中英文标志和双语导航轻量地叠放在上方。可学习空间设计机构如何利用作品尺度建立第一印象，并让服务、团队与作品入口保持直接可见。"
+      },
+      "linkCheck": {
+        "id": "zh-leaping",
+        "url": "https://www.leapingcreative.com/",
+        "status": 200,
+        "finalUrl": "https://www.leapingcreative.com/",
+        "bytesRead": 34897,
+        "verifiedAt": "2026-10-04"
+      }
+    }
+  ],
+  "additionalExclusions": [
+    {
+      "name": "妙多 / Motiff",
+      "url": "https://miaoduo.com/",
+      "reason": "官网公告已于 2026-07-31 停止服务，未作为当前产品加入。"
+    },
+    {
+      "name": "3type",
+      "url": "https://3type.cn/",
+      "reason": "当前首页为网站更新中。"
+    },
+    {
+      "name": "office aaa",
+      "url": "https://aaa.com.tw/info-home",
+      "reason": "实际首页内容为英文。"
+    },
+    {
+      "name": "Habitat Architects",
+      "url": "https://www.harchitects2020.com/",
+      "reason": "实际首页内容为英文。"
+    },
+    {
+      "name": "CWorld",
+      "url": "https://cworld0.com/",
+      "reason": "首页主要介绍与导航为英文。"
+    }
+  ]
+}

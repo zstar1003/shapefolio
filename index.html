@@ -8,14 +8,37 @@
 <script type="module" src="./src/app.js"></script>
 </head>
 <body>
-<a class="skip-link" href="#gallery">跳至网站图库</a>
-<header class="site-header"><div class="header-inner"><a class="brand" href="./" aria-label="拾形首页"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="4" width="11" height="11" rx="3"/><rect x="18" y="4" width="10" height="11" rx="3"/><rect x="4" y="18" width="11" height="10" rx="3"/><rect x="18" y="18" width="10" height="10" rx="3"/></svg><strong>拾形</strong></a><div class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" aria-label="搜索网站、类别或风格" placeholder="搜索网站" autocomplete="off"><kbd>/</kbd></div><nav aria-label="主导航"><button id="nav-saved" aria-pressed="false"><span aria-hidden="true">♡</span> 收藏 <span id="saved-count">0</span></button><button id="about-button" aria-label="关于拾形">ⓘ</button></nav></div></header>
-<main id="gallery" class="wrap" aria-label="网站图库"><div class="browse-toolbar"><div id="categories" class="filters" role="group" aria-label="按类别筛选"></div><div class="view-options"><p id="result-count" role="status" aria-live="polite"></p><button id="saved-filter" aria-pressed="false">只看收藏</button><label for="sort" class="sr-only">排列方式</label><select id="sort"><option value="curated">精选顺序</option><option value="name">名称 A–Z</option></select></div></div>
-<div id="cards" class="card-grid"></div><div class="load-more-wrap"><button id="load-more" class="load-button" hidden>加载更多</button><p id="page-progress"></p></div><div id="empty" class="empty-state" hidden><h2>没有找到匹配的网站</h2><p id="empty-text">试试其他关键词。</p><button id="reset" class="primary-button">查看全部</button></div>
+<a class="skip-link" href="#gallery">跳至网站列表</a>
+<header class="site-header"><div class="header-inner">
+  <a class="brand" href="#/" aria-label="拾形首页"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="4" width="11" height="11" rx="3"/><rect x="18" y="4" width="10" height="11" rx="3"/><rect x="4" y="18" width="11" height="10" rx="3"/><rect x="18" y="18" width="10" height="10" rx="3"/></svg><strong>拾形</strong></a>
+  <div class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" aria-label="搜索网站、类别或风格" placeholder="搜索网站" autocomplete="off"><kbd>/</kbd></div>
+  <nav aria-label="主导航"><a id="nav-saved" href="#/favorites"><span aria-hidden="true">♡</span> 我的收藏 <span id="saved-count">0</span></a><button id="about-button" aria-label="关于拾形">ⓘ</button></nav>
+</div></header>
+<main id="gallery" class="wrap" aria-label="网站图库" tabindex="-1">
+  <h1 id="gallery-title" class="sr-only">网站设计灵感图库</h1>
+  <section id="favorites-heading" class="collection-heading" aria-labelledby="favorites-title" hidden>
+    <a class="back-link" href="#/">← 返回图库</a>
+    <div class="collection-title"><h1 id="favorites-title" tabindex="-1">我的收藏</h1><span id="collection-count"></span></div>
+    <p>留住喜欢的设计，随时回来看看。</p>
+    <p class="local-note"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="3" y="8" width="14" height="10" rx="3"/><path d="M6 8V6a4 4 0 0 1 8 0v2"/></svg>仅保存在当前浏览器，无需登录，不会上传服务器。清除浏览器数据后，收藏也会删除。</p>
+  </section>
+  <p id="storage-notice" class="storage-notice" role="status" hidden></p>
+  <div class="browse-toolbar">
+    <div id="categories" class="filters" role="group" aria-label="按类别筛选"></div>
+    <div class="view-options">
+      <label for="language" class="sr-only">网站语言</label><select id="language" aria-label="网站语言"><option value="all">全部语言</option><option value="zh">中文网站</option></select>
+      <p id="result-count" role="status" aria-live="polite"></p>
+      <a id="saved-filter" href="#/favorites">查看收藏</a>
+      <label for="sort" class="sr-only">排列方式</label><select id="sort"><option value="curated">精选顺序</option><option value="name">名称 A–Z</option></select>
+    </div>
+  </div>
+  <div id="cards" class="card-grid"></div>
+  <div class="load-more-wrap"><button id="load-more" class="load-button" hidden>加载更多</button><p id="page-progress"></p></div>
+  <div id="empty" class="empty-state" hidden><h2 id="empty-title">没有找到匹配的网站</h2><p id="empty-text">试试其他关键词。</p><button id="reset" class="primary-button">清除筛选</button><a id="empty-browse" class="primary-button" href="#/" hidden>去图库发现灵感 ↗</a></div>
 </main>
 <footer class="wrap"><span>拾形 · 独立精选</span><a href="./ATTRIBUTION.md">来源与版权</a><button id="back-top">回到顶部 ↑</button></footer>
 <dialog id="detail" aria-labelledby="detail-title"><button class="dialog-close" aria-label="关闭详情">×</button><div id="detail-content"></div></dialog>
-<dialog id="about" aria-labelledby="about-title"><button class="dialog-close" aria-label="关闭介绍">×</button><div class="about-content"><h2 id="about-title">关于拾形</h2><p>一个安静的网站设计灵感库。点击截图访问原站，点击作品旁的详情按钮阅读设计笔记。</p><p>截图来自对应真实网站，可能与网站当前版本不同。尚未获取截图的作品会明确标注，不使用介绍图代替。</p><p>收藏仅保存在当前浏览器，无需注册。清除浏览器数据会删除收藏。</p><p>网站及商标属于各自权利人，拾形与收录品牌无隶属关系。</p><a href="./ATTRIBUTION.md">查看来源与版权说明</a></div></dialog>
+<dialog id="about" aria-labelledby="about-title"><button class="dialog-close" aria-label="关闭介绍">×</button><div class="about-content"><h2 id="about-title">关于拾形</h2><p>一个安静的网站设计灵感库。点击截图访问原站，点击作品旁的详情按钮阅读设计笔记。</p><p>截图来自对应真实网站，可能与网站当前版本不同。尚未获取截图的作品会明确标注，不使用介绍图代替。</p><p>收藏仅保存在当前浏览器，无需注册，也不会上传服务器。换设备或浏览器不会同步；清除浏览器数据会删除收藏。</p><p>网站及商标属于各自权利人，拾形与收录品牌无隶属关系。</p><a href="./ATTRIBUTION.md">查看来源与版权说明</a></div></dialog>
 <div id="toast" role="status" aria-live="polite"></div>
 <noscript><p class="wrap">请启用 JavaScript 浏览网站，或查看<a href="./ATTRIBUTION.md">网站来源列表</a>。</p></noscript>
 </body></html>

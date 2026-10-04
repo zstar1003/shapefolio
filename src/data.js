@@ -1,6 +1,42 @@
 // Curated sources verified 2026-10-04. Oil UI entries are concept demos, not affiliated products.
 export const cases = [
   {
+    "id": "zh-flomo",
+    "name": "flomo 浮墨笔记",
+    "category": "产品设计",
+    "language": "zh-CN",
+    "tags": [
+      "极简",
+      "知识管理",
+      "产品叙事"
+    ],
+    "url": "https://flomoapp.com/",
+    "subtitle": "用简短文案，讲清记录与回顾的关系",
+    "note": "灰白背景中将标题、说明与绿色注册按钮居中排列，绿色同时强调标题中的核心词。下方通过奖项和设备界面补充产品可信度，可学习单一强调色如何连接文案重点与行动入口。",
+    "lesson": "用少量核心任务串起整页产品叙事。",
+    "sourceName": "ARTsOUT · 设计美学访谈",
+    "sourceUrl": "https://www.xiaoyuzhoufm.com/episode/602b542e6a8854e31c0e8245",
+    "isConcept": false
+  },
+  {
+    "id": "zh-jzn",
+    "name": "舊振南",
+    "category": "品牌商业",
+    "language": "zh-TW",
+    "tags": [
+      "汉饼文化",
+      "传统品牌",
+      "产品展示"
+    ],
+    "url": "https://www.jzn.com.tw/",
+    "subtitle": "把糕点产品放进文化与手艺的故事里",
+    "note": "糕点和烤盘占据整个首屏，中央仅叠放简短的中英文品牌文案，标志与菜单分别退到上方两角。可学习用产品质感承担氛围表达，让文字与导航保留足够的阅读空间。",
+    "lesson": "用文化内容增加产品被理解的深度。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/jzn",
+    "isConcept": false
+  },
+  {
     "id": "linear",
     "name": "Linear",
     "category": "产品设计",
@@ -13,6 +49,42 @@ export const cases = [
     "subtitle": "让复杂协作，回归清晰。",
     "note": "以任务协作产品为观察对象，练习如何把密集的信息整理成清晰的优先级。关注产品价值、功能分组和行动入口之间的关系。",
     "lesson": "先梳理信息层级，再决定视觉重量。"
+  },
+  {
+    "id": "zh-pocari",
+    "name": "寶礦力水得",
+    "category": "品牌商业",
+    "language": "zh-TW",
+    "tags": [
+      "品牌色",
+      "产品陈列",
+      "运动饮料"
+    ],
+    "url": "https://www.pocari.com.tw/",
+    "subtitle": "让品牌识别贯穿产品、故事与活动",
+    "note": "蓝色贯穿产品包装、人物主视觉和横向导航，广告标题以较大的倾斜字形强化运动感。可学习成熟品牌如何让摄影、文字方向和品牌色形成共同节奏，同时保留清楚的产品入口。",
+    "lesson": "统一识别要覆盖信息和商品展示。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/pocari",
+    "isConcept": false
+  },
+  {
+    "id": "zh-jsdesign",
+    "name": "即时设计",
+    "category": "创意设计",
+    "language": "zh-CN",
+    "tags": [
+      "设计工具",
+      "协作",
+      "产品展示"
+    ],
+    "url": "https://js.design/",
+    "subtitle": "把专业设计能力转化为可理解的工作场景",
+    "note": "浅蓝至淡紫的背景承托居中的中文标题，输入式行动入口和产品界面预览沿中轴排列。可学习设计工具如何同时传达轻松开始的感觉和专业工作区的具体形态。",
+    "lesson": "用工作过程组织复杂工具的能力介绍。",
+    "sourceName": "优设 · 工具评测",
+    "sourceUrl": "https://www.uisdc.com/jishi-design",
+    "isConcept": false
   },
   {
     "id": "oil-voice",
@@ -36,6 +108,42 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "zh-mastergo",
+    "name": "MasterGo 莫高设计",
+    "category": "创意设计",
+    "language": "zh-CN",
+    "tags": [
+      "设计协作",
+      "企业产品",
+      "信息层级"
+    ],
+    "url": "https://mastergo.com/",
+    "subtitle": "连接界面创作、团队协作与设计资产",
+    "note": "蓝紫渐变覆盖首屏，主标题、主要按钮和大型编辑器预览保持明确的上下顺序。可学习软件首页如何用真实界面作为视觉证据，让鲜明色彩服务于清楚的产品层级。",
+    "lesson": "复杂产品需要区分不同角色的决策路径。",
+    "sourceName": "优设 · MasterGo 评测",
+    "sourceUrl": "https://www.uisdc.com/mastergo",
+    "isConcept": false
+  },
+  {
+    "id": "zh-cubox",
+    "name": "Cubox",
+    "category": "产品设计",
+    "language": "zh-CN",
+    "tags": [
+      "阅读工具",
+      "知识管理",
+      "轻量产品"
+    ],
+    "url": "https://cubox.pro/",
+    "subtitle": "把收藏、阅读和整理连接起来",
+    "note": "白色页面将产品图标、两行中文价值说明与少量按钮集中在中间，周围保留大量留白。可学习轻量工具怎样通过收敛入口和文字数量，让用户先记住产品要解决的一件事。",
+    "lesson": "呈现完整使用循环，比单列功能更有说服力。",
+    "sourceName": "少数派 · Cubox 体验",
+    "sourceUrl": "https://sspai.com/post/100627",
+    "isConcept": false
+  },
+  {
     "id": "figma",
     "name": "Figma",
     "category": "创意设计",
@@ -48,6 +156,42 @@ export const cases = [
     "subtitle": "让不同角色，在同一画布相遇。",
     "note": "Figma 将设计、原型、开发交接与白板等能力放在同一产品体系里。适合研究大型产品家族如何以任务和角色划分入口，而不是只罗列工具名称。",
     "lesson": "多产品导航，要让每个人找到自己的起点。"
+  },
+  {
+    "id": "zh-eagle",
+    "name": "Eagle",
+    "category": "创意设计",
+    "language": "zh-CN",
+    "tags": [
+      "素材管理",
+      "功能演示",
+      "设计工具"
+    ],
+    "url": "https://cn.eagle.cool/",
+    "subtitle": "用素材示例解释收藏到检索的全过程",
+    "note": "黑色背景中以大号中文标题和蓝色下载入口建立重点，下方直接露出素材管理界面与缩略图。可学习深色产品页怎样用真实工作内容解释工具用途，并保持明确的下载路径。",
+    "lesson": "让功能说明始终围绕用户处理的具体对象。",
+    "sourceName": "少数派 · Eagle 使用技巧",
+    "sourceUrl": "https://sspai.com/post/59988",
+    "isConcept": false
+  },
+  {
+    "id": "zh-jack",
+    "name": "Jack’s Space",
+    "category": "个人网站",
+    "language": "zh-CN",
+    "tags": [
+      "个人博客",
+      "摄影",
+      "内容层级"
+    ],
+    "url": "https://veryjack.com/",
+    "subtitle": "为文章、生活与摄影安排各自的阅读节奏",
+    "note": "轻量顶部导航之下，左侧短句与右侧人物头像形成平衡，下方文章以宽松卡片呈现。可学习个人博客如何用稳定留白、有限的字号变化和作者标记建立舒适的阅读入口。",
+    "lesson": "栏目是帮助旧内容继续被发现的工具。",
+    "sourceName": "HeoAwards 2025",
+    "sourceUrl": "https://blog.zhheo.com/p/5zo43meo.html",
+    "isConcept": false
   },
   {
     "id": "oil-reel",
@@ -71,6 +215,42 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "zh-slowork",
+    "name": "慢工文化",
+    "category": "文化艺术",
+    "language": "zh-TW",
+    "tags": [
+      "独立出版",
+      "图像叙事",
+      "书籍展示"
+    ],
+    "url": "https://sloworkpublishing.com/",
+    "subtitle": "让出版社的图像语言进入网站",
+    "note": "书籍封面散布在浅色首屏，左侧中文主标题与右侧简短说明形成分区，绿色标志提供识别点。可学习独立出版网站如何把作品本身作为视觉素材，同时保留清楚的文字阅读位置。",
+    "lesson": "让作品语言成为品牌界面的组成部分。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/slowork-publishing",
+    "isConcept": false
+  },
+  {
+    "id": "zh-vvg",
+    "name": "VVG 好樣",
+    "category": "品牌商业",
+    "language": "zh-TW",
+    "tags": [
+      "生活方式",
+      "餐饮美学",
+      "摄影"
+    ],
+    "url": "https://vvg.com.tw/",
+    "subtitle": "让餐饮、空间与选品形成同一种生活提案",
+    "note": "米色与深绿色块围合中央空间摄影，标志、菜单和社交入口沿边缘分布。可学习生活方式品牌如何通过框景和留白让空间照片成为主角，并以少量色块建立稳定的品牌气质。",
+    "lesson": "先建立共同气质，再安排不同业务的入口。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/vvg",
+    "isConcept": false
+  },
+  {
     "id": "pentagram",
     "name": "Pentagram",
     "category": "设计工作室",
@@ -83,6 +263,42 @@ export const cases = [
     "subtitle": "让庞大作品库保持清晰的设计机构",
     "note": "作品入口同时提供行业与设计学科两个维度，项目标题旁配有简短的任务说明。值得学习这种先说明项目是什么、再让读者深入案例的作品集结构。",
     "lesson": "用分类帮助作品被发现"
+  },
+  {
+    "id": "zh-yayu",
+    "name": "野遊 YAYU",
+    "category": "品牌商业",
+    "language": "zh-TW",
+    "tags": [
+      "户外旅行",
+      "季节叙事",
+      "摄影"
+    ],
+    "url": "https://yayuadventure.com/",
+    "subtitle": "用雪山与海面建立清楚的季节节奏",
+    "note": "雪山摄影铺满首屏，中文文案和行程按钮放在左侧较平静的画面区域，导航沿顶部展开。可学习旅行品牌如何让背景照片保留空间感，同时确保文案和行动入口容易辨认。",
+    "lesson": "让体验想象与实用信息沿同一条路径出现。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/yayu-adventure",
+    "isConcept": false
+  },
+  {
+    "id": "zh-plainlaw",
+    "name": "法律白話文運動",
+    "category": "文化艺术",
+    "language": "zh-TW",
+    "tags": [
+      "专题阅读",
+      "编辑设计",
+      "中文排版"
+    ],
+    "url": "https://plainlaw.me/",
+    "subtitle": "用期刊式结构承载复杂公共议题",
+    "note": "紫色目录栏与白色内容区形成鲜明对比，两块区域都以折角轮廓强调边界。期数导航、专题说明和人物照片各有位置，可学习编辑内容如何通过视觉分区保持高密度信息的方向感。",
+    "lesson": "先让读者理解专题，再展开其中的文章。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/plainlaw",
+    "isConcept": false
   },
   {
     "id": "oil-components",
@@ -106,6 +322,42 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "zh-kzhik",
+    "name": "kzhik",
+    "category": "个人网站",
+    "language": "zh-CN",
+    "tags": [
+      "个人作品",
+      "独立表达",
+      "交互"
+    ],
+    "url": "https://www.kzhik.cn/",
+    "subtitle": "观察个人网站的独立表达与浏览节奏",
+    "note": "大号英文标题以黑蓝两色分行排列，与右侧摄影内容形成左右对照，浅色网格延续页面底纹。中文导航和内容信息保留在辅助层级，可学习强烈标题尺度与较小功能入口如何共存。",
+    "lesson": "鲜明的个人表达也需要连续的浏览逻辑。",
+    "sourceName": "HeoAwards 2025",
+    "sourceUrl": "https://blog.zhheo.com/p/5zo43meo.html",
+    "isConcept": false
+  },
+  {
+    "id": "zh-blatr",
+    "name": "青灯暮雨",
+    "category": "个人网站",
+    "language": "zh-CN",
+    "tags": [
+      "个人博客",
+      "留白",
+      "阅读"
+    ],
+    "url": "https://www.blatr.cn/blog",
+    "subtitle": "让个人博客的视觉围绕阅读建立",
+    "note": "当前截图以红色节庆背景围合白色内容面板，文章列表与右侧动态分列，分类按钮集中在列表上方。可学习个人博客如何在季节性主题之外，维持文章、元信息和侧栏的稳定结构。",
+    "lesson": "博客的视觉重心应帮助读者进入文章。",
+    "sourceName": "HeoAwards 2025",
+    "sourceUrl": "https://blog.zhheo.com/p/5zo43meo.html",
+    "isConcept": false
+  },
+  {
     "id": "stripe",
     "name": "Stripe",
     "category": "产品设计",
@@ -118,6 +370,42 @@ export const cases = [
     "subtitle": "把复杂的商业，讲得明白。",
     "note": "金融基础设施涉及多种产品与使用场景。以 Stripe 为例，研究如何从用户目标出发组织内容，让不同体量的企业找到自己的入口。",
     "lesson": "让抽象能力落在具体的使用场景中。"
+  },
+  {
+    "id": "zh-flowus",
+    "name": "FlowUs 息流",
+    "category": "产品设计",
+    "language": "zh-CN",
+    "tags": [
+      "知识管理",
+      "块编辑",
+      "团队协作"
+    ],
+    "url": "https://flowus.cn/product",
+    "subtitle": "把文档、数据与文件组织成共同工作空间",
+    "note": "大号中文标题靠左展开，简短说明与黑色行动按钮紧随其后，页面其余部分保留大片白色空间。可学习知识工具如何用文字规模和对齐关系建立重点，再逐步引入产品界面。",
+    "lesson": "用共同的任务解释多种内容形态。",
+    "sourceName": "少数派 · FlowUs 体验",
+    "sourceUrl": "https://sspai.com/post/71687",
+    "isConcept": false
+  },
+  {
+    "id": "zh-pixso",
+    "name": "Pixso",
+    "category": "创意设计",
+    "language": "zh-CN",
+    "tags": [
+      "在线设计",
+      "原型协作",
+      "工具平台"
+    ],
+    "url": "https://pixso.cn/",
+    "subtitle": "让设计、原型与交付出现在同一条工作线上",
+    "note": "居中标题中的关键词以蓝色强调，下方输入区域与少量彩色图形构成主视觉，主要按钮保持紧凑。可学习智能设计工具如何让输入动作成为页面内容的一部分，而不只放置静态介绍。",
+    "lesson": "先讲工作结果，再解释专业能力。",
+    "sourceName": "优设 · Pixso 评测",
+    "sourceUrl": "https://www.uisdc.com/pixso",
+    "isConcept": false
   },
   {
     "id": "oil-muse",
@@ -141,6 +429,42 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "zh-yuque",
+    "name": "语雀",
+    "category": "产品设计",
+    "language": "zh-CN",
+    "tags": [
+      "文档",
+      "知识库",
+      "产品叙事"
+    ],
+    "url": "https://www.yuque.com/",
+    "subtitle": "从个人文档到团队知识库建立连续路径",
+    "note": "首屏左侧使用大号中文标题，右侧展示文档工作区，绿色按钮和图形建立少量强调。可学习文档工具如何让抽象的知识管理定位与具体界面并置，形成容易理解的产品说明。",
+    "lesson": "用熟悉的内容对象建立产品理解。",
+    "sourceName": "Ant Design · 相关产品",
+    "sourceUrl": "https://ant.design/index-cn/",
+    "isConcept": false
+  },
+  {
+    "id": "zh-feishu-docs",
+    "name": "飞书文档",
+    "category": "产品设计",
+    "language": "zh-CN",
+    "tags": [
+      "协作",
+      "文档工具",
+      "中文营销页"
+    ],
+    "url": "https://docs.feishu.cn/welcome",
+    "subtitle": "用创作场景说明协作文档的可能性",
+    "note": "浅蓝背景中叠放一张文档式白色画布，中文标题与彩色工具图形共同说明创作主题。可学习协作产品如何通过画布隐喻连接文案与功能，并保持顶部导航和行动入口的清晰度。",
+    "lesson": "独立功能页应围绕一个明确使用目标展开。",
+    "sourceName": "少数派 · 飞书写作工作流",
+    "sourceUrl": "https://sspai.com/post/68135",
+    "isConcept": false
+  },
+  {
     "id": "canva",
     "name": "Canva",
     "category": "创意设计",
@@ -153,6 +477,42 @@ export const cases = [
     "subtitle": "从一张模板，开始自己的表达。",
     "note": "Canva 围绕演示、社交内容和文档等成品类型引导创作。可以学习如何把专业能力转化为大众熟悉的任务入口，并用模板降低开始的门槛。",
     "lesson": "先问用户要做什么，再展示你能做什么。"
+  },
+  {
+    "id": "zh-yixi",
+    "name": "一席",
+    "category": "文化艺术",
+    "language": "zh-CN",
+    "tags": [
+      "演讲",
+      "人物故事",
+      "内容展示"
+    ],
+    "url": "https://yixi.tv/",
+    "subtitle": "以人物与议题引导一段完整的观看",
+    "note": "白色页头以红色标志建立识别，深色首屏区域将演讲封面、播放按钮和讲者资料并置。可学习视频内容平台如何同时提供人物、主题和观看入口，让读者快速形成观看预期。",
+    "lesson": "让人物与主题共同建立内容的观看理由。",
+    "sourceName": "Bilibili · 一席内容推荐",
+    "sourceUrl": "https://www.bilibili.com/video/BV1ts411T7a5/",
+    "isConcept": false
+  },
+  {
+    "id": "zh-ucca",
+    "name": "UCCA 尤伦斯当代艺术中心",
+    "category": "文化艺术",
+    "language": "zh-CN",
+    "tags": [
+      "美术馆",
+      "展览",
+      "参观导航"
+    ],
+    "url": "https://ucca.org.cn/",
+    "subtitle": "连接展览发现与真实的到馆体验",
+    "note": "细线与紧凑导航围出浅色页头，下方大幅展览图像成为视觉重心，红色标志保持克制。可学习艺术机构如何让作品直接建立第一印象，同时将参观、展览和项目入口留在稳定位置。",
+    "lesson": "艺术机构的叙事与服务信息应相互连接。",
+    "sourceName": "UCCA 官方公开网站",
+    "sourceUrl": "https://ucca.org.cn/",
+    "isConcept": false
   },
   {
     "id": "oil-stay",
@@ -176,6 +536,42 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "zh-colorpalette",
+    "name": "派来特 Color Palette",
+    "category": "设计工作室",
+    "language": "zh-CN",
+    "tags": [
+      "影像工作室",
+      "水墨",
+      "作品展示"
+    ],
+    "url": "https://www.colorpalette.cn/",
+    "subtitle": "以中文美学组织影像公司的作品与业务",
+    "note": "暖灰底上使用衬线中文标题，右侧大幅淡色汉字作为背景，顶部导航保持轻细。可学习影像工作室如何通过字形、色阶与留白表达文化气质，让主标题仍然保有最清楚的阅读层级。",
+    "lesson": "风格选择要与业务内容和真实作品相连。",
+    "sourceName": "派来特 · 官方改版记录",
+    "sourceUrl": "https://www.colorpalette.cn/news-redesign.html",
+    "isConcept": false
+  },
+  {
+    "id": "zh-krjojo",
+    "name": "手里有只毛毛虫",
+    "category": "个人网站",
+    "language": "zh-CN",
+    "tags": [
+      "个人博客",
+      "生活记录",
+      "内容模块"
+    ],
+    "url": "https://www.krjojo.com/",
+    "subtitle": "用文章、旅行与兴趣模块呈现一个人的日常",
+    "note": "首页以最近文章为主要入口，图片、日期、标题与摘要组成规则网格，顶部导航和搜索保持轻量。可学习个人内容站如何让丰富封面保持一致的卡片结构，提升连续浏览的可预期性。",
+    "lesson": "用明确模块组织丰富的个人兴趣。",
+    "sourceName": "HeoAwards 2025",
+    "sourceUrl": "https://blog.zhheo.com/p/5zo43meo.html",
+    "isConcept": false
+  },
+  {
     "id": "collins",
     "name": "COLLINS",
     "category": "设计工作室",
@@ -188,6 +584,42 @@ export const cases = [
     "subtitle": "把品牌服务写成清晰的业务命题",
     "note": "首页将服务方案、客户案例和艺术文化内容分别组织，服务标题直接对应品牌面临的问题。可借鉴这种把能力介绍转化为客户决策入口的方式。",
     "lesson": "让服务围绕问题展开"
+  },
+  {
+    "id": "zh-wolai",
+    "name": "我来 wolai",
+    "category": "产品设计",
+    "language": "zh-CN",
+    "tags": [
+      "协作文档",
+      "知识组织",
+      "中文产品"
+    ],
+    "url": "https://www.wolai.com/",
+    "subtitle": "围绕知识组织设计清楚的产品入口",
+    "note": "白色首屏用大号标题突出协作主题，其中关键词以珊瑚色和手绘线强调，输入框与按钮紧接文案。可学习少量手绘元素如何增加亲和力，同时不破坏产品页的清晰结构。",
+    "lesson": "让用户先理解适用场景，再进入功能细节。",
+    "sourceName": "少数派 · 知识工具盘点",
+    "sourceUrl": "https://sspai.com/post/72235",
+    "isConcept": false
+  },
+  {
+    "id": "zh-mubu",
+    "name": "幕布",
+    "category": "产品设计",
+    "language": "zh-CN",
+    "tags": [
+      "思维导图",
+      "大纲笔记",
+      "极简"
+    ],
+    "url": "https://mubu.com/",
+    "subtitle": "围绕一条清楚的思考路径介绍工具",
+    "note": "浅色背景中的紫色标题与行动按钮相互呼应，下方编辑器画面同时露出大纲和导图。可学习工具首页如何用一张具体界面解释核心转换关系，让产品特点比装饰元素更突出。",
+    "lesson": "用一条关键工作路径建立产品记忆。",
+    "sourceName": "少数派 · 幕布体验",
+    "sourceUrl": "https://sspai.com/post/59631",
+    "isConcept": false
   },
   {
     "id": "oil-diary",
@@ -211,6 +643,42 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "zh-sspai",
+    "name": "少数派",
+    "category": "文化艺术",
+    "language": "zh-CN",
+    "tags": [
+      "数字生活",
+      "编辑设计",
+      "内容社区"
+    ],
+    "url": "https://sspai.com/",
+    "subtitle": "连接编辑内容与社区经验的中文阅读平台",
+    "note": "首页以不同大小的圆角内容区形成编辑重点，中央大幅插画与两侧短内容互相平衡。可学习中文媒体怎样在首屏容纳不同形式的信息，同时通过尺寸和位置表达编辑优先级。",
+    "lesson": "内容平台需要让来源和阅读预期一目了然。",
+    "sourceName": "UI 中国 · 资源欣赏",
+    "sourceUrl": "https://www.ui.cn/detail/427656.html",
+    "isConcept": false
+  },
+  {
+    "id": "zh-semi",
+    "name": "Semi Design",
+    "category": "创意设计",
+    "language": "zh-CN",
+    "tags": [
+      "设计系统",
+      "产品示例",
+      "开发协作"
+    ],
+    "url": "https://semi.design/zh-CN/",
+    "subtitle": "用产品级示例连接设计师与开发者",
+    "note": "左侧以中文标题、说明和蓝色按钮解释定位，右侧展示完整应用界面，底部图标补充技术生态。可学习设计系统如何从组合后的产品结果切入，帮助设计与开发两类读者建立共同理解。",
+    "lesson": "展示组合后的产品，比孤立组件更易建立理解。",
+    "sourceName": "优设 · 设计资源精选",
+    "sourceUrl": "https://hao.uisdc.com/",
+    "isConcept": false
+  },
+  {
     "id": "framer",
     "name": "Framer",
     "category": "创意设计",
@@ -223,6 +691,42 @@ export const cases = [
     "subtitle": "把脑海里的画面，变成网站。",
     "note": "建站工具需要同时展示创作空间与操作能力。浏览 Framer 时，留意作品示例如何帮助读者想象自己能完成什么。",
     "lesson": "好的展示既呈现结果，也激发行动。"
+  },
+  {
+    "id": "zh-tdesign",
+    "name": "TDesign",
+    "category": "创意设计",
+    "language": "zh-CN",
+    "tags": [
+      "设计体系",
+      "工作美学",
+      "组件库"
+    ],
+    "url": "https://tdesign.tencent.com/",
+    "subtitle": "围绕设计与开发的共同语言呈现体系",
+    "note": "首屏以浅灰立体键盘图像营造技术背景，蓝色产品名和中文说明叠放在左下，下方按终端拆分入口。可学习设计体系如何通过统一主视觉和明确平台分组连接品牌表达与资源导航。",
+    "lesson": "共享的设计体系应提供角色明确的使用入口。",
+    "sourceName": "优设 · 设计资源精选",
+    "sourceUrl": "https://hao.uisdc.com/",
+    "isConcept": false
+  },
+  {
+    "id": "zh-gooood",
+    "name": "谷德设计网",
+    "category": "文化艺术",
+    "language": "zh-CN",
+    "tags": [
+      "建筑媒体",
+      "项目档案",
+      "分类检索"
+    ],
+    "url": "https://www.gooood.cn/",
+    "subtitle": "让建筑图像与项目语境共同进入视野",
+    "note": "首页以建筑摄影横幅建立重点，项目图与文字资讯采用分栏结构，右侧保留专辑和热榜。可学习视觉媒体如何在较高信息密度下维持固定分区，让项目浏览与资料检索共享一个页面。",
+    "lesson": "项目展示的美感需要可靠的信息结构支持。",
+    "sourceName": "LogoDesign · 创意网站推荐",
+    "sourceUrl": "https://www.logodesign.cn/appreciate/2149.html",
+    "isConcept": false
   },
   {
     "id": "oil-home",
@@ -246,6 +750,42 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "zh-zenart",
+    "name": "阿真 Zen Art",
+    "category": "个人网站",
+    "language": "zh-TW",
+    "tags": [
+      "插画",
+      "个人作品",
+      "图像叙事"
+    ],
+    "url": "https://zen-art.studio-on.tw/",
+    "subtitle": "用插画作品和短句建立创作者的世界",
+    "note": "首屏把插画中的浴室场景铺满画面，鸭子角色位于视觉中心，大号中英文姓名叠放在上方。可学习插画创作者如何让作品直接承担个人识别，并用极少的界面元素保留作品的完整感。",
+    "lesson": "让文字为作品补充语境而不抢夺注意力。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/zen-art",
+    "isConcept": false
+  },
+  {
+    "id": "zh-islandlife",
+    "name": "2026 島嶼生活節",
+    "category": "文化艺术",
+    "language": "zh-TW",
+    "tags": [
+      "生活节",
+      "活动视觉",
+      "中文设计"
+    ],
+    "url": "https://islandlife-2026.web.app/",
+    "subtitle": "以鲜明的年度主题组织节庆内容",
+    "note": "蓝绿色背景中，大号中文主题与日月意象共同构成节庆主视觉，日期和地点在下方独立标注。可学习活动网站如何把文化氛围、时间信息与多个实用入口组织在同一首屏中。",
+    "lesson": "让年度视觉成为全站信息的共同线索。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/island-life-festival-2026",
+    "isConcept": false
+  },
+  {
     "id": "webflow",
     "name": "Webflow",
     "category": "创意设计",
@@ -258,6 +798,24 @@ export const cases = [
     "subtitle": "让设计能力，抵达真实网页。",
     "note": "Webflow 的官网连接网站构建、内容管理与团队业务需求。可对照其产品入口和客户案例，练习如何让技术功能与业务价值形成连贯的叙事。",
     "lesson": "能力需要案例，案例需要上下文。"
+  },
+  {
+    "id": "zh-leaping",
+    "name": "立品设计",
+    "category": "设计工作室",
+    "language": "zh-CN",
+    "tags": [
+      "空间设计",
+      "项目展示",
+      "工作室"
+    ],
+    "url": "https://www.leapingcreative.com/",
+    "subtitle": "以空间作品建立设计工作室的表达",
+    "note": "首屏以完整的室内空间摄影作为主体，中英文标志和双语导航轻量地叠放在上方。可学习空间设计机构如何利用作品尺度建立第一印象，并让服务、团队与作品入口保持直接可见。",
+    "lesson": "为作品图片保留可理解的设计背景。",
+    "sourceName": "立品设计 · 官方项目记录",
+    "sourceUrl": "https://www.leapingcreative.com/2022/12/05/ing未来印展示中心/",
+    "isConcept": false
   },
   {
     "id": "oil-anime",

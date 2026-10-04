@@ -18,6 +18,7 @@ test('production HTML, module imports and image URLs share deterministic cache v
   assert.ok(html.includes(`./src/app.js?v=${info.version}`));
   assert.ok(app.includes(`'./data.js?v=${info.version}'`));
   assert.ok(app.includes(`'./screenshots.js?v=${info.version}'`));
+  assert.ok(app.includes(`'./library-state.js?v=${info.version}'`));
   assert.ok(!app.includes("from './data.js'"));
   assert.ok(!app.includes("from './screenshots.js'"));
   for (const image of Object.values(screenshotById)) assert.ok(images.includes(`${image.src}?v=${info.version}`));
