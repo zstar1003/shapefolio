@@ -1,0 +1,104 @@
+{
+  "retrievedAt": "2026-10-04",
+  "approved": [
+    "linear",
+    "figma",
+    "pentagram",
+    "stripe",
+    "canva",
+    "framer",
+    "webflow",
+    "instrument",
+    "vercel",
+    "spline",
+    "notion",
+    "loom",
+    "raycast",
+    "miro",
+    "wallpaper",
+    "arc",
+    "dropbox",
+    "gentlewoman",
+    "awwwards",
+    "pitch",
+    "supabase",
+    "things",
+    "moma",
+    "resend",
+    "todoist",
+    "obsidian",
+    "shadcn",
+    "github",
+    "barbican",
+    "deno",
+    "rust",
+    "firefox",
+    "patagonia",
+    "1password",
+    "tailscale",
+    "craft"
+  ],
+  "excluded": [
+    {
+      "id": "collins",
+      "sourceUrl": "https://wearecollins.com/",
+      "reason": "blank black capture"
+    },
+    {
+      "id": "koto",
+      "sourceUrl": "https://koto.com/",
+      "reason": "blank black capture"
+    },
+    {
+      "id": "itsnicethat",
+      "sourceUrl": "https://www.itsnicethat.com/",
+      "reason": "dimmed cookie overlay"
+    },
+    {
+      "id": "monocle",
+      "sourceUrl": "https://monocle.com/",
+      "reason": "large cookie overlay"
+    },
+    {
+      "id": "designmuseum",
+      "sourceUrl": "https://designmuseum.org/",
+      "reason": "large cookie overlay"
+    },
+    {
+      "id": "astro",
+      "sourceUrl": "https://astro.build/",
+      "reason": "blank white capture"
+    },
+    {
+      "id": "rijksmuseum",
+      "sourceUrl": "https://www.rijksmuseum.nl/en",
+      "reason": "dimmed overlay"
+    },
+    {
+      "id": "aesop",
+      "sourceUrl": "https://www.aesop.com/",
+      "reason": "security verification challenge; no retry"
+    },
+    {
+      "id": "muji",
+      "sourceUrl": "https://www.muji.com/jp/ja/store",
+      "reason": "system error dialog"
+    },
+    {
+      "id": "vitra",
+      "sourceUrl": "https://www.vitra.com/",
+      "reason": "security verification challenge; no retry"
+    },
+    {
+      "id": "bangolufsen",
+      "sourceUrl": "https://www.bang-olufsen.com/",
+      "reason": "large cookie overlay"
+    },
+    {
+      "id": "gentlemonster",
+      "sourceUrl": "https://www.gentlemonster.com/int/en",
+      "reason": "dimmed cookie overlay"
+    }
+  ],
+  "notes": "mShots Pentagram and Instrument cropped above cookie overlays; all others reviewed full thumbnail. Capture timestamps not supplied by providers."
+}
