@@ -17,7 +17,7 @@ let toastTimer;
 let detailOpener;
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const availableCategories = [...new Set(cases.map(c => c.category))];
-const categories = ['全部', ...availableCategories.filter(c => c === 'Oil UI'), ...availableCategories.filter(c => c !== 'Oil UI')];
+const categories = ['全部', ...availableCategories];
 $('#categories').innerHTML = categories.map(category => `<button class="filter" data-category="${escape(category)}" aria-pressed="false">${escape(category)}</button>`).join('');
 
 function placeholder() {

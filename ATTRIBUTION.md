@@ -163,3 +163,42 @@
 - **阿真 Zen Art** (zh-TW) — [官网](https://zen-art.studio-on.tw/) · [twdc · 台灣好網站](https://twdc.design/work/zen-art) · Automattic mShots · `assets/screenshots/zh-zenart.webp`
 - **2026 島嶼生活節** (zh-TW) — [官网](https://islandlife-2026.web.app/) · [twdc · 台灣好網站](https://twdc.design/work/island-life-festival-2026) · Automattic mShots · `assets/screenshots/zh-islandlife.webp`
 - **立品设计** (zh-CN) — [官网](https://www.leapingcreative.com/) · [立品设计 · 官方项目记录](https://www.leapingcreative.com/2022/12/05/ing未来印展示中心/) · Automattic mShots · `assets/screenshots/zh-leaping.webp`
+
+
+## 2026-10-05 扩充来源
+
+新增 33 个经像素审核的真实网站截图；其中 29 个页面为中文。候选发现与逐项链接检查、图像哈希和排除原因见 `research/expansion-discovery.json`。获取日期并不代表截图拍摄日期。
+
+- 台灣猛禽研究會 — https://raptor.org.tw/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/taiwan-raptor)
+- 美感細胞_教科書再造計畫 — https://www.aestheticell.org · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/aestheticell)
+- Elvis Mao — https://elvismao.com/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/elvis-mao)
+- 朝日夫婦 — https://www.asahihuuhu.com/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/asahihuuhu)
+- JL DESIGN — https://jl.design · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/jl-design)
+- KDAN 凱鈿 — https://www.kdan.com/zh-tw · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/kdan)
+- FA電影欣賞 — https://fa.tfai.org.tw · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/fa-movie-appreciation)
+- 江賢二藝術園區 — https://www.paulchiangartcenter.org · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/paul-chiang-art-center)
+- AAPD 產品設計學院 — https://aapd.com.tw/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/aapd-product-design-academy)
+- 云心怀鹤 — https://bluehe.cn/ · 发现来源：[HeoAwards 2025](https://blog.zhheo.com/p/5zo43meo.html)
+- 重本書店 Weight Books — https://www.weightbooks.com/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/weight-books)
+- O.OO — https://odotoo.com/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/o-oo)
+- Simpany 簡單開公司 — https://simpany.co/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/simpany)
+- 新活水 Fountain — https://www.fountain.org.tw/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/fountain-magazine)
+- RE-THINK 重新思考 — https://rethinktw.org · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/rethink-tw)
+- justfont 蘭陽黑體 — https://justfont.com/lanyanghei/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/lanyang-20hei-20font-20preorder)
+- 唯知笔记 — https://note.weizwz.com/ · 发现来源：[HeoAwards 2025](https://blog.zhheo.com/p/5zo43meo.html)
+- 蔥澡 Hot Spring Onion — https://www.hotspringonion.com/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/hot-spring-onion)
+- VERSE — https://www.verse.com.tw/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/verse)
+- 慢食台東 — https://slowfoodtaitung.tw/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/slowfood-taitung)
+- Cardledge 卡知識 — https://www.cardledge.com/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/cardledge)
+- qlAD — https://www.qladgk.com/ · 发现来源：[HeoAwards 2024](https://blog.zhheo.com/p/d0b6.html)
+- moom bookshop — https://moom.com.tw/tw · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/03-moom-bookshop)
+- 少年報導者 — https://kids.twreporter.org/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/04-reporter-for-kids)
+- 臺中市立美術館 — https://www.tcam.museum/zh · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/tcam-museum)
+- 《文字遊戲》 — https://wordgame.cc/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/word-game)
+- 阿檸 a.ling — https://www.a-ling.com/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/a-ling)
+- BRANDinLABS 品牌癮 — https://www.brandinlabs.com/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/brandinlabs)
+- 臺北表演藝術中心 — https://tpac.org.taipei/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/taipei-performing-arts-center)
+- 蓝湖 — https://lanhuapp.com/ · 发现来源：[优设 · 蓝湖设计协作工具](https://www.uisdc.com/sketch-lanhu)
+- sseedd 種種 — https://www.sseedd.com.tw/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/sseedd)
+- 草率季 Taipei Art Book Fair — https://taipeiartbookfair.com/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/03-taipei-art-book-fair)
+- 墨刀 — https://modao.cc/ · 发现来源：[优设 · 墨刀设计协作评测](https://www.uisdc.com/hangye/modao-sop-2025)

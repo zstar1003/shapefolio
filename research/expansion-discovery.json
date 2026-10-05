@@ -1,0 +1,3375 @@
+{
+  "checkedAt": "2026-10-05",
+  "scope": "第二批真实网站截图案例扩充；中文优先，按实际截图审核与公开链接验证。",
+  "candidateCount": 63,
+  "approvedCount": 33,
+  "approvedChineseCount": 29,
+  "approvedIds": [
+    "add-taiwan-raptor",
+    "add-aestheticell",
+    "add-elvis-mao",
+    "add-asahihuuhu",
+    "add-jl-design",
+    "add-kdan",
+    "add-fa-movie-appreciation",
+    "add-paul-chiang-art-center",
+    "add-aapd-product-design-academy",
+    "add-bluehe",
+    "add-weight-books",
+    "add-o-oo",
+    "add-simpany",
+    "add-fountain-magazine",
+    "add-rethink-tw",
+    "add-lanyanghei",
+    "add-weizwz",
+    "add-hot-spring-onion",
+    "add-verse",
+    "add-slowfood-taitung",
+    "add-cardledge",
+    "add-qlad",
+    "add-moom",
+    "add-reporter-kids",
+    "add-tcam-museum",
+    "add-word-game",
+    "add-a-ling",
+    "add-brandinlabs",
+    "add-taipei-performing-arts-center",
+    "add-lanhu",
+    "add-sseedd",
+    "add-taipei-art-book-fair",
+    "add-modao"
+  ],
+  "methods": [
+    "twdc 台灣好網站公开网页及其公开历史集合数据",
+    "HeoAwards 2024/2025 博客推荐",
+    "优设设计工具报道",
+    "少数派思维导图工具文章",
+    "Thum.io 与 Automattic mShots 实际网站截图",
+    "独立逐图像素审查及 HTTP 链接验证"
+  ],
+  "limitations": [
+    "截图服务可能使用缓存，只记录获取日期，不宣称页面的拍摄日期。",
+    "发现来源是线索和归因；所有学习笔记均按实际审核截图独立撰写。",
+    "twdc 页面为客户端渲染；除源页面 HTTP 200 外，同时保留公开数据包的候选名称、地址与缩略图字段作为来源证据。",
+    "英文主页面明确标为 en，不以作者所在地推断中文。",
+    "未收录加载画面、错误页、遮挡主要内容的浮层或未通过链接验证的候选。"
+  ],
+  "candidates": [
+    {
+      "id": "add-taiwan-raptor",
+      "name": "台灣猛禽研究會",
+      "url": "https://raptor.org.tw/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/taiwan-raptor",
+      "discoveryBundle": "https://twdc.design/assets/sites_202510301203-BCol-7R-.js",
+      "sourceEvidence": {
+        "name": "台灣猛禽研究會",
+        "url": "https://raptor.org.tw/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202510301203/desktop/taiwan-raptor.jpg"
+      },
+      "linkCheck": {
+        "id": "add-taiwan-raptor",
+        "url": "https://raptor.org.tw/",
+        "verifiedAt": "2026-10-05T02:10:18.084146+00:00",
+        "status": 200,
+        "finalUrl": "https://raptor.org.tw/",
+        "bytesRead": 64648,
+        "title": "台灣猛禽研究會"
+      },
+      "sourceCheck": {
+        "id": "add-taiwan-raptor",
+        "url": "https://twdc.design/work/taiwan-raptor",
+        "verifiedAt": "2026-10-05T02:15:00.840518+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/taiwan-raptor",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-taiwan-raptor",
+          "url": "https://raptor.org.tw/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://raptor.org.tw/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 72748,
+          "sha256": "0a6b65c15af77f71b4d1404496170f5cf6df754654c0b26f9f9c4d7777408fa1"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-taiwan-raptor.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://raptor.org.tw/",
+        "captureProvider": "Thum.io",
+        "sha256": "0a6b65c15af77f71b4d1404496170f5cf6df754654c0b26f9f9c4d7777408fa1",
+        "bytes": 72748,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "满版猛禽摄影保留了左侧天空作为文字区，明黄色按钮在蓝绿背景中清晰突出。底部不规则的浅色边缘缓和了大图与下一段内容的衔接，可学习如何借助照片原有的空白安排信息。"
+      }
+    },
+    {
+      "id": "add-paul-chiang-art-center",
+      "name": "江賢二藝術園區",
+      "url": "https://www.paulchiangartcenter.org",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/paul-chiang-art-center",
+      "discoveryBundle": "https://twdc.design/assets/sites_202510301203-BCol-7R-.js",
+      "sourceEvidence": {
+        "name": "江賢二藝術園區",
+        "url": "https://www.paulchiangartcenter.org",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202510301203/desktop/paul-chiang-art-center.jpg"
+      },
+      "linkCheck": {
+        "id": "add-paul-chiang-art-center",
+        "url": "https://www.paulchiangartcenter.org",
+        "verifiedAt": "2026-10-05T02:10:18.084801+00:00",
+        "status": 200,
+        "finalUrl": "https://www.paulchiangartcenter.org",
+        "bytesRead": 45006,
+        "title": "江賢二藝術園區"
+      },
+      "sourceCheck": {
+        "id": "add-paul-chiang-art-center",
+        "url": "https://twdc.design/work/paul-chiang-art-center",
+        "verifiedAt": "2026-10-05T02:15:00.841359+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/paul-chiang-art-center",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-paul-chiang-art-center",
+          "url": "https://www.paulchiangartcenter.org",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.paulchiangartcenter.org",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 38082,
+          "sha256": "ae68017a6deee71fc4b88e4395d043f2cafeaf08633de25576f23f055b0326a8"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-paul-chiang-art-center.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.paulchiangartcenter.org",
+        "captureProvider": "Thum.io",
+        "sha256": "ae68017a6deee71fc4b88e4395d043f2cafeaf08633de25576f23f055b0326a8",
+        "bytes": 38082,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "白色页眉将标志、栏目和蓝色购票按钮排成整齐的一行，下方海岸空拍图占据主要空间。右上蓝色日期卡片把开馆时间叠在风景上，展示了实用信息和空间气氛可以同时成立。"
+      }
+    },
+    {
+      "id": "add-fa-movie-appreciation",
+      "name": "FA電影欣賞",
+      "url": "https://fa.tfai.org.tw",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/fa-movie-appreciation",
+      "discoveryBundle": "https://twdc.design/assets/sites_202510301203-BCol-7R-.js",
+      "sourceEvidence": {
+        "name": "FA電影欣賞",
+        "url": "https://fa.tfai.org.tw",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202510301203/desktop/fa-movie-appreciation.jpg"
+      },
+      "linkCheck": {
+        "id": "add-fa-movie-appreciation",
+        "url": "https://fa.tfai.org.tw",
+        "verifiedAt": "2026-10-05T02:10:18.085302+00:00",
+        "status": 200,
+        "finalUrl": "https://fa.tfai.org.tw",
+        "bytesRead": 39924,
+        "title": "FA電影欣賞"
+      },
+      "sourceCheck": {
+        "id": "add-fa-movie-appreciation",
+        "url": "https://twdc.design/work/fa-movie-appreciation",
+        "verifiedAt": "2026-10-05T02:15:00.841942+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/fa-movie-appreciation",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-fa-movie-appreciation",
+          "url": "https://fa.tfai.org.tw",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://fa.tfai.org.tw",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 47128,
+          "sha256": "03f171cac6daafe87c762e8544caf5120c1ceebc526c6906141f141dbcacc2e9"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-fa-movie-appreciation.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://fa.tfai.org.tw",
+        "captureProvider": "Thum.io",
+        "sha256": "03f171cac6daafe87c762e8544caf5120c1ceebc526c6906141f141dbcacc2e9",
+        "bytes": 47128,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "电影剧照上叠加黄、绿、粉色的半透明色块，左上大号 Fa 标志与左侧文章标题保持清晰。导航被压缩在右上角，让封面图像承担视觉吸引力，文字只提供必要的阅读入口。"
+      }
+    },
+    {
+      "id": "add-homevillage-taipei",
+      "name": "嘉禾新村",
+      "url": "https://homevillage.taipei",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/homevillage-taipei",
+      "discoveryBundle": "https://twdc.design/assets/sites_202510301203-BCol-7R-.js",
+      "sourceEvidence": {
+        "name": "嘉禾新村",
+        "url": "https://homevillage.taipei",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202510301203/desktop/homevillage-taipei.jpg"
+      },
+      "linkCheck": {
+        "id": "add-homevillage-taipei",
+        "url": "https://homevillage.taipei",
+        "verifiedAt": "2026-10-05T02:10:18.085705+00:00",
+        "status": "failed",
+        "error": "HTTP Error 502: Bad Gateway"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-homevillage-taipei",
+          "url": "https://homevillage.taipei",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://homevillage.taipei",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 4088,
+          "sha256": "438807b54bfc9b5dd5853e8d2d9b719e03de24091f354bb07ecd87361b938610"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "浏览器连接错误；直连 HTTP 502。"
+    },
+    {
+      "id": "add-tasa-space-center",
+      "name": "TASA 國家太空中心",
+      "url": "https://www.tasa.org.tw/zh-TW",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/tasa-space-center",
+      "discoveryBundle": "https://twdc.design/assets/sites_202510301203-BCol-7R-.js",
+      "sourceEvidence": {
+        "name": "TASA 國家太空中心",
+        "url": "https://www.tasa.org.tw/zh-TW",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202510301203/desktop/tasa-space-center.jpg"
+      },
+      "linkCheck": {
+        "id": "add-tasa-space-center",
+        "url": "https://www.tasa.org.tw/zh-TW",
+        "verifiedAt": "2026-10-05T02:10:18.086651+00:00",
+        "status": 200,
+        "finalUrl": "https://www.tasa.org.tw/zh-TW",
+        "bytesRead": 72431,
+        "title": "TASA 國家太空中心"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-tasa-space-center",
+          "url": "https://www.tasa.org.tw/zh-TW",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.tasa.org.tw/zh-TW",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 584,
+          "sha256": "8dc3812201dace2bb91f6511484059add1bd6e10a08a930f278a691c30869eab"
+        },
+        {
+          "id": "add-tasa-space-center",
+          "url": "https://www.tasa.org.tw/zh-TW",
+          "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fwww.tasa.org.tw%2Fzh-TW?w=1200",
+          "provider": "Automattic mShots",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 800,
+          "height": 600,
+          "bytes": 6270,
+          "sha256": "e448dc3e3419e53fde3cd07d2584383d2719bb5400dc756497e7f0c963dff691"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "Thum.io 与 mShots 均停留在进入动画，未展示完整网站。"
+    },
+    {
+      "id": "add-jl-design",
+      "name": "JL DESIGN",
+      "url": "https://jl.design",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/jl-design",
+      "discoveryBundle": "https://twdc.design/assets/sites_202510301203-BCol-7R-.js",
+      "sourceEvidence": {
+        "name": "JL DESIGN",
+        "url": "https://jl.design",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202510301203/desktop/jl-design.jpg"
+      },
+      "linkCheck": {
+        "id": "add-jl-design",
+        "url": "https://jl.design",
+        "verifiedAt": "2026-10-05T02:10:18.088033+00:00",
+        "status": 200,
+        "finalUrl": "https://jl.design",
+        "bytesRead": 181751,
+        "title": "JL DESIGN｜回歸基本：問對的問題，說好的故事。"
+      },
+      "sourceCheck": {
+        "id": "add-jl-design",
+        "url": "https://twdc.design/work/jl-design",
+        "verifiedAt": "2026-10-05T02:17:39.105422+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/jl-design",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-jl-design",
+          "url": "https://jl.design",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://jl.design",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 640,
+          "sha256": "619a1ba4e8fef988f9bb51ba338b303280d8b57a30ea0bf5173cc947a9fbc4ae"
+        },
+        {
+          "id": "add-jl-design",
+          "url": "https://jl.design",
+          "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fjl.design?w=1200",
+          "provider": "Automattic mShots",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 800,
+          "height": 600,
+          "bytes": 32254,
+          "sha256": "8d07e1dfd6d662f2dc5cb0e9ef51b0e055f6a7b8ea0aa5735e4eede3af841014"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-jl-design.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://jl.design",
+        "captureProvider": "Automattic mShots",
+        "sha256": "8d07e1dfd6d662f2dc5cb0e9ef51b0e055f6a7b8ea0aa5735e4eede3af841014",
+        "bytes": 32254,
+        "width": 800,
+        "height": 600,
+        "review": "approved",
+        "observation": "白色导航栏下，人物影像被切成数条竖向区域，项目标题与短说明叠放在左侧。细小的轮播圆点退到底部，页面将主要空间交给作品，同时保留了了解项目的文字线索。"
+      }
+    },
+    {
+      "id": "add-guiji-tea",
+      "name": "龜記茗品 Guiji",
+      "url": "https://guiji-group.com",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/guiji-tea",
+      "discoveryBundle": "https://twdc.design/assets/sites_202511082023-6yZ6uWUr.js",
+      "sourceEvidence": {
+        "name": "龜記茗品 Guiji",
+        "url": "https://guiji-group.com",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202511082023/desktop/guiji-tea.jpg"
+      },
+      "linkCheck": {
+        "id": "add-guiji-tea",
+        "url": "https://guiji-group.com",
+        "verifiedAt": "2026-10-05T02:10:18.089722+00:00",
+        "status": 200,
+        "finalUrl": "https://guiji-group.com",
+        "bytesRead": 152304,
+        "title": "龜記茗品 Guiji"
+      },
+      "sourceCheck": {
+        "id": "add-guiji-tea",
+        "url": "https://twdc.design/work/guiji-tea",
+        "verifiedAt": "2026-10-05T02:15:00.842736+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/guiji-tea",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-guiji-tea",
+          "url": "https://guiji-group.com",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://guiji-group.com",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 64222,
+          "sha256": "f97b9ca516723a2e7be08714024844da8c9685ef59ebbd11f0ae0b8bb4692d60"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "截图技术上可用，但为控制规模及减少相近构图，本批优先收录其他更有辨识度的案例。"
+    },
+    {
+      "id": "add-and-tea",
+      "name": "&TEA",
+      "url": "https://andtea.com",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/and-tea",
+      "discoveryBundle": "https://twdc.design/assets/sites_202511082023-6yZ6uWUr.js",
+      "sourceEvidence": {
+        "name": "&TEA",
+        "url": "https://andtea.com",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202511082023/desktop/and-tea.jpg"
+      },
+      "linkCheck": {
+        "id": "add-and-tea",
+        "url": "https://andtea.com",
+        "verifiedAt": "2026-10-05T02:10:18.090772+00:00",
+        "status": "failed",
+        "error": "HTTP Error 502: Bad Gateway"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-and-tea",
+          "url": "https://andtea.com",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://andtea.com",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 14428,
+          "sha256": "4edad5cfe74460a4ed70ebabc99182a17d12a304167604792f2aec44d484d9b4"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "截图可见产品主视觉，但直连 HTTP 502，链接验证未通过。"
+    },
+    {
+      "id": "add-dawushan-dairy-farm",
+      "name": "大武山牧場",
+      "url": "https://www.dawushan.com.tw",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/dawushan-dairy-farm",
+      "discoveryBundle": "https://twdc.design/assets/sites_202511082023-6yZ6uWUr.js",
+      "sourceEvidence": {
+        "name": "大武山牧場",
+        "url": "https://www.dawushan.com.tw",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202511082023/desktop/dawushan-dairy-farm.jpg"
+      },
+      "linkCheck": {
+        "id": "add-dawushan-dairy-farm",
+        "url": "https://www.dawushan.com.tw",
+        "verifiedAt": "2026-10-05T02:10:18.092576+00:00",
+        "status": 200,
+        "finalUrl": "https://www.dawushan.com.tw",
+        "bytesRead": 487837,
+        "title": "大武山牧場"
+      },
+      "sourceCheck": {
+        "id": "add-dawushan-dairy-farm",
+        "url": "https://twdc.design/work/dawushan-dairy-farm",
+        "verifiedAt": "2026-10-05T02:15:00.843599+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/dawushan-dairy-farm",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-dawushan-dairy-farm",
+          "url": "https://www.dawushan.com.tw",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.dawushan.com.tw",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 9026,
+          "sha256": "7e2a3e02abd2baaac550b661f5350d79b63c83e5fa923cbd22b5c9e8da80139e"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "截图技术上可用，但为控制规模及减少相近构图，本批优先收录其他更有辨识度的案例。"
+    },
+    {
+      "id": "add-rethink-tw",
+      "name": "RE-THINK 重新思考",
+      "url": "https://rethinktw.org",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/rethink-tw",
+      "discoveryBundle": "https://twdc.design/assets/sites_202512011137-Bir3y2k9.js",
+      "sourceEvidence": {
+        "name": "RE-THINK 重新思考",
+        "url": "https://rethinktw.org",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202512011137/desktop/rethink-tw.jpg"
+      },
+      "linkCheck": {
+        "id": "add-rethink-tw",
+        "url": "https://rethinktw.org",
+        "verifiedAt": "2026-10-05T02:10:18.093111+00:00",
+        "status": 200,
+        "finalUrl": "https://rethinktw.org",
+        "bytesRead": 750000,
+        "title": "RE-THINK 重新思考｜致力解決垃圾問題的台灣環保團體"
+      },
+      "sourceCheck": {
+        "id": "add-rethink-tw",
+        "url": "https://twdc.design/work/rethink-tw",
+        "verifiedAt": "2026-10-05T02:15:00.844763+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/rethink-tw",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-rethink-tw",
+          "url": "https://rethinktw.org",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://rethinktw.org",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 25330,
+          "sha256": "2d8fe8daae7389ec8b554caf9ecfe92a210fcf6ed671b212bf80e3cdbeda5bb0"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-rethink-tw.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://rethinktw.org",
+        "captureProvider": "Thum.io",
+        "sha256": "2d8fe8daae7389ec8b554caf9ecfe92a210fcf6ed671b212bf80e3cdbeda5bb0",
+        "bytes": 25330,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "荧光绿公告条和黑白导航下方，是圆角蓝色活动卡片；粉、黄、绿的人物插画围绕标题排列。页面将活动说明、主要按钮与图形收束在一块区域内，信息多而不显散乱。"
+      }
+    },
+    {
+      "id": "add-aestheticell",
+      "name": "美感細胞_教科書再造計畫",
+      "url": "https://www.aestheticell.org",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/aestheticell",
+      "discoveryBundle": "https://twdc.design/assets/sites_202512011137-Bir3y2k9.js",
+      "sourceEvidence": {
+        "name": "美感細胞_教科書再造計畫",
+        "url": "https://www.aestheticell.org",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202512011137/desktop/aestheticell.jpg"
+      },
+      "linkCheck": {
+        "id": "add-aestheticell",
+        "url": "https://www.aestheticell.org",
+        "verifiedAt": "2026-10-05T02:10:27.722796+00:00",
+        "status": 200,
+        "finalUrl": "https://www.aestheticell.org",
+        "bytesRead": 147080,
+        "title": "美感細胞_教科書再造計畫"
+      },
+      "sourceCheck": {
+        "id": "add-aestheticell",
+        "url": "https://twdc.design/work/aestheticell",
+        "verifiedAt": "2026-10-05T02:15:00.845729+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/aestheticell",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-aestheticell",
+          "url": "https://www.aestheticell.org",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.aestheticell.org",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 19464,
+          "sha256": "500d698c6e74420e646489fd288cf6c60cfe5ad9d6bbb0d113a2b7683129b602"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-aestheticell.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.aestheticell.org",
+        "captureProvider": "Thum.io",
+        "sha256": "500d698c6e74420e646489fd288cf6c60cfe5ad9d6bbb0d113a2b7683129b602",
+        "bytes": 19464,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "桌面上摊开的彩色教科书形成真实背景，中央以大号白色“12760小时”突出一个数字。较小解释文字紧随其下，导航留在画面顶部，可学习用单个数据作为进入复杂议题的起点。"
+      }
+    },
+    {
+      "id": "add-cmp-inspiration",
+      "name": "勤美術館",
+      "url": "https://cmp-inspiration.com.tw",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/cmp-inspiration",
+      "discoveryBundle": "https://twdc.design/assets/sites_202512031441-Dt8l7MEy.js",
+      "sourceEvidence": {
+        "name": "勤美術館",
+        "url": "https://cmp-inspiration.com.tw",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202512031441/desktop/cmp-inspiration.jpg"
+      },
+      "linkCheck": {
+        "id": "add-cmp-inspiration",
+        "url": "https://cmp-inspiration.com.tw",
+        "verifiedAt": "2026-10-05T02:10:27.727787+00:00",
+        "status": "failed",
+        "error": "HTTP Error 502: Bad Gateway"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-cmp-inspiration",
+          "url": "https://cmp-inspiration.com.tw",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://cmp-inspiration.com.tw",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 5490,
+          "sha256": "4fcfc470e7ea0131dc8b3eaba4a86cbe673797a950af688c18c53e8d1b421f7f"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "截图停留在加载标志；直连 HTTP 502。"
+    },
+    {
+      "id": "add-simpleinfo-design",
+      "name": "簡訊設計",
+      "url": "https://simpleinfo.cc",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/simpleinfo-design",
+      "discoveryBundle": "https://twdc.design/assets/sites_202512031441-Dt8l7MEy.js",
+      "sourceEvidence": {
+        "name": "簡訊設計",
+        "url": "https://simpleinfo.cc",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202512031441/desktop/simpleinfo-design.jpg"
+      },
+      "linkCheck": {
+        "id": "add-simpleinfo-design",
+        "url": "https://simpleinfo.cc",
+        "verifiedAt": "2026-10-05T02:10:27.732349+00:00",
+        "status": 200,
+        "finalUrl": "https://simpleinfo.cc",
+        "bytesRead": 121679,
+        "title": "簡訊設計 SimpleInfo Design"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-simpleinfo-design",
+          "url": "https://simpleinfo.cc",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://simpleinfo.cc",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 494,
+          "sha256": "e7d9e36d2b9a2d10b00046b7148d0f2e834ae38d0cc1347c00c65ac19ae5ffbc"
+        },
+        {
+          "id": "add-simpleinfo-design",
+          "url": "https://simpleinfo.cc",
+          "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fsimpleinfo.cc?w=1200",
+          "provider": "Automattic mShots",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 800,
+          "height": 600,
+          "bytes": 926,
+          "sha256": "db485d6e44d8e98249fa70ff93b59d63671c37b17a6d59d4c2b86e178d2f7454"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "两种截图结果均为空白。"
+    },
+    {
+      "id": "add-slowfood-taitung",
+      "name": "慢食台東",
+      "url": "https://slowfoodtaitung.tw/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/slowfood-taitung",
+      "discoveryBundle": "https://twdc.design/assets/sites_202512031441-Dt8l7MEy.js",
+      "sourceEvidence": {
+        "name": "慢食台東",
+        "url": "https://slowfoodtaitung.tw/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202512110927/desktop/slowfood-taitung.jpg"
+      },
+      "linkCheck": {
+        "id": "add-slowfood-taitung",
+        "url": "https://slowfoodtaitung.tw/",
+        "verifiedAt": "2026-10-05T02:10:28.515310+00:00",
+        "status": 200,
+        "finalUrl": "https://slowfoodtaitung.tw/",
+        "bytesRead": 255159,
+        "title": "SlowFood Taitung 慢食臺東 ｜慢食台東"
+      },
+      "sourceCheck": {
+        "id": "add-slowfood-taitung",
+        "url": "https://twdc.design/work/slowfood-taitung",
+        "verifiedAt": "2026-10-05T02:17:39.106253+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/slowfood-taitung",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-slowfood-taitung",
+          "url": "https://slowfoodtaitung.tw/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://slowfoodtaitung.tw/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 2148,
+          "sha256": "72bd80e3c2dc218d8a89458493d5441f78ca2e46ba85a4a3e9fda2aed580727f"
+        },
+        {
+          "id": "add-slowfood-taitung",
+          "url": "https://slowfoodtaitung.tw/",
+          "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fslowfoodtaitung.tw%2F?w=1200",
+          "provider": "Automattic mShots",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 800,
+          "height": 600,
+          "bytes": 54486,
+          "sha256": "c513055f8ba955c1ed62d0e4af2f768dcc02cd239d83bcb17084e6016b6a921c"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-slowfood-taitung.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://slowfoodtaitung.tw/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "c513055f8ba955c1ed62d0e4af2f768dcc02cd239d83bcb17084e6016b6a921c",
+        "bytes": 54486,
+        "width": 800,
+        "height": 600,
+        "review": "approved",
+        "observation": "浅米色外框中放入大幅双手捧谷物的近景，白色手写风格字样直接叠在照片中央。顶部小号栏目与细长左右边栏留在画面之外，构图以食材质感而非复杂装饰建立温度。"
+      }
+    },
+    {
+      "id": "add-aapd-product-design-academy",
+      "name": "AAPD 產品設計學院",
+      "url": "https://aapd.com.tw/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/aapd-product-design-academy",
+      "discoveryBundle": "https://twdc.design/assets/sites_202512080948-CUQODqey.js",
+      "sourceEvidence": {
+        "name": "AAPD 產品設計學院",
+        "url": "https://aapd.com.tw/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202512080948/desktop/aapd-product-design-academy.jpg"
+      },
+      "linkCheck": {
+        "id": "add-aapd-product-design-academy",
+        "url": "https://aapd.com.tw/",
+        "verifiedAt": "2026-10-05T02:10:29.563804+00:00",
+        "status": 200,
+        "finalUrl": "https://aapd.com.tw/",
+        "bytesRead": 750000,
+        "title": "AAPD 產品設計學院"
+      },
+      "sourceCheck": {
+        "id": "add-aapd-product-design-academy",
+        "url": "https://twdc.design/work/aapd-product-design-academy",
+        "verifiedAt": "2026-10-05T02:17:39.106815+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/aapd-product-design-academy",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-aapd-product-design-academy",
+          "url": "https://aapd.com.tw/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://aapd.com.tw/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 1622,
+          "sha256": "6f4dcb555d97aad487e63ef1bc198c4cbc6a40cb8601a912f69adf8447413647"
+        },
+        {
+          "id": "add-aapd-product-design-academy",
+          "url": "https://aapd.com.tw/",
+          "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Faapd.com.tw%2F?w=1200",
+          "provider": "Automattic mShots",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 800,
+          "height": 600,
+          "bytes": 25484,
+          "sha256": "67e29fa17655e449c325ed6e4288fd56eb6fef4a8e6f249e13727756701b8027"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-aapd-product-design-academy.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://aapd.com.tw/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "67e29fa17655e449c325ed6e4288fd56eb6fef4a8e6f249e13727756701b8027",
+        "bytes": 25484,
+        "width": 800,
+        "height": 600,
+        "review": "approved",
+        "observation": "浅色首屏上方以中文标题和两个按钮解释学习入口，下方大幅黑色符号与蓝衣人物插画相互穿插。橙色字词和小标签作为少量强调色，可学习品牌标志如何扩展成可复用的视觉容器。"
+      }
+    },
+    {
+      "id": "add-tcam-museum",
+      "name": "臺中市立美術館",
+      "url": "https://www.tcam.museum/zh",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/tcam-museum",
+      "discoveryBundle": "https://twdc.design/assets/sites_202512251047-BgVdEvd0.js",
+      "sourceEvidence": {
+        "name": "臺中市立美術館",
+        "url": "https://www.tcam.museum/zh",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202512251047/desktop/tcam-museum.jpg"
+      },
+      "linkCheck": {
+        "id": "add-tcam-museum",
+        "url": "https://www.tcam.museum/zh",
+        "verifiedAt": "2026-10-05T02:10:30.064258+00:00",
+        "status": 200,
+        "finalUrl": "https://www.tcam.museum/zh",
+        "bytesRead": 203896,
+        "title": "臺中市立美術館"
+      },
+      "sourceCheck": {
+        "id": "add-tcam-museum",
+        "url": "https://twdc.design/work/tcam-museum",
+        "verifiedAt": "2026-10-05T02:15:00.846219+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/tcam-museum",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-tcam-museum",
+          "url": "https://www.tcam.museum/zh",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.tcam.museum/zh",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 20008,
+          "sha256": "c0ba441b07b39844c256e043327b5c1cbdd5894d6277df1760b9149dde9c9ad4"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-tcam-museum.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.tcam.museum/zh",
+        "captureProvider": "Thum.io",
+        "sha256": "c0ba441b07b39844c256e043327b5c1cbdd5894d6277df1760b9149dde9c9ad4",
+        "bytes": 20008,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "白色页面以细横线切分栏目，右侧长幅建筑摄影与左侧机构信息并置。黑色胶囊工具栏、巨大的西文字片段和向下箭头形成大小对照，让安静的排版仍有鲜明节奏。"
+      }
+    },
+    {
+      "id": "add-asahihuuhu",
+      "name": "朝日夫婦",
+      "url": "https://www.asahihuuhu.com/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/asahihuuhu",
+      "discoveryBundle": "https://twdc.design/assets/sites_202512290021-D0Iwr3mW.js",
+      "sourceEvidence": {
+        "name": "朝日夫婦",
+        "url": "https://www.asahihuuhu.com/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202512290021/desktop/asahihuuhu.jpg"
+      },
+      "linkCheck": {
+        "id": "add-asahihuuhu",
+        "url": "https://www.asahihuuhu.com/",
+        "verifiedAt": "2026-10-05T02:10:30.073593+00:00",
+        "status": 200,
+        "finalUrl": "https://www.asahihuuhu.com/",
+        "bytesRead": 26941,
+        "title": "朝日夫婦"
+      },
+      "sourceCheck": {
+        "id": "add-asahihuuhu",
+        "url": "https://twdc.design/work/asahihuuhu",
+        "verifiedAt": "2026-10-05T02:15:00.846577+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/asahihuuhu",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-asahihuuhu",
+          "url": "https://www.asahihuuhu.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.asahihuuhu.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 26994,
+          "sha256": "dc2576e4b967a7b066522916b5d25eca3ad6c4d090957199323f1bd4db660a84"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-asahihuuhu.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.asahihuuhu.com/",
+        "captureProvider": "Thum.io",
+        "sha256": "dc2576e4b967a7b066522916b5d25eca3ad6c4d090957199323f1bd4db660a84",
+        "bytes": 26994,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "海湾和山峦构成整屏背景，中文标题放在左上较暗的山体区域，右上导航则保持细小。页面没有用密集促销元素打断画面，适合观察风景摄影如何给品牌叙事提供空间感。"
+      }
+    },
+    {
+      "id": "add-weight-books",
+      "name": "重本書店 Weight Books",
+      "url": "https://www.weightbooks.com/",
+      "language": "en",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/weight-books",
+      "discoveryBundle": "https://twdc.design/assets/sites_202601011156-LIW7tda6.js",
+      "sourceEvidence": {
+        "name": "重本書店 Weight Books",
+        "url": "https://www.weightbooks.com/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202601011156/desktop/weight-books.jpg"
+      },
+      "linkCheck": {
+        "id": "add-weight-books",
+        "url": "https://www.weightbooks.com/",
+        "verifiedAt": "2026-10-05T02:10:31.255789+00:00",
+        "status": 200,
+        "finalUrl": "https://www.weightbooks.com/",
+        "bytesRead": 29950,
+        "title": "重本書店 Weight Books"
+      },
+      "sourceCheck": {
+        "id": "add-weight-books",
+        "url": "https://twdc.design/work/weight-books",
+        "verifiedAt": "2026-10-05T02:15:00.849565+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/weight-books",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-weight-books",
+          "url": "https://www.weightbooks.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.weightbooks.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 29806,
+          "sha256": "34d81e09cac9f39fcb83c7f569d8d173ac65fbbad5a599b2c1d45a399adb110f"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-weight-books.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.weightbooks.com/",
+        "captureProvider": "Thum.io",
+        "sha256": "34d81e09cac9f39fcb83c7f569d8d173ac65fbbad5a599b2c1d45a399adb110f",
+        "bytes": 29806,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "黑白细条在背景中交错形成近似折面的纹理，中央小幅书籍图像以蓝色和黄色突出。菜单与商店入口分置两侧，在高密度图形上仍保留了少量、明确的文字锚点。"
+      }
+    },
+    {
+      "id": "add-elvis-mao",
+      "name": "Elvis Mao",
+      "url": "https://elvismao.com/",
+      "language": "en",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/elvis-mao",
+      "discoveryBundle": "https://twdc.design/assets/sites_202601011156-LIW7tda6.js",
+      "sourceEvidence": {
+        "name": "Elvis Mao",
+        "url": "https://elvismao.com/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202601011156/desktop/elvis-mao.jpg"
+      },
+      "linkCheck": {
+        "id": "add-elvis-mao",
+        "url": "https://elvismao.com/",
+        "verifiedAt": "2026-10-05T02:10:31.256265+00:00",
+        "status": 200,
+        "finalUrl": "https://elvismao.com/",
+        "bytesRead": 10293,
+        "title": "Elvis Mao"
+      },
+      "sourceCheck": {
+        "id": "add-elvis-mao",
+        "url": "https://twdc.design/work/elvis-mao",
+        "verifiedAt": "2026-10-05T02:15:07.083807+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/elvis-mao",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-elvis-mao",
+          "url": "https://elvismao.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://elvismao.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 47958,
+          "sha256": "b34d807d8277896d45aed03e90aeae6459d2b82dc5cbc453f6b62b97551002c1"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-elvis-mao.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://elvismao.com/",
+        "captureProvider": "Thum.io",
+        "sha256": "b34d807d8277896d45aed03e90aeae6459d2b82dc5cbc453f6b62b97551002c1",
+        "bytes": 47958,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "黑底上密集的灰色字符构成流动纹理，巨大的 EM 字母压在前景。顶部姓名与少量斜体导航保持轻巧，可学习如何用单一图形语言让个人作品集的首屏有辨识度。"
+      }
+    },
+    {
+      "id": "add-art-bank",
+      "name": "藝術銀行 Art Bank",
+      "url": "https://artbank.tfaf.org.tw/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/art-bank",
+      "discoveryBundle": "https://twdc.design/assets/sites_202601042210-C4RgEe-T.js",
+      "sourceEvidence": {
+        "name": "藝術銀行 Art Bank",
+        "url": "https://artbank.tfaf.org.tw/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202601042210/desktop/art-bank.jpg"
+      },
+      "linkCheck": {
+        "id": "add-art-bank",
+        "url": "https://artbank.tfaf.org.tw/",
+        "verifiedAt": "2026-10-05T02:10:32.560878+00:00",
+        "status": 200,
+        "finalUrl": "https://artbank.tfaf.org.tw/",
+        "bytesRead": 287102,
+        "title": "藝術銀行"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-art-bank",
+          "url": "https://artbank.tfaf.org.tw/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://artbank.tfaf.org.tw/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 524,
+          "sha256": "0392da6622309fd9a08224e19127e9d84a1a70bf17606ceac57f6fc0febcfd75"
+        },
+        {
+          "id": "add-art-bank",
+          "url": "https://artbank.tfaf.org.tw/",
+          "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fartbank.tfaf.org.tw%2F?w=1200",
+          "provider": "Automattic mShots",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 800,
+          "height": 600,
+          "bytes": 16502,
+          "sha256": "d28edfa973976adfc143f3ee3a72e75d835f0a7fe4bb6068a5465f10aca39e1b"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "Thum.io 空白；mShots 仍有加载状态，未确认主要内容完整。"
+    },
+    {
+      "id": "add-hot-spring-onion",
+      "name": "蔥澡 Hot Spring Onion",
+      "url": "https://www.hotspringonion.com/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/hot-spring-onion",
+      "discoveryBundle": "https://twdc.design/assets/sites_202601042210-C4RgEe-T.js",
+      "sourceEvidence": {
+        "name": "蔥澡 Hot Spring Onion",
+        "url": "https://www.hotspringonion.com/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202601042210/desktop/hot-spring-onion.jpg"
+      },
+      "linkCheck": {
+        "id": "add-hot-spring-onion",
+        "url": "https://www.hotspringonion.com/",
+        "verifiedAt": "2026-10-05T02:10:34.035759+00:00",
+        "status": 200,
+        "finalUrl": "https://www.hotspringonion.com/",
+        "bytesRead": 35696,
+        "title": "蔥澡 Hot Spring Onion"
+      },
+      "sourceCheck": {
+        "id": "add-hot-spring-onion",
+        "url": "https://twdc.design/work/hot-spring-onion",
+        "verifiedAt": "2026-10-05T02:17:39.108366+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/hot-spring-onion",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-hot-spring-onion",
+          "url": "https://www.hotspringonion.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.hotspringonion.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 8130,
+          "sha256": "bd744eb7c6011e7ca9aadf4de1e712c1a47661cec2b76ae1df07ae54a48f805c"
+        },
+        {
+          "id": "add-hot-spring-onion",
+          "url": "https://www.hotspringonion.com/",
+          "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fwww.hotspringonion.com%2F?w=1200",
+          "provider": "Automattic mShots",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 800,
+          "height": 600,
+          "bytes": 26444,
+          "sha256": "155094007369dc19f60c16f3959cf4fcfec07e34d8c1a5a505cef206a0b7b372"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-hot-spring-onion.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.hotspringonion.com/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "155094007369dc19f60c16f3959cf4fcfec07e34d8c1a5a505cef206a0b7b372",
+        "bytes": 26444,
+        "width": 800,
+        "height": 600,
+        "review": "approved",
+        "observation": "白色首屏中央是由细线组成的中英文标志，周围点缀蒸汽、蔬菜等简洁轮廓。下方空间照片沿同一横线进入页面，明亮背景与小号导航让图形保持呼吸感。"
+      }
+    },
+    {
+      "id": "add-lanyanghei",
+      "name": "justfont 蘭陽黑體",
+      "url": "https://justfont.com/lanyanghei/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/lanyang-20hei-20font-20preorder",
+      "discoveryBundle": "https://twdc.design/assets/sites_202601081136-CEi6Bpwv.js",
+      "sourceEvidence": {
+        "name": "justfont 蘭陽黑體",
+        "url": "https://justfont.com/lanyanghei/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202601081136/desktop/Lanyang%20Hei%20Font%20Preorder.jpg"
+      },
+      "linkCheck": {
+        "id": "add-lanyanghei",
+        "url": "https://justfont.com/lanyanghei/",
+        "verifiedAt": "2026-10-05T02:10:36.335801+00:00",
+        "status": 200,
+        "finalUrl": "https://justfont.com/lanyanghei/",
+        "bytesRead": 196360,
+        "title": "蘭陽黑體｜有人情味的黑體"
+      },
+      "sourceCheck": {
+        "id": "add-lanyanghei",
+        "url": "https://twdc.design/work/lanyang-20hei-20font-20preorder",
+        "verifiedAt": "2026-10-05T02:15:07.107146+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/lanyang-20hei-20font-20preorder",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-lanyang-20hei-20font-20preorder",
+          "url": "https://justfont.com/lanyanghei/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://justfont.com/lanyanghei/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 24706,
+          "sha256": "908ba962f4486208b54b9999a6d42c62a9455faaddbefaf47bc62cefe08ea90a"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-lanyanghei.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://justfont.com/lanyanghei/",
+        "captureProvider": "Thum.io",
+        "sha256": "908ba962f4486208b54b9999a6d42c62a9455faaddbefaf47bc62cefe08ea90a",
+        "bytes": 24706,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "浅米色首屏四周散布不同大小的绿色汉字与字形片段，中间留出标题、说明和黑色购买按钮。产品的形态直接变成构图元素，可学习如何用真实字形而非无关装饰展示字体性格。"
+      }
+    },
+    {
+      "id": "add-jiahong-20huang",
+      "name": "JiaHong Huang",
+      "url": "https://jiahonghuang.tw/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/jiahong-20huang",
+      "discoveryBundle": "https://twdc.design/assets/sites_202601121035-BGXjA2k7.js",
+      "sourceEvidence": {
+        "name": "JiaHong Huang",
+        "url": "https://jiahonghuang.tw/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202601121035/desktop/JiaHong%20Huang.jpg"
+      },
+      "linkCheck": {
+        "id": "add-jiahong-20huang",
+        "url": "https://jiahonghuang.tw/",
+        "verifiedAt": "2026-10-05T02:10:37.623789+00:00",
+        "status": 200,
+        "finalUrl": "https://jiahonghuang.tw/",
+        "bytesRead": 192579,
+        "title": "JiaHong Huang"
+      },
+      "sourceCheck": {
+        "id": "add-jiahong-20huang",
+        "url": "https://twdc.design/work/jiahong-20huang",
+        "verifiedAt": "2026-10-05T02:15:07.125547+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/jiahong-20huang",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-jiahong-20huang",
+          "url": "https://jiahonghuang.tw/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://jiahonghuang.tw/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 24314,
+          "sha256": "998cd842a222d7e6a23a7a8e0f5f982c672ef922b848052ac5ae79db93ea25c0"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "截图技术上可用，但为控制规模及减少相近构图，本批优先收录其他更有辨识度的案例。"
+    },
+    {
+      "id": "add-universal-20vernacular-20-20about-20-28zh-tw-29",
+      "name": "UNIVERSAL VERNACULAR",
+      "url": "https://uvwork.xyz/about-zh",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/universal-20vernacular-20-20about-20-28zh-tw-29",
+      "discoveryBundle": "https://twdc.design/assets/sites_202601121035-BGXjA2k7.js",
+      "sourceEvidence": {
+        "name": "UNIVERSAL VERNACULAR",
+        "url": "https://uvwork.xyz/about-zh",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202601121035/desktop/UNIVERSAL%20VERNACULAR%20-%20About%20%28zh-TW%29.jpg"
+      },
+      "linkCheck": {
+        "id": "add-universal-20vernacular-20-20about-20-28zh-tw-29",
+        "url": "https://uvwork.xyz/about-zh",
+        "verifiedAt": "2026-10-05T02:10:38.420673+00:00",
+        "status": 200,
+        "finalUrl": "https://uvwork.xyz/about-zh",
+        "bytesRead": 22988,
+        "title": "UNIVERSAL VERNACULAR | About (zh-TW)"
+      },
+      "sourceCheck": {
+        "id": "add-universal-20vernacular-20-20about-20-28zh-tw-29",
+        "url": "https://twdc.design/work/universal-20vernacular-20-20about-20-28zh-tw-29",
+        "verifiedAt": "2026-10-05T02:15:07.151103+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/universal-20vernacular-20-20about-20-28zh-tw-29",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-universal-20vernacular-20-20about-20-28zh-tw-29",
+          "url": "https://uvwork.xyz/about-zh",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://uvwork.xyz/about-zh",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 24518,
+          "sha256": "6888506b38e155bef2b4dbc94dd60f8343080cc0e9a8f277c860077d320fc9d8"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "截图技术上可用，但为控制规模及减少相近构图，本批优先收录其他更有辨识度的案例。"
+    },
+    {
+      "id": "add-reporter-10th-anniversary",
+      "name": "報導者十週年",
+      "url": "https://10th.twreporter.org",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/reporter-10th-anniversary",
+      "discoveryBundle": "https://twdc.design/assets/sites_202601151647-BkLLFBbM.js",
+      "sourceEvidence": {
+        "name": "報導者十週年",
+        "url": "https://10th.twreporter.org",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202601151647/desktop/Reporter-10th-Anniversary.jpg"
+      },
+      "linkCheck": {
+        "id": "add-reporter-10th-anniversary",
+        "url": "https://10th.twreporter.org",
+        "verifiedAt": "2026-10-05T02:10:39.166506+00:00",
+        "status": 200,
+        "finalUrl": "https://10th.twreporter.org",
+        "bytesRead": 70118,
+        "title": "報導者十週年｜深度求真 眾聲同行"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-reporter-10th-anniversary",
+          "url": "https://10th.twreporter.org",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://10th.twreporter.org",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 2926,
+          "sha256": "6a2247e55c8dfaf1d6980c08adffe9c86ad0085d0ffdc97b38af5a5355be7862"
+        },
+        {
+          "id": "add-reporter-10th-anniversary",
+          "url": "https://10th.twreporter.org",
+          "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2F10th.twreporter.org?w=1200",
+          "provider": "Automattic mShots",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 800,
+          "height": 600,
+          "bytes": 12748,
+          "sha256": "22a563b72e6738e02f96f4f62bc5fef358645a674a9980d2eb353d97e0502c6f"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "截图仅呈现开场过场文字，未形成可供学习的完整页面。"
+    },
+    {
+      "id": "add-tears-font",
+      "name": "淚體 - justfont",
+      "url": "https://justfont.com/tearsfont/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/tears-font",
+      "discoveryBundle": "https://twdc.design/assets/sites_202601221357-DCgNV8d-.js",
+      "sourceEvidence": {
+        "name": "淚體 - justfont",
+        "url": "https://justfont.com/tearsfont/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202601221357/desktop/Tears-Font.jpg"
+      },
+      "linkCheck": {
+        "id": "add-tears-font",
+        "url": "https://justfont.com/tearsfont/",
+        "verifiedAt": "2026-10-05T02:10:39.658058+00:00",
+        "status": 200,
+        "finalUrl": "https://justfont.com/tearsfont/",
+        "bytesRead": 39194,
+        "title": "淚體 - justfont"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-tears-font",
+          "url": "https://justfont.com/tearsfont/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://justfont.com/tearsfont/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 16446,
+          "sha256": "2efe37377afd3be3b4d83fbf2829657b3dbd578f8d10fe2539f0315a42278028"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "同一字体品牌已有更清楚的兰阳黑体页面；本截图未完整呈现正文层级。"
+    },
+    {
+      "id": "add-studio-ordinary",
+      "name": "平凡製作 Studio Ordinary",
+      "url": "https://studioordinary.tw/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/studio-ordinary",
+      "discoveryBundle": "https://twdc.design/assets/sites_202601221357-DCgNV8d-.js",
+      "sourceEvidence": {
+        "name": "平凡製作 Studio Ordinary",
+        "url": "https://studioordinary.tw/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202601221357/desktop/Studio-Ordinary.jpg"
+      },
+      "linkCheck": {
+        "id": "add-studio-ordinary",
+        "url": "https://studioordinary.tw/",
+        "verifiedAt": "2026-10-05T02:10:39.707422+00:00",
+        "status": 200,
+        "finalUrl": "https://studioordinary.tw/",
+        "bytesRead": 94455,
+        "title": "平凡製作 studio ordinary"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-studio-ordinary",
+          "url": "https://studioordinary.tw/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://studioordinary.tw/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 3252,
+          "sha256": "d9881f8afc4e1ab9356cbc8f014b3905eded24ca5dca40fa829968ff37ecf46c"
+        },
+        {
+          "id": "add-studio-ordinary",
+          "url": "https://studioordinary.tw/",
+          "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fstudioordinary.tw%2F?w=1200",
+          "provider": "Automattic mShots",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 800,
+          "height": 600,
+          "bytes": 108222,
+          "sha256": "2ca7ae26e42469b1cf4389b4169f8bc55404a6a4accddc786052a1711b8a11aa"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "截图仅呈现品牌开场标志与背景，缺少完整作品页面。"
+    },
+    {
+      "id": "add-cardledge",
+      "name": "Cardledge 卡知識",
+      "url": "https://www.cardledge.com/",
+      "language": "en",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/cardledge",
+      "discoveryBundle": "https://twdc.design/assets/sites_202601261451-Dynxldk9.js",
+      "sourceEvidence": {
+        "name": "Cardledge 卡知識",
+        "url": "https://www.cardledge.com/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202601261451/desktop/Cardledge.jpg"
+      },
+      "linkCheck": {
+        "id": "add-cardledge",
+        "url": "https://www.cardledge.com/",
+        "verifiedAt": "2026-10-05T02:10:40.603992+00:00",
+        "status": 200,
+        "finalUrl": "https://www.cardledge.com/",
+        "bytesRead": 44325,
+        "title": "Cardledge 卡知識官方網站"
+      },
+      "sourceCheck": {
+        "id": "add-cardledge",
+        "url": "https://twdc.design/work/cardledge",
+        "verifiedAt": "2026-10-05T02:17:39.109883+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/cardledge",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-cardledge",
+          "url": "https://www.cardledge.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.cardledge.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 612,
+          "sha256": "eecf62e25cda573fa6e59eee736eac5b6ad8181fe9fffd3874bd2c9f0eb1f99c"
+        },
+        {
+          "id": "add-cardledge",
+          "url": "https://www.cardledge.com/",
+          "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fwww.cardledge.com%2F?w=1200",
+          "provider": "Automattic mShots",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 800,
+          "height": 600,
+          "bytes": 21392,
+          "sha256": "9c064f20d6510a56960a67a97b10bb0ac63b00317739ed9d1fe593a2eb9c6e21"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-cardledge.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.cardledge.com/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "9c064f20d6510a56960a67a97b10bb0ac63b00317739ed9d1fe593a2eb9c6e21",
+        "bytes": 21392,
+        "width": 800,
+        "height": 600,
+        "review": "approved",
+        "observation": "米白背景左上以 Think Smarter 建立一句话主题，右侧三张彩色卡片斜向错落排列。顶部细小栏目与右下黄色入口形成稳定边界，图像通过角度和留白展示实体卡片的轻巧感。"
+      }
+    },
+    {
+      "id": "add-word-game",
+      "name": "《文字遊戲》",
+      "url": "https://wordgame.cc/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/word-game",
+      "discoveryBundle": "https://twdc.design/assets/sites_202601291033-CffF2cC_.js",
+      "sourceEvidence": {
+        "name": "《文字遊戲》",
+        "url": "https://wordgame.cc/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202601291033/desktop/Word-Game.jpg"
+      },
+      "linkCheck": {
+        "id": "add-word-game",
+        "url": "https://wordgame.cc/",
+        "verifiedAt": "2026-10-05T02:10:40.909426+00:00",
+        "status": 200,
+        "finalUrl": "https://wordgame.cc/",
+        "bytesRead": 182825,
+        "title": "《文字遊戲》官方網站"
+      },
+      "sourceCheck": {
+        "id": "add-word-game",
+        "url": "https://twdc.design/work/word-game",
+        "verifiedAt": "2026-10-05T02:17:39.113242+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/word-game",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-word-game",
+          "url": "https://wordgame.cc/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://wordgame.cc/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 11416,
+          "sha256": "454b16093ff921a9944e9b188ee1a3249759500310f9a2615e820d70af269089"
+        },
+        {
+          "id": "add-word-game",
+          "url": "https://wordgame.cc/",
+          "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fwordgame.cc%2F?w=1200",
+          "provider": "Automattic mShots",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 800,
+          "height": 600,
+          "bytes": 32720,
+          "sha256": "ea530a246bdf0880e8b10923ce229f97750cb57a1efae782f7e6c00695cef463"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-word-game.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://wordgame.cc/",
+        "captureProvider": "Automattic mShots",
+        "sha256": "ea530a246bdf0880e8b10923ce229f97750cb57a1efae782f7e6c00695cef463",
+        "bytes": 32720,
+        "width": 800,
+        "height": 600,
+        "review": "approved",
+        "observation": "黑色背景上密集的灰色汉字围绕白色像素风标题展开，中文短句直接说明玩法。底部细线矩形将游戏介绍、团队、奖项和 FAQ 排成一行，强调了实验视觉与可用导航并存的可能。"
+      }
+    },
+    {
+      "id": "add-o-oo",
+      "name": "O.OO",
+      "url": "https://odotoo.com/",
+      "language": "en",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/o-oo",
+      "discoveryBundle": "https://twdc.design/assets/sites_202602021034-CA7O0m3V.js",
+      "sourceEvidence": {
+        "name": "O.OO",
+        "url": "https://odotoo.com/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202602021034/desktop/O.OO.jpg"
+      },
+      "linkCheck": {
+        "id": "add-o-oo",
+        "url": "https://odotoo.com/",
+        "verifiedAt": "2026-10-05T02:10:42.216774+00:00",
+        "status": 200,
+        "finalUrl": "https://odotoo.com/",
+        "bytesRead": 188140,
+        "title": "O.OO"
+      },
+      "sourceCheck": {
+        "id": "add-o-oo",
+        "url": "https://twdc.design/work/o-oo",
+        "verifiedAt": "2026-10-05T02:15:07.151774+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/o-oo",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-o-oo",
+          "url": "https://odotoo.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://odotoo.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 16030,
+          "sha256": "ae5b16d725cb0671eb2860549e63c2e7d50daba8d97e27414316bcd00a71d0c7"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-o-oo.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://odotoo.com/",
+        "captureProvider": "Thum.io",
+        "sha256": "ae5b16d725cb0671eb2860549e63c2e7d50daba8d97e27414316bcd00a71d0c7",
+        "bytes": 16030,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "左侧窄栏用大号文字、表情符号和细分隔线介绍工作室，右侧则由黄、蓝、粉、黑色块占据主要空间。文字与图形的密度形成强烈对照，适合学习固定信息栏如何陪衬实验性作品。"
+      }
+    },
+    {
+      "id": "add-taichung-green-museumbrary",
+      "name": "臺中綠美圖",
+      "url": "https://tgm.taichung.gov.tw/zh",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/taichung-green-museumbrary",
+      "discoveryBundle": "https://twdc.design/assets/sites_202602082350-DesncoWy.js",
+      "sourceEvidence": {
+        "name": "臺中綠美圖",
+        "url": "https://tgm.taichung.gov.tw/zh",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202602082350/desktop/Taichung-Green-Museumbrary.jpg"
+      },
+      "linkCheck": {
+        "id": "add-taichung-green-museumbrary",
+        "url": "https://tgm.taichung.gov.tw/zh",
+        "verifiedAt": "2026-10-05T02:10:42.740867+00:00",
+        "status": 200,
+        "finalUrl": "https://tgm.taichung.gov.tw/zh",
+        "bytesRead": 156899,
+        "title": "臺中綠美圖"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-taichung-green-museumbrary",
+          "url": "https://tgm.taichung.gov.tw/zh",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://tgm.taichung.gov.tw/zh",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 21578,
+          "sha256": "71534b1222a5b28bf29b98b08d99b99ed6cc301e7bd827ee4b21b760fa7be799"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "与同批臺中市立美術館空间及排版方向近似，保留信息更完整的一例。"
+    },
+    {
+      "id": "add-fountain-magazine",
+      "name": "新活水 Fountain",
+      "url": "https://www.fountain.org.tw/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/fountain-magazine",
+      "discoveryBundle": "https://twdc.design/assets/sites_202602082350-DesncoWy.js",
+      "sourceEvidence": {
+        "name": "新活水 Fountain",
+        "url": "https://www.fountain.org.tw/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202602082350/desktop/Fountain-Magazine.jpg"
+      },
+      "linkCheck": {
+        "id": "add-fountain-magazine",
+        "url": "https://www.fountain.org.tw/",
+        "verifiedAt": "2026-10-05T02:10:43.910085+00:00",
+        "status": 200,
+        "finalUrl": "https://www.fountain.org.tw/",
+        "bytesRead": 53255
+      },
+      "sourceCheck": {
+        "id": "add-fountain-magazine",
+        "url": "https://twdc.design/work/fountain-magazine",
+        "verifiedAt": "2026-10-05T02:15:07.156805+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/fountain-magazine",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-fountain-magazine",
+          "url": "https://www.fountain.org.tw/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.fountain.org.tw/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 18926,
+          "sha256": "c857d2ec7974815ccd0d45b1fece45f451fd9942f3688e28156c216710d44a23"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-fountain-magazine.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.fountain.org.tw/",
+        "captureProvider": "Thum.io",
+        "sha256": "c857d2ec7974815ccd0d45b1fece45f451fd9942f3688e28156c216710d44a23",
+        "bytes": 18926,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "米色背景上放大并裁切的斜体 fountain 字样占据首屏，下方中文说明保持较小尺度。顶栏以黑色文字和图标排列栏目与订阅入口，页面用文字的曲线与留白营造杂志气质。"
+      }
+    },
+    {
+      "id": "add-taipei-performing-arts-center",
+      "name": "臺北表演藝術中心",
+      "url": "https://tpac.org.taipei/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/taipei-performing-arts-center",
+      "discoveryBundle": "https://twdc.design/assets/sites_202602082350-DesncoWy.js",
+      "sourceEvidence": {
+        "name": "臺北表演藝術中心",
+        "url": "https://tpac.org.taipei/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202602082350/desktop/Taipei-Performing-Arts-Center.jpg"
+      },
+      "linkCheck": {
+        "id": "add-taipei-performing-arts-center",
+        "url": "https://tpac.org.taipei/",
+        "verifiedAt": "2026-10-05T02:10:44.082845+00:00",
+        "status": 200,
+        "finalUrl": "https://tpac.org.taipei/",
+        "bytesRead": 750000,
+        "title": "● 臺北表演藝術中心 ●"
+      },
+      "sourceCheck": {
+        "id": "add-taipei-performing-arts-center",
+        "url": "https://twdc.design/work/taipei-performing-arts-center",
+        "verifiedAt": "2026-10-05T02:15:07.176201+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/taipei-performing-arts-center",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-taipei-performing-arts-center",
+          "url": "https://tpac.org.taipei/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://tpac.org.taipei/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 20136,
+          "sha256": "ba97ef717d26af5d31b6623023d25e65f70433b83a5e4397dce0585106038e5e"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-taipei-performing-arts-center.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://tpac.org.taipei/",
+        "captureProvider": "Thum.io",
+        "sha256": "ba97ef717d26af5d31b6623023d25e65f70433b83a5e4397dce0585106038e5e",
+        "bytes": 20136,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "演出照片被裁成大幅圆弧形，占据页面左侧；右侧以黑色标题、短说明和紫色圆形箭头形成清楚的阅读顺序。顶部两层细导航容纳机构服务，而中间仍为单个节目保留充足展示空间。"
+      }
+    },
+    {
+      "id": "add-kdan",
+      "name": "KDAN 凱鈿",
+      "url": "https://www.kdan.com/zh-tw",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/kdan",
+      "discoveryBundle": "https://twdc.design/assets/sites_202602261015-B6vq5kxA.js",
+      "sourceEvidence": {
+        "name": "KDAN 凱鈿",
+        "url": "https://www.kdan.com/zh-tw",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202602261015/desktop/kdan.jpg"
+      },
+      "linkCheck": {
+        "id": "add-kdan",
+        "url": "https://www.kdan.com/zh-tw",
+        "verifiedAt": "2026-10-05T02:10:45.016547+00:00",
+        "status": 200,
+        "finalUrl": "https://www.kdan.com/zh-tw",
+        "bytesRead": 166757,
+        "title": "KDAN 凱鈿 | AI 化工作流程服務領導品牌"
+      },
+      "sourceCheck": {
+        "id": "add-kdan",
+        "url": "https://twdc.design/work/kdan",
+        "verifiedAt": "2026-10-05T02:15:07.192599+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/kdan",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-kdan",
+          "url": "https://www.kdan.com/zh-tw",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.kdan.com/zh-tw",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 20496,
+          "sha256": "87b8ed94db23eb498a006a89e562399eedec2537307e773a7326f5ddafe7c908"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-kdan.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.kdan.com/zh-tw",
+        "captureProvider": "Thum.io",
+        "sha256": "87b8ed94db23eb498a006a89e562399eedec2537307e773a7326f5ddafe7c908",
+        "bytes": 20496,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "深蓝绿首屏内，两侧绿色折页状图形向中央聚拢，中文标题与说明被包围在中间。亮黄色主要按钮与深色次要按钮形成对比，上方产品栏与品牌栏分层排列，减少了多产品入口的混杂。"
+      }
+    },
+    {
+      "id": "add-verse",
+      "name": "VERSE",
+      "url": "https://www.verse.com.tw/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/verse",
+      "discoveryBundle": "https://twdc.design/assets/sites_202603090942-B7VvPkom.js",
+      "sourceEvidence": {
+        "name": "VERSE",
+        "url": "https://www.verse.com.tw/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202603090942/desktop/VERSE.jpg"
+      },
+      "linkCheck": {
+        "id": "add-verse",
+        "url": "https://www.verse.com.tw/",
+        "verifiedAt": "2026-10-05T02:10:47.282380+00:00",
+        "status": 200,
+        "finalUrl": "https://www.verse.com.tw/",
+        "bytesRead": 120947,
+        "title": "屬於我們時代的文化媒體 - VERSE"
+      },
+      "sourceCheck": {
+        "id": "add-verse",
+        "url": "https://twdc.design/work/verse",
+        "verifiedAt": "2026-10-05T02:15:07.234479+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/verse",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-verse",
+          "url": "https://www.verse.com.tw/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.verse.com.tw/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 24890,
+          "sha256": "7553e6e8101afcdb95a794b63c520c6613cbb03d62ee676e0f18928a0b6e86e7"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-verse.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.verse.com.tw/",
+        "captureProvider": "Thum.io",
+        "sha256": "7553e6e8101afcdb95a794b63c520c6613cbb03d62ee676e0f18928a0b6e86e7",
+        "bytes": 24890,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "大号衬线 VERSE 标志与醒目的日期并列，横线划分版头、栏目和正文。首篇文章采用标题在上、摄影在下的清楚顺序，适合观察传统刊物元素怎样转化为网页的阅读层级。"
+      }
+    },
+    {
+      "id": "add-ting-an-ho",
+      "name": "何庭安 Ting-An Ho",
+      "url": "https://tinganho.info/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/ting-an-ho",
+      "discoveryBundle": "https://twdc.design/assets/sites_202603121627-IoDiPdd7.js",
+      "sourceEvidence": {
+        "name": "何庭安 Ting-An Ho",
+        "url": "https://tinganho.info/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202603121627/desktop/Ting-An-Ho.jpg"
+      },
+      "linkCheck": {
+        "id": "add-ting-an-ho",
+        "url": "https://tinganho.info/",
+        "verifiedAt": "2026-10-05T02:10:47.282744+00:00",
+        "status": 200,
+        "finalUrl": "https://tinganho.info/",
+        "bytesRead": 174452,
+        "title": "何庭安 tinganho.info"
+      },
+      "sourceCheck": {
+        "id": "add-ting-an-ho",
+        "url": "https://twdc.design/work/ting-an-ho",
+        "verifiedAt": "2026-10-05T02:15:07.260624+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/ting-an-ho",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-ting-an-ho",
+          "url": "https://tinganho.info/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://tinganho.info/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 17584,
+          "sha256": "4712f74a33bf458411cb90e555dc63a40f109e67207d55c0687a6d2807c3cf2e"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "截图技术上可用，但为控制规模及减少相近构图，本批优先收录其他更有辨识度的案例。"
+    },
+    {
+      "id": "add-moom",
+      "name": "moom bookshop",
+      "url": "https://moom.com.tw/tw",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/03-moom-bookshop",
+      "discoveryBundle": "https://twdc.design/assets/sites_202603161227-B0w5i6i0.js",
+      "sourceEvidence": {
+        "name": "moom bookshop",
+        "url": "https://moom.com.tw/tw",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202603161227/desktop/03-moom-bookshop.jpg"
+      },
+      "linkCheck": {
+        "id": "add-moom",
+        "url": "https://moom.com.tw/tw",
+        "verifiedAt": "2026-10-05T02:10:48.418912+00:00",
+        "status": 200,
+        "finalUrl": "https://moom.com.tw/tw",
+        "bytesRead": 133431,
+        "title": "moom bookshop - 藝術書籍與雜誌"
+      },
+      "sourceCheck": {
+        "id": "add-moom",
+        "url": "https://twdc.design/work/03-moom-bookshop",
+        "verifiedAt": "2026-10-05T02:15:12.552558+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/03-moom-bookshop",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-03-moom-bookshop",
+          "url": "https://moom.com.tw/tw",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://moom.com.tw/tw",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 29182,
+          "sha256": "7ec31092547e7b9c079751bbe65f20f1a2c26942bbbc221e1eb37538da5e082f"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-moom.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://moom.com.tw/tw",
+        "captureProvider": "Thum.io",
+        "sha256": "7ec31092547e7b9c079751bbe65f20f1a2c26942bbbc221e1eb37538da5e082f",
+        "bytes": 29182,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "白色顶栏下的大型书籍专题卡片横向展开，中央主图和两侧露出的下一张卡片形成浏览方向。专题说明直接压在图片下缘，后续商品区保留充足留白，让书本的色彩成为视觉重点。"
+      }
+    },
+    {
+      "id": "add-04-wangzhihong-co",
+      "name": "WANGZHIHONG CO.",
+      "url": "https://wangzhihong.com/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/04-wangzhihong-co",
+      "discoveryBundle": "https://twdc.design/assets/sites_202603161227-B0w5i6i0.js",
+      "sourceEvidence": {
+        "name": "WANGZHIHONG CO.",
+        "url": "https://wangzhihong.com/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202603161227/desktop/04-WANGZHIHONG-CO.jpg"
+      },
+      "linkCheck": {
+        "id": "add-04-wangzhihong-co",
+        "url": "https://wangzhihong.com/",
+        "verifiedAt": "2026-10-05T02:10:48.652099+00:00",
+        "status": 200,
+        "finalUrl": "https://wangzhihong.com/",
+        "bytesRead": 169209,
+        "title": "WANGZHIHONG CO."
+      },
+      "sourceCheck": {
+        "id": "add-04-wangzhihong-co",
+        "url": "https://twdc.design/work/04-wangzhihong-co",
+        "verifiedAt": "2026-10-05T02:15:12.656445+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/04-wangzhihong-co",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-04-wangzhihong-co",
+          "url": "https://wangzhihong.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://wangzhihong.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 39332,
+          "sha256": "06be71e71cb6d6fdbc6ac0c124813c36929c8e69c67897eb56a9d6296f5aee2c"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "截图技术上可用，但为控制规模及减少相近构图，本批优先收录其他更有辨识度的案例。"
+    },
+    {
+      "id": "add-ultracombos",
+      "name": "ULTRACOMBOS",
+      "url": "https://ultracombos.com/zh-tw",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/ultracombos",
+      "discoveryBundle": "https://twdc.design/assets/sites_202603191026-Bd7LbAmR.js",
+      "sourceEvidence": {
+        "name": "ULTRACOMBOS",
+        "url": "https://ultracombos.com/zh-tw",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202603191026/desktop/ultracombos.jpg"
+      },
+      "linkCheck": {
+        "id": "add-ultracombos",
+        "url": "https://ultracombos.com/zh-tw",
+        "verifiedAt": "2026-10-05T02:10:49.223573+00:00",
+        "status": 200,
+        "finalUrl": "https://ultracombos.com/zh-tw",
+        "bytesRead": 71150,
+        "title": "ULTRACOMBOS - Art + Design Studio, creating timeless work with digital."
+      },
+      "captureAttempts": [
+        {
+          "id": "add-ultracombos",
+          "url": "https://ultracombos.com/zh-tw",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://ultracombos.com/zh-tw",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 1422,
+          "sha256": "487fdb11ba79939ac07f39fbacaa7d1005c7273f66ea33ce340feee8bb053ef9"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "仅导航和灰色背景可见，主要影像未完成加载。"
+    },
+    {
+      "id": "add-npac-ntch",
+      "name": "國家兩廳院",
+      "url": "https://npac-ntch.org/zh",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/npac-ntch",
+      "discoveryBundle": "https://twdc.design/assets/sites_202603191026-Bd7LbAmR.js",
+      "sourceEvidence": {
+        "name": "國家兩廳院",
+        "url": "https://npac-ntch.org/zh",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202603191026/desktop/npac-ntch.jpg"
+      },
+      "linkCheck": {
+        "id": "add-npac-ntch",
+        "url": "https://npac-ntch.org/zh",
+        "verifiedAt": "2026-10-05T02:10:49.766724+00:00",
+        "status": 200,
+        "finalUrl": "https://npac-ntch.org/zh",
+        "bytesRead": 5972,
+        "title": "國家兩廳院"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-npac-ntch",
+          "url": "https://npac-ntch.org/zh",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://npac-ntch.org/zh",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 26638,
+          "sha256": "d5f6662b8415341bbf9dc607f355a3df673efc4d3a14366c03cedf9e1493af2e"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "捕获在全屏开场影像阶段，缺少可审查的主要导航与内容。"
+    },
+    {
+      "id": "add-sitcon-2026-jam-the-chaos",
+      "name": "SITCON 2026 Jam the Chaos",
+      "url": "https://sitcon.org/2026/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/sitcon-2026-jam-the-chaos",
+      "discoveryBundle": "https://twdc.design/assets/sites_202604091647-CWaFichv.js",
+      "sourceEvidence": {
+        "name": "SITCON 2026 Jam the Chaos",
+        "url": "https://sitcon.org/2026/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202604091647/desktop/SITCON-2026-Jam-the-Chaos.jpg"
+      },
+      "linkCheck": {
+        "id": "add-sitcon-2026-jam-the-chaos",
+        "url": "https://sitcon.org/2026/",
+        "verifiedAt": "2026-10-05T02:10:50.687831+00:00",
+        "status": 200,
+        "finalUrl": "https://sitcon.org/2026/",
+        "bytesRead": 89039,
+        "title": "Jam the Chaos - SITCON 2026"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-sitcon-2026-jam-the-chaos",
+          "url": "https://sitcon.org/2026/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://sitcon.org/2026/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 14828,
+          "sha256": "cdabf84949cc5c775ed550e63580662c590bab2b7549bb4850258679821d3cd3"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "视觉完整但首屏主要为英文且本批文化活动已有多种构图，编辑筛选未收录。"
+    },
+    {
+      "id": "add-taipei-art-book-fair",
+      "name": "草率季 Taipei Art Book Fair",
+      "url": "https://taipeiartbookfair.com/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/03-taipei-art-book-fair",
+      "discoveryBundle": "https://twdc.design/assets/sites_202604131358-9nr3sSKX.js",
+      "sourceEvidence": {
+        "name": "草率季 Taipei Art Book Fair",
+        "url": "https://taipeiartbookfair.com/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202604131358/desktop/03-taipei-art-book-fair.jpg"
+      },
+      "linkCheck": {
+        "id": "add-taipei-art-book-fair",
+        "url": "https://taipeiartbookfair.com/",
+        "verifiedAt": "2026-10-05T02:10:53.190852+00:00",
+        "status": 200,
+        "finalUrl": "https://taipeiartbookfair.com/",
+        "bytesRead": 27307,
+        "title": "草率季 Taipei Art Book Fair"
+      },
+      "sourceCheck": {
+        "id": "add-taipei-art-book-fair",
+        "url": "https://twdc.design/work/03-taipei-art-book-fair",
+        "verifiedAt": "2026-10-05T02:15:12.698193+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/03-taipei-art-book-fair",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-03-taipei-art-book-fair",
+          "url": "https://taipeiartbookfair.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://taipeiartbookfair.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 64474,
+          "sha256": "061e691dae094434d299dc80f3f3253205fc7916d28728c916f76227380d2b4c"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-taipei-art-book-fair.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://taipeiartbookfair.com/",
+        "captureProvider": "Thum.io",
+        "sha256": "061e691dae094434d299dc80f3f3253205fc7916d28728c916f76227380d2b4c",
+        "bytes": 64474,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "灰底页面以黑色细框划成多栏，顶部 HOME、STORE、ABOUT 用黄色椭圆强调。中央海报、右侧活动日程与左侧索引同时呈现，形成接近独立刊物拼版的高密度视觉。"
+      }
+    },
+    {
+      "id": "add-01-sorry-youth",
+      "name": "拍謝少年 SORRY YOUTH",
+      "url": "https://www.sorryyouth.com/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/01-sorry-youth",
+      "discoveryBundle": "https://twdc.design/assets/sites_202604160937-JIjyBol1.js",
+      "sourceEvidence": {
+        "name": "拍謝少年 SORRY YOUTH",
+        "url": "https://www.sorryyouth.com/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202604160937/desktop/01-Sorry-Youth.jpg"
+      },
+      "linkCheck": {
+        "id": "add-01-sorry-youth",
+        "url": "https://www.sorryyouth.com/",
+        "verifiedAt": "2026-10-05T02:10:53.206225+00:00",
+        "status": 200,
+        "finalUrl": "https://www.sorryyouth.com/",
+        "bytesRead": 36257,
+        "title": "拍謝少年 SORRY YOUTH"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-01-sorry-youth",
+          "url": "https://www.sorryyouth.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.sorryyouth.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 1962,
+          "sha256": "92a64a81ffda9408c72224c77bc25c8a63ba826d47343d01fc3ea44dbb090c8d"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "停留在黄色背景和小型加载动画。"
+    },
+    {
+      "id": "add-reporter-kids",
+      "name": "少年報導者",
+      "url": "https://kids.twreporter.org/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/04-reporter-for-kids",
+      "discoveryBundle": "https://twdc.design/assets/sites_202604160937-JIjyBol1.js",
+      "sourceEvidence": {
+        "name": "少年報導者",
+        "url": "https://kids.twreporter.org/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202604160937/desktop/04-Reporter-For-Kids.jpg"
+      },
+      "linkCheck": {
+        "id": "add-reporter-kids",
+        "url": "https://kids.twreporter.org/",
+        "verifiedAt": "2026-10-05T02:10:55.240842+00:00",
+        "status": 200,
+        "finalUrl": "https://kids.twreporter.org/",
+        "bytesRead": 174766,
+        "title": "少年報導者 The Reporter for Kids - 理解世界 參與未來"
+      },
+      "sourceCheck": {
+        "id": "add-reporter-kids",
+        "url": "https://twdc.design/work/04-reporter-for-kids",
+        "verifiedAt": "2026-10-05T02:15:12.712127+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/04-reporter-for-kids",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-04-reporter-for-kids",
+          "url": "https://kids.twreporter.org/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://kids.twreporter.org/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 23208,
+          "sha256": "18d4d2a7d452d532480e35ebc92977d187871533610147c71a7fc6b39f715726"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-reporter-kids.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://kids.twreporter.org/",
+        "captureProvider": "Thum.io",
+        "sha256": "18d4d2a7d452d532480e35ebc92977d187871533610147c71a7fc6b39f715726",
+        "bytes": 23208,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "浅灰页面使用大圆角白色专题卡片，左图右文保持容易扫读的结构。粉色箭头和底部蓝黄角色插画增加亲近感，较轻的装饰没有抢走新闻标题与阅读按钮的主次关系。"
+      }
+    },
+    {
+      "id": "add-artouch",
+      "name": "典藏 ARTouch",
+      "url": "https://artouch.com/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/artouch",
+      "discoveryBundle": "https://twdc.design/assets/sites_202604271503-C2dLMphr.js",
+      "sourceEvidence": {
+        "name": "典藏 ARTouch",
+        "url": "https://artouch.com/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202604271503/desktop/artouch.jpg"
+      },
+      "linkCheck": {
+        "id": "add-artouch",
+        "url": "https://artouch.com/",
+        "verifiedAt": "2026-10-05T02:10:55.447713+00:00",
+        "status": 200,
+        "finalUrl": "https://artouch.com/",
+        "bytesRead": 258575,
+        "title": "藝術新聞與深度評論、藝術市場、線上展廳 | 典藏ARTouch.com"
+      },
+      "sourceCheck": {
+        "id": "add-artouch",
+        "url": "https://twdc.design/work/artouch",
+        "verifiedAt": "2026-10-05T02:15:12.713201+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/artouch",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-artouch",
+          "url": "https://artouch.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://artouch.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 58834,
+          "sha256": "70f3744ca805bc34fe7332560a7765bd618a8ef42465f3f897885a53f9ad8e78"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "截图技术上可用，但为控制规模及减少相近构图，本批优先收录其他更有辨识度的案例。"
+    },
+    {
+      "id": "add-brandinlabs",
+      "name": "BRANDinLABS 品牌癮",
+      "url": "https://www.brandinlabs.com/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/brandinlabs",
+      "discoveryBundle": "https://twdc.design/assets/sites_202605140959-DudMvfsr.js",
+      "sourceEvidence": {
+        "name": "BRANDinLABS 品牌癮",
+        "url": "https://www.brandinlabs.com/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202605140959/desktop/Brandinlabs.jpg"
+      },
+      "linkCheck": {
+        "id": "add-brandinlabs",
+        "url": "https://www.brandinlabs.com/",
+        "verifiedAt": "2026-10-05T02:10:55.641820+00:00",
+        "status": 200,
+        "finalUrl": "https://www.brandinlabs.com/",
+        "bytesRead": 226638,
+        "title": "BRANDinLABS 品牌癮－專業品牌趨勢媒體｜法博思品牌顧問"
+      },
+      "sourceCheck": {
+        "id": "add-brandinlabs",
+        "url": "https://twdc.design/work/brandinlabs",
+        "verifiedAt": "2026-10-05T02:15:12.713731+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/brandinlabs",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-brandinlabs",
+          "url": "https://www.brandinlabs.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.brandinlabs.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 33604,
+          "sha256": "058adb41b200dc20813076bec49fde1648dda7f844cd067240270984432b3139"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-brandinlabs.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.brandinlabs.com/",
+        "captureProvider": "Thum.io",
+        "sha256": "058adb41b200dc20813076bec49fde1648dda7f844cd067240270984432b3139",
+        "bytes": 33604,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "黄色品牌栏之下是两张并排的重点文章卡片，图片下部的深色渐变承托白色标题。次级文章以更小的缩略图成排出现，主次内容通过尺寸而不是复杂样式区分。"
+      }
+    },
+    {
+      "id": "add-simpany",
+      "name": "Simpany 簡單開公司",
+      "url": "https://simpany.co/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/simpany",
+      "discoveryBundle": "https://twdc.design/assets/sites_202605182012-CYj_rlVS.js",
+      "sourceEvidence": {
+        "name": "Simpany 簡單開公司",
+        "url": "https://simpany.co/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202605182012/desktop/Simpany.jpg"
+      },
+      "linkCheck": {
+        "id": "add-simpany",
+        "url": "https://simpany.co/",
+        "verifiedAt": "2026-10-05T02:10:55.867911+00:00",
+        "status": 200,
+        "finalUrl": "https://simpany.co/",
+        "bytesRead": 108391,
+        "title": "財稅服務與數位工具，一站搞定！ - Simpany 簡單開公司"
+      },
+      "sourceCheck": {
+        "id": "add-simpany",
+        "url": "https://twdc.design/work/simpany",
+        "verifiedAt": "2026-10-05T02:15:12.714455+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/simpany",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-simpany",
+          "url": "https://simpany.co/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://simpany.co/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 26468,
+          "sha256": "1a626b26f19d3e604b0e2645da5771f905f9ffcb9bd9ef574ce38785123dcbd9"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-simpany.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://simpany.co/",
+        "captureProvider": "Thum.io",
+        "sha256": "1a626b26f19d3e604b0e2645da5771f905f9ffcb9bd9ef574ce38785123dcbd9",
+        "bytes": 26468,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "白色首屏以黑色中文标题解释服务，橙色品牌名与申请按钮彼此呼应。下方人物、文件和存钱罐插画形成轻松的横向场景，将专业服务拆解为用户熟悉的对象。"
+      }
+    },
+    {
+      "id": "add-formless-order",
+      "name": "無形序 Formless Order",
+      "url": "https://formlessorder.pages.dev/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/formless-order",
+      "discoveryBundle": "https://twdc.design/assets/sites_202606101032-DO0V0y9c.js",
+      "sourceEvidence": {
+        "name": "無形序 Formless Order",
+        "url": "https://formlessorder.pages.dev/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202606101032/desktop/formless-order.jpg"
+      },
+      "linkCheck": {
+        "id": "add-formless-order",
+        "url": "https://formlessorder.pages.dev/",
+        "verifiedAt": "2026-10-05T02:10:56.288199+00:00",
+        "status": 200,
+        "finalUrl": "https://formlessorder.pages.dev/",
+        "bytesRead": 396777,
+        "title": "無形序 Formless Order"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-formless-order",
+          "url": "https://formlessorder.pages.dev/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://formlessorder.pages.dev/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "failed",
+          "error": "The read operation timed out"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "截图请求超时，无可审查图像。"
+    },
+    {
+      "id": "add-a-ling",
+      "name": "阿檸 a.ling",
+      "url": "https://www.a-ling.com/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/a-ling",
+      "discoveryBundle": "https://twdc.design/assets/sites_202606241346-rsvlXIfB.js",
+      "sourceEvidence": {
+        "name": "阿檸 a.ling",
+        "url": "https://www.a-ling.com/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202606241346/desktop/a-ling.jpg"
+      },
+      "linkCheck": {
+        "id": "add-a-ling",
+        "url": "https://www.a-ling.com/",
+        "verifiedAt": "2026-10-05T02:10:56.892331+00:00",
+        "status": 200,
+        "finalUrl": "https://www.a-ling.com/",
+        "bytesRead": 228915,
+        "title": "阿檸 a.ling | 最強爆打檸檬手搖飲"
+      },
+      "sourceCheck": {
+        "id": "add-a-ling",
+        "url": "https://twdc.design/work/a-ling",
+        "verifiedAt": "2026-10-05T02:15:12.714694+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/a-ling",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-a-ling",
+          "url": "https://www.a-ling.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.a-ling.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 28650,
+          "sha256": "8f590e1a7009c53d677043e13510dd3b5cfa7d1500a24511870bc36ece879ba2"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-a-ling.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.a-ling.com/",
+        "captureProvider": "Thum.io",
+        "sha256": "8f590e1a7009c53d677043e13510dd3b5cfa7d1500a24511870bc36ece879ba2",
+        "bytes": 28650,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "绿色渐变背景中，两杯饮料倾斜穿插在大号白色衬线标题之间，切片柠檬和冰块补充细节。中文说明与小幅人物视频缩略图各占一角，产品始终保持最强的视觉重量。"
+      }
+    },
+    {
+      "id": "add-sseedd",
+      "name": "sseedd 種種",
+      "url": "https://www.sseedd.com.tw/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/sseedd",
+      "discoveryBundle": "https://twdc.design/assets/sites_202607011401-DRes1Z9A.js",
+      "sourceEvidence": {
+        "name": "sseedd 種種",
+        "url": "https://www.sseedd.com.tw/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202607011401/desktop/sseedd.jpg"
+      },
+      "linkCheck": {
+        "id": "add-sseedd",
+        "url": "https://www.sseedd.com.tw/",
+        "verifiedAt": "2026-10-05T02:10:58.036929+00:00",
+        "status": 200,
+        "finalUrl": "https://www.sseedd.com.tw/",
+        "bytesRead": 51370,
+        "title": "sseedd 種種"
+      },
+      "sourceCheck": {
+        "id": "add-sseedd",
+        "url": "https://twdc.design/work/sseedd",
+        "verifiedAt": "2026-10-05T02:15:12.714919+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/sseedd",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-sseedd",
+          "url": "https://www.sseedd.com.tw/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.sseedd.com.tw/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 16778,
+          "sha256": "3dc747efe561142e081028b2004ea1a04d7fa903dc7d36bef141f499247a1825"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-sseedd.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.sseedd.com.tw/",
+        "captureProvider": "Thum.io",
+        "sha256": "3dc747efe561142e081028b2004ea1a04d7fa903dc7d36bef141f499247a1825",
+        "bytes": 16778,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "深绿色背景延续到导航，罐装产品、汤匙和食材照片沿画面下缘展开。弧形中文标语位于中央，亮色西文字作为背景层补充节奏，体现品牌色如何统一不同材质的摄影元素。"
+      }
+    },
+    {
+      "id": "add-moodmons",
+      "name": "MoodMons 情緒怪獸",
+      "url": "https://moodmons.app",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/moodmons",
+      "discoveryBundle": "https://twdc.design/assets/sites_202607291436-BSWabMRu.js",
+      "sourceEvidence": {
+        "name": "MoodMons 情緒怪獸",
+        "url": "https://moodmons.app",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202607291436/desktop/MoodMons.jpg"
+      },
+      "linkCheck": {
+        "id": "add-moodmons",
+        "url": "https://moodmons.app",
+        "verifiedAt": "2026-10-05T02:10:59.920621+00:00",
+        "status": 200,
+        "finalUrl": "https://moodmons.app",
+        "bytesRead": 8031,
+        "title": "MoodMons - Capture moments. Meet your monsters."
+      },
+      "sourceCheck": {
+        "id": "add-moodmons",
+        "url": "https://twdc.design/work/moodmons",
+        "verifiedAt": "2026-10-05T02:15:12.732371+00:00",
+        "status": 200,
+        "finalUrl": "https://twdc.design/work/moodmons",
+        "bytesRead": 3039,
+        "title": "twdc｜一起看看台灣的好網站"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-moodmons",
+          "url": "https://moodmons.app",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://moodmons.app",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 10372,
+          "sha256": "8c1afe9870d76eb0d82fb1c92c8439440713144f6e7f45157ece17def6048b0c"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "截图技术上可用，但为控制规模及减少相近构图，本批优先收录其他更有辨识度的案例。"
+    },
+    {
+      "id": "add-jjp-architects",
+      "name": "JJP 潘冀聯合建築師事務所",
+      "url": "https://www.jjpan.com/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/jjp-architects",
+      "discoveryBundle": "https://twdc.design/assets/sites_202608051108-DumxG08A.js",
+      "sourceEvidence": {
+        "name": "JJP 潘冀聯合建築師事務所",
+        "url": "https://www.jjpan.com/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202608051108/desktop/JJP-Architects.jpg"
+      },
+      "linkCheck": {
+        "id": "add-jjp-architects",
+        "url": "https://www.jjpan.com/",
+        "verifiedAt": "2026-10-05T02:11:00.894290+00:00",
+        "status": 200,
+        "finalUrl": "https://www.jjpan.com/",
+        "bytesRead": 453161,
+        "title": "JJP Architects &amp; Planners 潘冀聯合建築師事務所"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-jjp-architects",
+          "url": "https://www.jjpan.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.jjpan.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 1102,
+          "sha256": "68c1e550777cdc0ed4ef8f92b6e3be1ecb66223d46cdeba4ca48f4f49f01f12c"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "停留在 JJP 标志加载画面。"
+    },
+    {
+      "id": "add-uuu-design",
+      "name": "UUU DESIGN INC.",
+      "url": "https://uuudesigninc.com/",
+      "language": "zh-TW",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/uuu-design",
+      "discoveryBundle": "https://twdc.design/assets/sites_202608051108-DumxG08A.js",
+      "sourceEvidence": {
+        "name": "UUU DESIGN INC.",
+        "url": "https://uuudesigninc.com/",
+        "desktopImage": "https://cztpircyo6ugf2cp.public.blob.vercel-storage.com/uploads/202608051108/desktop/UUU-Design.jpg"
+      },
+      "linkCheck": {
+        "id": "add-uuu-design",
+        "url": "https://uuudesigninc.com/",
+        "verifiedAt": "2026-10-05T02:11:01.256227+00:00",
+        "status": 200,
+        "finalUrl": "https://uuudesigninc.com/",
+        "bytesRead": 750000,
+        "title": "UUU DESIGN INC.｜商業空間設計・品牌空間規劃・室內設計"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-uuu-design",
+          "url": "https://uuudesigninc.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://uuudesigninc.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 2794,
+          "sha256": "c3fd56ed40929e5102bdd37dfedf5ef9afb9632211892954f37c6a6d8ffff513"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "停留在 UUU 标志进入画面。"
+    },
+    {
+      "id": "add-bluehe",
+      "name": "云心怀鹤",
+      "url": "https://bluehe.cn/",
+      "language": "zh-CN",
+      "sourceName": "HeoAwards 2025",
+      "sourceUrl": "https://blog.zhheo.com/p/5zo43meo.html",
+      "sourceEvidence": "Article has an explicit 云心怀鹤 section and links https://bluehe.cn/.",
+      "linkCheck": {
+        "id": "add-bluehe",
+        "url": "https://bluehe.cn/",
+        "verifiedAt": "2026-10-05T02:15:58.405318+00:00",
+        "status": 200,
+        "finalUrl": "https://bluehe.cn/",
+        "bytesRead": 47755,
+        "title": "云心怀鹤 - 寻真旅摄，笔墨纪实"
+      },
+      "sourceCheck": {
+        "id": "add-bluehe",
+        "url": "https://blog.zhheo.com/p/5zo43meo.html",
+        "verifiedAt": "2026-10-05T02:17:39.113844+00:00",
+        "status": 200,
+        "finalUrl": "https://blog.zhheo.com/p/5zo43meo.html",
+        "bytesRead": 190939,
+        "title": "HeoAwards2025：年度我喜欢的博主 | 张洪Heo"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-bluehe",
+          "url": "https://bluehe.cn/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://bluehe.cn/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 18464,
+          "sha256": "9359ef1d1d20e96564034448646b62a7ac1310b2e0b834599c21faa9cfdd90a8"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-bluehe.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://bluehe.cn/",
+        "captureProvider": "Thum.io",
+        "sha256": "9359ef1d1d20e96564034448646b62a7ac1310b2e0b834599c21faa9cfdd90a8",
+        "bytes": 18464,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "居中的窄版内容区依次排列站点标志、横幅和文章列表，深灰卡片与黑色背景形成轻微层次。每篇文章的照片放在左侧、文字放在右侧，以重复结构维持阅读节奏。"
+      }
+    },
+    {
+      "id": "add-weizwz",
+      "name": "唯知笔记",
+      "url": "https://note.weizwz.com/",
+      "language": "zh-CN",
+      "sourceName": "HeoAwards 2025",
+      "sourceUrl": "https://blog.zhheo.com/p/5zo43meo.html",
+      "sourceEvidence": "Article has an explicit 唯知笔记 section and links https://note.weizwz.com/.",
+      "linkCheck": {
+        "id": "add-weizwz",
+        "url": "https://note.weizwz.com/",
+        "verifiedAt": "2026-10-05T02:15:58.405963+00:00",
+        "status": 200,
+        "finalUrl": "https://note.weizwz.com/",
+        "bytesRead": 72711,
+        "title": "唯知笔记"
+      },
+      "sourceCheck": {
+        "id": "add-weizwz",
+        "url": "https://blog.zhheo.com/p/5zo43meo.html",
+        "verifiedAt": "2026-10-05T02:17:39.117186+00:00",
+        "status": 200,
+        "finalUrl": "https://blog.zhheo.com/p/5zo43meo.html",
+        "bytesRead": 190939,
+        "title": "HeoAwards2025：年度我喜欢的博主 | 张洪Heo"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-weizwz",
+          "url": "https://note.weizwz.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://note.weizwz.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 25650,
+          "sha256": "1c97282df3c450311d7ef79e953794e88d22bc0e096ecdc1d19768f4bf8e5925"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-weizwz.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://note.weizwz.com/",
+        "captureProvider": "Thum.io",
+        "sha256": "1c97282df3c450311d7ef79e953794e88d22bc0e096ecdc1d19768f4bf8e5925",
+        "bytes": 25650,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "浅灰背景将自我介绍和推荐阅读放在上方两块卡片中，下方最近更新使用等宽网格。蓝色小标题、软件图标与轻微边界共同标明信息层级，展示了技术内容首页如何兼顾导航与更新。"
+      }
+    },
+    {
+      "id": "add-akilar",
+      "name": "Akilarの糖果屋",
+      "url": "https://akilar.top/",
+      "language": "zh-CN",
+      "sourceName": "HeoAwards 2024",
+      "sourceUrl": "https://blog.zhheo.com/p/d0b6.html",
+      "sourceEvidence": "Article has an Akilar section and explicit 访问地址 https://akilar.top/.",
+      "linkCheck": {
+        "id": "add-akilar",
+        "url": "https://akilar.top/",
+        "verifiedAt": "2026-10-05T02:15:58.406412+00:00",
+        "status": 200,
+        "finalUrl": "https://akilar.top/",
+        "bytesRead": 126958,
+        "title": "Akilarの糖果屋 - Akilar.top"
+      },
+      "sourceCheck": {
+        "id": "add-akilar",
+        "url": "https://blog.zhheo.com/p/d0b6.html",
+        "verifiedAt": "2026-10-05T02:17:39.118259+00:00",
+        "status": 200,
+        "finalUrl": "https://blog.zhheo.com/p/d0b6.html",
+        "bytesRead": 187894,
+        "title": "HeoAwards2024：年度我喜欢的博主 | 张洪Heo"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-akilar",
+          "url": "https://akilar.top/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://akilar.top/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 24820,
+          "sha256": "066c3885a499ec315408fd77abe72b2b78417d05657500d640418fd272c1f9ad"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "有完整个性化视觉，但底部浮层和较重暗化降低本批截图清晰度，编辑筛选未收录。"
+    },
+    {
+      "id": "add-gaicas",
+      "name": "草东日记",
+      "url": "https://www.gaicas.com/",
+      "language": "zh-CN",
+      "sourceName": "HeoAwards 2024",
+      "sourceUrl": "https://blog.zhheo.com/p/d0b6.html",
+      "sourceEvidence": "Article has a 草东日记 section and explicit 访问地址 https://www.gaicas.com/.",
+      "linkCheck": {
+        "id": "add-gaicas",
+        "url": "https://www.gaicas.com/",
+        "verifiedAt": "2026-10-05T02:15:58.406928+00:00",
+        "status": 200,
+        "finalUrl": "https://www.gaicas.com/",
+        "bytesRead": 98818,
+        "title": "草东日记"
+      },
+      "sourceCheck": {
+        "id": "add-gaicas",
+        "url": "https://blog.zhheo.com/p/d0b6.html",
+        "verifiedAt": "2026-10-05T02:17:39.118645+00:00",
+        "status": 200,
+        "finalUrl": "https://blog.zhheo.com/p/d0b6.html",
+        "bytesRead": 187894,
+        "title": "HeoAwards2024：年度我喜欢的博主 | 张洪Heo"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-gaicas",
+          "url": "https://www.gaicas.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.gaicas.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 11842,
+          "sha256": "bd84103392ebab18408fa73076e48d53f8c4e942ba17670eb654de073be221f1"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "截图主要是大幅人物照片，文章结构没有进入首屏，未达到本批学习案例的信息完整度。"
+    },
+    {
+      "id": "add-chrison",
+      "name": "目的地 Destination",
+      "url": "https://chrison.cn/",
+      "language": "zh-CN",
+      "sourceName": "HeoAwards 2024",
+      "sourceUrl": "https://blog.zhheo.com/p/d0b6.html",
+      "sourceEvidence": "Article has a 目的地-Destination section and explicit 访问地址 https://chrison.cn/.",
+      "linkCheck": {
+        "id": "add-chrison",
+        "url": "https://chrison.cn/",
+        "verifiedAt": "2026-10-05T02:15:58.407438+00:00",
+        "status": 200,
+        "finalUrl": "https://chrison.cn/",
+        "bytesRead": 199896,
+        "title": "目的地-Destination"
+      },
+      "sourceCheck": {
+        "id": "add-chrison",
+        "url": "https://blog.zhheo.com/p/d0b6.html",
+        "verifiedAt": "2026-10-05T02:17:46.657708+00:00",
+        "status": 200,
+        "finalUrl": "https://blog.zhheo.com/p/d0b6.html",
+        "bytesRead": 187894,
+        "title": "HeoAwards2024：年度我喜欢的博主 | 张洪Heo"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-chrison",
+          "url": "https://chrison.cn/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://chrison.cn/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 27866,
+          "sha256": "5f3757e7e18016c3cdf8b7bce80a9c3c3b38a39e1b43cfc91dcd1df9aa51ad7c"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "截图顶部留白及低对比背景占比高，与本批其他个人博客相比可学习的结构不够清楚。"
+    },
+    {
+      "id": "add-qlad",
+      "name": "qlAD",
+      "url": "https://www.qladgk.com/",
+      "language": "zh-CN",
+      "sourceName": "HeoAwards 2024",
+      "sourceUrl": "https://blog.zhheo.com/p/d0b6.html",
+      "sourceEvidence": "Article has a qlAD section and explicit link https://qladgk.com/, which now redirects to https://www.qladgk.com/.",
+      "linkCheck": {
+        "id": "add-qlad",
+        "url": "https://www.qladgk.com/",
+        "verifiedAt": "2026-10-05T02:15:58.408313+00:00",
+        "status": 200,
+        "finalUrl": "https://www.qladgk.com/",
+        "bytesRead": 98567,
+        "title": "qlAD的技术笔记"
+      },
+      "sourceCheck": {
+        "id": "add-qlad",
+        "url": "https://blog.zhheo.com/p/d0b6.html",
+        "verifiedAt": "2026-10-05T02:17:46.659273+00:00",
+        "status": 200,
+        "finalUrl": "https://blog.zhheo.com/p/d0b6.html",
+        "bytesRead": 187894,
+        "title": "HeoAwards2024：年度我喜欢的博主 | 张洪Heo"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-qlad",
+          "url": "https://www.qladgk.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.qladgk.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 14286,
+          "sha256": "e35ad7c03499ff5210a6a1b0652a2114dbd0009d45c719137746eeb216631705"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-qlad.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.qladgk.com/",
+        "captureProvider": "Thum.io",
+        "sha256": "e35ad7c03499ff5210a6a1b0652a2114dbd0009d45c719137746eeb216631705",
+        "bytes": 14286,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "浅灰首屏采用左文右图布局，左侧大号自我介绍以紫色突出姓名，右侧像素人物占据主要视觉面积。紫色按钮与下方技术图标分别承接联系行动和能力信息，阅读路径很直接。"
+      }
+    },
+    {
+      "id": "add-lanhu",
+      "name": "蓝湖",
+      "url": "https://lanhuapp.com/",
+      "language": "zh-CN",
+      "sourceName": "优设 · 蓝湖设计协作工具",
+      "sourceUrl": "https://www.uisdc.com/sketch-lanhu",
+      "sourceEvidence": "Article explicitly says 蓝湖网址 and links https://lanhuapp.com/.",
+      "linkCheck": {
+        "id": "add-lanhu",
+        "url": "https://lanhuapp.com/",
+        "verifiedAt": "2026-10-05T02:15:58.409505+00:00",
+        "status": 200,
+        "finalUrl": "https://lanhuapp.com/",
+        "bytesRead": 11296,
+        "title": "蓝湖官网 - 高效的产品设计协作平台"
+      },
+      "sourceCheck": {
+        "id": "add-lanhu",
+        "url": "https://www.uisdc.com/sketch-lanhu",
+        "verifiedAt": "2026-10-05T02:17:46.706778+00:00",
+        "status": 200,
+        "finalUrl": "https://www.uisdc.com/sketch-lanhu",
+        "bytesRead": 104212,
+        "title": "「蓝湖」更新Sketch 插件，成为国内第一个支持 Sketch 原型同步的工具 - 优设网 - 学AI设计上优设"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-lanhu",
+          "url": "https://lanhuapp.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://lanhuapp.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 13644,
+          "sha256": "59393e5b867dd7908b12de94155dba9a8a3ed50fa958531b43f8f137a7474cc4"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-lanhu.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://lanhuapp.com/",
+        "captureProvider": "Thum.io",
+        "sha256": "59393e5b867dd7908b12de94155dba9a8a3ed50fa958531b43f8f137a7474cc4",
+        "bytes": 13644,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "浅蓝紫渐变背景中，中文标题、说明和蓝色注册按钮沿中轴排列，下方直接出现编辑器的窗口边框与设计画面。产品预览与价值说明保持紧密距离，让用户不必先理解抽象图形。"
+      }
+    },
+    {
+      "id": "add-modao",
+      "name": "墨刀",
+      "url": "https://modao.cc/",
+      "language": "zh-CN",
+      "sourceName": "优设 · 墨刀设计协作评测",
+      "sourceUrl": "https://www.uisdc.com/hangye/modao-sop-2025",
+      "sourceEvidence": "Article title and body explicitly review 墨刀白板 and the 墨刀 product family; independent design-publication source.",
+      "linkCheck": {
+        "id": "add-modao",
+        "url": "https://modao.cc/",
+        "verifiedAt": "2026-10-05T02:15:58.412357+00:00",
+        "status": 200,
+        "finalUrl": "https://modao.cc/",
+        "bytesRead": 534446,
+        "title": "墨刀(Modao) - 智能原型设计与产研协作平台，让产品团队更快落地好想法"
+      },
+      "sourceCheck": {
+        "id": "add-modao",
+        "url": "https://www.uisdc.com/hangye/modao-sop-2025",
+        "verifiedAt": "2026-10-05T02:17:46.743575+00:00",
+        "status": 200,
+        "finalUrl": "https://www.uisdc.com/hangye/modao-sop-2025",
+        "bytesRead": 109026,
+        "title": "墨刀白板：产品经理的全能助手，从需求分析到产品上线的效率神器 - 优设网 - 学AI设计上优设"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-modao",
+          "url": "https://modao.cc/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://modao.cc/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 25350,
+          "sha256": "b86d010693b8d964af71d4468c30767084ab19878bbb811150d76a52b8acc5e6"
+        }
+      ],
+      "status": "included",
+      "screenshot": {
+        "src": "./assets/screenshots/add-modao.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://modao.cc/",
+        "captureProvider": "Thum.io",
+        "sha256": "b86d010693b8d964af71d4468c30767084ab19878bbb811150d76a52b8acc5e6",
+        "bytes": 25350,
+        "width": 600,
+        "height": 400,
+        "review": "approved",
+        "observation": "淡紫背景上将蓝紫标题、产品能力标签和两个主要按钮分层摆放，底部倾斜设备与界面卡片共同呈现工作内容。标签使用不同的小色块区分能力，整体仍保持统一的浅色气氛。"
+      }
+    },
+    {
+      "id": "add-apifox",
+      "name": "Apifox",
+      "url": "https://apifox.com/",
+      "language": "zh-CN",
+      "sourceName": "优设 · B 端导航设计",
+      "sourceUrl": "https://www.uisdc.com/tob-navigation-menu-mode",
+      "sourceEvidence": "Independent article contains an explicit apifox section and screenshot discussing its navigation.",
+      "linkCheck": {
+        "id": "add-apifox",
+        "url": "https://apifox.com/",
+        "verifiedAt": "2026-10-05T02:16:46.060790+00:00",
+        "status": "failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "sourceCheck": {
+        "id": "add-apifox",
+        "url": "https://www.uisdc.com/tob-navigation-menu-mode",
+        "verifiedAt": "2026-10-05T02:17:46.785763+00:00",
+        "status": 200,
+        "finalUrl": "https://www.uisdc.com/tob-navigation-menu-mode",
+        "bytesRead": 154068,
+        "title": "超多案例！帮你完整掌握B端导航菜单的三大模式 - 优设网 - 学AI设计上优设"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-apifox",
+          "url": "https://apifox.com/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://apifox.com/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 3858,
+          "sha256": "9c9d17c0f1093f07e2b79834716cc8a1f0c94e4a5cf8672f21f2b334ec3b6fc8"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "截图为浏览器错误页；直连 HTTP 403。"
+    },
+    {
+      "id": "add-xmind",
+      "name": "Xmind 思维导图",
+      "url": "https://xmind.cn/",
+      "language": "zh-CN",
+      "sourceName": "少数派 · Xmind 体验",
+      "sourceUrl": "https://sspai.com/post/82696",
+      "sourceEvidence": "Article has a XMind section and explicitly gives 官网：https://xmind.cn/.",
+      "linkCheck": {
+        "id": "add-xmind",
+        "url": "https://xmind.cn/",
+        "verifiedAt": "2026-10-05T02:16:46.061525+00:00",
+        "status": 200,
+        "finalUrl": "https://xmind.cn/",
+        "bytesRead": 713828,
+        "title": "Xmind 思维导图工具 - 在线导图整理思路"
+      },
+      "sourceCheck": {
+        "id": "add-xmind",
+        "url": "https://sspai.com/post/82696",
+        "verifiedAt": "2026-10-05T02:17:46.825394+00:00",
+        "status": 200,
+        "finalUrl": "https://sspai.com/post/82696",
+        "bytesRead": 116485,
+        "title": "干货整理 | 10款热门思维导图软件评测，用前必看！ - 少数派"
+      },
+      "captureAttempts": [
+        {
+          "id": "add-xmind",
+          "url": "https://xmind.cn/",
+          "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://xmind.cn/",
+          "provider": "Thum.io",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 600,
+          "height": 400,
+          "bytes": 2126,
+          "sha256": "5fdb2cbc8692bc9eeedda1862fd794c2b4cf457cc70090086d57373df9163228"
+        },
+        {
+          "id": "add-xmind",
+          "url": "https://xmind.cn/",
+          "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fxmind.cn%2F?w=1200",
+          "provider": "Automattic mShots",
+          "retrievedAt": "2026-10-05",
+          "status": "needs_visual_review",
+          "width": 800,
+          "height": 600,
+          "bytes": 23506,
+          "sha256": "e831311691f8cf19e96c7fd5ba65af916a3d91dc27b8a07e9867b34333422c3b"
+        }
+      ],
+      "status": "excluded",
+      "exclusionReason": "Thum.io 主内容空白；mShots 页面右下 Cookie 浮层遮挡部分设计，未收录。"
+    }
+  ]
+}

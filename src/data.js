@@ -1,6 +1,24 @@
 // Curated sources verified 2026-10-04. Oil UI entries are concept demos, not affiliated products.
 export const cases = [
   {
+    "id": "add-taiwan-raptor",
+    "name": "台灣猛禽研究會",
+    "category": "文化艺术",
+    "language": "zh-TW",
+    "tags": [
+      "自然保护",
+      "摄影",
+      "行动入口"
+    ],
+    "url": "https://raptor.org.tw/",
+    "subtitle": "让自然影像与支持行动同屏出现",
+    "note": "满版猛禽摄影保留了左侧天空作为文字区，明黄色按钮在蓝绿背景中清晰突出。底部不规则的浅色边缘缓和了大图与下一段内容的衔接，可学习如何借助照片原有的空白安排信息。",
+    "lesson": "先寻找图片中的阅读空间，再放置文案。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/taiwan-raptor",
+    "isConcept": false
+  },
+  {
     "id": "zh-flomo",
     "name": "flomo 浮墨笔记",
     "category": "产品设计",
@@ -51,6 +69,24 @@ export const cases = [
     "lesson": "先梳理信息层级，再决定视觉重量。"
   },
   {
+    "id": "add-aestheticell",
+    "name": "美感細胞_教科書再造計畫",
+    "category": "创意设计",
+    "language": "zh-TW",
+    "tags": [
+      "教育设计",
+      "实物摄影",
+      "数据叙事"
+    ],
+    "url": "https://www.aestheticell.org",
+    "subtitle": "把抽象影响转化为可感知的时间",
+    "note": "桌面上摊开的彩色教科书形成真实背景，中央以大号白色“12760小时”突出一个数字。较小解释文字紧随其下，导航留在画面顶部，可学习用单个数据作为进入复杂议题的起点。",
+    "lesson": "选一个容易理解的数据承担首屏重点。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/aestheticell",
+    "isConcept": false
+  },
+  {
     "id": "zh-pocari",
     "name": "寶礦力水得",
     "category": "品牌商业",
@@ -89,7 +125,7 @@ export const cases = [
   {
     "id": "oil-voice",
     "name": "Echo",
-    "category": "Oil UI",
+    "category": "产品设计",
     "tags": [
       "AI 语音",
       "界面组件",
@@ -106,6 +142,24 @@ export const cases = [
     "model": "Claude Opus 5.5",
     "editorialType": "独立学习笔记",
     "isConcept": true
+  },
+  {
+    "id": "add-elvis-mao",
+    "name": "Elvis Mao",
+    "category": "个人网站",
+    "language": "en",
+    "tags": [
+      "字符艺术",
+      "深色",
+      "个人标志"
+    ],
+    "url": "https://elvismao.com/",
+    "subtitle": "把技术感转化为可识别的个人形象",
+    "note": "黑底上密集的灰色字符构成流动纹理，巨大的 EM 字母压在前景。顶部姓名与少量斜体导航保持轻巧，可学习如何用单一图形语言让个人作品集的首屏有辨识度。",
+    "lesson": "围绕一个核心符号建立个人识别。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/elvis-mao",
+    "isConcept": false
   },
   {
     "id": "zh-mastergo",
@@ -158,6 +212,24 @@ export const cases = [
     "lesson": "多产品导航，要让每个人找到自己的起点。"
   },
   {
+    "id": "add-asahihuuhu",
+    "name": "朝日夫婦",
+    "category": "品牌商业",
+    "language": "zh-TW",
+    "tags": [
+      "餐饮",
+      "风景摄影",
+      "留白"
+    ],
+    "url": "https://www.asahihuuhu.com/",
+    "subtitle": "借海边风景传达店铺体验",
+    "note": "海湾和山峦构成整屏背景，中文标题放在左上较暗的山体区域，右上导航则保持细小。页面没有用密集促销元素打断画面，适合观察风景摄影如何给品牌叙事提供空间感。",
+    "lesson": "把文字放到自然对比充分的位置。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/asahihuuhu",
+    "isConcept": false
+  },
+  {
     "id": "zh-eagle",
     "name": "Eagle",
     "category": "创意设计",
@@ -196,7 +268,7 @@ export const cases = [
   {
     "id": "oil-reel",
     "name": "reel",
-    "category": "Oil UI",
+    "category": "创意设计",
     "tags": [
       "分镜编辑",
       "桌面工具",
@@ -213,6 +285,24 @@ export const cases = [
     "model": "GPT 6.1 Sol",
     "editorialType": "独立学习笔记",
     "isConcept": true
+  },
+  {
+    "id": "add-jl-design",
+    "name": "JL DESIGN",
+    "category": "设计工作室",
+    "language": "zh-TW",
+    "tags": [
+      "影像作品",
+      "分栏",
+      "项目叙事"
+    ],
+    "url": "https://jl.design",
+    "subtitle": "让作品影像承担工作室的第一句话",
+    "note": "白色导航栏下，人物影像被切成数条竖向区域，项目标题与短说明叠放在左侧。细小的轮播圆点退到底部，页面将主要空间交给作品，同时保留了了解项目的文字线索。",
+    "lesson": "作品主视觉也需要简短、准确的上下文。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/jl-design",
+    "isConcept": false
   },
   {
     "id": "zh-slowork",
@@ -265,6 +355,24 @@ export const cases = [
     "lesson": "用分类帮助作品被发现"
   },
   {
+    "id": "add-kdan",
+    "name": "KDAN 凱鈿",
+    "category": "产品设计",
+    "language": "zh-TW",
+    "tags": [
+      "企业软件",
+      "品牌色",
+      "行动入口"
+    ],
+    "url": "https://www.kdan.com/zh-tw",
+    "subtitle": "用收束的图形托起产品价值说明",
+    "note": "深蓝绿首屏内，两侧绿色折页状图形向中央聚拢，中文标题与说明被包围在中间。亮黄色主要按钮与深色次要按钮形成对比，上方产品栏与品牌栏分层排列，减少了多产品入口的混杂。",
+    "lesson": "主要行动需要在复杂产品导航之外再次突出。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/kdan",
+    "isConcept": false
+  },
+  {
     "id": "zh-yayu",
     "name": "野遊 YAYU",
     "category": "品牌商业",
@@ -303,7 +411,7 @@ export const cases = [
   {
     "id": "oil-components",
     "name": "Kiln",
-    "category": "Oil UI",
+    "category": "创意设计",
     "tags": [
       "组件库",
       "网站",
@@ -320,6 +428,24 @@ export const cases = [
     "model": "GPT 6.1 Sol",
     "editorialType": "独立学习笔记",
     "isConcept": true
+  },
+  {
+    "id": "add-fa-movie-appreciation",
+    "name": "FA電影欣賞",
+    "category": "内容媒体",
+    "language": "zh-TW",
+    "tags": [
+      "电影",
+      "色彩叠印",
+      "专题封面"
+    ],
+    "url": "https://fa.tfai.org.tw",
+    "subtitle": "用电影画面建立杂志式的视觉开场",
+    "note": "电影剧照上叠加黄、绿、粉色的半透明色块，左上大号 Fa 标志与左侧文章标题保持清晰。导航被压缩在右上角，让封面图像承担视觉吸引力，文字只提供必要的阅读入口。",
+    "lesson": "大胆图像需要克制而稳定的文字定位。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/fa-movie-appreciation",
+    "isConcept": false
   },
   {
     "id": "zh-kzhik",
@@ -372,6 +498,24 @@ export const cases = [
     "lesson": "让抽象能力落在具体的使用场景中。"
   },
   {
+    "id": "add-paul-chiang-art-center",
+    "name": "江賢二藝術園區",
+    "category": "文化艺术",
+    "language": "zh-TW",
+    "tags": [
+      "艺术空间",
+      "参观信息",
+      "摄影"
+    ],
+    "url": "https://www.paulchiangartcenter.org",
+    "subtitle": "把参观信息放进风景之中",
+    "note": "白色页眉将标志、栏目和蓝色购票按钮排成整齐的一行，下方海岸空拍图占据主要空间。右上蓝色日期卡片把开馆时间叠在风景上，展示了实用信息和空间气氛可以同时成立。",
+    "lesson": "让时间、票务等关键信息进入第一屏。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/paul-chiang-art-center",
+    "isConcept": false
+  },
+  {
     "id": "zh-flowus",
     "name": "FlowUs 息流",
     "category": "产品设计",
@@ -410,7 +554,7 @@ export const cases = [
   {
     "id": "oil-muse",
     "name": "muse",
-    "category": "Oil UI",
+    "category": "创意设计",
     "tags": [
       "AI 创作",
       "桌面工具",
@@ -427,6 +571,24 @@ export const cases = [
     "model": "GPT 6.1 Sol",
     "editorialType": "独立学习笔记",
     "isConcept": true
+  },
+  {
+    "id": "add-aapd-product-design-academy",
+    "name": "AAPD 產品設計學院",
+    "category": "创意设计",
+    "language": "zh-TW",
+    "tags": [
+      "设计教育",
+      "角色插画",
+      "留白"
+    ],
+    "url": "https://aapd.com.tw/",
+    "subtitle": "用一个标志组织标题与插画",
+    "note": "浅色首屏上方以中文标题和两个按钮解释学习入口，下方大幅黑色符号与蓝衣人物插画相互穿插。橙色字词和小标签作为少量强调色，可学习品牌标志如何扩展成可复用的视觉容器。",
+    "lesson": "让品牌符号参与构图，而不只停留在角落。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/aapd-product-design-academy",
+    "isConcept": false
   },
   {
     "id": "zh-yuque",
@@ -479,6 +641,24 @@ export const cases = [
     "lesson": "先问用户要做什么，再展示你能做什么。"
   },
   {
+    "id": "add-bluehe",
+    "name": "云心怀鹤",
+    "category": "个人网站",
+    "language": "zh-CN",
+    "tags": [
+      "摄影博客",
+      "深色",
+      "文章列表"
+    ],
+    "url": "https://bluehe.cn/",
+    "subtitle": "让旅行照片成为深色博客的阅读节拍",
+    "note": "居中的窄版内容区依次排列站点标志、横幅和文章列表，深灰卡片与黑色背景形成轻微层次。每篇文章的照片放在左侧、文字放在右侧，以重复结构维持阅读节奏。",
+    "lesson": "个人博客的统一结构能衬托内容的差异。",
+    "sourceName": "HeoAwards 2025",
+    "sourceUrl": "https://blog.zhheo.com/p/5zo43meo.html",
+    "isConcept": false
+  },
+  {
     "id": "zh-yixi",
     "name": "一席",
     "category": "文化艺术",
@@ -517,7 +697,7 @@ export const cases = [
   {
     "id": "oil-stay",
     "name": "Nest · Wanting Lakeside Cabin",
-    "category": "Oil UI",
+    "category": "品牌商业",
     "tags": [
       "住宿预订",
       "网站",
@@ -534,6 +714,24 @@ export const cases = [
     "model": "GPT 6.1 Sol",
     "editorialType": "独立学习笔记",
     "isConcept": true
+  },
+  {
+    "id": "add-weight-books",
+    "name": "重本書店 Weight Books",
+    "category": "品牌商业",
+    "language": "en",
+    "tags": [
+      "独立书店",
+      "几何图形",
+      "实验排版"
+    ],
+    "url": "https://www.weightbooks.com/",
+    "subtitle": "让视觉纹理成为书店的识别线索",
+    "note": "黑白细条在背景中交错形成近似折面的纹理，中央小幅书籍图像以蓝色和黄色突出。菜单与商店入口分置两侧，在高密度图形上仍保留了少量、明确的文字锚点。",
+    "lesson": "高密度背景需要更少且更明确的入口。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/weight-books",
+    "isConcept": false
   },
   {
     "id": "zh-colorpalette",
@@ -586,6 +784,24 @@ export const cases = [
     "lesson": "让服务围绕问题展开"
   },
   {
+    "id": "add-o-oo",
+    "name": "O.OO",
+    "category": "设计工作室",
+    "language": "en",
+    "tags": [
+      "实验设计",
+      "高饱和",
+      "侧栏"
+    ],
+    "url": "https://odotoo.com/",
+    "subtitle": "把工作室介绍压缩成一条有个性的侧栏",
+    "note": "左侧窄栏用大号文字、表情符号和细分隔线介绍工作室，右侧则由黄、蓝、粉、黑色块占据主要空间。文字与图形的密度形成强烈对照，适合学习固定信息栏如何陪衬实验性作品。",
+    "lesson": "稳定的信息边栏能容纳大胆的展示区域。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/o-oo",
+    "isConcept": false
+  },
+  {
     "id": "zh-wolai",
     "name": "我来 wolai",
     "category": "产品设计",
@@ -624,7 +840,7 @@ export const cases = [
   {
     "id": "oil-diary",
     "name": "Gathered Pages",
-    "category": "Oil UI",
+    "category": "创意设计",
     "tags": [
       "电子手账",
       "移动应用",
@@ -641,6 +857,24 @@ export const cases = [
     "model": "GPT 6.1 Sol",
     "editorialType": "独立学习笔记",
     "isConcept": true
+  },
+  {
+    "id": "add-simpany",
+    "name": "Simpany 簡單開公司",
+    "category": "产品设计",
+    "language": "zh-TW",
+    "tags": [
+      "服务平台",
+      "插画",
+      "信息层级"
+    ],
+    "url": "https://simpany.co/",
+    "subtitle": "把专业服务介绍变得容易亲近",
+    "note": "白色首屏以黑色中文标题解释服务，橙色品牌名与申请按钮彼此呼应。下方人物、文件和存钱罐插画形成轻松的横向场景，将专业服务拆解为用户熟悉的对象。",
+    "lesson": "让专业服务的视觉表达落到具体任务上。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/simpany",
+    "isConcept": false
   },
   {
     "id": "zh-sspai",
@@ -693,6 +927,24 @@ export const cases = [
     "lesson": "好的展示既呈现结果，也激发行动。"
   },
   {
+    "id": "add-fountain-magazine",
+    "name": "新活水 Fountain",
+    "category": "内容媒体",
+    "language": "zh-TW",
+    "tags": [
+      "编辑设计",
+      "大字排版",
+      "暖色"
+    ],
+    "url": "https://www.fountain.org.tw/",
+    "subtitle": "让刊物名称成为页面的主视觉",
+    "note": "米色背景上放大并裁切的斜体 fountain 字样占据首屏，下方中文说明保持较小尺度。顶栏以黑色文字和图标排列栏目与订阅入口，页面用文字的曲线与留白营造杂志气质。",
+    "lesson": "标题字形本身可以承担封面图像的角色。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/fountain-magazine",
+    "isConcept": false
+  },
+  {
     "id": "zh-tdesign",
     "name": "TDesign",
     "category": "创意设计",
@@ -731,7 +983,7 @@ export const cases = [
   {
     "id": "oil-home",
     "name": "In-between",
-    "category": "Oil UI",
+    "category": "产品设计",
     "tags": [
       "智能家居",
       "界面组件",
@@ -748,6 +1000,24 @@ export const cases = [
     "model": "GPT 6 Astra",
     "editorialType": "独立学习笔记",
     "isConcept": true
+  },
+  {
+    "id": "add-rethink-tw",
+    "name": "RE-THINK 重新思考",
+    "category": "文化艺术",
+    "language": "zh-TW",
+    "tags": [
+      "公益传播",
+      "插画",
+      "活动入口"
+    ],
+    "url": "https://rethinktw.org",
+    "subtitle": "用明快插画降低公共议题的距离感",
+    "note": "荧光绿公告条和黑白导航下方，是圆角蓝色活动卡片；粉、黄、绿的人物插画围绕标题排列。页面将活动说明、主要按钮与图形收束在一块区域内，信息多而不显散乱。",
+    "lesson": "让插画和行动入口围绕同一个主题组织。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/rethink-tw",
+    "isConcept": false
   },
   {
     "id": "zh-zenart",
@@ -800,6 +1070,24 @@ export const cases = [
     "lesson": "能力需要案例，案例需要上下文。"
   },
   {
+    "id": "add-lanyanghei",
+    "name": "justfont 蘭陽黑體",
+    "category": "创意设计",
+    "language": "zh-TW",
+    "tags": [
+      "字体设计",
+      "绿色",
+      "产品展示"
+    ],
+    "url": "https://justfont.com/lanyanghei/",
+    "subtitle": "让字体本身承担主视觉",
+    "note": "浅米色首屏四周散布不同大小的绿色汉字与字形片段，中间留出标题、说明和黑色购买按钮。产品的形态直接变成构图元素，可学习如何用真实字形而非无关装饰展示字体性格。",
+    "lesson": "让产品本身成为最有说服力的视觉材料。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/lanyang-20hei-20font-20preorder",
+    "isConcept": false
+  },
+  {
     "id": "zh-leaping",
     "name": "立品设计",
     "category": "设计工作室",
@@ -820,7 +1108,7 @@ export const cases = [
   {
     "id": "oil-anime",
     "name": "The Last Train of Summer",
-    "category": "Oil UI",
+    "category": "文化艺术",
     "tags": [
       "动画官网",
       "网站",
@@ -853,9 +1141,27 @@ export const cases = [
     "lesson": "让作品与服务使用同一语言"
   },
   {
+    "id": "add-weizwz",
+    "name": "唯知笔记",
+    "category": "个人网站",
+    "language": "zh-CN",
+    "tags": [
+      "知识笔记",
+      "卡片网格",
+      "浅色"
+    ],
+    "url": "https://note.weizwz.com/",
+    "subtitle": "把知识笔记整理成清楚的入口层级",
+    "note": "浅灰背景将自我介绍和推荐阅读放在上方两块卡片中，下方最近更新使用等宽网格。蓝色小标题、软件图标与轻微边界共同标明信息层级，展示了技术内容首页如何兼顾导航与更新。",
+    "lesson": "先区分阅读入口，再呈现文章细节。",
+    "sourceName": "HeoAwards 2025",
+    "sourceUrl": "https://blog.zhheo.com/p/5zo43meo.html",
+    "isConcept": false
+  },
+  {
     "id": "oil-lingo",
     "name": "Pip",
-    "category": "Oil UI",
+    "category": "产品设计",
     "tags": [
       "语言学习",
       "移动应用",
@@ -890,7 +1196,7 @@ export const cases = [
   {
     "id": "oil-tracker",
     "name": "Relay",
-    "category": "Oil UI",
+    "category": "效率工具",
     "tags": [
       "项目管理",
       "桌面工具",
@@ -909,6 +1215,24 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "add-hot-spring-onion",
+    "name": "蔥澡 Hot Spring Onion",
+    "category": "品牌商业",
+    "language": "zh-TW",
+    "tags": [
+      "温泉",
+      "线条插画",
+      "轻盈"
+    ],
+    "url": "https://www.hotspringonion.com/",
+    "subtitle": "用细线和淡绿色塑造温泉空间的轻松感",
+    "note": "白色首屏中央是由细线组成的中英文标志，周围点缀蒸汽、蔬菜等简洁轮廓。下方空间照片沿同一横线进入页面，明亮背景与小号导航让图形保持呼吸感。",
+    "lesson": "少量线条与色彩也能形成完整的品牌语气。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/hot-spring-onion",
+    "isConcept": false
+  },
+  {
     "id": "spline",
     "name": "Spline",
     "category": "创意设计",
@@ -925,7 +1249,7 @@ export const cases = [
   {
     "id": "oil-freight",
     "name": "DOVO",
-    "category": "Oil UI",
+    "category": "产品设计",
     "tags": [
       "物流 SaaS",
       "网站",
@@ -958,9 +1282,27 @@ export const cases = [
     "lesson": "给作品补上必要的上下文"
   },
   {
+    "id": "add-verse",
+    "name": "VERSE",
+    "category": "内容媒体",
+    "language": "zh-TW",
+    "tags": [
+      "杂志",
+      "衬线字体",
+      "日期"
+    ],
+    "url": "https://www.verse.com.tw/",
+    "subtitle": "把报刊式版头带到数字阅读中",
+    "note": "大号衬线 VERSE 标志与醒目的日期并列，横线划分版头、栏目和正文。首篇文章采用标题在上、摄影在下的清楚顺序，适合观察传统刊物元素怎样转化为网页的阅读层级。",
+    "lesson": "用稳定的版头建立持续阅读的熟悉感。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/verse",
+    "isConcept": false
+  },
+  {
     "id": "oil-ride",
     "name": "Pickup",
-    "category": "Oil UI",
+    "category": "产品设计",
     "tags": [
       "出行 App",
       "移动应用",
@@ -995,7 +1337,7 @@ export const cases = [
   {
     "id": "oil-knot",
     "name": "knot Bracelet Studio",
-    "category": "Oil UI",
+    "category": "品牌商业",
     "tags": [
       "手作定制",
       "网站",
@@ -1014,6 +1356,24 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "add-slowfood-taitung",
+    "name": "慢食台東",
+    "category": "文化艺术",
+    "language": "zh-TW",
+    "tags": [
+      "地方文化",
+      "食材摄影",
+      "暖色"
+    ],
+    "url": "https://slowfoodtaitung.tw/",
+    "subtitle": "从手中的食材开始讲地方故事",
+    "note": "浅米色外框中放入大幅双手捧谷物的近景，白色手写风格字样直接叠在照片中央。顶部小号栏目与细长左右边栏留在画面之外，构图以食材质感而非复杂装饰建立温度。",
+    "lesson": "真实材质能成为地方叙事的起点。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/slowfood-taitung",
+    "isConcept": false
+  },
+  {
     "id": "loom",
     "name": "Loom",
     "category": "效率工具",
@@ -1030,7 +1390,7 @@ export const cases = [
   {
     "id": "oil-recipe",
     "name": "Hearth",
-    "category": "Oil UI",
+    "category": "内容媒体",
     "tags": [
       "菜谱 App",
       "移动应用",
@@ -1063,9 +1423,27 @@ export const cases = [
     "lesson": "为内容建立多种发现路径"
   },
   {
+    "id": "add-cardledge",
+    "name": "Cardledge 卡知識",
+    "category": "创意设计",
+    "language": "en",
+    "tags": [
+      "卡片",
+      "实物产品",
+      "斜向构图"
+    ],
+    "url": "https://www.cardledge.com/",
+    "subtitle": "让知识卡片沿斜线进入首屏",
+    "note": "米白背景左上以 Think Smarter 建立一句话主题，右侧三张彩色卡片斜向错落排列。顶部细小栏目与右下黄色入口形成稳定边界，图像通过角度和留白展示实体卡片的轻巧感。",
+    "lesson": "用真实产品的排列方式表达使用氛围。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/cardledge",
+    "isConcept": false
+  },
+  {
     "id": "oil-cards",
     "name": "Linked Cards",
-    "category": "Oil UI",
+    "category": "效率工具",
     "tags": [
       "卡片笔记",
       "桌面工具",
@@ -1100,7 +1478,7 @@ export const cases = [
   {
     "id": "oil-pulse",
     "name": "Pulse",
-    "category": "Oil UI",
+    "category": "产品设计",
     "tags": [
       "运动恢复",
       "移动应用",
@@ -1119,6 +1497,24 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "add-qlad",
+    "name": "qlAD",
+    "category": "个人网站",
+    "language": "zh-CN",
+    "tags": [
+      "像素角色",
+      "紫色",
+      "开发者"
+    ],
+    "url": "https://www.qladgk.com/",
+    "subtitle": "用像素角色与一句自述建立个人识别",
+    "note": "浅灰首屏采用左文右图布局，左侧大号自我介绍以紫色突出姓名，右侧像素人物占据主要视觉面积。紫色按钮与下方技术图标分别承接联系行动和能力信息，阅读路径很直接。",
+    "lesson": "个人识别、行动入口和能力证据可以分层出现。",
+    "sourceName": "HeoAwards 2024",
+    "sourceUrl": "https://blog.zhheo.com/p/d0b6.html",
+    "isConcept": false
+  },
+  {
     "id": "miro",
     "name": "Miro",
     "category": "效率工具",
@@ -1135,7 +1531,7 @@ export const cases = [
   {
     "id": "oil-keeb",
     "name": "KEEB · Key Order",
-    "category": "Oil UI",
+    "category": "品牌商业",
     "tags": [
       "键盘配置",
       "网站",
@@ -1168,9 +1564,27 @@ export const cases = [
     "lesson": "区分最新内容与精选内容"
   },
   {
+    "id": "add-moom",
+    "name": "moom bookshop",
+    "category": "品牌商业",
+    "language": "zh-TW",
+    "tags": [
+      "书店",
+      "商品摄影",
+      "轮播"
+    ],
+    "url": "https://moom.com.tw/tw",
+    "subtitle": "把书籍封面当作商店的主视觉",
+    "note": "白色顶栏下的大型书籍专题卡片横向展开，中央主图和两侧露出的下一张卡片形成浏览方向。专题说明直接压在图片下缘，后续商品区保留充足留白，让书本的色彩成为视觉重点。",
+    "lesson": "用一致的框架承接风格各异的商品图。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/03-moom-bookshop",
+    "isConcept": false
+  },
+  {
     "id": "oil-editor",
     "name": "Cut",
-    "category": "Oil UI",
+    "category": "创意设计",
     "tags": [
       "视频编辑",
       "桌面工具",
@@ -1205,7 +1619,7 @@ export const cases = [
   {
     "id": "oil-weather",
     "name": "Sky",
-    "category": "Oil UI",
+    "category": "产品设计",
     "tags": [
       "天气组件",
       "界面组件",
@@ -1224,6 +1638,24 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "add-reporter-kids",
+    "name": "少年報導者",
+    "category": "内容媒体",
+    "language": "zh-TW",
+    "tags": [
+      "儿童阅读",
+      "插画",
+      "卡片"
+    ],
+    "url": "https://kids.twreporter.org/",
+    "subtitle": "让新闻专题拥有轻松的入口",
+    "note": "浅灰页面使用大圆角白色专题卡片，左图右文保持容易扫读的结构。粉色箭头和底部蓝黄角色插画增加亲近感，较轻的装饰没有抢走新闻标题与阅读按钮的主次关系。",
+    "lesson": "亲切的视觉语言也要保留清晰阅读路径。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/04-reporter-for-kids",
+    "isConcept": false
+  },
+  {
     "id": "dropbox",
     "name": "Dropbox",
     "category": "效率工具",
@@ -1240,7 +1672,7 @@ export const cases = [
   {
     "id": "oil-contract",
     "name": "MOQI",
-    "category": "Oil UI",
+    "category": "效率工具",
     "tags": [
       "合同审阅",
       "网站",
@@ -1273,9 +1705,27 @@ export const cases = [
     "lesson": "让新内容与长期档案共存"
   },
   {
+    "id": "add-tcam-museum",
+    "name": "臺中市立美術館",
+    "category": "文化艺术",
+    "language": "zh-TW",
+    "tags": [
+      "建筑空间",
+      "网格",
+      "黑白排版"
+    ],
+    "url": "https://www.tcam.museum/zh",
+    "subtitle": "用细线和大字建立美术馆的秩序",
+    "note": "白色页面以细横线切分栏目，右侧长幅建筑摄影与左侧机构信息并置。黑色胶囊工具栏、巨大的西文字片段和向下箭头形成大小对照，让安静的排版仍有鲜明节奏。",
+    "lesson": "通过比例差而不是装饰增加视觉张力。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/tcam-museum",
+    "isConcept": false
+  },
+  {
     "id": "oil-ledger",
     "name": "Penny",
-    "category": "Oil UI",
+    "category": "效率工具",
     "tags": [
       "预算记账",
       "移动应用",
@@ -1310,7 +1760,7 @@ export const cases = [
   {
     "id": "oil-folio",
     "name": "Lin Xiaoman",
-    "category": "Oil UI",
+    "category": "个人网站",
     "tags": [
       "插画作品集",
       "网站",
@@ -1329,6 +1779,24 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "add-word-game",
+    "name": "《文字遊戲》",
+    "category": "创意设计",
+    "language": "zh-TW",
+    "tags": [
+      "游戏",
+      "像素文字",
+      "深色"
+    ],
+    "url": "https://wordgame.cc/",
+    "subtitle": "让汉字成为游戏网站的场景材料",
+    "note": "黑色背景上密集的灰色汉字围绕白色像素风标题展开，中文短句直接说明玩法。底部细线矩形将游戏介绍、团队、奖项和 FAQ 排成一行，强调了实验视觉与可用导航并存的可能。",
+    "lesson": "主题视觉越独特，导航结构越要容易理解。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/word-game",
+    "isConcept": false
+  },
+  {
     "id": "pitch",
     "name": "Pitch",
     "category": "创意设计",
@@ -1345,7 +1813,7 @@ export const cases = [
   {
     "id": "oil-camera",
     "name": "Corner · Film Camera",
-    "category": "Oil UI",
+    "category": "创意设计",
     "tags": [
       "相机 App",
       "移动应用",
@@ -1378,9 +1846,27 @@ export const cases = [
     "lesson": "在点击前说明阅读成本"
   },
   {
+    "id": "add-a-ling",
+    "name": "阿檸 a.ling",
+    "category": "品牌商业",
+    "language": "zh-TW",
+    "tags": [
+      "饮品",
+      "绿色渐变",
+      "产品摄影"
+    ],
+    "url": "https://www.a-ling.com/",
+    "subtitle": "让饮品沿着文字形成动感构图",
+    "note": "绿色渐变背景中，两杯饮料倾斜穿插在大号白色衬线标题之间，切片柠檬和冰块补充细节。中文说明与小幅人物视频缩略图各占一角，产品始终保持最强的视觉重量。",
+    "lesson": "让文字与产品共享构图，而不是彼此遮挡。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/a-ling",
+    "isConcept": false
+  },
+  {
     "id": "oil-silver",
     "name": "MORROW · Arc Band",
-    "category": "Oil UI",
+    "category": "品牌商业",
     "tags": [
       "首饰品牌",
       "网站",
@@ -1415,7 +1901,7 @@ export const cases = [
   {
     "id": "oil-reader",
     "name": "Margins",
-    "category": "Oil UI",
+    "category": "内容媒体",
     "tags": [
       "电子阅读",
       "移动应用",
@@ -1434,6 +1920,24 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "add-brandinlabs",
+    "name": "BRANDinLABS 品牌癮",
+    "category": "内容媒体",
+    "language": "zh-TW",
+    "tags": [
+      "品牌资讯",
+      "卡片网格",
+      "黄色"
+    ],
+    "url": "https://www.brandinlabs.com/",
+    "subtitle": "用高识别版头组织密集资讯",
+    "note": "黄色品牌栏之下是两张并排的重点文章卡片，图片下部的深色渐变承托白色标题。次级文章以更小的缩略图成排出现，主次内容通过尺寸而不是复杂样式区分。",
+    "lesson": "用卡片大小表达编辑优先级。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/brandinlabs",
+    "isConcept": false
+  },
+  {
     "id": "things",
     "name": "Things",
     "category": "效率工具",
@@ -1450,7 +1954,7 @@ export const cases = [
   {
     "id": "oil-lims",
     "name": "GridStore",
-    "category": "Oil UI",
+    "category": "效率工具",
     "tags": [
       "实验室管理",
       "桌面工具",
@@ -1483,9 +1987,27 @@ export const cases = [
     "lesson": "让探索与行动自然衔接"
   },
   {
+    "id": "add-taipei-performing-arts-center",
+    "name": "臺北表演藝術中心",
+    "category": "文化艺术",
+    "language": "zh-TW",
+    "tags": [
+      "演出资讯",
+      "圆形裁切",
+      "信息层级"
+    ],
+    "url": "https://tpac.org.taipei/",
+    "subtitle": "用图形裁切连接演出影像与信息",
+    "note": "演出照片被裁成大幅圆弧形，占据页面左侧；右侧以黑色标题、短说明和紫色圆形箭头形成清楚的阅读顺序。顶部两层细导航容纳机构服务，而中间仍为单个节目保留充足展示空间。",
+    "lesson": "通过图文分区兼顾节目氛围与行动路径。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/taipei-performing-arts-center",
+    "isConcept": false
+  },
+  {
     "id": "oil-calendar",
     "name": "Cadence",
-    "category": "Oil UI",
+    "category": "效率工具",
     "tags": [
       "日历 App",
       "移动应用",
@@ -1520,7 +2042,7 @@ export const cases = [
   {
     "id": "oil-checkout",
     "name": "Pinch Checkout",
-    "category": "Oil UI",
+    "category": "品牌商业",
     "tags": [
       "结账流程",
       "界面组件",
@@ -1539,6 +2061,24 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "add-lanhu",
+    "name": "蓝湖",
+    "category": "创意设计",
+    "language": "zh-CN",
+    "tags": [
+      "设计协作",
+      "界面预览",
+      "渐变"
+    ],
+    "url": "https://lanhuapp.com/",
+    "subtitle": "让协作价值与真实工作界面相邻",
+    "note": "浅蓝紫渐变背景中，中文标题、说明和蓝色注册按钮沿中轴排列，下方直接出现编辑器的窗口边框与设计画面。产品预览与价值说明保持紧密距离，让用户不必先理解抽象图形。",
+    "lesson": "在提出价值之后，马上给出可见的产品证据。",
+    "sourceName": "优设 · 蓝湖设计协作工具",
+    "sourceUrl": "https://www.uisdc.com/sketch-lanhu",
+    "isConcept": false
+  },
+  {
     "id": "todoist",
     "name": "Todoist",
     "category": "效率工具",
@@ -1555,7 +2095,7 @@ export const cases = [
   {
     "id": "oil-maker",
     "name": "Lin Yu’s Workshop",
-    "category": "Oil UI",
+    "category": "个人网站",
     "tags": [
       "个人主页",
       "网站",
@@ -1588,9 +2128,27 @@ export const cases = [
     "lesson": "把行动所需信息放在一起"
   },
   {
+    "id": "add-sseedd",
+    "name": "sseedd 種種",
+    "category": "品牌商业",
+    "language": "zh-TW",
+    "tags": [
+      "食品",
+      "深绿色",
+      "产品展示"
+    ],
+    "url": "https://www.sseedd.com.tw/",
+    "subtitle": "用统一底色连接品牌与食材",
+    "note": "深绿色背景延续到导航，罐装产品、汤匙和食材照片沿画面下缘展开。弧形中文标语位于中央，亮色西文字作为背景层补充节奏，体现品牌色如何统一不同材质的摄影元素。",
+    "lesson": "先统一背景，再让产品材质形成对比。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/sseedd",
+    "isConcept": false
+  },
+  {
     "id": "oil-trail",
     "name": "Ridge Trail",
-    "category": "Oil UI",
+    "category": "产品设计",
     "tags": [
       "徒步 App",
       "移动应用",
@@ -1625,7 +2183,7 @@ export const cases = [
   {
     "id": "oil-brew",
     "name": "Cup Line",
-    "category": "Oil UI",
+    "category": "产品设计",
     "tags": [
       "咖啡机控制",
       "界面组件",
@@ -1644,6 +2202,24 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "add-taipei-art-book-fair",
+    "name": "草率季 Taipei Art Book Fair",
+    "category": "文化艺术",
+    "language": "zh-TW",
+    "tags": [
+      "艺术书展",
+      "实验排版",
+      "高密度"
+    ],
+    "url": "https://taipeiartbookfair.com/",
+    "subtitle": "把书展的独立出版气质写进界面",
+    "note": "灰底页面以黑色细框划成多栏，顶部 HOME、STORE、ABOUT 用黄色椭圆强调。中央海报、右侧活动日程与左侧索引同时呈现，形成接近独立刊物拼版的高密度视觉。",
+    "lesson": "高密度内容仍需要清楚的分栏和锚点。",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/03-taipei-art-book-fair",
+    "isConcept": false
+  },
+  {
     "id": "obsidian",
     "name": "Obsidian",
     "category": "效率工具",
@@ -1660,7 +2236,7 @@ export const cases = [
   {
     "id": "oil-watch",
     "name": "DIAL",
-    "category": "Oil UI",
+    "category": "品牌商业",
     "tags": [
       "表盘商店",
       "移动应用",
@@ -1693,9 +2269,27 @@ export const cases = [
     "lesson": "按访客需求组织文化内容"
   },
   {
+    "id": "add-modao",
+    "name": "墨刀",
+    "category": "创意设计",
+    "language": "zh-CN",
+    "tags": [
+      "原型设计",
+      "产品分组",
+      "渐变"
+    ],
+    "url": "https://modao.cc/",
+    "subtitle": "用能力入口串起一体化设计平台",
+    "note": "淡紫背景上将蓝紫标题、产品能力标签和两个主要按钮分层摆放，底部倾斜设备与界面卡片共同呈现工作内容。标签使用不同的小色块区分能力，整体仍保持统一的浅色气氛。",
+    "lesson": "多种能力需要先分组，再用共同风格串联。",
+    "sourceName": "优设 · 墨刀设计协作评测",
+    "sourceUrl": "https://www.uisdc.com/hangye/modao-sop-2025",
+    "isConcept": false
+  },
+  {
     "id": "oil-roast",
     "name": "North Latitude Roasters",
-    "category": "Oil UI",
+    "category": "品牌商业",
     "tags": [
       "咖啡订阅",
       "网站",
@@ -1730,7 +2324,7 @@ export const cases = [
   {
     "id": "oil-letter",
     "name": "Letters from Afar",
-    "category": "Oil UI",
+    "category": "产品设计",
     "tags": [
       "明信片社交",
       "移动应用",
@@ -1765,7 +2359,7 @@ export const cases = [
   {
     "id": "oil-sneaker",
     "name": "Bu · Stride 3",
-    "category": "Oil UI",
+    "category": "品牌商业",
     "tags": [
       "跑鞋商品页",
       "网站",
@@ -1800,7 +2394,7 @@ export const cases = [
   {
     "id": "oil-copilot",
     "name": "Forge",
-    "category": "Oil UI",
+    "category": "开发工具",
     "tags": [
       "AI 编程",
       "桌面工具",
@@ -1835,7 +2429,7 @@ export const cases = [
   {
     "id": "oil-scent",
     "name": "TRACE",
-    "category": "Oil UI",
+    "category": "品牌商业",
     "tags": [
       "香水品牌",
       "网站",
@@ -1870,7 +2464,7 @@ export const cases = [
   {
     "id": "oil-upload",
     "name": "Chute",
-    "category": "Oil UI",
+    "category": "产品设计",
     "tags": [
       "文件上传",
       "界面组件",
@@ -1905,7 +2499,7 @@ export const cases = [
   {
     "id": "oil-club",
     "name": "Inner Circle",
-    "category": "Oil UI",
+    "category": "产品设计",
     "tags": [
       "兴趣社群",
       "移动应用",
@@ -1940,7 +2534,7 @@ export const cases = [
   {
     "id": "oil-vinyl",
     "name": "Slow Groove",
-    "category": "Oil UI",
+    "category": "内容媒体",
     "tags": [
       "音乐播放器",
       "界面组件",
@@ -1975,7 +2569,7 @@ export const cases = [
   {
     "id": "oil-canvas",
     "name": "Loom Whiteboard",
-    "category": "Oil UI",
+    "category": "效率工具",
     "tags": [
       "协作白板",
       "桌面工具",
@@ -2010,7 +2604,7 @@ export const cases = [
   {
     "id": "oil-studio",
     "name": "ROOMIN",
-    "category": "Oil UI",
+    "category": "品牌商业",
     "tags": [
       "场地预约",
       "网站",
@@ -2045,7 +2639,7 @@ export const cases = [
   {
     "id": "oil-podcast",
     "name": "Listen",
-    "category": "Oil UI",
+    "category": "内容媒体",
     "tags": [
       "播客 App",
       "移动应用",
@@ -2080,7 +2674,7 @@ export const cases = [
   {
     "id": "oil-device",
     "name": "Ohm 1",
-    "category": "Oil UI",
+    "category": "品牌商业",
     "tags": [
       "硬件官网",
       "网站",
@@ -2115,7 +2709,7 @@ export const cases = [
   {
     "id": "oil-wrapped",
     "name": "Tempo · 2026 Wrapped",
-    "category": "Oil UI",
+    "category": "内容媒体",
     "tags": [
       "年度报告",
       "移动应用",
@@ -2150,7 +2744,7 @@ export const cases = [
   {
     "id": "oil-mail",
     "name": "Post",
-    "category": "Oil UI",
+    "category": "效率工具",
     "tags": [
       "邮件客户端",
       "桌面工具",
@@ -2198,6 +2792,6 @@ export const cases = [
   }
 ];
 export function filterCases(items,{category='全部',query='',savedOnly=false,saved=[],sort='curated'}={}) {
- const q=query.trim().toLocaleLowerCase();const filtered=items.filter(c=>(category==='全部'||c.category===category)&&(!savedOnly||saved.includes(c.id))&&(!q||[c.name,c.category,c.subtitle,...c.tags].join(' ').toLocaleLowerCase().includes(q)));
+ const q=query.trim().toLocaleLowerCase();const filtered=items.filter(c=>(category==='全部'||c.category===category)&&(!savedOnly||saved.includes(c.id))&&(!q||[c.name,c.category,c.subtitle,c.sourceName||'',...c.tags].join(' ').toLocaleLowerCase().includes(q)));
  return sort==='name'?filtered.sort((a,b)=>a.name.localeCompare(b.name)):filtered;
 }

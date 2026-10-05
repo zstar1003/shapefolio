@@ -741,5 +741,203 @@ export const screenshotById = {
     "retrievedAt": "2026-10-04",
     "sourceUrl": "https://www.leapingcreative.com/",
     "captureProvider": "Automattic mShots"
+  },
+  "add-taiwan-raptor": {
+    "src": "./assets/screenshots/add-taiwan-raptor.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://raptor.org.tw/",
+    "captureProvider": "Thum.io"
+  },
+  "add-paul-chiang-art-center": {
+    "src": "./assets/screenshots/add-paul-chiang-art-center.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.paulchiangartcenter.org",
+    "captureProvider": "Thum.io"
+  },
+  "add-fa-movie-appreciation": {
+    "src": "./assets/screenshots/add-fa-movie-appreciation.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://fa.tfai.org.tw",
+    "captureProvider": "Thum.io"
+  },
+  "add-jl-design": {
+    "src": "./assets/screenshots/add-jl-design.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://jl.design",
+    "captureProvider": "Automattic mShots"
+  },
+  "add-rethink-tw": {
+    "src": "./assets/screenshots/add-rethink-tw.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://rethinktw.org",
+    "captureProvider": "Thum.io"
+  },
+  "add-aestheticell": {
+    "src": "./assets/screenshots/add-aestheticell.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.aestheticell.org",
+    "captureProvider": "Thum.io"
+  },
+  "add-slowfood-taitung": {
+    "src": "./assets/screenshots/add-slowfood-taitung.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://slowfoodtaitung.tw/",
+    "captureProvider": "Automattic mShots"
+  },
+  "add-aapd-product-design-academy": {
+    "src": "./assets/screenshots/add-aapd-product-design-academy.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://aapd.com.tw/",
+    "captureProvider": "Automattic mShots"
+  },
+  "add-tcam-museum": {
+    "src": "./assets/screenshots/add-tcam-museum.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.tcam.museum/zh",
+    "captureProvider": "Thum.io"
+  },
+  "add-asahihuuhu": {
+    "src": "./assets/screenshots/add-asahihuuhu.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.asahihuuhu.com/",
+    "captureProvider": "Thum.io"
+  },
+  "add-weight-books": {
+    "src": "./assets/screenshots/add-weight-books.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.weightbooks.com/",
+    "captureProvider": "Thum.io"
+  },
+  "add-elvis-mao": {
+    "src": "./assets/screenshots/add-elvis-mao.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://elvismao.com/",
+    "captureProvider": "Thum.io"
+  },
+  "add-hot-spring-onion": {
+    "src": "./assets/screenshots/add-hot-spring-onion.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.hotspringonion.com/",
+    "captureProvider": "Automattic mShots"
+  },
+  "add-lanyanghei": {
+    "src": "./assets/screenshots/add-lanyanghei.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://justfont.com/lanyanghei/",
+    "captureProvider": "Thum.io"
+  },
+  "add-cardledge": {
+    "src": "./assets/screenshots/add-cardledge.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.cardledge.com/",
+    "captureProvider": "Automattic mShots"
+  },
+  "add-word-game": {
+    "src": "./assets/screenshots/add-word-game.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://wordgame.cc/",
+    "captureProvider": "Automattic mShots"
+  },
+  "add-o-oo": {
+    "src": "./assets/screenshots/add-o-oo.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://odotoo.com/",
+    "captureProvider": "Thum.io"
+  },
+  "add-fountain-magazine": {
+    "src": "./assets/screenshots/add-fountain-magazine.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.fountain.org.tw/",
+    "captureProvider": "Thum.io"
+  },
+  "add-taipei-performing-arts-center": {
+    "src": "./assets/screenshots/add-taipei-performing-arts-center.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://tpac.org.taipei/",
+    "captureProvider": "Thum.io"
+  },
+  "add-kdan": {
+    "src": "./assets/screenshots/add-kdan.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.kdan.com/zh-tw",
+    "captureProvider": "Thum.io"
+  },
+  "add-verse": {
+    "src": "./assets/screenshots/add-verse.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.verse.com.tw/",
+    "captureProvider": "Thum.io"
+  },
+  "add-moom": {
+    "src": "./assets/screenshots/add-moom.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://moom.com.tw/tw",
+    "captureProvider": "Thum.io"
+  },
+  "add-taipei-art-book-fair": {
+    "src": "./assets/screenshots/add-taipei-art-book-fair.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://taipeiartbookfair.com/",
+    "captureProvider": "Thum.io"
+  },
+  "add-reporter-kids": {
+    "src": "./assets/screenshots/add-reporter-kids.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://kids.twreporter.org/",
+    "captureProvider": "Thum.io"
+  },
+  "add-brandinlabs": {
+    "src": "./assets/screenshots/add-brandinlabs.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.brandinlabs.com/",
+    "captureProvider": "Thum.io"
+  },
+  "add-simpany": {
+    "src": "./assets/screenshots/add-simpany.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://simpany.co/",
+    "captureProvider": "Thum.io"
+  },
+  "add-a-ling": {
+    "src": "./assets/screenshots/add-a-ling.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.a-ling.com/",
+    "captureProvider": "Thum.io"
+  },
+  "add-sseedd": {
+    "src": "./assets/screenshots/add-sseedd.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.sseedd.com.tw/",
+    "captureProvider": "Thum.io"
+  },
+  "add-bluehe": {
+    "src": "./assets/screenshots/add-bluehe.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://bluehe.cn/",
+    "captureProvider": "Thum.io"
+  },
+  "add-weizwz": {
+    "src": "./assets/screenshots/add-weizwz.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://note.weizwz.com/",
+    "captureProvider": "Thum.io"
+  },
+  "add-qlad": {
+    "src": "./assets/screenshots/add-qlad.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.qladgk.com/",
+    "captureProvider": "Thum.io"
+  },
+  "add-lanhu": {
+    "src": "./assets/screenshots/add-lanhu.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://lanhuapp.com/",
+    "captureProvider": "Thum.io"
+  },
+  "add-modao": {
+    "src": "./assets/screenshots/add-modao.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://modao.cc/",
+    "captureProvider": "Thum.io"
   }
 };
