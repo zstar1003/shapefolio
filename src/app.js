@@ -131,7 +131,13 @@ function render() {
   syncSaves();
   syncStorageNotice();
 }
-function refresh() { state.limit = PAGE_SIZE; render(); }
+function refresh() {
+  state.limit = PAGE_SIZE;
+  render();
+  // Sticky navigation remains usable deep in the gallery. Start each new result
+  // set at the top without moving keyboard focus or animating away from it.
+  window.scrollTo({top: 0, behavior: 'instant'});
+}
 function applySnapshot(snapshot) {
   saved = snapshot.ids;
   storageStatus = snapshot.status;

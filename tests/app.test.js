@@ -45,7 +45,7 @@ function app({hash = '#/', raw = null, unavailable = false} = {}) {
     getItem() { if (unavailable) throw new Error('SecurityError'); return raw; },
     setItem(key, value) { if (unavailable) throw new Error('QuotaExceededError'); raw = value; },
   };
-  const window = {innerWidth: 1440, listeners: {}, addEventListener(type, handler) { this.listeners[type] = handler; }, scrollTo() {}};
+  const window = {innerWidth: 1440, listeners: {}, scrollCalls: [], scrollY: 0, addEventListener(type, handler) { this.listeners[type] = handler; }, scrollTo(options) { this.scrollCalls.push(options); this.scrollY = options.top; }};
   const location = {hash};
   const context = {
     cases: fixtures,
@@ -279,4 +279,29 @@ test('cross-tab updates preserve category keyboard focus while the drawer is ope
  page.external('["tw"]');
  assert.equal(page.document.activeElement,page.get('[data-category="全部"]'));
  assert.equal(page.get('#open-categories').attributes['aria-expanded'],'true');
+});
+
+
+test('filter changes start new results at the top; group toggles and saves preserve scroll', () => {
+ const page=app();
+ for (const change of [() => page.category('product-work'), () => page.change('#search','Linear'), () => page.change('#language','zh','change'), () => page.change('#sort','name','change'), () => page.reset()]) {
+  page.window.scrollY=2400;
+  const calls=page.window.scrollCalls.length;
+  change();
+  assert.equal(page.window.scrollY,0);
+  assert.equal(page.window.scrollCalls.length,calls+1);
+  assert.equal(page.window.scrollCalls.at(-1).behavior,'instant');
+ }
+ page.window.scrollY=1800;
+ const calls=page.window.scrollCalls.length;
+ page.expand('brand');
+ page.save('linear');
+ assert.equal(page.window.scrollY,1800);
+ assert.equal(page.window.scrollCalls.length,calls);
+ page.window.innerWidth=390;
+ page.click('#open-categories');
+ page.category('product-work');
+ assert.equal(page.window.scrollY,0);
+ assert.equal(page.get('#open-categories').attributes['aria-expanded'],'false');
+ assert.equal(page.document.activeElement,page.get('#open-categories'));
 });
