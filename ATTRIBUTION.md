@@ -277,27 +277,49 @@
 
 来源目录用于发现及核对项目身份。每张图片均经过视觉审查，排除了错误页、验证码、空白、未完成加载和遮挡内容的弹窗。服务截图可能来自缓存，获取日不等于拍摄日，也不承诺与当前原站逐帧一致。互动依据与核验方式分别记录于 `research/distinctive-expansion.json`；未把仅阅读创作者说明表述为实际测试全部交互。
 
+- **Persona Studio**（en）— [原站](https://persona-studio.com) · [Awwwards · 网站收录](https://www.awwwards.com/sites/persona-studio) · Automattic mShots · `assets/screenshots/distinct-persona-studio.webp`
+- **Del Wang · 池核鸭**（zh-CN）— [原站](https://del.wang/about) · [Del Wang · 项目说明](https://del.wang/projects/explore/pool-duck) · Thum.io · `assets/screenshots/distinct-cn-del-pool-duck.webp`
+- **ULTRAGRID**（en）— [原站](https://ultragrid.studio/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/ultragrid) · Automattic mShots · `assets/screenshots/distinct-ultragrid.webp`
+- **ES Design**（zh-TW）— [原站](https://e-s.tw) · [twdc · 台灣好網站](https://twdc.design/) · Automattic mShots · `assets/screenshots/distinct-zh-es-design.webp`
+- **無形序 Formless Order**（zh-TW）— [原站](https://formlessorder.pages.dev/) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-formless-order.webp`
+- **Graffico Office**（en）— [原站](https://office.graffico.it/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/graffico-office) · Automattic mShots · `assets/screenshots/distinct-graffico-office.webp`
+- **Studio K95**（it）— [原站](https://k95.it) · [Awwwards · 网站收录](https://www.awwwards.com/sites/studio-k95-3) · Automattic mShots · `assets/screenshots/distinct-studio-k95-3.webp`
 - **Code Precision**（en）— [原站](https://codeprecision.com) · [Awwwards · 网站收录](https://www.awwwards.com/sites/code-precision) · Thum.io · `assets/screenshots/distinct-code-precision.webp`
 - **Biomes**（en）— [原站](https://demo.marpi.pl/biomes/) · [Experiments with Google](https://experiments.withgoogle.com/collection/chrome) · Thum.io · `assets/screenshots/exp-biomes.webp`
-- **無形序 Formless Order**（zh-TW）— [原站](https://formlessorder.pages.dev/) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-formless-order.webp`
 - **3DCC — Three-Dimensional Cognitive Coordinate**（en）— [原站](https://cocktailtheory.github.io/3DCC-core/) · [Awwwards](https://www.awwwards.com/sites/3dcc-three-dimensional-cognitive-coordinate) · Thum.io · `assets/screenshots/distinct-3dcc-three-dimensional-cognitive-coordinate.webp`
-- **gtd. 好事互動**（zh-TW）— [原站](https://www.gtd.tw/) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-gtd-good-things.webp`
-- **Squarespace Foundations**（en）— [原站](https://brand.squarespace.com/) · [Awwwards](https://www.awwwards.com/sites/squarespace-foundations) · Thum.io · `assets/screenshots/distinct-squarespace-foundations.webp`
-- **OffPossible**（en）— [原站](https://offpossible.com/) · [Awwwards](https://www.awwwards.com/sites/offpossible) · Thum.io · `assets/screenshots/distinct-offpossible.webp`
-- **緣滅雙十一**（zh-TW）— [原站](https://1111.rethinktw.org) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-campaign.webp`
-- **Behfar Behzad | FE Developer**（en）— [原站](https://behfar.dev/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/behfar-behzad-fe-developer) · Thum.io · `assets/screenshots/distinct-behfar-behzad-fe-developer.webp`
-- **SITCON 2026 Jam the Chaos**（en）— [原站](https://sitcon.org/2026/) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-sitcon-2026-jam-the-chaos.webp`
-- **WebGL Fluid Simulation**（en）— [原站](https://paveldogreat.github.io/WebGL-Fluid-Simulation/) · [Experiments with Google](https://experiments.withgoogle.com/fluid-simulation) · Automattic mShots · `assets/screenshots/exp-fluid.webp`
-- **Colonia Zacamil**（en）— [原站](https://coloniazacamil.com/) · [Awwwards](https://www.awwwards.com/sites/colonia-zacamil) · Thum.io · `assets/screenshots/distinct-colonia-zacamil.webp`
+- **p.n.g.**（zh-TW）— [原站](https://png.ltd/) · [twdc · 台灣好網站](https://twdc.design/) · Automattic mShots · `assets/screenshots/distinct-zh-png-ltd.webp`
+- **WC 2026 — Data Portraits**（en）— [原站](https://wc26.bogachev.fr) · [Awwwards](https://www.awwwards.com/sites/wc-2026-data-portraits) · Automattic mShots · `assets/screenshots/distinct-wc-2026-data-portraits.webp`
 - **Gionatan Nese '26**（en）— [原站](https://www.gionatannese.com/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/gionatan-nese-26) · Automattic mShots · `assets/screenshots/distinct-gionatan-nese-26.webp`
 - **Virtually Ever After Studio**（en）— [原站](https://virtuallyeverafter.xyz/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/virtually-ever-after-studio) · Thum.io · `assets/screenshots/distinct-virtually-ever-after-studio.webp`
 - **CRÈCHE - the tank**（en）— [原站](https://www.crechetank.com/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/creche-the-tank) · Thum.io · `assets/screenshots/distinct-creche-the-tank.webp`
+- **Moves (You) Portfolio**（en）— [原站](https://www.laurens.art/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/moves-you-portfolio) · Automattic mShots · `assets/screenshots/distinct-moves-you-portfolio.webp`
 - **Still Making Stuff**（en）— [原站](https://stillmakingstuff.com/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/still-making-stuff) · Thum.io · `assets/screenshots/distinct-still-making-stuff.webp`
 - **Goodgrowth**（en）— [原站](https://goodgrowth.com) · [Awwwards · 网站收录](https://www.awwwards.com/sites/goodgrowth) · Thum.io · `assets/screenshots/distinct-goodgrowth.webp`
+- **Mad Dogs Design Concept**（en）— [原站](https://maddogs.cosmos.studio/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/mad-dogs-design-concept) · Automattic mShots · `assets/screenshots/distinct-mad-dogs-design-concept.webp`
 - **Pensatori Irrazionali**（en）— [原站](https://pensatori-irrazionali.com/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/pensatori-irrazionali) · Thum.io · `assets/screenshots/distinct-pensatori-irrazionali.webp`
+- **HAOQI.DESIGN**（en）— [原站](https://haoqi.design) · [Awwwards · 网站收录](https://www.awwwards.com/sites/haoqi-design) · Automattic mShots · `assets/screenshots/distinct-haoqi-design.webp`
+- **Cipher**（en）— [原站](https://cipher.tv/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/cipher) · Automattic mShots · `assets/screenshots/distinct-cipher.webp`
 - **Pragadheesh's Showcase**（en）— [原站](https://www.spragadheeshraj.com) · [Awwwards · 网站收录](https://www.awwwards.com/sites/pragadheeshs-showcase) · Thum.io · `assets/screenshots/distinct-pragadheeshs-showcase.webp`
-- **ULTRAGRID**（en）— [原站](https://ultragrid.studio/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/ultragrid) · Thum.io · `assets/screenshots/distinct-ultragrid.webp`
+- **Silvia Malavasi Portfolio**（en）— [原站](https://www.silviamalavasi.com) · [Awwwards · 网站收录](https://www.awwwards.com/sites/silvia-malavasi-portfolio) · Automattic mShots · `assets/screenshots/distinct-silvia-malavasi-portfolio.webp`
+- **Agence F+**（fr）— [原站](https://www.fplus.ai/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/agence-f) · Automattic mShots · `assets/screenshots/distinct-agence-f.webp`
+- **Run Rob Run**（en）— [原站](https://www.runrobrun.com/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/run-rob-run) · Automattic mShots · `assets/screenshots/distinct-run-rob-run.webp`
+- **Behfar Behzad | FE Developer**（en）— [原站](https://behfar.dev/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/behfar-behzad-fe-developer) · Thum.io · `assets/screenshots/distinct-behfar-behzad-fe-developer.webp`
+- **PX PUSH**（en）— [原站](https://pxpush.com/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/px-push) · Automattic mShots · `assets/screenshots/distinct-px-push.webp`
+- **Digital Meadow**（en）— [原站](https://digitalmeadow.studio) · [Awwwards · 网站收录](https://www.awwwards.com/sites/digital-meadow-1) · Automattic mShots · `assets/screenshots/distinct-digital-meadow-1.webp`
+- **loehx.com**（en）— [原站](https://loehx.com/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/loehx-com) · Automattic mShots · `assets/screenshots/distinct-loehx-com.webp`
+- **AI Garage by Bryan Oh**（en）— [原站](https://bryangarage.dev/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/ai-garage-by-bryan-oh) · Automattic mShots · `assets/screenshots/distinct-ai-garage-by-bryan-oh.webp`
+- **Aino**（en）— [原站](https://aino.agency) · [Awwwards · 网站收录](https://www.awwwards.com/sites/aino-agency) · Automattic mShots · `assets/screenshots/distinct-aino-agency.webp`
+- **Revelatio Studio**（en）— [原站](https://revelatio.studio/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/revelatio-studio) · Automattic mShots · `assets/screenshots/distinct-revelatio-studio.webp`
+- **Unseen Studio 2025 Wrapped**（en）— [原站](https://2025.unseen.co/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/unseen-studio-2025-wrapped) · Automattic mShots · `assets/screenshots/distinct-unseen-studio-2025-wrapped.webp`
+- **Artiom Yakushev**（en）— [原站](https://www.art-yakushev.com/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/artiom-yakushev) · Automattic mShots · `assets/screenshots/distinct-artiom-yakushev.webp`
+- **Roman Jean-Elie**（en）— [原站](https://www.romanjeanelie.com/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/portfolio-25-1) · Automattic mShots · `assets/screenshots/distinct-portfolio-25-1.webp`
+- **LaCrapule Studio**（en）— [原站](https://www.lacrapulestudio.com/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/lacrapule-studio) · Automattic mShots · `assets/screenshots/distinct-lacrapule-studio.webp`
+- **Podium**（en）— [原站](https://podium.global/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/podium) · Automattic mShots · `assets/screenshots/distinct-podium.webp`
+- **Ricardo Chance — Portfolio**（en）— [原站](https://www.ricardochance.com/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/ricardo-chance-portfolio) · Automattic mShots · `assets/screenshots/distinct-ricardo-chance-portfolio.webp`
+- **Project Aperture**（en）— [原站](https://www.project-aperture.com/) · [Awwwards · 网站收录](https://www.awwwards.com/sites/project-aperture) · Automattic mShots · `assets/screenshots/distinct-project-aperture.webp`
+- **OffPossible**（en）— [原站](https://offpossible.com/) · [Awwwards](https://www.awwwards.com/sites/offpossible) · Thum.io · `assets/screenshots/distinct-offpossible.webp`
 - **Tetri's Smile Dental Boutique**（en）— [原站](https://virtual.limited/street.html) · [Awwwards](https://www.awwwards.com/sites/tetris-smile-dental-boutique) · Thum.io · `assets/screenshots/distinct-tetris-smile-dental-boutique.webp`
+- **Colonia Zacamil**（en）— [原站](https://coloniazacamil.com/) · [Awwwards](https://www.awwwards.com/sites/colonia-zacamil) · Thum.io · `assets/screenshots/distinct-colonia-zacamil.webp`
 - **Grids**（en）— [原站](https://grids03.obys.agency/) · [Awwwards](https://www.awwwards.com/sites/grids-1) · Thum.io · `assets/screenshots/distinct-grids-1.webp`
 - **The Shape of Intelligence**（en）— [原站](https://shapeofintelligence.com/) · [Awwwards](https://www.awwwards.com/sites/the-shape-of-intelligence) · Thum.io · `assets/screenshots/distinct-the-shape-of-intelligence.webp`
 - **Sobha Privy Collection**（en）— [原站](https://sobha-privy-collection.com/) · [Awwwards](https://www.awwwards.com/sites/sobha-privy-collection) · Thum.io · `assets/screenshots/distinct-sobha-privy-collection.webp`
@@ -306,9 +328,9 @@
 - **THE 360° RACING STUDIO**（en）— [原站](https://www.logitechg.com/en-gb/360-racing-studio) · [Awwwards](https://www.awwwards.com/sites/the-360deg-racing-studio) · Thum.io · `assets/screenshots/distinct-the-360deg-racing-studio.webp`
 - **EMO® — Altar II**（en）— [原站](https://electronicmaterialsoffice.com) · [Awwwards](https://www.awwwards.com/sites/emo-r-altar-ii) · Thum.io · `assets/screenshots/distinct-emo-r-altar-ii.webp`
 - **HelmetVerse**（en）— [原站](https://helmetverse.ai/) · [Awwwards](https://www.awwwards.com/sites/helmetverse) · Thum.io · `assets/screenshots/distinct-helmetverse.webp`
+- **Squarespace Foundations**（en）— [原站](https://brand.squarespace.com/) · [Awwwards](https://www.awwwards.com/sites/squarespace-foundations) · Thum.io · `assets/screenshots/distinct-squarespace-foundations.webp`
 - **New York’s New Maestro**（en）— [原站](https://www.nyphil.org/discover/gustavo) · [Awwwards](https://www.awwwards.com/sites/new-yorks-new-maestro) · Thum.io · `assets/screenshots/distinct-new-yorks-new-maestro.webp`
 - **ASTRODITHER**（en）— [原站](https://astrodither.robertborghesi.is/) · [Awwwards](https://www.awwwards.com/sites/astrodither) · Automattic mShots · `assets/screenshots/distinct-astrodither.webp`
-- **WC 2026 — Data Portraits**（en）— [原站](https://wc26.bogachev.fr) · [Awwwards](https://www.awwwards.com/sites/wc-2026-data-portraits) · Automattic mShots · `assets/screenshots/distinct-wc-2026-data-portraits.webp`
 - **ashMeteo**（en）— [原站](https://meteo.ashwyn.studio) · [Awwwards](https://www.awwwards.com/sites/ashmeteo) · Automattic mShots · `assets/screenshots/distinct-ashmeteo.webp`
 - **Tabasco - The Root Of A Legacy**（en）— [原站](https://tabasco.abdurrahimali.com/) · [Awwwards](https://www.awwwards.com/sites/tabasco-the-root-of-a-legacy) · Automattic mShots · `assets/screenshots/distinct-tabasco-the-root-of-a-legacy.webp`
 - **KAI DESIGN Dept.**（ja）— [原站](https://www.kai-group.com/global/design/) · [Awwwards](https://www.awwwards.com/sites/kai-design-dept) · Automattic mShots · `assets/screenshots/distinct-kai-design-dept.webp`
@@ -317,25 +339,68 @@
 - **VIZZ**（en）— [原站](https://vizz.fm) · [Awwwards](https://www.awwwards.com/sites/vizz) · Automattic mShots · `assets/screenshots/distinct-vizz.webp`
 - **The Last Tango**（en）— [原站](https://www.thelasttango.com/) · [Awwwards](https://www.awwwards.com/sites/the-last-tango) · Automattic mShots · `assets/screenshots/distinct-the-last-tango.webp`
 - **Apechain**（en）— [原站](https://apechain.com/) · [Awwwards](https://www.awwwards.com/sites/apechain) · Automattic mShots · `assets/screenshots/distinct-apechain.webp`
+- **penguin.music**（en）— [原站](https://penguin.music/) · [Awwwards](https://www.awwwards.com/sites/penguin-music) · Automattic mShots · `assets/screenshots/distinct-penguin-music.webp`
+- **ACTL**（en）— [原站](https://actl.me/) · [Awwwards](https://www.awwwards.com/sites/actl) · Automattic mShots · `assets/screenshots/distinct-actl.webp`
+- **Negotiated Intelligence**（en）— [原站](https://negotiated-intelligence.org/) · [Awwwards](https://www.awwwards.com/sites/negotiated-intelligence) · Automattic mShots · `assets/screenshots/distinct-negotiated-intelligence.webp`
+- **CHASING THE MOMENT**（en）— [原站](https://chasing-the-moment.byholm.co/) · [Awwwards](https://www.awwwards.com/sites/chasing-the-moment) · Automattic mShots · `assets/screenshots/distinct-chasing-the-moment.webp`
+- **Dont Look up game**（en）— [原站](https://www.dontlookup.app/) · [Awwwards](https://www.awwwards.com/sites/dont-look-up-game) · Automattic mShots · `assets/screenshots/distinct-dont-look-up-game.webp`
+- **11 mois sans toi(t)**（fr）— [原站](https://11moissanstoit.com/) · [Awwwards](https://www.awwwards.com/sites/11-mois-sans-toi-t) · Automattic mShots · `assets/screenshots/distinct-11-mois-sans-toi-t.webp`
+- **The Last Dance For Glory**（en）— [原站](https://lastdanceforglory.world/) · [Awwwards](https://www.awwwards.com/sites/the-last-dance-for-glory) · Automattic mShots · `assets/screenshots/distinct-the-last-dance-for-glory.webp`
+- **WC26 Unofficial Player Album**（en）— [原站](https://playeralbum.com/) · [Awwwards](https://www.awwwards.com/sites/wc26-unofficial-player-album) · Automattic mShots · `assets/screenshots/distinct-wc26-unofficial-player-album.webp`
+- **Generative 3D-Configurator**（en）— [原站](https://vargov.design) · [Awwwards](https://www.awwwards.com/sites/generative-3d-configurator) · Automattic mShots · `assets/screenshots/distinct-generative-3d-configurator.webp`
+- **Pahāri**（en）— [原站](https://pahari.vercel.app/) · [Awwwards](https://www.awwwards.com/sites/pahari) · Automattic mShots · `assets/screenshots/distinct-pahari.webp`
+- **Klimt Wine Product Website**（en）— [原站](https://klimtwine.com/en) · [Awwwards](https://www.awwwards.com/sites/klimt-wine-product-website) · Automattic mShots · `assets/screenshots/distinct-klimt-wine-product-website.webp`
+- **The Tuscan Journey Begins**（en）— [原站](https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/en/) · [Awwwards](https://www.awwwards.com/sites/the-tuscan-journey-begins) · Automattic mShots · `assets/screenshots/distinct-the-tuscan-journey-begins.webp`
+- **Every day is a gift**（en）— [原站](https://everydaygift.polimata.mx/) · [Awwwards](https://www.awwwards.com/sites/every-day-is-a-gift) · Automattic mShots · `assets/screenshots/distinct-every-day-is-a-gift.webp`
+- **Still Night**（en）— [原站](https://stillnight.joshua-garcia.com) · [Awwwards](https://www.awwwards.com/sites/still-night) · Automattic mShots · `assets/screenshots/distinct-still-night.webp`
+- **Grail**（en）— [原站](https://grail-app.com/) · [Awwwards](https://www.awwwards.com/sites/grail) · Automattic mShots · `assets/screenshots/distinct-grail.webp`
+- **IRONHILL**（en）— [原站](https://ironhill.au/) · [Awwwards](https://www.awwwards.com/sites/ironhill) · Automattic mShots · `assets/screenshots/distinct-ironhill.webp`
+- **Belgrade Arbor**（en）— [原站](https://belgradearbor.rs/en) · [Awwwards](https://www.awwwards.com/sites/belgrade-arbor) · Automattic mShots · `assets/screenshots/distinct-belgrade-arbor.webp`
+- **緣滅雙十一**（zh-TW）— [原站](https://1111.rethinktw.org) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-campaign.webp`
 - **羅慧夫顱顏基金會**（zh-TW）— [原站](https://change.nncf.org/) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-seeing-change-x-noordhoff-craniofacial-foundation.webp`
+- **拜拜基本款 pài-pài 2.0**（zh-TW）— [原站](https://pray-tips.paipai.blog/zh) · [twdc · 台灣好網站](https://twdc.design/) · Cloud browser via cua_repl · `assets/screenshots/distinct-zh-paipai-pray-tips.webp`
+- **DANZAN**（en）— [原站](https://danzan.jiejoe.com) · [Awwwards](https://www.awwwards.com/sites/danzan) · Automattic mShots · `assets/screenshots/distinct-danzan.webp`
+- **砚OS · YanOS**（zh-CN）— [原站](https://www.zhouchang.me/os/index.html) · [周畅 · 单页作品集](https://www.zhouchang.me/) · Thum.io · `assets/screenshots/distinct-cn-zhouchang-yanos.webp`
+- **Thisissand**（en）— [原站](https://thisissand.com/) · [Thisissand · 作者项目博客](https://thisissand.wordpress.com/2008/05/12/play_with_us/) · Thum.io · `assets/screenshots/distinct-art-thisissand.webp`
+- **Pointer Pointer**（en）— [原站](https://pointerpointer.com/) · [Pointer Pointer · 原作品](https://pointerpointer.com/) · Cloud browser manual review · `assets/screenshots/distinct-art-pointerpointer.webp`
+- **WindowSwap**（en）— [原站](https://www.window-swap.com/) · [Wikipedia · WindowSwap 项目介绍](https://en.wikipedia.org/wiki/WindowSwap) · Cloud browser manual review · `assets/screenshots/distinct-art-window-swap.webp`
+- **Earth · 流动地球**（zh-CN）— [原站](https://earth.nullschool.net/zh-cn/) · [Nullschool · 官方体验](https://earth.nullschool.net/) · Thum.io · `assets/screenshots/distinct-art-earth-wind.webp`
+- **OriDomi**（en）— [原站](https://oxism.com/oriDomi/) · [Dan Motzenbecker · 官方演示](https://oxism.com/oriDomi/) · Cloud browser manual review · `assets/screenshots/distinct-art-oridomi.webp`
+- **山水无尽 · Shan Shui**（en）— [原站](https://shan-shui-inf.lingdong.works/) · [Lingdong Huang · 官方开源项目](https://github.com/LingDong-/shan-shui-inf) · Cloud browser via cua_repl · `assets/screenshots/distinct-cn-shan-shui.webp`
+- **ASCII Play**（en）— [原站](https://play.ertdfgcvb.xyz/) · [Andreas Gysin · 官方实验目录](https://ertdfgcvb.xyz/) · Cloud browser manual review · `assets/screenshots/distinct-art-ascii-play.webp`
+- **Linjer**（en）— [原站](https://lab.hakim.se/linjer/) · [Hakim El Hattab · 官方实验](https://lab.hakim.se/linjer/) · Cloud browser manual review · `assets/screenshots/distinct-art-linjer.webp`
+- **Texter · Draw with Words**（en）— [原站](https://tholman.com/texter/) · [Tim Holman · 官方作品](https://tholman.com/texter/) · Cloud browser manual review · `assets/screenshots/distinct-art-texter.webp`
+- **Webamp**（en）— [原站](https://webamp.org/) · [Webamp · 官方浏览器作品](https://webamp.org/) · Cloud browser manual review · `assets/screenshots/distinct-art-webamp.webp`
+- **Poolsuite**（en）— [原站](https://poolsuite.net/) · [htmlBurger · Retro Website Examples](https://htmlburger.com/blog/retro-websites-examples/) · Cloud browser manual review · `assets/screenshots/distinct-art-poolsuite.webp`
 - **but. 奶油甜點**（zh-TW）— [原站](https://www.but.com.tw/) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-but-dessert.webp`
 - **萬波島嶼紅茶 Wanpo Tea Shop**（zh-TW）— [原站](https://wanpotea.com/) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-wanpo-tea.webp`
 - **Floating Point Art 浮點設計**（en）— [原站](https://www.fpa.studio/) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-floating-point-art.webp`
 - **本事 SkillABility**（zh-TW）— [原站](https://skillability.team) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-skillability.webp`
+- **樂團祭 Bandstival**（zh-TW）— [原站](https://bandstival.com/) · [twdc · 台灣好網站](https://twdc.design/) · Automattic mShots · `assets/screenshots/distinct-zh-bandstival.webp`
 - **臺灣文博會 2026**（en）— [原站](https://creativexpo.tw/zh-TW) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-creative-expo-taiwan.webp`
+- **小怪 Lemonster | Music Studio**（zh-TW）— [原站](https://lemonster.studio) · [twdc · 台灣好網站](https://twdc.design/) · Automattic mShots · `assets/screenshots/distinct-zh-lemonster-studio.webp`
 - **台達品牌識別升級**（zh-TW）— [原站](https://www.deltaww.com/new-brand-identity/) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-delta-brand-identity.webp`
 - **嘉義 320+1**（zh-TW）— [原站](https://chiayicityexpo2025.com) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-chiayi-320-plus-1.webp`
+- **防制金融投資詐騙專區**（zh-TW）— [原站](https://antifraud.tpex.org.tw/game-2024) · [twdc · 台灣好網站](https://twdc.design/) · Automattic mShots · `assets/screenshots/distinct-zh-tpex-antifraud.webp`
 - **因創科技**（en）— [原站](https://www.innovext.com/) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-innovext.webp`
+- **Harry Design Studio**（en）— [原站](https://noeinoi.com) · [twdc · 台灣好網站](https://twdc.design/) · Automattic mShots · `assets/screenshots/distinct-zh-harry-design-studio.webp`
 - **GTHEBREEZE**（zh-TW）— [原站](https://gthebreeze.com/) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-gthebreeze.webp`
 - **ddd.pizza**（en）— [原站](https://www.ddd.pizza/) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-ddd-pizza.webp`
+- **政大 X 實驗學院**（zh-TW）— [原站](https://x.nccu.edu.tw/) · [twdc · 台灣好網站](https://twdc.design/) · Cloud browser via cua_repl · `assets/screenshots/distinct-zh-nccu-x-college.webp`
+- **Microwave Festival 2025**（en）— [原站](https://www.microwavefest.net/) · [twdc · 台灣好網站](https://twdc.design/) · Automattic mShots · `assets/screenshots/distinct-zh-microwave-fest-2025.webp`
+- **SITCON 2026 Jam the Chaos**（en）— [原站](https://sitcon.org/2026/) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-sitcon-2026-jam-the-chaos.webp`
 - **Studio鳴**（en）— [原站](https://www.studioming.com/) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-studio-ming.webp`
 - **淡江大橋如何走向世界第一**（zh-TW）— [原站](https://www.cna.com.tw/project/20260430-danjiang-bridge/index.html) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-danjiang-bridge-3d.webp`
+- **gtd. 好事互動**（zh-TW）— [原站](https://www.gtd.tw/) · [twdc · 台灣好網站](https://twdc.design/) · Thum.io · `assets/screenshots/distinct-zh-gtd-good-things.webp`
+- **数字敦煌 · 数字藏经洞**（zh-CN）— [原站](https://dlc.e-dunhuang.com/) · [敦煌研究院 · 官方项目](https://dlc.e-dunhuang.com/) · Thum.io · `assets/screenshots/distinct-cn-dunhuang-cave.webp`
 - **Patatap**（en）— [原站](https://patatap.com/) · [Patatap · 项目官网](https://patatap.com/) · Cloud Chromium · live interaction screenshot · `assets/screenshots/exp-patatap.webp`
 - **Blob Opera**（en）— [原站](https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw) · [Experiments with Google](https://experiments.withgoogle.com/blob-opera) · Thum.io · `assets/screenshots/exp-blob-opera.webp`
 - **Typatone**（en）— [原站](https://typatone.com/) · [Typatone · 项目官网](https://typatone.com/) · Automattic mShots · `assets/screenshots/exp-typatone.webp`
 - **Silk · Interactive Generative Art**（en）— [原站](https://weavesilk.com/) · [Silk · Interactive Generative Art · 项目官网](https://weavesilk.com/) · Automattic mShots · `assets/screenshots/exp-silk.webp`
+- **WebGL Fluid Simulation**（en）— [原站](https://paveldogreat.github.io/WebGL-Fluid-Simulation/) · [Experiments with Google](https://experiments.withgoogle.com/fluid-simulation) · Automattic mShots · `assets/screenshots/exp-fluid.webp`
 - **Chrome Music Lab · Song Maker**（en）— [原站](https://musiclab.chromeexperiments.com/Song-Maker/) · [Experiments with Google](https://experiments.withgoogle.com/collection/chrome) · Automattic mShots · `assets/screenshots/exp-song-maker.webp`
 - **Zoomquilt**（en）— [原站](https://zoomquilt.org/) · [Zoomquilt · 项目官网](https://zoomquilt.org/) · Thum.io · `assets/screenshots/exp-zoomquilt.webp`
+- **Write with Open Access**（en）— [原站](https://writewithopenaccess.org/) · [Write with Open Access · 项目官网](https://writewithopenaccess.org/) · Cloud Chromium · live interaction screenshot · `assets/screenshots/exp-write-open-access.webp`
 
 ### 独立许可与创作者说明
 

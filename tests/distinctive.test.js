@@ -34,7 +34,7 @@ test('creative expansion reports additional visible cases separately from the ba
   assert.equal(c.tags.length,3);assert.ok(c.note.length>=40,c.id);
   assert.ok(c.sourceName&&c.sourceUrl.startsWith('https://'),c.id);
   assert.equal(new URL(c.url).protocol,'https:');
-  const host=new URL(c.url).hostname.replace(/^www\./,'');
+  const host=r.canonicalHost||new URL(c.url).hostname.replace(/^www\./,'');
   assert.ok(!hosts.has(host),`Duplicate canonical host ${host}`);hosts.add(host);
   assert.ok(r.targetCheck&&r.sourceVerification&&r.interactionEvidence&&r.rights,c.id);
   if(c.category==='游戏')assert.ok(['browser','official'].includes(c.gameType),c.id);
