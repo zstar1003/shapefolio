@@ -1,6 +1,1128 @@
 // Curated website sources and original learning notes. Concept demos retain explicit provenance.
 export const cases = [
   {
+    "id": "distinct-code-precision",
+    "name": "Code Precision",
+    "url": "https://codeprecision.com",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "en",
+    "tags": [
+      "3D",
+      "分区界面",
+      "信号隐喻"
+    ],
+    "subtitle": "把抽象品牌信号变成可探索的球体",
+    "note": "深蓝与灰白两块倾斜背景分担品牌说明与项目入口，中央黑色球体连接两侧。右上角的小型扫描面板把抽象概念转成具体界面语言。",
+    "lesson": "让概念物体与实际导航共享同一套视觉规则。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/code-precision",
+    "isConcept": false
+  },
+  {
+    "id": "exp-biomes",
+    "name": "Biomes",
+    "url": "https://demo.marpi.pl/biomes/",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "WebGL",
+      "生成地形",
+      "3D"
+    ],
+    "subtitle": "用可调参数构造一片颗粒化地貌",
+    "note": "低视角的蓝紫色地面上生长出多组圆润、带密集纹理的山丘，右上角窄控制面板提供参数入口。深色天空与明亮地表形成清楚层次，适合观察生成艺术如何用统一材质把变化多端的形态组织起来。",
+    "lesson": "用一致的材质与光线，让随机变化仍然有整体感。",
+    "sourceName": "Experiments with Google",
+    "sourceUrl": "https://experiments.withgoogle.com/collection/chrome",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-formless-order",
+    "name": "無形序 Formless Order",
+    "url": "https://formlessorder.pages.dev/",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "zh-TW",
+    "tags": [
+      "字符字形",
+      "坐标界面",
+      "漂浮物件"
+    ],
+    "subtitle": "让字符标题与漂浮物件组成实验界面",
+    "note": "浅色画布中央以字符点阵构成巨大标题，边缘分布刻度、细线与小号系统标签。红蓝几何物件从顶部进入，让规则化的信息层和不规则形体产生反差。",
+    "lesson": "用稳定的坐标骨架承接实验性图形，而不是让所有元素同时争夺注意力。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-3dcc-three-dimensional-cognitive-coordinate",
+    "name": "3DCC — Three-Dimensional Cognitive Coordinate",
+    "url": "https://cocktailtheory.github.io/3DCC-core/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/3dcc-three-dimensional-cognitive-coordinate",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "空间坐标",
+      "发光球体",
+      "WebGL"
+    ],
+    "subtitle": "用彩色光球表达味觉的坐标关系",
+    "note": "深色画布里分布大小和颜色不同的发光圆球，细线将球体连接成空间坐标，边缘的英文感官词说明方向。球体既是视觉元素也是数据位置，可学习把抽象感受组织成可以比较的空间。",
+    "lesson": "让颜色、尺度和位置共同解释数据。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-gtd-good-things",
+    "name": "gtd. 好事互動",
+    "url": "https://www.gtd.tw/",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "zh-TW",
+    "tags": [
+      "立体环带",
+      "深色空间",
+      "分区文字"
+    ],
+    "subtitle": "以一组蓝色环带组织设计团队的空间名片",
+    "note": "近黑背景里，多条蓝色金属环带围住中央球体，形成明确的纵深。中文大标题靠左下，说明在右上，作品小图靠右下，让主视觉与三种信息各据一角。",
+    "lesson": "把文案分布在空间边缘，为立体主体保留完整轮廓。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-squarespace-foundations",
+    "name": "Squarespace Foundations",
+    "url": "https://brand.squarespace.com/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/squarespace-foundations",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "en",
+    "tags": [
+      "空间目录",
+      "品牌规范",
+      "实验交互"
+    ],
+    "subtitle": "把品牌规范做成悬浮在空间里的卡片",
+    "note": "黑色背景中多张矩形卡片向不同方向倾斜，分别承载字标、影像和版式，中央的小段说明维持稳定。页面把规范目录变成一圈可以探索的视觉样本，可学习如何让设计系统拥有空间层次。",
+    "lesson": "用空间关系组织一组本来平面的品牌素材。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-offpossible",
+    "name": "OffPossible",
+    "url": "https://offpossible.com/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/offpossible",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "生成视觉",
+      "颗粒纹理",
+      "WebGL"
+    ],
+    "subtitle": "把感知动词放进破碎发光的空间",
+    "note": "黑底上布满带浅紫光晕的尖锐线框和颗粒纹理，中央四行动词保持很大的字级。背景的强烈方向感与稳定文字形成对照，可学习如何让抽象空间具有清楚的阅读中心。",
+    "lesson": "用稳定的文字锚点承接复杂的生成式视觉。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-campaign",
+    "name": "緣滅雙十一",
+    "url": "https://1111.rethinktw.org",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "zh-TW",
+    "tags": [
+      "插画角色",
+      "标语卷轴",
+      "荧光配色"
+    ],
+    "subtitle": "用夸张的多手角色提醒人们放下购物冲动",
+    "note": "薄荷绿背景中，一位多手角色同时举起促销牌、购物篮与手机。两侧竖幅和底部横幅包围角色，粉色荧光强调促销符号，让议题一眼可辨。",
+    "lesson": "把抽象议题转成一个可被记住的角色与动作。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-behfar-behzad-fe-developer",
+    "name": "Behfar Behzad | FE Developer",
+    "url": "https://behfar.dev/",
+    "category": "个人网站",
+    "subcategory": "personal-maker",
+    "language": "en",
+    "tags": [
+      "WebGL",
+      "星云场景",
+      "微型导航"
+    ],
+    "subtitle": "把开发者作品集放进粒子星空",
+    "note": "黑色星空内散布星云和细碎光点，顶部只保留几项微小导航，画面下方横向光带形成空间基线。大面积暗部让少量发光元素成为注意力入口。",
+    "lesson": "沉浸场景中仍要留下可辨认的浏览路径。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/behfar-behzad-fe-developer",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-sitcon-2026-jam-the-chaos",
+    "name": "SITCON 2026 Jam the Chaos",
+    "url": "https://sitcon.org/2026/",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "文化艺术",
+    "subcategory": "culture-arts",
+    "language": "en",
+    "tags": [
+      "轨迹线条",
+      "漂浮几何",
+      "衬线标题"
+    ],
+    "subtitle": "让混沌主题变成有轨迹的空间排版",
+    "note": "棕黑渐层空间里，细白曲线穿过球体与几何碎片。大号衬线标题分成三层，导航被收进顶部的小胶囊，视觉复杂但阅读起点明确。",
+    "lesson": "让主题图形自由游走，同时用字号与位置稳定关键信息。",
+    "isConcept": false
+  },
+  {
+    "id": "exp-fluid",
+    "name": "WebGL Fluid Simulation",
+    "url": "https://paveldogreat.github.io/WebGL-Fluid-Simulation/",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "WebGL",
+      "流体模拟",
+      "实验交互"
+    ],
+    "subtitle": "把鼠标运动变成有厚度的彩色流体",
+    "note": "青绿、紫色和暗蓝色的流体在黑底上相互卷曲，右侧窄面板容纳密度、旋涡和辉光等参数。主要画布与细密控制区形成明显主次，适合学习复杂技术实验如何让画面先产生吸引力，再允许细调。",
+    "lesson": "把复杂参数收在边缘，让实时反馈占据中心。",
+    "sourceName": "Experiments with Google",
+    "sourceUrl": "https://experiments.withgoogle.com/fluid-simulation",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-colonia-zacamil",
+    "name": "Colonia Zacamil",
+    "url": "https://coloniazacamil.com/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/colonia-zacamil",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "社区地图",
+      "俯视场景",
+      "WebGL"
+    ],
+    "subtitle": "把一片社区变成可观察的立体地图",
+    "note": "俯瞰视角里密集排列的屋顶、街道与树木占满画面，阳光让建筑阴影形成清晰的方向。没有额外装饰抢走注意力，可学习城市题材如何通过空间密度和真实地形建立现场感。",
+    "lesson": "让场景本身承担信息与叙事。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-gionatan-nese-26",
+    "name": "Gionatan Nese '26",
+    "url": "https://www.gionatannese.com/",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "en",
+    "tags": [
+      "WebGL",
+      "漂浮作品",
+      "空间索引"
+    ],
+    "subtitle": "把作品缩略图排列成自由的空间索引",
+    "note": "小幅作品围绕页面中央疏密不一地展开，顶部只保留简短身份与导航。大片白色空间让图像之间的位置关系成为阅读线索，打破常见作品集的整齐网格。",
+    "lesson": "作品索引也可以通过距离与密度传达个性。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/gionatan-nese-26",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-virtually-ever-after-studio",
+    "name": "Virtually Ever After Studio",
+    "url": "https://virtuallyeverafter.xyz/",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "en",
+    "tags": [
+      "实验交互",
+      "双入口",
+      "文字留白"
+    ],
+    "subtitle": "用两条观看路径连接空间体验与页面阅读",
+    "note": "白色入口页将 SPACE 与 PAGE 上下并列，细线与字距区分两个区域。说明文字退到小号层级，把访问者选择观看方式的动作放在第一位。",
+    "lesson": "在沉浸式网站入口明确说明可选择的浏览方式。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/virtually-ever-after-studio",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-creche-the-tank",
+    "name": "CRÈCHE - the tank",
+    "url": "https://www.crechetank.com/",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "en",
+    "tags": [
+      "实验交互",
+      "水面隐喻",
+      "变形字标"
+    ],
+    "subtitle": "用水波与重影字标营造进入创作水箱的仪式",
+    "note": "浅蓝画面上方叠加半透明波浪，白色字标以错位重影展开。小号 ENTER 按钮落在字标下方，整个入口先建立水下空间的氛围，再邀请访问者进入。",
+    "lesson": "把进入动作放进与品牌概念一致的场景。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/creche-the-tank",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-still-making-stuff",
+    "name": "Still Making Stuff",
+    "url": "https://stillmakingstuff.com/",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "en",
+    "tags": [
+      "人物剪贴",
+      "大号文字",
+      "散点导航"
+    ],
+    "subtitle": "让个人头像成为夸张文字布局的主角",
+    "note": "奶油底色上用粗黑文字直接介绍作者，剪贴式人物头像压在标题前面。四周散开的短句同时承担导航，让自我介绍与可操作区域融为一体。",
+    "lesson": "把个性放进信息结构，而不只加在装饰图里。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/still-making-stuff",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-goodgrowth",
+    "name": "Goodgrowth",
+    "url": "https://goodgrowth.com",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "en",
+    "tags": [
+      "实验交互",
+      "数字光盘",
+      "荧光紫"
+    ],
+    "subtitle": "把作品集入口做成一枚等待插入的数字光盘",
+    "note": "紫色扫描纹理铺满画面，透明笑脸光盘居中发亮，下方以 INSERT DISC 提示下一步。低密度界面与明确动作形成复古设备般的探索仪式。",
+    "lesson": "借用熟悉物件的操作隐喻，让入口动作自然发生。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/goodgrowth",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-pensatori-irrazionali",
+    "name": "Pensatori Irrazionali",
+    "url": "https://pensatori-irrazionali.com/",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "en",
+    "tags": [
+      "WebGL",
+      "地球视图",
+      "状态面板"
+    ],
+    "subtitle": "把工作室项目做成黑白地球上的信息网络",
+    "note": "黑色界面中放大白色地球，细线圆环与左右两列项目资料形成精密的仪表盘感。右侧绿色状态点保留了清晰的可扫读节奏。",
+    "lesson": "用一个空间模型统一项目索引与品牌气质。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/pensatori-irrazionali",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-pragadheeshs-showcase",
+    "name": "Pragadheesh's Showcase",
+    "url": "https://www.spragadheeshraj.com",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "en",
+    "tags": [
+      "实验交互",
+      "影像拼贴",
+      "中心构图"
+    ],
+    "subtitle": "让不同创作片段围绕个人名片展开",
+    "note": "深色背景上的影像与作品画面错落分布，中央留出姓名与短介绍。外围图片形成环绕式观看路径，让个人定位与作品类型同时被看到。",
+    "lesson": "中心信息保持稳定，周围作品可以自由排布。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/pragadheeshs-showcase",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-ultragrid",
+    "name": "ULTRAGRID",
+    "url": "https://ultragrid.studio/",
+    "category": "个人网站",
+    "subcategory": "personal-maker",
+    "language": "en",
+    "tags": [
+      "3D",
+      "建筑视角",
+      "材质对比"
+    ],
+    "subtitle": "用立体字标与斜向镜头建立创作者的空间入口",
+    "note": "深灰墙面上的金属立体字斜向延伸，顶部橙色边缘带来暖色对比。大幅近景弱化传统页头，让字标与空间材质一起承担身份表达。",
+    "lesson": "把标志放入有尺度和材质的场景，可以加强记忆。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/ultragrid",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-tetris-smile-dental-boutique",
+    "name": "Tetri's Smile Dental Boutique",
+    "url": "https://virtual.limited/street.html",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/tetris-smile-dental-boutique",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "en",
+    "tags": [
+      "空间漫游",
+      "玻璃质感",
+      "WebGL"
+    ],
+    "subtitle": "用玻璃门作为进入品牌空间的第一幕",
+    "note": "画面近距离展示半透明玻璃门，品牌字标印在玻璃上，后方环境被柔化成蓝灰色。右上角把电话独立为小圆角入口，适合观察沉浸式空间画面如何保留最少但必要的服务入口。",
+    "lesson": "把现实空间里的门面转化成网页入口。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-grids-1",
+    "name": "Grids",
+    "url": "https://grids03.obys.agency/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/grids-1",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "实验排版",
+      "黑白",
+      "WebGL"
+    ],
+    "subtitle": "把网格主题直接做成巨大的黑白字形",
+    "note": "黑色字形被分割为直角块面，几乎填满浅色画布，留白变成与笔画同样重要的结构。首屏把阅读与观看合在一起，适合学习如何用尺度和切割关系表现网格这个抽象主题。",
+    "lesson": "让排版规则成为内容本身。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-the-shape-of-intelligence",
+    "name": "The Shape of Intelligence",
+    "url": "https://shapeofintelligence.com/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/the-shape-of-intelligence",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "抽象曲面",
+      "知识叙事",
+      "WebGL"
+    ],
+    "subtitle": "让知识主题拥有一张可感知的曲面",
+    "note": "灰白底色上使用大号黑色标题，银色扭曲曲面悬在两段文字之间。顶部导航缩到细小字号，既保留资料入口，也让物体形态成为第一视觉焦点，可学习理性内容与感性模型的比例。",
+    "lesson": "用一个有表现力的模型承载抽象概念。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-sobha-privy-collection",
+    "name": "Sobha Privy Collection",
+    "url": "https://sobha-privy-collection.com/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/sobha-privy-collection",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "en",
+    "tags": [
+      "建筑空间",
+      "低照度",
+      "WebGL"
+    ],
+    "subtitle": "用一束光勾勒沉浸式建筑的轮廓",
+    "note": "黑色背景中只让弧形建筑表面接住微弱光线，中央下方叠放细衬线标题。菜单、字标和三维地图入口沿顶边分散排列，适合学习如何用暗部留白和材质光泽制造空间期待。",
+    "lesson": "保留足够暗部，让轮廓和入口更有分量。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-unbelievably-crap",
+    "name": "Unbelievably Crap",
+    "url": "https://www.unbelievablycrap.com/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/unbelievably-crap",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "扫描视觉",
+      "实验界面",
+      "WebGL"
+    ],
+    "subtitle": "把人物扫描与技术面板放进同一画面",
+    "note": "黑底上出现带彩色扫描线的人体形象，两侧用很小的标签、数据和功能入口形成控制台气质。人物周围保留大量空白，适合学习实验图像如何借助克制的信息边框建立可探索感。",
+    "lesson": "让控制界面退到边缘，突出实验主体。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-awards-racing",
+    "name": "Awards Racing",
+    "url": "https://awards.racing",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/awards-racing",
+    "category": "游戏",
+    "subcategory": "games-browser",
+    "language": "en",
+    "tags": [
+      "赛车体验",
+      "拼接构图",
+      "WebGL"
+    ],
+    "subtitle": "让赛车主题从彩色拼接块里冲出来",
+    "note": "赛车、棋盘旗与紫红色几何部件被装进高低错落的矩形开口，中央粗体白黄字标跨越多个块面。黑色外框加强了内部色彩的密度，可学习如何让碎片构图仍然围绕一个中心标题组织。",
+    "lesson": "把多种素材限制在共同的构图骨架里。",
+    "isConcept": false,
+    "gameType": "browser"
+  },
+  {
+    "id": "distinct-the-360deg-racing-studio",
+    "name": "THE 360° RACING STUDIO",
+    "url": "https://www.logitechg.com/en-gb/360-racing-studio",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/the-360deg-racing-studio",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "en",
+    "tags": [
+      "沉浸入口",
+      "场景化产品",
+      "实验交互"
+    ],
+    "subtitle": "把外设选择包装成一间赛车工作间",
+    "note": "黑色首屏用蓝色弧光围住白色标题，中央的蓝色按钮与页顶品牌色呼应。页面没有立即铺开商品列表，而是先建立一个围绕赛车设置的空间入口，可学习工具型品牌如何用统一场景连接体验与选购。",
+    "lesson": "先建立使用场景，再呈现复杂的选择。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-emo-r-altar-ii",
+    "name": "EMO® — Altar II",
+    "url": "https://electronicmaterialsoffice.com",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/emo-r-altar-ii",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "en",
+    "tags": [
+      "产品空间",
+      "材质照明",
+      "3D"
+    ],
+    "subtitle": "让黑色键盘在暗处显露物理细节",
+    "note": "黑色键盘以横向透视占据下方画面，键帽边缘和右侧金属细节仅由窄光勾勒。顶部只保留红色小符号与 About 链接，适合学习如何把产品本身的尺度、材质和方向感变成主角。",
+    "lesson": "减少信息密度，让产品形体先被看见。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-helmetverse",
+    "name": "HelmetVerse",
+    "url": "https://helmetverse.ai/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/helmetverse",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "en",
+    "tags": [
+      "创作画廊",
+      "产品模型",
+      "3D"
+    ],
+    "subtitle": "把头盔创作放进未来感的竞赛界面",
+    "note": "黑灰画布上使用紧凑粗体标题，透明边框状态卡说明活动阶段，青绿色按钮指向作品画廊。下方露出彩色反光头盔，把产品对象和参与入口接起来，可学习如何将创作展示与活动状态放在同一层级。",
+    "lesson": "让参与状态与作品入口保持直接相邻。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-new-yorks-new-maestro",
+    "name": "New York’s New Maestro",
+    "url": "https://www.nyphil.org/discover/gustavo",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/new-yorks-new-maestro",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "en",
+    "tags": [
+      "人物叙事",
+      "高对比",
+      "滚动叙事"
+    ],
+    "subtitle": "让指挥家的动作切开明黄标题区",
+    "note": "明黄色主视觉中，黑衣指挥家以抬起的手臂穿过高窄黑色标题，人物从黑色矩形边框里向外延伸。顶部黑色栏控制导航密度，适合学习如何用抠像、字形和色块形成有舞台感的叙事开场。",
+    "lesson": "用人物动作建立阅读方向。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-astrodither",
+    "name": "ASTRODITHER",
+    "url": "https://astrodither.robertborghesi.is/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/astrodither",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "像素实验",
+      "摩尔纹",
+      "WebGPU"
+    ],
+    "subtitle": "把一个球面藏进密集的彩色像素里",
+    "note": "画面由整齐排列的细小圆点构成，中央黑白圆形轮廓向四周弯曲，边缘出现彩色摩尔纹。进入与开启声音的提示压在中心位置，适合学习如何把进入页本身也做成一件完整的实验图像。",
+    "lesson": "让视觉效果在进入之前就表达作品的规则。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-wc-2026-data-portraits",
+    "name": "WC 2026 — Data Portraits",
+    "url": "https://wc26.bogachev.fr",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/wc-2026-data-portraits",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "数据艺术",
+      "空间曲面",
+      "WebGL"
+    ],
+    "subtitle": "让足球数据变成流动的彩色地形",
+    "note": "紫黑底色上方横贯一条多色折面带，白色标题与多色单词一起建立视觉层级。下方把淘汰赛和场次列成克制的目录，适合学习如何将强烈的数据艺术和明确的赛事索引并置。",
+    "lesson": "让数据的表现层与查找层各有明确位置。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-ashmeteo",
+    "name": "ashMeteo",
+    "url": "https://meteo.ashwyn.studio",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/ashmeteo",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "天气数据",
+      "立体矩阵",
+      "3D"
+    ],
+    "subtitle": "把城市天气排成一块可比较的立体矩阵",
+    "note": "黑色画布中央排列蓝橙相间的细柱，斜俯视角让行列与高低差同时可见。城市名称、搜索框和播放控件退到边缘，适合学习把时间数据变成既有整体纹理又能观察细节的空间图表。",
+    "lesson": "用规则阵列让大量数据保持可读。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-tabasco-the-root-of-a-legacy",
+    "name": "Tabasco - The Root Of A Legacy",
+    "url": "https://tabasco.abdurrahimali.com/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/tabasco-the-root-of-a-legacy",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "en",
+    "tags": [
+      "原料叙事",
+      "植物模型",
+      "3D"
+    ],
+    "subtitle": "从一枝辣椒开始的品牌概念实验",
+    "note": "这是独立创作者的品牌概念作品。黑灰背景中，几枚有光泽的青椒沿枝条朝不同方向伸展，叶片和茎秆保留细小的材质变化。画面只留下植物这个叙事起点，可学习如何先展示原料，再引出产品故事。",
+    "lesson": "从原材料而不是成品开始建立品牌叙事。",
+    "isConcept": true
+  },
+  {
+    "id": "distinct-kai-design-dept",
+    "name": "KAI DESIGN Dept.",
+    "url": "https://www.kai-group.com/global/design/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/kai-design-dept",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "ja",
+    "tags": [
+      "材料叙事",
+      "极简空间",
+      "3D"
+    ],
+    "subtitle": "用一道几乎透明的弧线解释锋利",
+    "note": "极浅蓝的背景中，一条细曲线从左侧弯起并向右拖出柔和阴影，中央蓝色日文与下方 KAI 字标保持同一色系。微小的立体变化与大面积留白形成张力，可学习如何把材料特性转成极少量的视觉线索。",
+    "lesson": "让品牌特性通过形态和光线被感知。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-tiltoootilt",
+    "name": "TILToooTILT",
+    "url": "https://tiltoootilt.tote.co.jp/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/tiltoootilt",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "ja",
+    "tags": [
+      "场景入口",
+      "涂鸦材质",
+      "WebGL"
+    ],
+    "subtitle": "在一扇涂鸦卷帘门上藏住另一个世界",
+    "note": "红褐色金属卷帘门覆盖着巨大手写字，中央的不规则小洞露出鲜亮人物画面。底部的无声入口很轻，主要吸引力来自里外画面的差异，可学习如何用遮挡和窥视关系制造探索冲动。",
+    "lesson": "先让用户看见一点里面的世界。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zeroz-brand-site",
+    "name": "/zeroz Brand Site",
+    "url": "https://otsuka-air.jp/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/zeroz-brand-site",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "ja",
+    "tags": [
+      "巨型字标",
+      "层叠影像",
+      "滚动叙事"
+    ],
+    "subtitle": "让超大字标跨过生活影像的边界",
+    "note": "深绿色底色中，竖幅运动生活照与巨大浅色 /zeroz 字样相互叠压，字标横向伸出图片很远。小品牌标识退到右上角，适合学习如何让一个词同时承担名称、构图和画面节奏。",
+    "lesson": "让字标成为连接影像与空间的构图部件。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-vizz",
+    "name": "VIZZ",
+    "url": "https://vizz.fm",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/vizz",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "音频可视化",
+      "环形地形",
+      "WebGL"
+    ],
+    "subtitle": "让音乐的能量变成层层起伏的环形地形",
+    "note": "深色背景中，细密发光的线条围成一圈圈高低不等的山脊，中央白字与小按钮保持简洁。外围的起伏密度衬出中间的阅读空白，适合学习音频可视化如何兼顾表现力和操作入口。",
+    "lesson": "把最安静的区域留给标题与启动动作。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-the-last-tango",
+    "name": "The Last Tango",
+    "url": "https://www.thelasttango.com/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/the-last-tango",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "运动叙事",
+      "颗粒人物",
+      "WebGL"
+    ],
+    "subtitle": "让人物从数据般的颗粒里出现",
+    "note": "深蓝画面中，带点阵质感的足球运动员占据右侧，三个分开的衬线词组环绕人物排列。黄色圆形进入按钮与人物脚边的球形成呼应，可学习如何用运动姿态打破整齐标题而不丢失阅读顺序。",
+    "lesson": "围绕人物动作布置文字与入口。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-apechain",
+    "name": "Apechain",
+    "url": "https://apechain.com/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/apechain",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "en",
+    "tags": [
+      "空间画廊",
+      "倾斜卡片",
+      "WebGL"
+    ],
+    "subtitle": "把不同项目铺成弯曲的空间展板",
+    "note": "黄绿底色上绘有连续等高线，几张项目卡片以不同角度排列在前方，中央卡片用黑色标题条与白色按钮承担焦点。右下角的小缩略图保持浏览定位，适合学习如何让卡片集合具有空间方向。",
+    "lesson": "用倾斜与尺度区分主卡片和旁支内容。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-seeing-change-x-noordhoff-craniofacial-foundation",
+    "name": "羅慧夫顱顏基金會",
+    "url": "https://change.nncf.org/",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "zh-TW",
+    "tags": [
+      "柔光场景",
+      "人物剪影",
+      "问题入口"
+    ],
+    "subtitle": "先问一个问题，再邀请读者进入自己的风景",
+    "note": "浅色背景中漂浮着蓝粉渐层画框，人物剪影站在画面一侧。左下的大号中文问题与黄色测验入口形成阅读起点，顶部导航保持轻巧。",
+    "lesson": "用一个明确的问题建立参与动机，再以空间和色彩承接情绪。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-but-dessert",
+    "name": "but. 奶油甜點",
+    "url": "https://www.but.com.tw/",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "zh-TW",
+    "tags": [
+      "单色场景",
+      "甜点造型",
+      "重复节奏"
+    ],
+    "subtitle": "用饼干与甜点构成一整片粉色空间",
+    "note": "圆饼、长条与螺旋甜点沿斜向反复出现，大小变化让纯粉背景有了远近层次。白色字标和细小导航悬在顶部，主视觉几乎不靠文字解释。",
+    "lesson": "把产品轮廓变成视觉系统，让一种颜色也能产生空间感。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-wanpo-tea",
+    "name": "萬波島嶼紅茶 Wanpo Tea Shop",
+    "url": "https://wanpotea.com/",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "zh-TW",
+    "tags": [
+      "街景叙事",
+      "前景放大",
+      "复古招牌"
+    ],
+    "subtitle": "把一杯红茶放进整条街道的故事里",
+    "note": "页面让真实店面横跨首屏，超大饮料杯从画面底部进入，与街边人物形成刻意的比例反差。导航贴在店招上沿，木框、虎纹与招牌文字共同建立记忆点。",
+    "lesson": "让产品成为场景中的主角，同时把导航收在场景边缘。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-floating-point-art",
+    "name": "Floating Point Art 浮點設計",
+    "url": "https://www.fpa.studio/",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "en",
+    "tags": [
+      "几何字标",
+      "电影画面",
+      "黑白对比"
+    ],
+    "subtitle": "用巨型字标为动态影像留出舞台",
+    "note": "黑色页头让白色几何字标占据大半宽度，工作与介绍入口退到右边。下方影像里的黑色球体、浅灰地景和远山延续同一组明暗关系，形成连贯的视觉开场。",
+    "lesson": "让标志的形态和作品画面的明暗相互呼应。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-skillability",
+    "name": "本事 SkillABility",
+    "url": "https://skillability.team",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "设计工作室",
+    "subcategory": "studio-brand",
+    "language": "zh-TW",
+    "tags": [
+      "独立物件",
+      "水平目录",
+      "大量留白"
+    ],
+    "subtitle": "把品牌项目陈列成可以逐件观看的物件",
+    "note": "白色页面中央只放三件独立视觉对象：灯具、浅绿色方格与灰色卡片。项目信息在物件下方对齐，右侧细线箭头和圆形页码给出顺序，留白让每件作品有自己的空间。",
+    "lesson": "把作品目录看作展柜，让信息跟随对象而不是挤满画布。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-creative-expo-taiwan",
+    "name": "臺灣文博會 2026",
+    "url": "https://creativexpo.tw/zh-TW",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "文化艺术",
+    "subcategory": "culture-arts",
+    "language": "en",
+    "tags": [
+      "聊天界面",
+      "像素字标",
+      "黑白舞台"
+    ],
+    "subtitle": "以对话窗口开启文博会的数字主题",
+    "note": "黑色窄页头放置像素风标志，下方大面积白色空间模拟聊天窗口。问句、回复和继续按钮分散在页面不同位置，将展览介绍改写成一次对话的节奏。",
+    "lesson": "把内容的阅读顺序变成用户熟悉的交互隐喻。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-delta-brand-identity",
+    "name": "台達品牌識別升級",
+    "url": "https://www.deltaww.com/new-brand-identity/",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "zh-TW",
+    "tags": [
+      "影像边框",
+      "俯视城市",
+      "识别演变"
+    ],
+    "subtitle": "用一道双色框把品牌更新写进城市影像",
+    "note": "俯视城市的影像被粗蓝色方框重新框住，右上角一小段黄绿色强调品牌的新色彩。白色中文标题放在框内，边框同时承担识别和构图功能。",
+    "lesson": "把品牌符号转化为观看画面的方式，而不是仅放一个标志。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-chiayi-320-plus-1",
+    "name": "嘉義 320+1",
+    "url": "https://chiayicityexpo2025.com",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "文化艺术",
+    "subcategory": "culture-arts",
+    "language": "zh-TW",
+    "tags": [
+      "立体数字",
+      "像素点缀",
+      "色块构图"
+    ],
+    "subtitle": "让一个数字变成城市展览的视觉游戏",
+    "note": "巨大的数字一号从画面边缘切入，分别使用蓝色、金色与彩色方格材质。小十字图形散布其间，圆形播放入口覆盖在数字中部，把展览识别直接变成主界面。",
+    "lesson": "用同一形体的材质变化建立丰富性，再用简单入口引导体验。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-innovext",
+    "name": "因創科技",
+    "url": "https://www.innovext.com/",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "en",
+    "tags": [
+      "几何切分",
+      "薄荷绿",
+      "叠层标题"
+    ],
+    "subtitle": "以几何拼图组成数字工作室的主视觉",
+    "note": "浅色画布中，多块薄荷绿三角形分散成大小不同的方形单元。黑色标题横跨中央，下方半透明词语产生重叠，页面边缘仅保留字标、菜单与滚动提示。",
+    "lesson": "用少量基础形状构建整页节奏，让标题成为图形之间的连接。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-gthebreeze",
+    "name": "GTHEBREEZE",
+    "url": "https://gthebreeze.com/",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "zh-TW",
+    "tags": [
+      "唱片色彩",
+      "超大字形",
+      "手写叠字"
+    ],
+    "subtitle": "让个人音乐网站像一张贴近镜头的唱片封面",
+    "note": "暗色演奏影像上覆盖巨大的红色姓名字母，黄绿色手写短句从中穿过。中文竖排在右侧，黑色顶部导航维持克制，字体、影像和色彩共同形成音乐人的个性。",
+    "lesson": "让不同字体承担不同声音，同时以少量高反差颜色建立身份。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-ddd-pizza",
+    "name": "ddd.pizza",
+    "url": "https://www.ddd.pizza/",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "设计工作室",
+    "subcategory": "studio-space",
+    "language": "en",
+    "tags": [
+      "窗口拼贴",
+      "人像阵列",
+      "粉色网格"
+    ],
+    "subtitle": "用一整面人物窗格展示影像创作",
+    "note": "粉色方格背景上，人物被放进形状不同的白色线框窗口，大小和高度刻意错开。每个窗口像一个角色入口，导航缩在画面最上方，作品影像承担了页面的主要结构。",
+    "lesson": "把作品之间的关系设计成场景，避免目录只是同尺寸图片的重复。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-studio-ming",
+    "name": "Studio鳴",
+    "url": "https://www.studioming.com/",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "en",
+    "tags": [
+      "窄栏重复",
+      "颗粒模糊",
+      "作品导航"
+    ],
+    "subtitle": "把作品目录变成整页的节奏器",
+    "note": "左侧白色窄栏不断重复作品标题，每行用细线切分；右侧则放大一片带颗粒感的彩色模糊影像。清楚的文字条带与不可辨认的背景形成鲜明张力。",
+    "lesson": "让一侧承担精确导航，另一侧负责情绪和视觉实验。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-danjiang-bridge-3d",
+    "name": "淡江大橋如何走向世界第一",
+    "url": "https://www.cna.com.tw/project/20260430-danjiang-bridge/index.html",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "内容媒体",
+    "subcategory": "media-editorial",
+    "language": "zh-TW",
+    "tags": [
+      "工程模型",
+      "影像叠层",
+      "专题叙事"
+    ],
+    "subtitle": "让桥梁结构从新闻背景里立起来",
+    "note": "深蓝色河岸影像上叠放浅灰桥塔模型，模型伸出上下边界，和左下的白色标题形成明显前后层次。蓝色小标题区分报道主题，顶部导航被压缩为简单图标。",
+    "lesson": "把报道的核心对象放大成空间主体，用模型帮助读者建立理解入口。",
+    "isConcept": false
+  },
+  {
+    "id": "exp-patatap",
+    "name": "Patatap",
+    "url": "https://patatap.com/",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "声音交互",
+      "几何动画",
+      "实验交互"
+    ],
+    "subtitle": "让键盘成为同时演奏声音与形状的乐器",
+    "note": "按键之后，大块橙色圆形与蓝灰色弧面在整屏灰底上交叠，页面把传统导航让位给画布反馈。字母键触发不同视觉动作，适合学习如何把输入、声音和几何节奏连成一个直觉体验。原站包含闪动图像。",
+    "lesson": "减少解释，让每一次输入都有鲜明反馈。",
+    "sourceName": "Patatap · 项目官网",
+    "sourceUrl": "https://patatap.com/",
+    "isConcept": false
+  },
+  {
+    "id": "exp-blob-opera",
+    "name": "Blob Opera",
+    "url": "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "3D",
+      "声音交互",
+      "角色设计"
+    ],
+    "subtitle": "用四个柔软角色解释和声的关系",
+    "note": "官方实验入口把粗体名称与简短说明放在左侧，右侧以四个色彩不同、表情夸张的柔软角色展示体验。红色启动按钮清楚区分介绍和进入实验的动作；作者通过拖动角色控制音高与元音，可学习把抽象声音关系人格化。",
+    "lesson": "先让角色建立好奇心，再用一个明确入口进入互动。",
+    "sourceName": "Experiments with Google",
+    "sourceUrl": "https://experiments.withgoogle.com/blob-opera",
+    "isConcept": false
+  },
+  {
+    "id": "exp-typatone",
+    "name": "Typatone",
+    "url": "https://typatone.com/",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "文字音乐",
+      "双栏布局",
+      "实验交互"
+    ],
+    "subtitle": "把打字动作转成不断生长的旋律",
+    "note": "左侧把写作区、工具条与字母键盘叠成一个紧凑面板，右侧以青绿到蓝色的渐变保留感受空间。作者将文字输入映射为音符，形成兼具写作与音乐的实验；可学习如何用熟悉的键盘降低陌生交互的门槛。",
+    "lesson": "用熟悉的输入方式，引出意外的感官反馈。",
+    "sourceName": "Typatone · 项目官网",
+    "sourceUrl": "https://typatone.com/",
+    "isConcept": false
+  },
+  {
+    "id": "exp-silk",
+    "name": "Silk · Interactive Generative Art",
+    "url": "https://weavesilk.com/",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "生成艺术",
+      "对称绘画",
+      "实验交互"
+    ],
+    "subtitle": "用一根发光的线邀请人开始绘画",
+    "note": "黑色画布中央只保留细小标题和发光的对称线束，几乎没有复杂工具抢占视线。默认纹样让人立即理解作品的丝线质感，操作说明退到下方；可学习在创作型界面中如何先展示结果，再逐步显露工具。",
+    "lesson": "先给出一个可触摸的视觉线索，再展开创作能力。",
+    "sourceName": "Silk · Interactive Generative Art · 项目官网",
+    "sourceUrl": "https://weavesilk.com/",
+    "isConcept": false
+  },
+  {
+    "id": "exp-song-maker",
+    "name": "Chrome Music Lab · Song Maker",
+    "url": "https://musiclab.chromeexperiments.com/Song-Maker/",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "音乐网格",
+      "可视化创作",
+      "实验交互"
+    ],
+    "subtitle": "把旋律变成可以逐格摆放的颜色",
+    "note": "白色背景上的细线网格占据主要空间，底部集中排列播放、乐器和速度控制。纵横坐标把音高与时间变为可以直接点击的空间关系，适合学习如何用简洁图形替代专业记谱的学习成本。",
+    "lesson": "让时间与音高各占一个轴，复杂创作就能变得直观。",
+    "sourceName": "Experiments with Google",
+    "sourceUrl": "https://experiments.withgoogle.com/collection/chrome",
+    "isConcept": false
+  },
+  {
+    "id": "exp-zoomquilt",
+    "name": "Zoomquilt",
+    "url": "https://zoomquilt.org/",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "无限缩放",
+      "协作绘画",
+      "实验交互"
+    ],
+    "subtitle": "让画面中的道路成为不断前进的入口",
+    "note": "灰色建筑、蜿蜒的橙色路径与远处云层形成层层套叠的超现实空间。作品用连续缩放把不同画家的画面接成一条探索路径，并允许方向键控制推进；可学习如何把转场本身变成叙事结构。",
+    "lesson": "让前一幅画面的出口，同时成为下一幅的入口。",
+    "sourceName": "Zoomquilt · 项目官网",
+    "sourceUrl": "https://zoomquilt.org/",
+    "isConcept": false
+  },
+  {
     "id": "game-zh-heartopia",
     "name": "心动小镇",
     "url": "https://town.xd.cn/",

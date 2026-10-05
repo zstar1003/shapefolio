@@ -1,9 +1,9 @@
 // Editorial subject taxonomy. IDs are independent of source and saved-case IDs.
 export const taxonomy = [
   {id:'product',label:'产品设计',children:[{id:'product-work',label:'协作与知识'},{id:'product-life',label:'生活与社交'},{id:'product-platform',label:'平台与服务'}]},
-  {id:'creative',label:'创意设计',children:[{id:'creative-tools',label:'设计与创作工具'},{id:'creative-system',label:'组件与设计系统'},{id:'creative-learning',label:'灵感与设计教育'}]},
+  {id:'creative',label:'创意设计',children:[{id:'creative-tools',label:'设计与创作工具'},{id:'creative-system',label:'组件与设计系统'},{id:'creative-learning',label:'灵感与设计教育'},{id:'creative-interactive',label:'互动与实验'}]},
   {id:'games',label:'游戏',children:[{id:'games-official',label:'游戏官方网站'},{id:'games-indie',label:'独立游戏'},{id:'games-browser',label:'网页小游戏'}]},
-  {id:'brand',label:'品牌商业',children:[{id:'brand-lifestyle',label:'生活方式与零售'},{id:'brand-food',label:'餐饮与食品'},{id:'brand-travel',label:'旅行与空间'},{id:'brand-enterprise',label:'企业与制造'}]},
+  {id:'brand',label:'品牌商业',children:[{id:'brand-lifestyle',label:'生活方式与零售'},{id:'brand-food',label:'餐饮与食品'},{id:'brand-travel',label:'旅行与空间'},{id:'brand-enterprise',label:'企业与制造'},{id:'brand-experience',label:'品牌互动体验'}]},
   {id:'culture',label:'文化艺术',children:[{id:'culture-arts',label:'艺术场馆与展演'},{id:'culture-community',label:'社会与地方文化'},{id:'culture-publishing',label:'出版与文化内容'}]},
   {id:'productivity',label:'效率工具',children:[{id:'productivity-notes',label:'笔记与知识管理'},{id:'productivity-team',label:'任务与团队协作'},{id:'productivity-utilities',label:'日常与专业工具'}]},
   {id:'studio',label:'设计工作室',children:[{id:'studio-brand',label:'品牌与视觉'},{id:'studio-digital',label:'数字与交互'},{id:'studio-space',label:'空间与影像'}]},

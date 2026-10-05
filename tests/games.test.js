@@ -24,7 +24,8 @@ test('games have clear official versus browser links and all three coherent subc
  const group=taxonomy.find(g=>g.id==='games');
  assert.equal(group.label,'游戏');
  assert.equal(group.children.length,3);
- const games=filterByTaxonomy(cases,categoryFromSearch('?category=games'));
+ const originalIds=new Set(evidence.approved.map(r=>r.case.id));
+ const games=filterByTaxonomy(cases,categoryFromSearch('?category=games')).filter(c=>originalIds.has(c.id));
  assert.equal(games.length,evidence.approvedCount);
  assert.ok(games.length>=12);
  assert.equal(filterByLanguage(games,'zh').length,evidence.approvedChineseCount);

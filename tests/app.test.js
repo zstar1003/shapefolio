@@ -15,7 +15,7 @@ const fixtures = [
   {id: 'tw', name: '繁體站', language: 'zh-TW', category: '文化艺术', tags: ['文化'], subtitle: '中文文化', url: 'https://example.tw/', note: '设计笔记', lesson: '学习'},
   {id: 'no-capture', name: '暂缺截图', category: '文化艺术', tags: ['档案'], subtitle: '截图待补', url: 'https://example.org/', note: '设计笔记', lesson: '学习'},
 ];
-function app({hash = '#/', search = '', raw = null, unavailable = false} = {}) {
+function app({hash = '#/', search = '', raw = null, unavailable = false, entries = fixtures} = {}) {
   const elements = new Map();
   let document;
   class Element {
@@ -48,8 +48,8 @@ function app({hash = '#/', search = '', raw = null, unavailable = false} = {}) {
   const window = {innerWidth: 1440, listeners: {}, scrollCalls: [], scrollY: 0, addEventListener(type, handler) { this.listeners[type] = handler; }, scrollTo(options) { this.scrollCalls.push(options); this.scrollY = options.top; }};
   const location = {hash, search};
   const context = {
-    cases: fixtures,
-    screenshotById: Object.fromEntries(fixtures.filter(c => c.id !== 'no-capture').map(c => [c.id, {src: `./assets/screenshots/${c.id}.webp`}])) ,
+    cases: entries,
+    screenshotById: Object.fromEntries(entries.filter(c => c.id !== 'no-capture').map(c => [c.id, {src: `./assets/screenshots/${c.id}.webp`}])) ,
     filterCases, filterByLanguage, routeFromHash, FAVORITES_STORAGE_KEY,
     taxonomy, classifyCase, filterByTaxonomy, taxonomyCounts, taxonomyLabel, categoryFromSearch,
     createFavoritesStore: () => createFavoritesStore(() => localStorage),
@@ -323,4 +323,36 @@ test('invalid category links degrade to the full gallery, and direct favorites i
  const favorites = app({hash:'#/favorites',search:'?category=games',raw:'["linear","tw"]'});
  assert.deepEqual(favorites.shown(), ['linear','tw']);
  assert.equal(favorites.get('#current-category').textContent,'全部收藏');
+});
+
+
+test('large creative catalog stays paginated, searchable and compatible with favorites history', () => {
+ const entries=Array.from({length:620},(_,i)=>({
+  id:`creative-${i}`,name:`Creative project ${i}`,category:'创意设计',subcategory:'creative-interactive',
+  language:i%5===0?'zh-CN':'en',tags:['WebGL','实验交互','3D'],subtitle:`独立创意作品 ${i}`,
+  url:`https://example.org/project-${i}`,note:'独立原创设计学习笔记。',lesson:'保持体验入口清楚。'
+ }));
+ const page=app({entries,search:'?category=creative-interactive'});
+ assert.equal(page.shown().length,12);
+ assert.equal(page.get('#result-count').textContent,'620 个网站');
+ assert.equal(page.get('#page-progress').textContent,'12 / 620');
+ for(let i=0;i<4;i++)page.click('#load-more');
+ assert.equal(page.shown().length,60);
+ assert.equal(new Set(page.shown()).size,60);
+ assert.match(page.get('#cards').innerHTML,/loading="lazy"/);
+ page.change('#search','Creative project 619');
+ assert.deepEqual(page.shown(),['creative-619']);
+ page.save('creative-619');
+ page.route('#/favorites');
+ assert.deepEqual(page.shown(),['creative-619']);
+ page.route('#/');
+ assert.deepEqual(page.shown(),['creative-619']);
+ page.change('#search','');
+ page.change('#language','zh','change');
+ assert.equal(page.get('#result-count').textContent,'124 个网站');
+ assert.equal(page.shown().length,12);
+ page.change('#language','all','change');
+ for(let i=0;i<51;i++)page.click('#load-more');
+ assert.equal(page.shown().length,620);
+ assert.equal(page.get('#load-more').hidden,true);
 });
