@@ -233,3 +233,39 @@
 - **Union Boulangerie** (fr) — [原站](https://unionboulangerie.com/) · [Siteinspire](https://www.siteinspire.com/website/13641-union-boulangerie) · Automattic mShots · `assets/screenshots/curated-union-boulangerie.webp`
 - **Studio OL** (en) — [原站](https://ol.studio/) · [Siteinspire](https://www.siteinspire.com/website/13632-studio-ol) · Automattic mShots · `assets/screenshots/curated-studio-ol.webp`
 - **Driftime Impact Report** (en) — [原站](https://2025.driftime.com/) · [Minimal Gallery](https://minimal.gallery/driftime-impact-report/) · Automattic mShots · `assets/screenshots/curated-driftime.webp`
+
+
+## 游戏分类扩充（2026-10-05）
+
+游戏条目使用官方网页的真实浏览器截图，包括页面内的游戏场景、主视觉或原始启动界面，不是本项目绘制的宣传封面。仅引用有限分辨率的网页界面作为识别与设计学习资料，并附原创版式笔记和官网链接；未批量复制图库、提取游戏素材、分发安装包或复制游戏代码。下列页面中的图片、游戏画面、商标和文字仍属于相应权利人，未发现明确开放许可的内容不宣称获得商业再利用授权。截图获取日期为2026-10-05，服务可能提供缓存；不将其宣称为当天游戏版本或拍摄日期。
+
+「网页可玩」只说明目标为浏览器游戏页面，其他条目为介绍/发行官网，不意味着点击后可以直接游玩。未登录、购买、下载或跨过年龄验证。具体候选核验与排除记录见 `research/games-discovery.json`。
+
+- 心动小镇 — 心动小镇 · 官方网站 — https://town.xd.cn/ — 游戏介绍官网；截图服务：Automattic mShots。
+- COCOON — COCOON · 官方网站 — https://www.cocoongame.com/ — 游戏介绍官网；截图服务：Thum.io。
+- Flexbox Froggy — Codepip · Flexbox Froggy — https://flexboxfroggy.com/ — 网页游戏；截图服务：Thum.io。
+- 2048 — Gabriele Cirulli · 2048 官方网站 — https://classic.play2048.co/ — 网页游戏；截图服务：Thum.io。
+- Infinite Craft — Neal.fun · Infinite Craft — https://neal.fun/infinite-craft/ — 网页游戏；截图服务：Thum.io。
+- The Evolution of Trust — Nicky Case · The Evolution of Trust — https://ncase.me/trust/ — 网页游戏；截图服务：Automattic mShots。
+- CSS Diner — flukeout · CSS Diner — https://flukeout.github.io/ — 网页游戏；截图服务：Thum.io。
+- Quick, Draw! — Google · Quick, Draw! — https://quickdraw.withgoogle.com/ — 网页游戏；截图服务：Automattic mShots。
+- A Short Hike — A Short Hike · 官方网站 — https://ashorthike.com/index.html — 游戏介绍官网；截图服务：Thum.io。
+- Dorfromantik — Toukana Interactive · Dorfromantik 官方页面 — https://www.toukana.com/dorfromantik — 游戏介绍官网；截图服务：Thum.io。
+- GRIS — Nomada Studio · GRIS 官方页面 — https://nomada.studio/gris-game/ — 游戏介绍官网；截图服务：Thum.io。
+- TOEM — Something We Made · TOEM 官方页面 — https://www.somethingwemade.se/toem/ — 游戏介绍官网；截图服务：Thum.io。
+- Untitled Goose Game — House House · Untitled Goose Game 官方网站 — https://goose.game/ — 游戏介绍官网；截图服务：Thum.io。
+- Chicory: A Colorful Tale — Chicory · 官方网站 — https://chicorygame.com/ — 游戏介绍官网；截图服务：Thum.io。
+- Tiny Glade — Pounce Light · Tiny Glade 官方网站 — https://pouncelight.games/tiny-glade/ — 游戏介绍官网；截图服务：Thum.io。
+- Townscaper — Townscaper · 官方网站 — https://www.townscapergame.com/ — 游戏介绍官网；截图服务：Thum.io。
+- Sky 光·遇 — thatgamecompany · Sky 中文官网 — https://www.thatskygame.com/zh/ — 游戏介绍官网；截图服务：Thum.io。
+- 纪念碑谷 — 乐逗游戏 · 纪念碑谷官方网站 — https://mv.uu.cc/ — 游戏介绍官网；截图服务：Thum.io。
+- 桃源深处有人家 — 腾讯游戏 · 桃源深处有人家官网 — https://taoyuan.qq.com/ — 游戏介绍官网；截图服务：Thum.io。
+- 蛋仔派对 — 网易游戏 · 蛋仔派对官网 — https://party.163.com/ — 游戏介绍官网；截图服务：Thum.io。
+
+### 开放项目与单独许可
+
+- Flexbox Froggy — Thomas Park / Codepip。官方仓库：https://github.com/thomaspark/flexboxfroggy 。代码为 MIT，图像为 [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)。本项目网页截图经过尺寸缩小和 WebP 编码，未重新绘制游戏图像。
+- The Evolution of Trust — Nicky Case。官方仓库：https://github.com/ncase/trust ，主体作品以 CC0 发布；仓库中第三方声音等资源各有单独许可，本项目未复制音频。
+- CSS Diner — Luke Pacholski（flukeout）。官方仓库：https://github.com/flukeout/css-diner ，代码为 MPL 2.0；本项目仅引用网页截图，不再分发游戏代码。
+
+以上第三方许可不因本项目代码使用 MIT 而改变；官方商标权和独立第三方资源权利继续保留。

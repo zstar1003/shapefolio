@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import {readFile} from 'node:fs/promises';
-import {taxonomy, classifyCase, filterByTaxonomy, taxonomyCounts, taxonomyLabel} from '../src/taxonomy.js';
+import {taxonomy, classifyCase, filterByTaxonomy, taxonomyCounts, taxonomyLabel, categoryFromSearch} from '../src/taxonomy.js';
 import {filterCases} from '../src/data.js';
 import {createFavoritesStore, FAVORITES_STORAGE_KEY, filterByLanguage, routeFromHash} from '../src/library-state.js';
 
@@ -15,7 +15,7 @@ const fixtures = [
   {id: 'tw', name: '繁體站', language: 'zh-TW', category: '文化艺术', tags: ['文化'], subtitle: '中文文化', url: 'https://example.tw/', note: '设计笔记', lesson: '学习'},
   {id: 'no-capture', name: '暂缺截图', category: '文化艺术', tags: ['档案'], subtitle: '截图待补', url: 'https://example.org/', note: '设计笔记', lesson: '学习'},
 ];
-function app({hash = '#/', raw = null, unavailable = false} = {}) {
+function app({hash = '#/', search = '', raw = null, unavailable = false} = {}) {
   const elements = new Map();
   let document;
   class Element {
@@ -46,12 +46,12 @@ function app({hash = '#/', raw = null, unavailable = false} = {}) {
     setItem(key, value) { if (unavailable) throw new Error('QuotaExceededError'); raw = value; },
   };
   const window = {innerWidth: 1440, listeners: {}, scrollCalls: [], scrollY: 0, addEventListener(type, handler) { this.listeners[type] = handler; }, scrollTo(options) { this.scrollCalls.push(options); this.scrollY = options.top; }};
-  const location = {hash};
+  const location = {hash, search};
   const context = {
     cases: fixtures,
     screenshotById: Object.fromEntries(fixtures.filter(c => c.id !== 'no-capture').map(c => [c.id, {src: `./assets/screenshots/${c.id}.webp`}])) ,
     filterCases, filterByLanguage, routeFromHash, FAVORITES_STORAGE_KEY,
-    taxonomy, classifyCase, filterByTaxonomy, taxonomyCounts, taxonomyLabel,
+    taxonomy, classifyCase, filterByTaxonomy, taxonomyCounts, taxonomyLabel, categoryFromSearch,
     createFavoritesStore: () => createFavoritesStore(() => localStorage),
     document, window, location, localStorage, URL,
     setTimeout: () => 1, clearTimeout() {}, matchMedia: () => ({matches: true}),
@@ -306,4 +306,21 @@ test('filter changes start new results at the top; group toggles and saves prese
  assert.equal(page.window.scrollY,0);
  assert.equal(page.get('#open-categories').attributes['aria-expanded'],'false');
  assert.equal(page.document.activeElement,page.get('#open-categories'));
+});
+
+test('category deep links initialize gallery without leaking into favorites', () => {
+ const page = app({search:'?category=product', raw:'["linear","tw"]'});
+ assert.deepEqual(page.shown(), ['linear','cn']);
+ page.route('#/favorites');
+ assert.deepEqual(page.shown(), ['linear','tw']);
+ page.route('#/');
+ assert.deepEqual(page.shown(), ['linear','cn']);
+});
+
+test('invalid category links degrade to the full gallery, and direct favorites ignore category query', () => {
+ const invalid = app({search:'?category=not-a-category'});
+ assert.deepEqual(invalid.shown(), ['linear','cn','tw']);
+ const favorites = app({hash:'#/favorites',search:'?category=games',raw:'["linear","tw"]'});
+ assert.deepEqual(favorites.shown(), ['linear','tw']);
+ assert.equal(favorites.get('#current-category').textContent,'全部收藏');
 });

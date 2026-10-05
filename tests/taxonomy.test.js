@@ -2,12 +2,12 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {cases} from '../src/data.js';
 import {screenshotById} from '../src/screenshots.js';
-import {taxonomy, subcategoryById, classifyCase, filterByTaxonomy, taxonomyCounts, taxonomyLabel} from '../src/taxonomy.js';
+import {taxonomy, subcategoryById, classifyCase, filterByTaxonomy, taxonomyCounts, taxonomyLabel, categoryFromSearch} from '../src/taxonomy.js';
 
 test('taxonomy contains unique subject-based stable parent and child IDs', () => {
  const ids=taxonomy.flatMap(group=>[group.id,...group.children.map(child=>child.id)]);
  assert.equal(new Set(ids).size,ids.length);
- assert.equal(taxonomy.length,9);
+ assert.equal(taxonomy.length,10);
  assert.ok(taxonomy.every(group=>group.children.length>=2));
  assert.ok(!taxonomy.some(group=>/Oil UI|twdc|ARTsOUT/i.test(group.label)));
 });
@@ -45,4 +45,12 @@ test('new entries support explicit assignments and semantic fallbacks without de
  assert.equal(taxonomyLabel('product-work'),'协作与知识');
  assert.deepEqual(filterByTaxonomy(cases,'nonexistent'),[]);
  assert.equal(filterByTaxonomy(cases,'全部'),cases);
+});
+
+test('category links accept only known parent and child identifiers', () => {
+ assert.equal(categoryFromSearch('?category=games'),'games');
+ assert.equal(categoryFromSearch('?category=games-browser'),'games-browser');
+ assert.equal(categoryFromSearch('?category=%E6%B8%B8%E6%88%8F'),'games');
+ assert.equal(categoryFromSearch('?category=missing'),'全部');
+ assert.equal(categoryFromSearch(),'全部');
 });

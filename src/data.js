@@ -1,6 +1,66 @@
 // Curated website sources and original learning notes. Concept demos retain explicit provenance.
 export const cases = [
   {
+    "id": "game-zh-heartopia",
+    "name": "心动小镇",
+    "url": "https://town.xd.cn/",
+    "subcategory": "games-official",
+    "language": "zh-CN",
+    "tags": [
+      "小镇场景",
+      "角色叙事",
+      "明亮配色"
+    ],
+    "subtitle": "让小镇街景成为进入慢生活的邀请",
+    "note": "蓝天留白承接大号白色标题，屋顶和街道从两侧把视线引向中央建筑。前景横向排列的角色展示不同生活状态，顶部把内容导航与黄色行动按钮分开，适合学习如何同时表达游戏氛围和访问路径。",
+    "lesson": "先用场景传递体验，再让导航和行动入口保持清楚。",
+    "sourceName": "心动小镇 · 官方网站",
+    "sourceUrl": "https://town.xd.cn/",
+    "category": "游戏",
+    "gameType": "official",
+    "isConcept": false
+  },
+  {
+    "id": "games-cocoon",
+    "name": "COCOON",
+    "url": "https://www.cocoongame.com/",
+    "sourceName": "COCOON · 官方网站",
+    "sourceUrl": "https://www.cocoongame.com/",
+    "category": "游戏",
+    "subcategory": "games-indie",
+    "language": "en",
+    "tags": [
+      "嵌套空间",
+      "三维场景",
+      "深色"
+    ],
+    "subtitle": "让层层嵌套的世界成为官网的视觉入口",
+    "note": "官网首屏把巨大的细线字标放在上方，透明球体包裹着橙色岩柱与绿色内层世界，形成从外向内的阅读路径。黑色预告片按钮落在球体中央，顶部商店与团队链接退到细窄导航条内。可学习如何把游戏的空间概念转成网页主视觉，同时让操作入口保持清楚。",
+    "lesson": "围绕一个核心空间关系组织画面和行动入口。",
+    "isConcept": false,
+    "gameType": "official"
+  },
+  {
+    "id": "games-flexbox-froggy",
+    "name": "Flexbox Froggy",
+    "url": "https://flexboxfroggy.com/",
+    "sourceName": "Codepip · Flexbox Froggy",
+    "sourceUrl": "https://flexboxfroggy.com/",
+    "category": "游戏",
+    "subcategory": "games-browser",
+    "language": "en",
+    "gameType": "browser",
+    "tags": [
+      "网页可玩",
+      "学习游戏",
+      "双栏反馈"
+    ],
+    "subtitle": "把布局代码和青蛙的目的地并排展示",
+    "note": "左侧绿色面板包含关卡说明与代码编辑区，右侧蓝绿色池塘用青蛙和荷叶表达目标。文字任务与空间结果共享同一屏，便于来回对照，可学习教学游戏如何用具体物体解释抽象布局规则。",
+    "lesson": "让学习输入与可见结果尽可能靠近。",
+    "isConcept": false
+  },
+  {
     "id": "curated-archdaily-cn",
     "name": "ArchDaily 中文",
     "url": "https://www.archdaily.cn/",
@@ -3264,6 +3324,346 @@ export const cases = [
     "subtitle": "把眼镜产品放进系列化的品牌世界",
     "note": "网站将购物与探索入口分开，商品按系列与类型组织，并保留门店和品牌故事入口。适合研究时尚电商如何同时服务直接购买与品牌内容浏览两种意图。",
     "lesson": "区分购买与探索两种路径"
+  },
+  {
+    "id": "games-2048",
+    "name": "2048",
+    "url": "https://classic.play2048.co/",
+    "sourceName": "Gabriele Cirulli · 2048 官方网站",
+    "sourceUrl": "https://classic.play2048.co/",
+    "category": "游戏",
+    "subcategory": "games-browser",
+    "language": "en",
+    "gameType": "browser",
+    "tags": [
+      "网页可玩",
+      "数字拼图",
+      "柔和配色"
+    ],
+    "subtitle": "让四乘四棋盘成为整页唯一的视觉中心",
+    "note": "奶油色背景、灰褐色方格与圆角计分牌维持相同的视觉语言。标题、规则、重开按钮和棋盘沿窄栏垂直排布，页面没有多余的导航，可学习简单规则如何通过稳定网格与少量层级被快速理解。",
+    "lesson": "将任务、状态与操作围绕同一个主舞台安排。",
+    "isConcept": false
+  },
+  {
+    "id": "games-infinite-craft",
+    "name": "Infinite Craft",
+    "url": "https://neal.fun/infinite-craft/",
+    "sourceName": "Neal.fun · Infinite Craft",
+    "sourceUrl": "https://neal.fun/infinite-craft/",
+    "category": "游戏",
+    "subcategory": "games-browser",
+    "language": "en",
+    "gameType": "browser",
+    "tags": [
+      "网页可玩",
+      "自由画布",
+      "元素组合"
+    ],
+    "subtitle": "用大面积空白给组合实验留下空间",
+    "note": "首屏将点阵画布放在左侧，把水、火、风与土四个元素排在右侧工具区。说明紧邻素材列表而不是覆盖画布，细线边界保持区域分工清楚，可学习创作型游戏怎样让可用对象与探索空间同时可见。",
+    "lesson": "把素材入口留在边缘，让中心服务于探索。",
+    "isConcept": false
+  },
+  {
+    "id": "games-trust",
+    "name": "The Evolution of Trust",
+    "url": "https://ncase.me/trust/",
+    "sourceName": "Nicky Case · The Evolution of Trust",
+    "sourceUrl": "https://ncase.me/trust/",
+    "category": "游戏",
+    "subcategory": "games-browser",
+    "language": "en",
+    "gameType": "browser",
+    "tags": [
+      "网页可玩",
+      "互动叙事",
+      "手绘线条"
+    ],
+    "subtitle": "以人物关系网络铺开信任实验的入口",
+    "note": "黑白手绘人物和浅灰连线围绕中间标题排列，中心留白容纳副标题与 PLAY 按钮。底部黑色窄栏承载声音和补充入口，可学习轻量线条如何先建立故事主题，再把阅读路径收束到单一开始动作。",
+    "lesson": "用周边图形建立主题，用中心留白突出起点。",
+    "isConcept": false
+  },
+  {
+    "id": "games-css-diner",
+    "name": "CSS Diner",
+    "url": "https://flukeout.github.io/",
+    "sourceName": "flukeout · CSS Diner",
+    "sourceUrl": "https://flukeout.github.io/",
+    "category": "游戏",
+    "subcategory": "games-browser",
+    "language": "en",
+    "gameType": "browser",
+    "tags": [
+      "网页可玩",
+      "学习游戏",
+      "即时反馈"
+    ],
+    "subtitle": "把选择器练习变成餐桌上的小任务",
+    "note": "深色界面上方以一张亮色餐桌和两只白盘子构成关卡舞台，下方并列代码输入与 HTML 结构，右栏提供选择器解释。可学习如何让题目、尝试入口与帮助信息各居其位，又能在一屏内相互参照。",
+    "lesson": "让练习目标可视化，同时保留就近的帮助。",
+    "isConcept": false
+  },
+  {
+    "id": "games-quickdraw",
+    "name": "Quick, Draw!",
+    "url": "https://quickdraw.withgoogle.com/",
+    "sourceName": "Google · Quick, Draw!",
+    "sourceUrl": "https://quickdraw.withgoogle.com/",
+    "category": "游戏",
+    "subcategory": "games-browser",
+    "language": "en",
+    "gameType": "browser",
+    "tags": [
+      "网页可玩",
+      "涂鸦识别",
+      "手绘界面"
+    ],
+    "subtitle": "用一只黄色绘画手把规则变成图像",
+    "note": "白底页面将手绘标题、涂鸦物件和握笔的黄色手居中组合，说明文字与黄色开始按钮接在下方。插画、标题笔触和操作强调色保持统一，可学习视觉趣味如何服务于一个明确而简单的游戏入口。",
+    "lesson": "让主插画直接说明用户即将进行的动作。",
+    "isConcept": false
+  },
+  {
+    "id": "games-short-hike",
+    "name": "A Short Hike",
+    "url": "https://ashorthike.com/index.html",
+    "sourceName": "A Short Hike · 官方网站",
+    "sourceUrl": "https://ashorthike.com/index.html",
+    "category": "游戏",
+    "subcategory": "games-indie",
+    "language": "en",
+    "tags": [
+      "手绘插画",
+      "层叠山景",
+      "暖色"
+    ],
+    "subtitle": "用一张层叠山景传达轻松探索的游戏气质",
+    "note": "黄绿渐变天空、远山和深绿色松林由浅到深叠成几层，手写风格字标、背包小鸟与两行介绍沿中轴排列。首屏没有密集功能卡片，人物脚下的小块亮色草地帮助角色从背景中分离。可学习用有限色阶建立空间深度，让角色和一句简介完成第一轮介绍。",
+    "lesson": "先让视觉气质与角色被看见，再补充玩法信息。",
+    "isConcept": false,
+    "gameType": "official"
+  },
+  {
+    "id": "games-dorfromantik",
+    "name": "Dorfromantik",
+    "url": "https://www.toukana.com/dorfromantik",
+    "sourceName": "Toukana Interactive · Dorfromantik 官方页面",
+    "sourceUrl": "https://www.toukana.com/dorfromantik",
+    "category": "游戏",
+    "subcategory": "games-indie",
+    "language": "en",
+    "tags": [
+      "微缩景观",
+      "左右分区",
+      "平台入口"
+    ],
+    "subtitle": "在宽阔的天蓝色留白中安排游戏说明和平台选择",
+    "note": "首屏以天蓝色为大面积底色，白色游戏字标、类型说明与简介集中在左下方，橙色平台按钮按两列排列。右边缘露出风车和黄色土地，场景的截取避免挤占文字区；黄色圆形菜单则固定在右上角。可学习把景观的一部分用作氛围，让购买平台选项仍有整齐的扫描顺序。",
+    "lesson": "让场景留出阅读区，再用一致按钮承载多个入口。",
+    "isConcept": false,
+    "gameType": "official"
+  },
+  {
+    "id": "games-gris",
+    "name": "GRIS",
+    "url": "https://nomada.studio/gris-game/",
+    "sourceName": "Nomada Studio · GRIS 官方页面",
+    "sourceUrl": "https://nomada.studio/gris-game/",
+    "category": "游戏",
+    "subcategory": "games-indie",
+    "language": "en",
+    "tags": [
+      "水彩场景",
+      "大面积留白",
+      "视觉叙事"
+    ],
+    "subtitle": "让小人物与辽阔水彩场景构成官网的第一句话",
+    "note": "顶部黑色细导航条提供稳定边界，下方几乎整屏交给浅粉和灰紫色的水彩云层。中央的细小人物站在悬浮方块上，与尖锥形山体形成纵向视觉轴，平台发售信息被移到画面下方的白色横带。可学习通过尺度差与留白传递氛围，而不让说明文字压住场景细节。",
+    "lesson": "用主体尺度与留白讲故事，把说明放在独立阅读区。",
+    "isConcept": false,
+    "gameType": "official"
+  },
+  {
+    "id": "games-toem",
+    "name": "TOEM",
+    "url": "https://www.somethingwemade.se/toem/",
+    "sourceName": "Something We Made · TOEM 官方页面",
+    "tags": [
+      "黑白插画",
+      "手绘图标",
+      "摄影冒险"
+    ],
+    "subtitle": "让相机字标和黑白场景共同说明游戏主题",
+    "note": "官网从上方的四个手绘导航图标进入，相机被嵌进 TOEM 字标，下面用衬线副标题点出摄影冒险。黑白人物、树木和房车组成居中的小场景，左右大面积留白让细线画也能保持辨认度。可学习把游戏道具融入品牌识别，再用同一套笔触连接导航与插画。",
+    "lesson": "让图标、字标和场景共享同一种视觉语言。",
+    "sourceUrl": "https://www.somethingwemade.se/toem/",
+    "category": "游戏",
+    "subcategory": "games-indie",
+    "language": "en",
+    "isConcept": false,
+    "gameType": "official"
+  },
+  {
+    "id": "games-goose",
+    "name": "Untitled Goose Game",
+    "url": "https://goose.game/",
+    "sourceName": "House House · Untitled Goose Game 官方网站",
+    "tags": [
+      "警示标志",
+      "高对比",
+      "直白排版"
+    ],
+    "subtitle": "把一只鹅变成醒目的警示符号",
+    "note": "蓝色整页背景承托大号白色标题，左侧红边三角标志里放入黑色鹅剪影。介绍文案和游戏平台链接保持居中，文字链接以浅色下划线区分，页面下方露出白框预告片。可学习利用熟悉的公共标识制造记忆点，再让朴素的文字结构把信息讲清楚。",
+    "lesson": "一个鲜明符号配合直接的信息层级，就能建立辨识度。",
+    "sourceUrl": "https://goose.game/",
+    "category": "游戏",
+    "subcategory": "games-indie",
+    "language": "en",
+    "isConcept": false,
+    "gameType": "official"
+  },
+  {
+    "id": "games-chicory",
+    "name": "Chicory: A Colorful Tale",
+    "url": "https://chicorygame.com/",
+    "sourceName": "Chicory · 官方网站",
+    "tags": [
+      "涂鸦笔触",
+      "插画叙事",
+      "奶油色"
+    ],
+    "subtitle": "让画笔、角色和花草一起构成绘画冒险的入口",
+    "note": "奶油色背景上，粗黑线条的字标和画笔占据上半部，白色小狗坐在彩色花草包围的长椅上。粉紫、黄色与绿色的涂色纹理保留手作感，黑白角色在高彩度环境中自然突出。可学习把玩法工具直接放进官网构图，用笔触而非额外装饰说明产品气质。",
+    "lesson": "把玩法中的核心物件变成网页的构图线索。",
+    "sourceUrl": "https://chicorygame.com/",
+    "category": "游戏",
+    "subcategory": "games-indie",
+    "language": "en",
+    "isConcept": false,
+    "gameType": "official"
+  },
+  {
+    "id": "games-tiny-glade",
+    "name": "Tiny Glade",
+    "url": "https://pouncelight.games/tiny-glade/",
+    "sourceName": "Pounce Light · Tiny Glade 官方网站",
+    "tags": [
+      "微缩建筑",
+      "柔和光照",
+      "场景叙事"
+    ],
+    "subtitle": "用一座温暖的小城堡介绍自由搭建的乐趣",
+    "note": "城堡塔楼占据左侧，紫色树冠在右侧形成天然边框，天空中的白色手写字标成为首屏重心。大号玩法介绍叠在较暗的建筑前方，底部继续露出愿望单入口。可学习从场景自身的明暗和空白安排文字，不必为每段文案加独立卡片。",
+    "lesson": "先找到场景的天然阅读区，再决定标题与说明的位置。",
+    "sourceUrl": "https://pouncelight.games/tiny-glade/",
+    "category": "游戏",
+    "subcategory": "games-indie",
+    "language": "en",
+    "isConcept": false,
+    "gameType": "official"
+  },
+  {
+    "id": "games-townscaper",
+    "name": "Townscaper",
+    "url": "https://www.townscapergame.com/",
+    "sourceName": "Townscaper · 官方网站",
+    "tags": [
+      "微缩城镇",
+      "场景裁切",
+      "轮廓字标"
+    ],
+    "subtitle": "用放大的屋顶局部把城镇建造感带进官网",
+    "note": "白色顶栏将首页链接、细线字标和社交图标分开布置，下方浅蓝绿色场景占满页面。放大的游戏名称横跨画面，左右被边界截断；橙黄屋顶与蓝色墙面从底部进入。可学习大胆裁切如何强化色彩和质感，同时观察被裁字形对识别完整性的影响。",
+    "lesson": "使用局部场景增强冲击力时，要在导航中保留完整身份。",
+    "sourceUrl": "https://www.townscapergame.com/",
+    "category": "游戏",
+    "subcategory": "games-indie",
+    "language": "en",
+    "isConcept": false,
+    "gameType": "official"
+  },
+  {
+    "id": "game-zh-thatsky",
+    "name": "Sky 光·遇",
+    "url": "https://www.thatskygame.com/zh/",
+    "subcategory": "games-official",
+    "language": "zh-CN",
+    "tags": [
+      "云海场景",
+      "居中构图",
+      "平台入口"
+    ],
+    "subtitle": "在云海与草坡之间，保留安静的视觉中心",
+    "note": "弯曲的小径把草坡、花丛和远处云海连成一条视线，白色标志放在中央天空留白中。五个圆形平台入口排列成稳定横线，细小中文导航退到上方，让世界观画面保持主导，同时提供容易识别的选择。",
+    "lesson": "用画面的天然留白容纳标志，让功能入口共享一种形状。",
+    "sourceName": "thatgamecompany · Sky 中文官网",
+    "sourceUrl": "https://www.thatskygame.com/zh/",
+    "category": "游戏",
+    "gameType": "official",
+    "isConcept": false
+  },
+  {
+    "id": "game-zh-monument",
+    "name": "纪念碑谷",
+    "url": "https://mv.uu.cc/",
+    "subcategory": "games-indie",
+    "language": "zh-CN",
+    "tags": [
+      "视错觉建筑",
+      "几何构图",
+      "层次色彩"
+    ],
+    "subtitle": "用不可能的建筑，直接展示解谜世界的规则",
+    "note": "首屏让粉红、浅青和暖黄色的几何建筑占据中央，黑色侧栏集中承载中文标志与二维码。下载入口和奖项收进底部半透明横条，与上方建筑保持不同信息层级；可学习如何用游戏核心视觉建立识别，再集中处理功能信息。",
+    "lesson": "主视觉表达玩法特征，辅助信息集中排布。",
+    "sourceName": "乐逗游戏 · 纪念碑谷官方网站",
+    "sourceUrl": "https://mv.uu.cc/",
+    "category": "游戏",
+    "gameType": "official",
+    "isConcept": false
+  },
+  {
+    "id": "game-zh-taoyuan",
+    "name": "桃源深处有人家",
+    "url": "https://taoyuan.qq.com/",
+    "subcategory": "games-official",
+    "language": "zh-CN",
+    "tags": [
+      "青绿山水",
+      "手绘田园",
+      "卷轴衔接"
+    ],
+    "subtitle": "把田园经营的邀请写进一幅青绿山水画",
+    "note": "青绿山峦、弯曲河流和近处桃树包围中央标题，颜色从远景浅淡逐渐过渡到前景饱满。多个平台入口集中成一块整齐的小面板，下方以浅色云气形状接入下一段，适合观察复杂插画如何保留清晰的阅读与操作区域。",
+    "lesson": "让风景围绕内容中心展开，用柔和边界连接上下段落。",
+    "sourceName": "腾讯游戏 · 桃源深处有人家官网",
+    "sourceUrl": "https://taoyuan.qq.com/",
+    "category": "游戏",
+    "gameType": "official",
+    "isConcept": false
+  },
+  {
+    "id": "game-zh-eggyparty",
+    "name": "蛋仔派对",
+    "url": "https://party.163.com/",
+    "subcategory": "games-official",
+    "language": "zh-CN",
+    "tags": [
+      "明黄主色",
+      "玩具角色",
+      "粗体导航"
+    ],
+    "subtitle": "用玩具般的角色与明黄背景建立活力感",
+    "note": "大面积明黄色背景统一角色、星形装饰和斜向色块，右侧不同高度的圆润角色形成向上跳跃的节奏。顶部黑色粗体导航与右下方彩色功能按钮分别成组，当前栏目用黑色胶囊强调，可学习高饱和场景中如何保持界面的可辨识度。",
+    "lesson": "用少量稳定的高对比控件，整理热闹的主视觉。",
+    "sourceName": "网易游戏 · 蛋仔派对官网",
+    "sourceUrl": "https://party.163.com/",
+    "category": "游戏",
+    "gameType": "official",
+    "isConcept": false
   }
 ];
 export function filterCases(items,{category='全部',query='',savedOnly=false,saved=[],sort='curated'}={}) {

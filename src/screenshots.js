@@ -1089,5 +1089,125 @@ export const screenshotById = {
     "retrievedAt": "2026-10-05",
     "sourceUrl": "https://2025.driftime.com/",
     "captureProvider": "Automattic mShots"
+  },
+  "game-zh-heartopia": {
+    "src": "./assets/screenshots/game-zh-heartopia.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://town.xd.cn/",
+    "captureProvider": "Automattic mShots"
+  },
+  "games-cocoon": {
+    "src": "./assets/screenshots/games-cocoon.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.cocoongame.com/",
+    "captureProvider": "Thum.io"
+  },
+  "games-flexbox-froggy": {
+    "src": "./assets/screenshots/games-flexbox-froggy.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://flexboxfroggy.com/",
+    "captureProvider": "Thum.io"
+  },
+  "games-2048": {
+    "src": "./assets/screenshots/games-2048.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://classic.play2048.co/",
+    "captureProvider": "Thum.io"
+  },
+  "games-infinite-craft": {
+    "src": "./assets/screenshots/games-infinite-craft.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://neal.fun/infinite-craft/",
+    "captureProvider": "Thum.io"
+  },
+  "games-trust": {
+    "src": "./assets/screenshots/games-trust.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://ncase.me/trust/",
+    "captureProvider": "Automattic mShots"
+  },
+  "games-css-diner": {
+    "src": "./assets/screenshots/games-css-diner.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://flukeout.github.io/",
+    "captureProvider": "Thum.io"
+  },
+  "games-quickdraw": {
+    "src": "./assets/screenshots/games-quickdraw.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://quickdraw.withgoogle.com/",
+    "captureProvider": "Automattic mShots"
+  },
+  "games-short-hike": {
+    "src": "./assets/screenshots/games-short-hike.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://ashorthike.com/index.html",
+    "captureProvider": "Thum.io"
+  },
+  "games-dorfromantik": {
+    "src": "./assets/screenshots/games-dorfromantik.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.toukana.com/dorfromantik",
+    "captureProvider": "Thum.io"
+  },
+  "games-gris": {
+    "src": "./assets/screenshots/games-gris.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://nomada.studio/gris-game/",
+    "captureProvider": "Thum.io"
+  },
+  "games-toem": {
+    "src": "./assets/screenshots/games-toem.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.somethingwemade.se/toem/",
+    "captureProvider": "Thum.io"
+  },
+  "games-goose": {
+    "src": "./assets/screenshots/games-goose.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://goose.game/",
+    "captureProvider": "Thum.io"
+  },
+  "games-chicory": {
+    "src": "./assets/screenshots/games-chicory.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://chicorygame.com/",
+    "captureProvider": "Thum.io"
+  },
+  "games-tiny-glade": {
+    "src": "./assets/screenshots/games-tiny-glade.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://pouncelight.games/tiny-glade/",
+    "captureProvider": "Thum.io"
+  },
+  "games-townscaper": {
+    "src": "./assets/screenshots/games-townscaper.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.townscapergame.com/",
+    "captureProvider": "Thum.io"
+  },
+  "game-zh-thatsky": {
+    "src": "./assets/screenshots/game-zh-thatsky.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.thatskygame.com/zh/",
+    "captureProvider": "Thum.io"
+  },
+  "game-zh-monument": {
+    "src": "./assets/screenshots/game-zh-monument.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://mv.uu.cc/",
+    "captureProvider": "Thum.io"
+  },
+  "game-zh-taoyuan": {
+    "src": "./assets/screenshots/game-zh-taoyuan.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://taoyuan.qq.com/",
+    "captureProvider": "Thum.io"
+  },
+  "game-zh-eggyparty": {
+    "src": "./assets/screenshots/game-zh-eggyparty.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://party.163.com/",
+    "captureProvider": "Thum.io"
   }
 };

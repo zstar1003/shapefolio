@@ -1,5 +1,5 @@
 import {cases, filterCases} from './data.js';
-import {taxonomy, classifyCase, filterByTaxonomy, taxonomyCounts, taxonomyLabel} from './taxonomy.js';
+import {taxonomy, classifyCase, filterByTaxonomy, taxonomyCounts, taxonomyLabel, categoryFromSearch} from './taxonomy.js';
 import {screenshotById} from './screenshots.js';
 import {createFavoritesStore, FAVORITES_STORAGE_KEY, filterByLanguage, routeFromHash} from './library-state.js';
 
@@ -12,12 +12,13 @@ let {ids: saved, status: storageStatus} = favoritesStore.current();
 let route = routeFromHash(location.hash);
 const defaultState = () => ({category: '全部', query: '', language: 'all', sort: 'curated', limit: PAGE_SIZE});
 // Each page keeps its filters when navigating Back / Forward.
-const pageStates = {gallery: defaultState(), favorites: defaultState()};
+const pageStates = {gallery: {...defaultState(), category: categoryFromSearch(location.search)}, favorites: defaultState()};
 let state = pageStates[route];
 let toastTimer;
 let detailOpener;
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const expandedGroups = new Set();
+const initialGroup = taxonomy.find(group => group.id === state.category || group.children.some(child => child.id === state.category));
+const expandedGroups = new Set(initialGroup ? [initialGroup.id] : []);
 let drawerOpen = false;
 function renderCategories(items) {
   const focused = document.activeElement?.dataset;
@@ -89,7 +90,7 @@ function syncStorageNotice() {
 
 function card(c) {
   const domain = new URL(c.url).hostname.replace(/^www\./, '');
-  return `<article class="card"><a class="screenshot-link" href="${c.url}" target="_blank" rel="noopener noreferrer" aria-label="访问 ${escape(c.name)} ${c.isConcept ? "案例" : "官网"}（新窗口）">${screenshot(c)}<span class="visit-hint">${c.isConcept ? "查看案例" : "访问网站"} ↗</span></a><div class="card-meta"><div class="card-name"><h2><a href="${c.url}" target="_blank" rel="noopener noreferrer">${escape(c.name)}</a></h2><div class="card-domain">${escape(domain)}</div></div><div class="card-actions"><button data-detail="${c.id}" aria-label="查看 ${escape(c.name)} 的设计笔记">ⓘ</button><button class="save-button" data-save="${c.id}"></button></div></div></article>`;
+  return `<article class="card"><a class="screenshot-link" href="${c.url}" target="_blank" rel="noopener noreferrer" aria-label="访问 ${escape(c.name)} ${c.gameType === "browser" ? "网页游戏" : c.isConcept ? "案例" : "官网"}（新窗口）">${screenshot(c)}<span class="visit-hint">${c.gameType === "browser" ? "打开游戏" : c.gameType === "official" ? "查看官网" : c.isConcept ? "查看案例" : "访问网站"} ↗</span></a><div class="card-meta"><div class="card-name"><h2><a href="${c.url}" target="_blank" rel="noopener noreferrer">${escape(c.name)}</a></h2><div class="card-domain">${escape(domain)}${c.gameType ? ` · ${c.gameType === "browser" ? "网页可玩" : "游戏官网"}` : ""}</div></div><div class="card-actions"><button data-detail="${c.id}" aria-label="查看 ${escape(c.name)} 的设计笔记">ⓘ</button><button class="save-button" data-save="${c.id}"></button></div></div></article>`;
 }
 function render() {
   const isFavorites = route === 'favorites';
@@ -179,7 +180,7 @@ function showDetail(id) {
   const c = caseById.get(id);
   if (!c) return;
   detailOpener = document.activeElement;
-  $('#detail-content').innerHTML = `<div class="detail-image">${screenshot(c, true)}</div><div class="detail-body"><p class="detail-category">${escape(c.category)} · ${escape(taxonomyLabel(classifyCase(c).child))}${c.isConcept ? " · 概念案例" : ""}</p><h2 id="detail-title">${escape(c.name)}</h2><p>${escape(c.note)}</p><p class="lesson">${escape(c.lesson)}</p><div class="tags">${c.tags.map(t => `<span class="tag">${escape(t)}</span>`).join('')}</div><div class="detail-actions"><a href="${c.url}" target="_blank" rel="noopener noreferrer">${c.isConcept ? "查看原始案例" : "访问原站"} ↗</a><button data-save="${c.id}"></button></div><p class="source-caption">来源：${escape(new URL(c.url).hostname)}<br>${screenshotById[c.id]?.src ? `真实网站截图${screenshotById[c.id].retrievedAt ? ` · 获取日期 ${escape(screenshotById[c.id].retrievedAt)}` : ""}` : "截图待补充"}。截图可能为缓存版本。笔记为编辑学习建议。${c.sourceName ? `<br>收录来源：<a href="${escape(c.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escape(c.sourceName)}</a>。${c.isConcept ? "该作品是原站展示的概念案例，不代表同名真实商业产品。" : ""}` : ""}${c.model ? `<br>模型信息来自原站标注，未独立核验：${escape(c.model)}。` : ""}</p></div>`;
+  $('#detail-content').innerHTML = `<div class="detail-image">${screenshot(c, true)}</div><div class="detail-body"><p class="detail-category">${escape(c.category)} · ${escape(taxonomyLabel(classifyCase(c).child))}${c.isConcept ? " · 概念案例" : ""}</p><h2 id="detail-title">${escape(c.name)}</h2><p>${escape(c.note)}</p><p class="lesson">${escape(c.lesson)}</p><div class="tags">${c.tags.map(t => `<span class="tag">${escape(t)}</span>`).join('')}</div><div class="detail-actions"><a href="${c.url}" target="_blank" rel="noopener noreferrer">${c.gameType === "browser" ? "打开网页游戏" : c.gameType === "official" ? "访问游戏官网" : c.isConcept ? "查看原始案例" : "访问原站"} ↗</a><button data-save="${c.id}"></button></div><p class="source-caption">来源：${escape(new URL(c.url).hostname)}<br>${screenshotById[c.id]?.src ? `真实网站截图${screenshotById[c.id].retrievedAt ? ` · 获取日期 ${escape(screenshotById[c.id].retrievedAt)}` : ""}` : "截图待补充"}。截图可能为缓存版本。笔记为编辑学习建议。${c.gameType ? `<br>${c.gameType === "browser" ? "链接为浏览器游戏页面；可能需要加载后开始体验。" : "链接为游戏官方网站；展示介绍与场景，不代表可在网页直接游玩。"}` : ""}${c.sourceName ? `<br>收录来源：<a href="${escape(c.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escape(c.sourceName)}</a>。${c.isConcept ? "该作品是原站展示的概念案例，不代表同名真实商业产品。" : ""}` : ""}${c.model ? `<br>模型信息来自原站标注，未独立核验：${escape(c.model)}。` : ""}</p></div>`;
   syncSaves();
   $('#detail').showModal();
 }

@@ -1,0 +1,2043 @@
+{
+  "checkedAt": "2026-10-05",
+  "baseCommit": "065891371431fe2aff6c48d399554453490bebb6",
+  "approvedCount": 20,
+  "approvedChineseCount": 5,
+  "originalCases": [
+    {
+      "id": "curated-archdaily-cn",
+      "sha256": "4e456b7effa04bd3f23084fd4c6d41968750d8ac323e3bdfed79ce322ddb0fd0"
+    },
+    {
+      "id": "add-taiwan-raptor",
+      "sha256": "ca8efc4cae3ae44fd5b9568c371a1907a2c231b2c90713b9b6012cd0ee31795a"
+    },
+    {
+      "id": "zh-flomo",
+      "sha256": "bf96c70393ef935ca2593dbaa8e7eae3dc10b9d0bcef05327870e543311ca3fe"
+    },
+    {
+      "id": "curated-digitaling",
+      "sha256": "315c37db23557f535974159c81175c871b1d9b94227bab8411ac66f21c044d7f"
+    },
+    {
+      "id": "zh-jzn",
+      "sha256": "5d3e3de4a302799a909bef4aa5c415d143319ae730f2f79408c5dab010fd1340"
+    },
+    {
+      "id": "linear",
+      "sha256": "b8a3ca911f4e9db5dfbfd3da2713b61464918fca5266556bd5c83926ae3d6815"
+    },
+    {
+      "id": "curated-visual-society",
+      "sha256": "e4075d2b791008746e84705c2693ba2685819267d7a7e0b4276f7f6985102ee2"
+    },
+    {
+      "id": "add-aestheticell",
+      "sha256": "b55f9043623dc36d91a66f995841c0816d4bc4bbeb2af7c3dd0604d332fb6445"
+    },
+    {
+      "id": "zh-pocari",
+      "sha256": "eb83c9c28987295e7484e4ebf821598f4c51a4493777b668f3f5e973178ebfdc"
+    },
+    {
+      "id": "curated-steven-tung-art",
+      "sha256": "6e8feac4a199c378791c09324b82259b94b0cf18233dbcf2d4f403a92169ab6a"
+    },
+    {
+      "id": "zh-jsdesign",
+      "sha256": "94d68dc3b3d21af691c311b43b57b6170534c17f522d3c6a4f4d2390dbe22ae5"
+    },
+    {
+      "id": "oil-voice",
+      "sha256": "49f90a3e22ca019f3cdd7fd2487cb162154d88d75d154593291c7ecc5e983906"
+    },
+    {
+      "id": "curated-nudot-studio-works",
+      "sha256": "2e1b419f2e439561f847b87034c2abe7d6dd372e2df1955be49226324df2924f"
+    },
+    {
+      "id": "add-elvis-mao",
+      "sha256": "e48996fc4290d9f630210dea30c0962d2512ee1dd35091e4e709c15564685a2d"
+    },
+    {
+      "id": "zh-mastergo",
+      "sha256": "2a95c4995546dcd35928248dfdbbd4c29c49245430020ea6044cd53bcd6c138a"
+    },
+    {
+      "id": "curated-gerosa",
+      "sha256": "6d98c90dc2e6da3f71dfe43f24be27d97ea04aec9afbafdd7b5867deef82ce23"
+    },
+    {
+      "id": "zh-cubox",
+      "sha256": "885334e008722dc4a47ec54dc973c19b0032702f9c62bf58be8d57242b921bfa"
+    },
+    {
+      "id": "figma",
+      "sha256": "ddae808f4acda022f8fc7a4be2faef000d5282b3f09e7452f8e4467c306346e3"
+    },
+    {
+      "id": "curated-kentec",
+      "sha256": "121f9b38af7d213ce896ee23299900a49938164a19f1033f696587e83bde7f56"
+    },
+    {
+      "id": "add-asahihuuhu",
+      "sha256": "85252568eadb3a2afcf53827cd4297de7711ea4ed9f5adacd9a6bff885cd777b"
+    },
+    {
+      "id": "zh-eagle",
+      "sha256": "1978cc2cc89b2bead908eccfa04862f11296dd662998586b9a82b77ba5e9c1cd"
+    },
+    {
+      "id": "curated-megaunion",
+      "sha256": "5f7d5b52efb2ac4feb182b8ff3534a6148b279cca30f3f28e003de867bed88bd"
+    },
+    {
+      "id": "zh-jack",
+      "sha256": "dad40d27579472a39d7cccf638c6f6fa41e3ed3b2ea18789f8170aba801e8088"
+    },
+    {
+      "id": "oil-reel",
+      "sha256": "2201e2677c1bad3ef7398c2e6e99479ab93f64c693dea58a3e1d3b8e9e1d44e6"
+    },
+    {
+      "id": "curated-house-honey",
+      "sha256": "ff8bc260f7b19f98c7d5bcbf8c6c027d2703eed9c6cefff16cfc188fd65916b3"
+    },
+    {
+      "id": "add-jl-design",
+      "sha256": "3b92eb784be5a8bcc503e152911c99935110bec33e3b1002eb7f777a5f72819c"
+    },
+    {
+      "id": "zh-slowork",
+      "sha256": "84850b27ad08a7568460a3f1265a2fbc0bcb8c6e8b4719eb675d73773b692606"
+    },
+    {
+      "id": "curated-yousheng-machinery",
+      "sha256": "d524dedf54b7cfaaafb77139541753a22877a3e8e37c1de3e3d7cd1d08815360"
+    },
+    {
+      "id": "zh-vvg",
+      "sha256": "8f3ce3c1f7dac03a8a2fe7dfafbcdb79f0088aa66db287310df66c6657571ef2"
+    },
+    {
+      "id": "pentagram",
+      "sha256": "4ab754f8e7578f291ab82fb8e7c0053270bdbc100682f3ac6535d94c04472982"
+    },
+    {
+      "id": "curated-iconfont",
+      "sha256": "6b522e2b6f11a61722c225325c00d2525a6f64a5c85bef8f9ffbf9264e80caba"
+    },
+    {
+      "id": "add-kdan",
+      "sha256": "45d2454a0844125806d330d9122c221896a38c1c745d232a6fe2111329983e61"
+    },
+    {
+      "id": "zh-yayu",
+      "sha256": "6f3ce309356eef9d5b81c089c552117f764b86f8c4a29fc0cb84f86c32c1110e"
+    },
+    {
+      "id": "curated-sort-office",
+      "sha256": "570d6674512230d8071e950c61d79e4d94ef2e08458a12f79e42661b49c8fbdc"
+    },
+    {
+      "id": "zh-plainlaw",
+      "sha256": "495532f3e67cc9714e0032fd5abb70c8403b483064e0ab9a55a59d18acdf5ca9"
+    },
+    {
+      "id": "oil-components",
+      "sha256": "59fcff95405b80cdfbf25d3a8256f1ee74344c75c307b15e721419fc5d7a87c0"
+    },
+    {
+      "id": "curated-uisdc",
+      "sha256": "4e198c6a52fa4c3ce4c98f8693c66d9b8843350aaf6b481f0a077ef1a917cdc0"
+    },
+    {
+      "id": "add-fa-movie-appreciation",
+      "sha256": "684c8a4370b05c15b70782b7a3a2a6d2bc4c64cc01760fd91d9a5dd7cb35a533"
+    },
+    {
+      "id": "zh-kzhik",
+      "sha256": "d401c9d6eb907770260f08f84933aa62761a8679d6492d7c8ecb0116f5a24e8f"
+    },
+    {
+      "id": "curated-steak-inn",
+      "sha256": "80aa72fa95c0af6fcc9f769f223724bc75776ba54ba01f19ef86326f73cb42cd"
+    },
+    {
+      "id": "zh-blatr",
+      "sha256": "d15902d80aec5afa9beed8cc7953a099f0f96a2afa6e19a343c93325739eeb0a"
+    },
+    {
+      "id": "stripe",
+      "sha256": "caf57f80c31e6076352f15cda1a7b054a9e781353a6de37b52b6807331005f5a"
+    },
+    {
+      "id": "curated-surfers-journal",
+      "sha256": "2c7d394ef95f5ef07932bc810a63c51d24d0abd6432ebb1a400eecdab2606249"
+    },
+    {
+      "id": "add-paul-chiang-art-center",
+      "sha256": "6dbf534e7d68202dbd6bb9a681250d42d3d82de84bc7427f01b9764b543b27ab"
+    },
+    {
+      "id": "zh-flowus",
+      "sha256": "675994f6d6e427157239522f5ccb10a2f1b62a0eb6fb5119c9c299070b0e608b"
+    },
+    {
+      "id": "curated-zcool",
+      "sha256": "86db4d706c96096a010a4946ec047497be757351415ba5e9f069cce2cb143b6a"
+    },
+    {
+      "id": "zh-pixso",
+      "sha256": "37d8db5329bcf7659172e703a42352106809576c3fd62aa8306e67e3738d1768"
+    },
+    {
+      "id": "oil-muse",
+      "sha256": "64cf06886186d39f1a7a4d3589372cc96e2ec88063ea21d6300d6777ddd74132"
+    },
+    {
+      "id": "curated-bou",
+      "sha256": "76e46c4b210fe8b22c63bd8c594f96b911d72f237242217e57a89db165ecca5d"
+    },
+    {
+      "id": "add-aapd-product-design-academy",
+      "sha256": "4e1a444abea468987c8db910cd865d2480de3ef52b7f632c425b9a7c71cdc605"
+    },
+    {
+      "id": "zh-yuque",
+      "sha256": "a836a307f0e55f798f559649623c5d769b4f44baf071add996fb5e66bcc36123"
+    },
+    {
+      "id": "curated-takecontrol",
+      "sha256": "4867457245f6ce32a0ab0c22e5dc3f7cb6577c9877d3e5b61692d371f12ad06e"
+    },
+    {
+      "id": "zh-feishu-docs",
+      "sha256": "b06a4d59ce70066bfd9a54969bef7ab701f0485e59c81180ca0ffe292305370b"
+    },
+    {
+      "id": "canva",
+      "sha256": "095cc531f8f47bcb4ad20716d0ce922da6dc3caadcfee65d4c7264197b5ec88b"
+    },
+    {
+      "id": "curated-this-design",
+      "sha256": "901900cf9982aae748795f331819cf49bb9df97263b87b489620d04b75858a24"
+    },
+    {
+      "id": "add-bluehe",
+      "sha256": "f4ee7cc0a36eb028d3d25c19339cf608b3cc55593de442808ffbbc5b1e73a97f"
+    },
+    {
+      "id": "zh-yixi",
+      "sha256": "c7819f30f04445879ef4c683bf942074281151f792ed0091c6dc21180c1fc53f"
+    },
+    {
+      "id": "curated-artemii",
+      "sha256": "4b8793f985c85cecc47bbb2c94b25216e6713621060f781e6a469d079b72d222"
+    },
+    {
+      "id": "zh-ucca",
+      "sha256": "66fcbd0518ea6052ce4f2feb0b1794b81781abfa822f463b84e52e22ae7f22b5"
+    },
+    {
+      "id": "oil-stay",
+      "sha256": "37f73b5e94f751da589e072a7bea60a7a97b4aa8eaff1175cbf70e80ac03e47b"
+    },
+    {
+      "id": "curated-jack-jill",
+      "sha256": "d43a6ff838b7b58bfd2dfb539cf6b1228be2059e2d17e9431b2c12fadd5e7fb7"
+    },
+    {
+      "id": "add-weight-books",
+      "sha256": "09a778945126cfeb3c13b0095a6acfa07ba9ff7b863be5006d52181ecc9848bd"
+    },
+    {
+      "id": "zh-colorpalette",
+      "sha256": "adc0768d9507d74a859be28ea4a6d45a894479a92e5d868c69682c3d77d96a70"
+    },
+    {
+      "id": "curated-felix",
+      "sha256": "35d640a493c1c13afbad2aa757fdb042a35454f77dfdca6c7ab7e97f9d00a729"
+    },
+    {
+      "id": "zh-krjojo",
+      "sha256": "61dce63fda622efc77bab3d73aa7c1f5177954c0f68fa4675451868ac56d6942"
+    },
+    {
+      "id": "collins",
+      "sha256": "73d5dcc19be35fa443e5b90d285570e1a4ef336be64bfb279b60a2928910261b"
+    },
+    {
+      "id": "curated-union-boulangerie",
+      "sha256": "935b2bc8c53678b8177faf386c74dab63ca94a86fac5ef01fc33aec0c550c27e"
+    },
+    {
+      "id": "add-o-oo",
+      "sha256": "262a1f1d5e67a451ba354bfed565c4bf007eeecfe8f22ef309749052b99d1167"
+    },
+    {
+      "id": "zh-wolai",
+      "sha256": "4b01f6ad3be79f70c72023901ac7a4a6210f4d4bbd31e868b145972d351ffaa8"
+    },
+    {
+      "id": "curated-studio-ol",
+      "sha256": "d8807d629dc4cffd6c7b28790d5b1c21a14e1dfb88aa041841f13a48bb9eca4c"
+    },
+    {
+      "id": "zh-mubu",
+      "sha256": "f7cc08d9bf987ce0a2eb6ae1071ca49f4da5c22831f25cbc2bd2fad3a7668195"
+    },
+    {
+      "id": "oil-diary",
+      "sha256": "fff2c388ae7a0b9f718933f83769ff97200fadd392c7d0f4ce40a9ae47d8b307"
+    },
+    {
+      "id": "curated-driftime",
+      "sha256": "832795d6de6508b31070eea94a81cabac94bc20090c375b078a49bda3d2c2227"
+    },
+    {
+      "id": "add-simpany",
+      "sha256": "4f12a2b61bac3b25c367cb504427f7491d52c080abbf148173dbba8236d5ccc0"
+    },
+    {
+      "id": "zh-sspai",
+      "sha256": "e104c0656fc31321faef9767378b9f469c38e7a587565ccaa802e9afe4aa95bc"
+    },
+    {
+      "id": "zh-semi",
+      "sha256": "373bd7a5b79302aa38a9be987be23731aa9ff04d3124e2dc14bfaca186bb507c"
+    },
+    {
+      "id": "framer",
+      "sha256": "1f99e9b5271afafb308314fba2790bd12d49e4425f9749ec465de8c8d4d634eb"
+    },
+    {
+      "id": "add-fountain-magazine",
+      "sha256": "3dd5363b918ef1972e5a4a5674e3b34c336647585613cdb7976f98b6478aa2e4"
+    },
+    {
+      "id": "zh-tdesign",
+      "sha256": "5bbaec345aca87e853b7aeb92d85b0908d2007fbdbf1961c8386d84da4598495"
+    },
+    {
+      "id": "zh-gooood",
+      "sha256": "932f559444cd6d7d52c97d41366fcfd71971877b548678ad6c2ac6034c745f33"
+    },
+    {
+      "id": "oil-home",
+      "sha256": "a87eaf2cf7092cdb5d6773b7b66c0ed1096d741eb2762afd56bc85d46b225eec"
+    },
+    {
+      "id": "add-rethink-tw",
+      "sha256": "128a81f634f67bf7bbc5245c7316cccd4d742a379acfae0062b2a0a2456a2d23"
+    },
+    {
+      "id": "zh-zenart",
+      "sha256": "6ae341b70550d5219f2411362f7f49178d76f9afa48a4a9059833c0e2f5f7280"
+    },
+    {
+      "id": "zh-islandlife",
+      "sha256": "3cb9bed26abfbb492bcece0a1003002937e0d6a4af892e6c31bbdd0a363c0d42"
+    },
+    {
+      "id": "webflow",
+      "sha256": "5ac9395706d68b85775fd1d60cbaee54e31da4912c2279d4d0d147957730e191"
+    },
+    {
+      "id": "add-lanyanghei",
+      "sha256": "f6ab400012cea93493c7865f02851e0d4cce45499b787c633aa3aeb2f1d4e764"
+    },
+    {
+      "id": "zh-leaping",
+      "sha256": "62be504e7196932b2cce0d1643f2f93e4f913ec8ecf520c8bb3d18b94dd107e8"
+    },
+    {
+      "id": "oil-anime",
+      "sha256": "93b98f5a49fedc6bd61e336b9ee03bbcb195d19995a9f63f73890fdd8bdb8a13"
+    },
+    {
+      "id": "instrument",
+      "sha256": "4208e987e83cfc6320ec475b716878923f7055fb576c227843f1586142d42811"
+    },
+    {
+      "id": "add-weizwz",
+      "sha256": "2485b9a38983089199fcda0524bb894f16d9605e135c4975c8cc6f1c66c02540"
+    },
+    {
+      "id": "oil-lingo",
+      "sha256": "ae9ccc30680c3c053a05f2226ec068082f13bab858c93ebf336217e311ec860d"
+    },
+    {
+      "id": "vercel",
+      "sha256": "b21ad210a47bfcded84f02b198f1eb4146377f96f501220b3c7e4278fd279536"
+    },
+    {
+      "id": "oil-tracker",
+      "sha256": "0612de44c150399afc7c061a759c04d06ea6485e1ee7b2875352aa6c40c3f6c4"
+    },
+    {
+      "id": "add-hot-spring-onion",
+      "sha256": "36ad3f70070617b4792fc24402f1ddb9a02f1b3acae9945d25839d974c710ddb"
+    },
+    {
+      "id": "spline",
+      "sha256": "adfa626049aef0d07263d9c29e6af6244a0aa5375f3ebfb06e691e6e9f9c89dd"
+    },
+    {
+      "id": "oil-freight",
+      "sha256": "39f9cdd43e2350674fb0a4d8b807a1453fc8961281ff5716e317ad75eae0fece"
+    },
+    {
+      "id": "koto",
+      "sha256": "e70bbf4ef05750b8fa5e3ed7a75396d54a4742305117f81feeed191222834a17"
+    },
+    {
+      "id": "add-verse",
+      "sha256": "85e99f060e56325333c669558751e3193ed694b397e26ea739befc9ffcda5813"
+    },
+    {
+      "id": "oil-ride",
+      "sha256": "8decdf72823d5c3da0046a069364ac5ac9172ce4d84349193631fd85374b6051"
+    },
+    {
+      "id": "notion",
+      "sha256": "56ed0b06dc3a067e11bcce331abccbc5864c3ccb89375219dc8cb885e48b9c68"
+    },
+    {
+      "id": "oil-knot",
+      "sha256": "14636bc022dcaf8e65de026551459df7ff02a3988b4ffae452f2ab2cd356cf67"
+    },
+    {
+      "id": "add-slowfood-taitung",
+      "sha256": "d640113da71a26d467b634a3c44642b5fbf6dbfae1582ea9d8b272072c8ac199"
+    },
+    {
+      "id": "loom",
+      "sha256": "40d1d989d5b7869314690168aa1ac35812cdc90c692483803a91ac8dfeb50944"
+    },
+    {
+      "id": "oil-recipe",
+      "sha256": "96896b9b3bcf1273ef43052bb184a1fd68c9da774676d4686306fc5e20566b94"
+    },
+    {
+      "id": "itsnicethat",
+      "sha256": "b8814536744fc12f4b9bf598d132d78b920d9cdedbe413caf3de96542f21a39c"
+    },
+    {
+      "id": "add-cardledge",
+      "sha256": "9a077daa5ab00de209c69968adffb26e1a14009bc96aedcd0d752dced3e35802"
+    },
+    {
+      "id": "oil-cards",
+      "sha256": "50517dca6532bf3918f6d5bbe826e7d123d0d639fb5918a297f3f09fbfe61893"
+    },
+    {
+      "id": "raycast",
+      "sha256": "6c72015111909ec483a2aa106ad3e48a4f558d7702d6815380dc90ae92fa1284"
+    },
+    {
+      "id": "oil-pulse",
+      "sha256": "32fda5a3fa29633e030021945888442d46404807d7d327bbe382ca161abdd868"
+    },
+    {
+      "id": "add-qlad",
+      "sha256": "75824705b442af69c50f46ada8e66fad18fac6d10710c9524289b67d822f23b0"
+    },
+    {
+      "id": "miro",
+      "sha256": "1afbcdf7bf843ac7965b0edfefdd13f8b862661e464bb71e6434f7c9886c2564"
+    },
+    {
+      "id": "oil-keeb",
+      "sha256": "2a77ec913b1695684a7fdd54a91349fbae91f2449f4a6dcf0d8285536b025a6e"
+    },
+    {
+      "id": "wallpaper",
+      "sha256": "191c000c5f6cb46700862f64af650f05d030c0407813c377635d54c8aa69601d"
+    },
+    {
+      "id": "add-moom",
+      "sha256": "76fed46d0cfb232028b2fcc72d55de842c413121fa30f588cf2a47e5aa7b5e0a"
+    },
+    {
+      "id": "oil-editor",
+      "sha256": "d9421266e26032a87a6c3178ad4ca30e1ebc72963214de0696acbf36115b7c08"
+    },
+    {
+      "id": "arc",
+      "sha256": "b9b569f107acf4a9179ac1927580806774d0fa09695c9422fd51be9302fb8b44"
+    },
+    {
+      "id": "oil-weather",
+      "sha256": "25946292bbb35a83e56ee0c59edb81a4942bfadec70087669eef70481c3c98e8"
+    },
+    {
+      "id": "add-reporter-kids",
+      "sha256": "572ea3553412fc3f358dbea796e769de310ba37e0bbe77020f53b3085db19659"
+    },
+    {
+      "id": "dropbox",
+      "sha256": "a4833aa00cd98a5fea424c570a78c69c574d002aa2c6ed060a031a5c25ef3b89"
+    },
+    {
+      "id": "oil-contract",
+      "sha256": "00f2afacbe44655789c26b3099269fbb63b1de536c0e929f869042e87435ee60"
+    },
+    {
+      "id": "gentlewoman",
+      "sha256": "369edbbeb2064e34733bb9e8f0feff8f98d3a2b241196f4888fb84281dc8c949"
+    },
+    {
+      "id": "add-tcam-museum",
+      "sha256": "4c1861f6604ca1c6446e6a6101ec28bba892900b5ee2a0765abe66520ebf7525"
+    },
+    {
+      "id": "oil-ledger",
+      "sha256": "88e579090f4f77167f3cd603407baddad22dae17328dcf19e7f8c86a453c8813"
+    },
+    {
+      "id": "awwwards",
+      "sha256": "f9a40e464cd2cc3517b83a36e9aed596a8ff966cd6f0b2ed86cffa88edf45883"
+    },
+    {
+      "id": "oil-folio",
+      "sha256": "c3796e78e6b6bbc5c81b707bcded350fc966fc67db75cff233bf43425b07f63b"
+    },
+    {
+      "id": "add-word-game",
+      "sha256": "538ada023dd823f644d9db2234cb3d804942bb5cb50226646a1d17ed6d4ea9e3"
+    },
+    {
+      "id": "pitch",
+      "sha256": "49def1566a330dc45d0e693650c263d37410c3d44adbb7d4e7494e868c456735"
+    },
+    {
+      "id": "oil-camera",
+      "sha256": "55a315f8fc34d4adde0d7e656729f54669f96bea76f7b4b15d48e43d1dfca2fb"
+    },
+    {
+      "id": "monocle",
+      "sha256": "b1f225264d9e195ea39f6f1e8b0489416c2f09dc4fa1f5576df9278a3a320106"
+    },
+    {
+      "id": "add-a-ling",
+      "sha256": "3a2977ff49a181a9f3aae3912890769dc535c0d2ae2c7324dcf541f14c6477ba"
+    },
+    {
+      "id": "oil-silver",
+      "sha256": "dbd6ecdd14f2aa7ae97966385c55d61a4afa4ce1f2dacafe460b22073faaa480"
+    },
+    {
+      "id": "supabase",
+      "sha256": "d32a0305dc0331736cf1fa3de57acfba5de8cd18139d52aef3f0053236644612"
+    },
+    {
+      "id": "oil-reader",
+      "sha256": "0eff5f3abadef811ce41c9b6b5ae384ac1da46b4da2106a01ef24037154fd024"
+    },
+    {
+      "id": "add-brandinlabs",
+      "sha256": "d3d2d445c1a44ad177e7df13143562565d4f1af79ae1d76a26925859efc3ed4e"
+    },
+    {
+      "id": "things",
+      "sha256": "e7b2d7544858ce88785712c3a52106a94a84e14702024b29697719594e7ad7f2"
+    },
+    {
+      "id": "oil-lims",
+      "sha256": "241749af02d889fb275415b9404fb1cd1aa0f2f2a91f04cbea5cfcf6c7a7808b"
+    },
+    {
+      "id": "moma",
+      "sha256": "55f426b3437ebfee7fd2339dc4dbe3edaa0c6f4f791f007b6eaffaedf8ec1521"
+    },
+    {
+      "id": "add-taipei-performing-arts-center",
+      "sha256": "412828bc49407c08fc91cb2d79ab3d289be9de462684d2adbf0916550c71c2dc"
+    },
+    {
+      "id": "oil-calendar",
+      "sha256": "0a766c9f2eb4c8bcacdd26a54357a2f3613e0e03023ef80c6c9a142b51883796"
+    },
+    {
+      "id": "resend",
+      "sha256": "68e2e29c2fc7e2aab516f39addfca791db171481ce43102bef6229f6627a1fd3"
+    },
+    {
+      "id": "oil-checkout",
+      "sha256": "972a068bd5958d3a6c8074911911f2407e78121c8580472c012ef3e65fd5e217"
+    },
+    {
+      "id": "add-lanhu",
+      "sha256": "fae42f1cb3127041790d70e2291a2a6ec46b924df0496797e3a5514e76437c41"
+    },
+    {
+      "id": "todoist",
+      "sha256": "59c935e5010c5012706242657f8048e1cc65711664eae51208ca9b93cda0836c"
+    },
+    {
+      "id": "oil-maker",
+      "sha256": "18f410dd0b96e11f5854a8b235ab67bcf836ea5a6d6f4f089c876d5634c09ac6"
+    },
+    {
+      "id": "designmuseum",
+      "sha256": "45007d4498c2631ff9ca4dacd5240c0c96eecc9ca51d693d01331e0ea14962e6"
+    },
+    {
+      "id": "add-sseedd",
+      "sha256": "4c7140f8c23b1c8963f172e5a332f521119bea9873b2968ecb023825024e1eb5"
+    },
+    {
+      "id": "oil-trail",
+      "sha256": "579fbbd21d0a059474cab018b4adf761bb818eb1b6d7fc8f361f8e012583ca2d"
+    },
+    {
+      "id": "astro",
+      "sha256": "57d8a8454cd0d2235ab969f43ae99fc7cf702c3e2e653ef71457421dbc177018"
+    },
+    {
+      "id": "oil-brew",
+      "sha256": "383b95c9b824aab35dcbdff7909991fe533a0cf641922f1089db788a88160fb6"
+    },
+    {
+      "id": "add-taipei-art-book-fair",
+      "sha256": "cdcdc8733993485131ee8427770d6ef3910838600d0cbff454e76c71c51fda92"
+    },
+    {
+      "id": "obsidian",
+      "sha256": "760f51f138239c47939693b86c564346d12b7c8eedff767a64960f38c743da00"
+    },
+    {
+      "id": "oil-watch",
+      "sha256": "54c489fd074e1fe1c3b93c67f8bafbe612180e1139223ebd8990a64e656d79df"
+    },
+    {
+      "id": "rijksmuseum",
+      "sha256": "dc7919dbb0cdf7a89c445682ae74c289f1333acaf8f5d5f17c61b94d89f41527"
+    },
+    {
+      "id": "add-modao",
+      "sha256": "7e66e7b70a0599f9585daadfa9fdbb78628c71a50f47342871f490563afb0e5e"
+    },
+    {
+      "id": "oil-roast",
+      "sha256": "931182f9a873f417fe356e4c172c64d7054edcd0c88d92fd162a5d1d422939ba"
+    },
+    {
+      "id": "shadcn",
+      "sha256": "6f6bf7872a8c6185023e0a2e14e8499694d56c8dc2a758bcea010f958dc7cc65"
+    },
+    {
+      "id": "oil-letter",
+      "sha256": "35010dca9e4f9dbb463ee5104084ca62e20eaa581f6591bc042ce5a46e8babb8"
+    },
+    {
+      "id": "github",
+      "sha256": "90bb494c3bbe492656d02393e91a928039b437f85db4b878486f3d2eba0c5dd3"
+    },
+    {
+      "id": "oil-sneaker",
+      "sha256": "6484a8e1d92f3227c1155b1cafcc51cc33d406992ca614aefdda51972039727d"
+    },
+    {
+      "id": "barbican",
+      "sha256": "2b1e25fef2fa1b5fd33b80acd93172111c331a167c813134dcf5f1da70e97006"
+    },
+    {
+      "id": "oil-copilot",
+      "sha256": "427dde37508190f843e31e87a704543fb784c62111d2c0b7cfa94eb14ab79e13"
+    },
+    {
+      "id": "deno",
+      "sha256": "f9244e8dea2aa26f6f5ac077423fe7d87bf3e521eb2e3aa82a67141c3d31518a"
+    },
+    {
+      "id": "oil-scent",
+      "sha256": "2509d7b7edf1f4d9d632a5a07e5f281a7d4acedc384248cae7c87ca2556a3479"
+    },
+    {
+      "id": "aesop",
+      "sha256": "7642a20f83b030729da9b5c84a94263cdd327ffb7da36947af5971bfe3d867f5"
+    },
+    {
+      "id": "oil-upload",
+      "sha256": "487b695892183e33c6afc7e4fe4ec01c77ef5d3ffb143a55649108842b29bbac"
+    },
+    {
+      "id": "rust",
+      "sha256": "3ebbcdc7692fb001b9f34845950b1e949143fe7bc52ee4239d969f70674a7509"
+    },
+    {
+      "id": "oil-club",
+      "sha256": "d0895ff55b8ec13d38a3541d319a63c1ba4fc331b7931b69a2dca11c7b0c4055"
+    },
+    {
+      "id": "muji",
+      "sha256": "eaa1186fb458ae73fd3e1592b8b62098ab74464cfc5943da4be7ae587f4be5b5"
+    },
+    {
+      "id": "oil-vinyl",
+      "sha256": "1f5834833046944a99df7ecbc4747e8c1e1b32527a252525d8e56ede0b957c52"
+    },
+    {
+      "id": "firefox",
+      "sha256": "118a88d71f528eded4f2adce7ee9833aced905ab4095f0e01571290bb0e44801"
+    },
+    {
+      "id": "oil-canvas",
+      "sha256": "cf0a6fecf6ac42b31194f17093f464f1b4af1d277d221241a60af219305c6e27"
+    },
+    {
+      "id": "patagonia",
+      "sha256": "a394dc9c3164d755afb5672012b21476cc8b6f82a216be4cb3f1d7a1cf7e6f89"
+    },
+    {
+      "id": "oil-studio",
+      "sha256": "97babe1d7088619581d193a0c6cc2543d51406e6ad2580e0e7939bd38c6df939"
+    },
+    {
+      "id": "1password",
+      "sha256": "72542df8c7ac06a3015976d0e0a1df8a346c5d73b906fbe98482064f285227ff"
+    },
+    {
+      "id": "oil-podcast",
+      "sha256": "bd2f10c2ac4bdaf8d0946d9e9437cd3ad3768eb42a3f127a98ce12ec6afbad52"
+    },
+    {
+      "id": "vitra",
+      "sha256": "081da18e9aae19432f7550ebe5b3d97b661bff3b9094445ccb7252219f5ddeef"
+    },
+    {
+      "id": "oil-device",
+      "sha256": "6e311e9bf661b81f1f5aaaed0e653d1bdc411aefe6e67a251c5fc3f2005f797e"
+    },
+    {
+      "id": "tailscale",
+      "sha256": "afd882ba50225d8d0dff9cd02a7876f20082c5f958f5150cc4dd5e543d58f723"
+    },
+    {
+      "id": "oil-wrapped",
+      "sha256": "5172df0e0fe781bee4a2154842b0ad9ee3fc9fe335b3c3e2819615559642c9c6"
+    },
+    {
+      "id": "bangolufsen",
+      "sha256": "858ef015e391a2c4f5563aa7f5a18e2483a62a67678a4c1ab40836347cf20cad"
+    },
+    {
+      "id": "oil-mail",
+      "sha256": "3041ab7263396cd01321b10c9a4d9db3ae8571b4fbf651bc9cb7973400b52879"
+    },
+    {
+      "id": "craft",
+      "sha256": "a4849d216a65fd279b7e03e320ade761be9ea1389c5565a3a38f7dd7eb29ae67"
+    },
+    {
+      "id": "gentlemonster",
+      "sha256": "1b76f7ed71766229045f60f1176606583acc06f7d5fb7186281712e4a6f2b2e0"
+    }
+  ],
+  "approved": [
+    {
+      "case": {
+        "id": "game-zh-heartopia",
+        "name": "心动小镇",
+        "url": "https://town.xd.cn/",
+        "subcategory": "games-official",
+        "language": "zh-CN",
+        "tags": [
+          "小镇场景",
+          "角色叙事",
+          "明亮配色"
+        ],
+        "subtitle": "让小镇街景成为进入慢生活的邀请",
+        "note": "蓝天留白承接大号白色标题，屋顶和街道从两侧把视线引向中央建筑。前景横向排列的角色展示不同生活状态，顶部把内容导航与黄色行动按钮分开，适合学习如何同时表达游戏氛围和访问路径。",
+        "lesson": "先用场景传递体验，再让导航和行动入口保持清楚。",
+        "sourceName": "心动小镇 · 官方网站",
+        "sourceUrl": "https://town.xd.cn/",
+        "category": "游戏",
+        "gameType": "official",
+        "isConcept": false
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/game-zh-heartopia.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://town.xd.cn/",
+        "captureProvider": "Automattic mShots",
+        "review": "approved",
+        "width": 1000,
+        "height": 750,
+        "sha256": "02203fc31571d7cd2e1cf5675e8ecca3ecb4eccbad9a5d503442adfa4c7e79c6",
+        "bytes": 95294
+      },
+      "visualReview": {
+        "reviewedAt": "2026-10-05",
+        "result": "通过：真实网站界面，有可读中文及独立的导航或功能布局；未见浏览器错误、加载占位、登录或年龄验证遮挡。"
+      },
+      "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Ftown.xd.cn%2F?w=1000&h=750",
+      "rights": {
+        "licenseFound": false,
+        "reuseBasis": "仅建议沿用图库现有的低分辨率网站截图引用与原站署名方式，不代表获得图片、商标或商业再利用授权。",
+        "checkedUrl": "https://town.xd.cn/",
+        "statement": "官网及心动官方游戏目录核对；没有发现截图开放复用许可。"
+      },
+      "languageEvidence": "已逐张检查实际截图中的中文导航、标题或按钮，并与官方公开页面核对。",
+      "officialVerificationSource": "https://www.xd.com/games/?lang=zh"
+    },
+    {
+      "case": {
+        "id": "games-cocoon",
+        "name": "COCOON",
+        "url": "https://www.cocoongame.com/",
+        "sourceName": "COCOON · 官方网站",
+        "sourceUrl": "https://www.cocoongame.com/",
+        "category": "游戏",
+        "subcategory": "games-indie",
+        "language": "en",
+        "tags": [
+          "嵌套空间",
+          "三维场景",
+          "深色"
+        ],
+        "subtitle": "让层层嵌套的世界成为官网的视觉入口",
+        "note": "官网首屏把巨大的细线字标放在上方，透明球体包裹着橙色岩柱与绿色内层世界，形成从外向内的阅读路径。黑色预告片按钮落在球体中央，顶部商店与团队链接退到细窄导航条内。可学习如何把游戏的空间概念转成网页主视觉，同时让操作入口保持清楚。",
+        "lesson": "围绕一个核心空间关系组织画面和行动入口。",
+        "isConcept": false,
+        "gameType": "official"
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/games-cocoon.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.cocoongame.com/",
+        "captureProvider": "Thum.io",
+        "review": "approved",
+        "width": 1200,
+        "height": 900,
+        "sha256": "3d2414fe08d1e6d94b0d45dc31324ac3a09778ff2bd444d46aa9519d535eca62",
+        "bytes": 37292
+      },
+      "visualReview": "individually inspected at full output resolution; genuine official website screenshot; no error, blank or gate visible",
+      "providerUrl": "https://image.thum.io/get/noanimate/width/1200/crop/900/https://www.cocoongame.com/",
+      "sourceVerification": {
+        "id": "games-cocoon",
+        "name": "COCOON",
+        "url": "https://www.cocoongame.com/",
+        "verifiedAt": "2026-10-05",
+        "officialCheck": "Official page reads successfully, links Geometric Interactive team and displays copyright.",
+        "pageType": "official-marketing",
+        "language": "en",
+        "rightsStatus": "No blanket screenshot reuse or commercial license established; copyright remains with rightsholders.",
+        "captureStatus": "accepted"
+      }
+    },
+    {
+      "case": {
+        "id": "games-flexbox-froggy",
+        "name": "Flexbox Froggy",
+        "url": "https://flexboxfroggy.com/",
+        "sourceName": "Codepip · Flexbox Froggy",
+        "sourceUrl": "https://flexboxfroggy.com/",
+        "category": "游戏",
+        "subcategory": "games-browser",
+        "language": "en",
+        "gameType": "browser",
+        "tags": [
+          "网页可玩",
+          "学习游戏",
+          "双栏反馈"
+        ],
+        "subtitle": "把布局代码和青蛙的目的地并排展示",
+        "note": "左侧绿色面板包含关卡说明与代码编辑区，右侧蓝绿色池塘用青蛙和荷叶表达目标。文字任务与空间结果共享同一屏，便于来回对照，可学习教学游戏如何用具体物体解释抽象布局规则。",
+        "lesson": "让学习输入与可见结果尽可能靠近。",
+        "isConcept": false
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/games-flexbox-froggy.webp",
+        "sourceUrl": "https://flexboxfroggy.com/",
+        "captureProvider": "Thum.io",
+        "retrievedAt": "2026-10-05",
+        "width": 800,
+        "height": 466,
+        "sha256": "4d7a72846c613f4650fbd9adb2a1ba0c784b76d3a2526679d3f8167ac655583b",
+        "bytes": 17562,
+        "review": "approved",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/800/crop/700/https://flexboxfroggy.com/"
+      },
+      "targetCheck": {
+        "status": 200,
+        "url": "https://flexboxfroggy.com/",
+        "resolvedUrl": "https://flexboxfroggy.com/"
+      },
+      "reviewNote": "逐图检查：真实游戏界面或原始启动界面，无浏览器错误或加载占位。",
+      "rightsNote": "Thomas Park / Codepip：官方仓库代码为 MIT、图像为 CC BY 3.0（https://creativecommons.org/licenses/by/3.0/）。本项目引用网页界面，转换为 WebP 并缩小展示；保留原作链接与作者署名，不暗示官方认可。",
+      "rightsSourceUrl": "https://github.com/thomaspark/flexboxfroggy"
+    },
+    {
+      "case": {
+        "id": "games-2048",
+        "name": "2048",
+        "url": "https://classic.play2048.co/",
+        "sourceName": "Gabriele Cirulli · 2048 官方网站",
+        "sourceUrl": "https://classic.play2048.co/",
+        "category": "游戏",
+        "subcategory": "games-browser",
+        "language": "en",
+        "gameType": "browser",
+        "tags": [
+          "网页可玩",
+          "数字拼图",
+          "柔和配色"
+        ],
+        "subtitle": "让四乘四棋盘成为整页唯一的视觉中心",
+        "note": "奶油色背景、灰褐色方格与圆角计分牌维持相同的视觉语言。标题、规则、重开按钮和棋盘沿窄栏垂直排布，页面没有多余的导航，可学习简单规则如何通过稳定网格与少量层级被快速理解。",
+        "lesson": "将任务、状态与操作围绕同一个主舞台安排。",
+        "isConcept": false
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/games-2048.webp",
+        "sourceUrl": "https://classic.play2048.co/",
+        "captureProvider": "Thum.io",
+        "retrievedAt": "2026-10-05",
+        "width": 800,
+        "height": 466,
+        "sha256": "442c82a0512d1a0348f32ced66a8fe8169374858e43722e05680ca62a59832cf",
+        "bytes": 5644,
+        "review": "approved",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/800/crop/700/https://classic.play2048.co/"
+      },
+      "targetCheck": {
+        "status": 200,
+        "url": "https://classic.play2048.co/",
+        "resolvedUrl": "https://classic.play2048.co/"
+      },
+      "reviewNote": "逐图检查：真实游戏界面或原始启动界面，无浏览器错误或加载占位。",
+      "rightsNote": "官方页面标明 Gabriele Cirulli 版权；仅引用带官方来源的低分辨率网页界面，不声明第三方截图适用本站 MIT 许可。",
+      "rightsSourceUrl": "https://classic.play2048.co/"
+    },
+    {
+      "case": {
+        "id": "games-infinite-craft",
+        "name": "Infinite Craft",
+        "url": "https://neal.fun/infinite-craft/",
+        "sourceName": "Neal.fun · Infinite Craft",
+        "sourceUrl": "https://neal.fun/infinite-craft/",
+        "category": "游戏",
+        "subcategory": "games-browser",
+        "language": "en",
+        "gameType": "browser",
+        "tags": [
+          "网页可玩",
+          "自由画布",
+          "元素组合"
+        ],
+        "subtitle": "用大面积空白给组合实验留下空间",
+        "note": "首屏将点阵画布放在左侧，把水、火、风与土四个元素排在右侧工具区。说明紧邻素材列表而不是覆盖画布，细线边界保持区域分工清楚，可学习创作型游戏怎样让可用对象与探索空间同时可见。",
+        "lesson": "把素材入口留在边缘，让中心服务于探索。",
+        "isConcept": false
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/games-infinite-craft.webp",
+        "sourceUrl": "https://neal.fun/infinite-craft/",
+        "captureProvider": "Thum.io",
+        "retrievedAt": "2026-10-05",
+        "width": 800,
+        "height": 466,
+        "sha256": "176df5d9b3055d3d82d9cc137d93b96415c30acb685e93e23cc7c78d78394843",
+        "bytes": 5338,
+        "review": "approved",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/800/crop/700/https://neal.fun/infinite-craft/"
+      },
+      "targetCheck": {
+        "status": 200,
+        "url": "https://neal.fun/infinite-craft/",
+        "resolvedUrl": "https://neal.fun/infinite-craft/"
+      },
+      "reviewNote": "逐图检查：真实游戏界面或原始启动界面，无浏览器错误或加载占位。",
+      "rightsNote": "查看原站，未发现授予全部截图商业再利用的许可；仅低分辨率视觉引用及官方链接，不提取素材或声明获得商用授权。",
+      "rightsSourceUrl": "https://neal.fun/infinite-craft/"
+    },
+    {
+      "case": {
+        "id": "games-trust",
+        "name": "The Evolution of Trust",
+        "url": "https://ncase.me/trust/",
+        "sourceName": "Nicky Case · The Evolution of Trust",
+        "sourceUrl": "https://ncase.me/trust/",
+        "category": "游戏",
+        "subcategory": "games-browser",
+        "language": "en",
+        "gameType": "browser",
+        "tags": [
+          "网页可玩",
+          "互动叙事",
+          "手绘线条"
+        ],
+        "subtitle": "以人物关系网络铺开信任实验的入口",
+        "note": "黑白手绘人物和浅灰连线围绕中间标题排列，中心留白容纳副标题与 PLAY 按钮。底部黑色窄栏承载声音和补充入口，可学习轻量线条如何先建立故事主题，再把阅读路径收束到单一开始动作。",
+        "lesson": "用周边图形建立主题，用中心留白突出起点。",
+        "isConcept": false
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/games-trust.webp",
+        "sourceUrl": "https://ncase.me/trust/",
+        "captureProvider": "Automattic mShots",
+        "retrievedAt": "2026-10-05",
+        "width": 1000,
+        "height": 750,
+        "sha256": "09c4f78665eb5a6c204bfae100c0367390828fcc46ad7004ffb57187c0423645",
+        "bytes": 62434,
+        "review": "approved",
+        "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fncase.me%2Ftrust%2F?w=1000&h=750"
+      },
+      "targetCheck": {
+        "status": 200,
+        "url": "https://ncase.me/trust/",
+        "resolvedUrl": "https://ncase.me/trust/"
+      },
+      "reviewNote": "逐图检查：真实游戏界面或原始启动界面，无浏览器错误或加载占位。",
+      "rightsNote": "官方仓库将作品以 CC0 公有领域贡献发布；独立第三方声音资源各有许可，本项目未复制音频。",
+      "rightsSourceUrl": "https://github.com/ncase/trust"
+    },
+    {
+      "case": {
+        "id": "games-css-diner",
+        "name": "CSS Diner",
+        "url": "https://flukeout.github.io/",
+        "sourceName": "flukeout · CSS Diner",
+        "sourceUrl": "https://flukeout.github.io/",
+        "category": "游戏",
+        "subcategory": "games-browser",
+        "language": "en",
+        "gameType": "browser",
+        "tags": [
+          "网页可玩",
+          "学习游戏",
+          "即时反馈"
+        ],
+        "subtitle": "把选择器练习变成餐桌上的小任务",
+        "note": "深色界面上方以一张亮色餐桌和两只白盘子构成关卡舞台，下方并列代码输入与 HTML 结构，右栏提供选择器解释。可学习如何让题目、尝试入口与帮助信息各居其位，又能在一屏内相互参照。",
+        "lesson": "让练习目标可视化，同时保留就近的帮助。",
+        "isConcept": false
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/games-css-diner.webp",
+        "sourceUrl": "https://flukeout.github.io/",
+        "captureProvider": "Thum.io",
+        "retrievedAt": "2026-10-05",
+        "width": 800,
+        "height": 466,
+        "sha256": "f300730dbbbec5fc648b540fd5d6d59c6b935fc6fab1ad82d575e7253fec4b4f",
+        "bytes": 13150,
+        "review": "approved",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/800/crop/700/https://flukeout.github.io/"
+      },
+      "targetCheck": {
+        "status": 200,
+        "url": "https://flukeout.github.io/",
+        "resolvedUrl": "https://flukeout.github.io/"
+      },
+      "reviewNote": "逐图检查：真实游戏界面或原始启动界面，无浏览器错误或加载占位。",
+      "rightsNote": "Luke Pacholski（flukeout）：官方代码仓库为 MPL 2.0。仅引用低分辨率网页界面，未再分发游戏代码；保留作者与原作链接，不以本站 MIT 许可替代第三方权利。",
+      "rightsSourceUrl": "https://github.com/flukeout/css-diner"
+    },
+    {
+      "case": {
+        "id": "games-quickdraw",
+        "name": "Quick, Draw!",
+        "url": "https://quickdraw.withgoogle.com/",
+        "sourceName": "Google · Quick, Draw!",
+        "sourceUrl": "https://quickdraw.withgoogle.com/",
+        "category": "游戏",
+        "subcategory": "games-browser",
+        "language": "en",
+        "gameType": "browser",
+        "tags": [
+          "网页可玩",
+          "涂鸦识别",
+          "手绘界面"
+        ],
+        "subtitle": "用一只黄色绘画手把规则变成图像",
+        "note": "白底页面将手绘标题、涂鸦物件和握笔的黄色手居中组合，说明文字与黄色开始按钮接在下方。插画、标题笔触和操作强调色保持统一，可学习视觉趣味如何服务于一个明确而简单的游戏入口。",
+        "lesson": "让主插画直接说明用户即将进行的动作。",
+        "isConcept": false
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/games-quickdraw.webp",
+        "sourceUrl": "https://quickdraw.withgoogle.com/",
+        "captureProvider": "Automattic mShots",
+        "retrievedAt": "2026-10-05",
+        "width": 1000,
+        "height": 750,
+        "sha256": "92257594313b52506a4181a0366cb605d1f687a358d503997d58e8771db34860",
+        "bytes": 31386,
+        "review": "approved",
+        "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fquickdraw.withgoogle.com%2F?w=1000&h=750"
+      },
+      "targetCheck": {
+        "status": 200,
+        "url": "https://quickdraw.withgoogle.com/",
+        "resolvedUrl": "https://quickdraw.withgoogle.com/"
+      },
+      "reviewNote": "逐图检查：真实游戏界面或原始启动界面，无浏览器错误或加载占位。",
+      "rightsNote": "查看 Google 原站；其绘画数据集说明不代表网页商标或界面的开放许可。仅低分辨率网页视觉引用，未提交绘画或复制数据集。",
+      "rightsSourceUrl": "https://quickdraw.withgoogle.com/"
+    },
+    {
+      "case": {
+        "id": "games-short-hike",
+        "name": "A Short Hike",
+        "url": "https://ashorthike.com/index.html",
+        "sourceName": "A Short Hike · 官方网站",
+        "sourceUrl": "https://ashorthike.com/index.html",
+        "category": "游戏",
+        "subcategory": "games-indie",
+        "language": "en",
+        "tags": [
+          "手绘插画",
+          "层叠山景",
+          "暖色"
+        ],
+        "subtitle": "用一张层叠山景传达轻松探索的游戏气质",
+        "note": "黄绿渐变天空、远山和深绿色松林由浅到深叠成几层，手写风格字标、背包小鸟与两行介绍沿中轴排列。首屏没有密集功能卡片，人物脚下的小块亮色草地帮助角色从背景中分离。可学习用有限色阶建立空间深度，让角色和一句简介完成第一轮介绍。",
+        "lesson": "先让视觉气质与角色被看见，再补充玩法信息。",
+        "isConcept": false,
+        "gameType": "official"
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/games-short-hike.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://ashorthike.com/index.html",
+        "captureProvider": "Thum.io",
+        "review": "approved",
+        "width": 1200,
+        "height": 900,
+        "sha256": "4b786de73b735cf2aac14626bfc6f078a4030f05d95a184232748612c2aa8913",
+        "bytes": 32010
+      },
+      "visualReview": "individually inspected at full output resolution; genuine official website screenshot; no error, blank or gate visible",
+      "providerUrl": "https://image.thum.io/get/noanimate/width/1200/crop/900/https://ashorthike.com/index.html",
+      "sourceVerification": {
+        "id": "games-short-hike",
+        "name": "A Short Hike",
+        "url": "https://ashorthike.com/index.html",
+        "verifiedAt": "2026-10-05",
+        "officialCheck": "Official page names Adam Robinson-Yu and links official press kit confirming website.",
+        "pageType": "official-marketing",
+        "language": "en",
+        "rightsStatus": "No blanket screenshot reuse or commercial license established; copyright remains with rightsholders.",
+        "captureStatus": "accepted"
+      }
+    },
+    {
+      "case": {
+        "id": "games-dorfromantik",
+        "name": "Dorfromantik",
+        "url": "https://www.toukana.com/dorfromantik",
+        "sourceName": "Toukana Interactive · Dorfromantik 官方页面",
+        "sourceUrl": "https://www.toukana.com/dorfromantik",
+        "category": "游戏",
+        "subcategory": "games-indie",
+        "language": "en",
+        "tags": [
+          "微缩景观",
+          "左右分区",
+          "平台入口"
+        ],
+        "subtitle": "在宽阔的天蓝色留白中安排游戏说明和平台选择",
+        "note": "首屏以天蓝色为大面积底色，白色游戏字标、类型说明与简介集中在左下方，橙色平台按钮按两列排列。右边缘露出风车和黄色土地，场景的截取避免挤占文字区；黄色圆形菜单则固定在右上角。可学习把景观的一部分用作氛围，让购买平台选项仍有整齐的扫描顺序。",
+        "lesson": "让场景留出阅读区，再用一致按钮承载多个入口。",
+        "isConcept": false,
+        "gameType": "official"
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/games-dorfromantik.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.toukana.com/dorfromantik",
+        "captureProvider": "Thum.io",
+        "review": "approved",
+        "width": 1200,
+        "height": 900,
+        "sha256": "b8329b6513d0b0e5f43fcbf3d1070c20ef171b83386d71a5d8a3914eedf3a874",
+        "bytes": 42590
+      },
+      "visualReview": "individually inspected at full output resolution; genuine official website screenshot; no error, blank or gate visible",
+      "providerUrl": "https://image.thum.io/get/noanimate/width/1200/crop/900/https://www.toukana.com/dorfromantik",
+      "sourceVerification": {
+        "id": "games-dorfromantik",
+        "name": "Dorfromantik",
+        "url": "https://www.toukana.com/dorfromantik",
+        "verifiedAt": "2026-10-05",
+        "officialCheck": "Official Toukana game page and press kit verified, canonical path has no trailing slash.",
+        "pageType": "official-marketing",
+        "language": "en",
+        "rightsStatus": "No blanket screenshot reuse or commercial license established; copyright remains with rightsholders.",
+        "captureStatus": "accepted"
+      }
+    },
+    {
+      "case": {
+        "id": "games-gris",
+        "name": "GRIS",
+        "url": "https://nomada.studio/gris-game/",
+        "sourceName": "Nomada Studio · GRIS 官方页面",
+        "sourceUrl": "https://nomada.studio/gris-game/",
+        "category": "游戏",
+        "subcategory": "games-indie",
+        "language": "en",
+        "tags": [
+          "水彩场景",
+          "大面积留白",
+          "视觉叙事"
+        ],
+        "subtitle": "让小人物与辽阔水彩场景构成官网的第一句话",
+        "note": "顶部黑色细导航条提供稳定边界，下方几乎整屏交给浅粉和灰紫色的水彩云层。中央的细小人物站在悬浮方块上，与尖锥形山体形成纵向视觉轴，平台发售信息被移到画面下方的白色横带。可学习通过尺度差与留白传递氛围，而不让说明文字压住场景细节。",
+        "lesson": "用主体尺度与留白讲故事，把说明放在独立阅读区。",
+        "isConcept": false,
+        "gameType": "official"
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/games-gris.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://nomada.studio/gris-game/",
+        "captureProvider": "Thum.io",
+        "review": "approved",
+        "width": 1200,
+        "height": 900,
+        "sha256": "54d9c505e75fa44fb9e2da64d4a6153f9d111c69b55c73ed0c7b30b99f4d6719",
+        "bytes": 18352
+      },
+      "visualReview": "individually inspected at full output resolution; genuine official website screenshot; no error, blank or gate visible",
+      "providerUrl": "https://image.thum.io/get/noanimate/width/1200/crop/900/https://nomada.studio/gris-game/",
+      "sourceVerification": {
+        "id": "games-gris",
+        "name": "GRIS",
+        "url": "https://nomada.studio/gris-game/",
+        "verifiedAt": "2026-10-05",
+        "officialCheck": "Official Nomada page verified at canonical /gris-game/ after redirect from /gris/.",
+        "pageType": "official-marketing",
+        "language": "en",
+        "rightsStatus": "No blanket screenshot reuse or commercial license established; copyright remains with rightsholders.",
+        "captureStatus": "accepted"
+      }
+    },
+    {
+      "case": {
+        "id": "games-toem",
+        "name": "TOEM",
+        "url": "https://www.somethingwemade.se/toem/",
+        "sourceName": "Something We Made · TOEM 官方页面",
+        "tags": [
+          "黑白插画",
+          "手绘图标",
+          "摄影冒险"
+        ],
+        "subtitle": "让相机字标和黑白场景共同说明游戏主题",
+        "note": "官网从上方的四个手绘导航图标进入，相机被嵌进 TOEM 字标，下面用衬线副标题点出摄影冒险。黑白人物、树木和房车组成居中的小场景，左右大面积留白让细线画也能保持辨认度。可学习把游戏道具融入品牌识别，再用同一套笔触连接导航与插画。",
+        "lesson": "让图标、字标和场景共享同一种视觉语言。",
+        "sourceUrl": "https://www.somethingwemade.se/toem/",
+        "category": "游戏",
+        "subcategory": "games-indie",
+        "language": "en",
+        "isConcept": false,
+        "gameType": "official"
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/games-toem.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.somethingwemade.se/toem/",
+        "captureProvider": "Thum.io",
+        "review": "approved",
+        "width": 1200,
+        "height": 900,
+        "sha256": "bc8adb439039af0497bff58da480ac08d76680962553d539f8dd021d1604eab1",
+        "bytes": 43950
+      },
+      "visualReview": "individually inspected at full output resolution; genuine official website screenshot; no error, blank or gate visible",
+      "providerUrl": "https://image.thum.io/get/noanimate/width/1200/crop/900/https://www.somethingwemade.se/toem/",
+      "sourceVerification": {
+        "id": "games-toem",
+        "name": "TOEM",
+        "url": "https://www.somethingwemade.se/toem/",
+        "verifiedAt": "2026-10-05",
+        "officialCheck": "Official developer domain contains game, team and platform information.",
+        "pageType": "official-marketing",
+        "language": "en",
+        "rightsStatus": "No blanket screenshot reuse or commercial license established; copyright remains with rightsholders.",
+        "captureStatus": "accepted"
+      }
+    },
+    {
+      "case": {
+        "id": "games-goose",
+        "name": "Untitled Goose Game",
+        "url": "https://goose.game/",
+        "sourceName": "House House · Untitled Goose Game 官方网站",
+        "tags": [
+          "警示标志",
+          "高对比",
+          "直白排版"
+        ],
+        "subtitle": "把一只鹅变成醒目的警示符号",
+        "note": "蓝色整页背景承托大号白色标题，左侧红边三角标志里放入黑色鹅剪影。介绍文案和游戏平台链接保持居中，文字链接以浅色下划线区分，页面下方露出白框预告片。可学习利用熟悉的公共标识制造记忆点，再让朴素的文字结构把信息讲清楚。",
+        "lesson": "一个鲜明符号配合直接的信息层级，就能建立辨识度。",
+        "sourceUrl": "https://goose.game/",
+        "category": "游戏",
+        "subcategory": "games-indie",
+        "language": "en",
+        "isConcept": false,
+        "gameType": "official"
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/games-goose.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://goose.game/",
+        "captureProvider": "Thum.io",
+        "review": "approved",
+        "width": 1200,
+        "height": 900,
+        "sha256": "2e01f80fb92c458d40961ffbbb35dd4e02347af1d66c65d85b3cc06d02cde53b",
+        "bytes": 62826
+      },
+      "visualReview": "individually inspected at full output resolution; genuine official website screenshot; no error, blank or gate visible",
+      "providerUrl": "https://image.thum.io/get/noanimate/width/1200/crop/900/https://goose.game/",
+      "sourceVerification": {
+        "id": "games-goose",
+        "name": "Untitled Goose Game",
+        "url": "https://goose.game/",
+        "verifiedAt": "2026-10-05",
+        "officialCheck": "Official page explicitly identifies House House and Panic; press kit verified.",
+        "pageType": "official-marketing",
+        "language": "en",
+        "rightsStatus": "No blanket screenshot reuse or commercial license established; copyright remains with rightsholders.",
+        "captureStatus": "accepted"
+      }
+    },
+    {
+      "case": {
+        "id": "games-chicory",
+        "name": "Chicory: A Colorful Tale",
+        "url": "https://chicorygame.com/",
+        "sourceName": "Chicory · 官方网站",
+        "tags": [
+          "涂鸦笔触",
+          "插画叙事",
+          "奶油色"
+        ],
+        "subtitle": "让画笔、角色和花草一起构成绘画冒险的入口",
+        "note": "奶油色背景上，粗黑线条的字标和画笔占据上半部，白色小狗坐在彩色花草包围的长椅上。粉紫、黄色与绿色的涂色纹理保留手作感，黑白角色在高彩度环境中自然突出。可学习把玩法工具直接放进官网构图，用笔触而非额外装饰说明产品气质。",
+        "lesson": "把玩法中的核心物件变成网页的构图线索。",
+        "sourceUrl": "https://chicorygame.com/",
+        "category": "游戏",
+        "subcategory": "games-indie",
+        "language": "en",
+        "isConcept": false,
+        "gameType": "official"
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/games-chicory.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://chicorygame.com/",
+        "captureProvider": "Thum.io",
+        "review": "approved",
+        "width": 1200,
+        "height": 900,
+        "sha256": "5b6f19a59a4523802b0cc646fde28cdc766aa18bea23c8147d20001a637b5d80",
+        "bytes": 166576
+      },
+      "visualReview": "individually inspected at full output resolution; genuine official website screenshot; no error, blank or gate visible",
+      "providerUrl": "https://image.thum.io/get/noanimate/width/1200/crop/900/https://chicorygame.com/",
+      "sourceVerification": {
+        "id": "games-chicory",
+        "name": "Chicory: A Colorful Tale",
+        "url": "https://chicorygame.com/",
+        "verifiedAt": "2026-10-05",
+        "officialCheck": "Official page contains team credits and copyright; external linked presskit could not be substantively read.",
+        "pageType": "official-marketing",
+        "language": "en",
+        "rightsStatus": "No blanket screenshot reuse or commercial license established; copyright remains with rightsholders.",
+        "captureStatus": "accepted"
+      }
+    },
+    {
+      "case": {
+        "id": "games-tiny-glade",
+        "name": "Tiny Glade",
+        "url": "https://pouncelight.games/tiny-glade/",
+        "sourceName": "Pounce Light · Tiny Glade 官方网站",
+        "tags": [
+          "微缩建筑",
+          "柔和光照",
+          "场景叙事"
+        ],
+        "subtitle": "用一座温暖的小城堡介绍自由搭建的乐趣",
+        "note": "城堡塔楼占据左侧，紫色树冠在右侧形成天然边框，天空中的白色手写字标成为首屏重心。大号玩法介绍叠在较暗的建筑前方，底部继续露出愿望单入口。可学习从场景自身的明暗和空白安排文字，不必为每段文案加独立卡片。",
+        "lesson": "先找到场景的天然阅读区，再决定标题与说明的位置。",
+        "sourceUrl": "https://pouncelight.games/tiny-glade/",
+        "category": "游戏",
+        "subcategory": "games-indie",
+        "language": "en",
+        "isConcept": false,
+        "gameType": "official"
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/games-tiny-glade.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://pouncelight.games/tiny-glade/",
+        "captureProvider": "Thum.io",
+        "review": "approved",
+        "width": 1200,
+        "height": 900,
+        "sha256": "09d7188c589380bc6e9807ced3f8e43b8ae8bc144547e30bff36b79bbeb9668e",
+        "bytes": 85770
+      },
+      "visualReview": "individually inspected at full output resolution; genuine official website screenshot; no error, blank or gate visible",
+      "providerUrl": "https://image.thum.io/get/noanimate/width/1200/crop/900/https://pouncelight.games/tiny-glade/",
+      "sourceVerification": {
+        "id": "games-tiny-glade",
+        "name": "Tiny Glade",
+        "url": "https://pouncelight.games/tiny-glade/",
+        "verifiedAt": "2026-10-05",
+        "officialCheck": "Official Pounce Light game page and Info page verified.",
+        "pageType": "official-marketing",
+        "language": "en",
+        "rightsStatus": "No blanket screenshot reuse or commercial license established; copyright remains with rightsholders.",
+        "captureStatus": "accepted"
+      }
+    },
+    {
+      "case": {
+        "id": "games-townscaper",
+        "name": "Townscaper",
+        "url": "https://www.townscapergame.com/",
+        "sourceName": "Townscaper · 官方网站",
+        "tags": [
+          "微缩城镇",
+          "场景裁切",
+          "轮廓字标"
+        ],
+        "subtitle": "用放大的屋顶局部把城镇建造感带进官网",
+        "note": "白色顶栏将首页链接、细线字标和社交图标分开布置，下方浅蓝绿色场景占满页面。放大的游戏名称横跨画面，左右被边界截断；橙黄屋顶与蓝色墙面从底部进入。可学习大胆裁切如何强化色彩和质感，同时观察被裁字形对识别完整性的影响。",
+        "lesson": "使用局部场景增强冲击力时，要在导航中保留完整身份。",
+        "sourceUrl": "https://www.townscapergame.com/",
+        "category": "游戏",
+        "subcategory": "games-indie",
+        "language": "en",
+        "isConcept": false,
+        "gameType": "official"
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/games-townscaper.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.townscapergame.com/",
+        "captureProvider": "Thum.io",
+        "review": "approved",
+        "width": 1200,
+        "height": 900,
+        "sha256": "5258b8c5316bd7f3d6ca26625d6be2ade267097e1a4c69dc4ece0398839912b2",
+        "bytes": 41156
+      },
+      "visualReview": "individually inspected at full output resolution; genuine official website screenshot; no error, blank or gate visible",
+      "providerUrl": "https://image.thum.io/get/noanimate/width/1200/crop/900/https://www.townscapergame.com/",
+      "sourceVerification": {
+        "id": "games-townscaper",
+        "name": "Townscaper",
+        "url": "https://www.townscapergame.com/",
+        "verifiedAt": "2026-10-05",
+        "officialCheck": "Official standalone site verified; cross-checked Raw Fury official game page. This URL is marketing, separate browser demo exists.",
+        "pageType": "official-marketing",
+        "language": "en",
+        "rightsStatus": "No blanket screenshot reuse or commercial license established; copyright remains with rightsholders.",
+        "captureStatus": "accepted"
+      }
+    },
+    {
+      "case": {
+        "id": "game-zh-thatsky",
+        "name": "Sky 光·遇",
+        "url": "https://www.thatskygame.com/zh/",
+        "subcategory": "games-official",
+        "language": "zh-CN",
+        "tags": [
+          "云海场景",
+          "居中构图",
+          "平台入口"
+        ],
+        "subtitle": "在云海与草坡之间，保留安静的视觉中心",
+        "note": "弯曲的小径把草坡、花丛和远处云海连成一条视线，白色标志放在中央天空留白中。五个圆形平台入口排列成稳定横线，细小中文导航退到上方，让世界观画面保持主导，同时提供容易识别的选择。",
+        "lesson": "用画面的天然留白容纳标志，让功能入口共享一种形状。",
+        "sourceName": "thatgamecompany · Sky 中文官网",
+        "sourceUrl": "https://www.thatskygame.com/zh/",
+        "category": "游戏",
+        "gameType": "official",
+        "isConcept": false
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/game-zh-thatsky.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.thatskygame.com/zh/",
+        "captureProvider": "Thum.io",
+        "review": "approved",
+        "width": 600,
+        "height": 400,
+        "sha256": "fb2a843c6ae47f7061278f2557a0e028d66fb1f388132c8bc50d63149d2a8724",
+        "bytes": 23742
+      },
+      "visualReview": {
+        "reviewedAt": "2026-10-05",
+        "result": "通过：真实网站界面，有可读中文及独立的导航或功能布局；未见浏览器错误、加载占位、登录或年龄验证遮挡。"
+      },
+      "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.thatskygame.com/zh/",
+      "rights": {
+        "licenseFound": false,
+        "reuseBasis": "仅建议沿用图库现有的低分辨率网站截图引用与原站署名方式，不代表获得图片、商标或商业再利用授权。",
+        "checkedUrl": "https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/655-can-i-share-my-fan-art-and-other-sky-inspired-works/?l=en&s=legal",
+        "statement": "官网保留版权；官方同人内容指南明确不授予知识产权许可，并限制提取素材及商标使用。该截图仅作为对官网的署名视觉引用，不能据此声称已获授权。",
+        "requiresAttributionAndContext": true
+      },
+      "languageEvidence": "已逐张检查实际截图中的中文导航、标题或按钮，并与官方公开页面核对。",
+      "officialVerificationSource": "https://www.thatskygame.com/zh/"
+    },
+    {
+      "case": {
+        "id": "game-zh-monument",
+        "name": "纪念碑谷",
+        "url": "https://mv.uu.cc/",
+        "subcategory": "games-indie",
+        "language": "zh-CN",
+        "tags": [
+          "视错觉建筑",
+          "几何构图",
+          "层次色彩"
+        ],
+        "subtitle": "用不可能的建筑，直接展示解谜世界的规则",
+        "note": "首屏让粉红、浅青和暖黄色的几何建筑占据中央，黑色侧栏集中承载中文标志与二维码。下载入口和奖项收进底部半透明横条，与上方建筑保持不同信息层级；可学习如何用游戏核心视觉建立识别，再集中处理功能信息。",
+        "lesson": "主视觉表达玩法特征，辅助信息集中排布。",
+        "sourceName": "乐逗游戏 · 纪念碑谷官方网站",
+        "sourceUrl": "https://mv.uu.cc/",
+        "category": "游戏",
+        "gameType": "official",
+        "isConcept": false
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/game-zh-monument.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://mv.uu.cc/",
+        "captureProvider": "Thum.io",
+        "review": "approved",
+        "width": 600,
+        "height": 400,
+        "sha256": "d30b5bf47380607f19056dd6aa697fddc886c54251c45550ddff0ed40eb29215",
+        "bytes": 25130
+      },
+      "visualReview": {
+        "reviewedAt": "2026-10-05",
+        "result": "通过：真实网站界面，有可读中文及独立的导航或功能布局；未见浏览器错误、加载占位、登录或年龄验证遮挡。"
+      },
+      "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://mv.uu.cc/",
+      "rights": {
+        "licenseFound": false,
+        "reuseBasis": "仅建议沿用图库现有的低分辨率网站截图引用与原站署名方式，不代表获得图片、商标或商业再利用授权。",
+        "checkedUrl": "https://mv.uu.cc/",
+        "statement": "未发现针对网站截图的开放复用许可。"
+      },
+      "languageEvidence": "已逐张检查实际截图中的中文导航、标题或按钮，并与官方公开页面核对。",
+      "officialVerificationSource": "https://mv.uu.cc/"
+    },
+    {
+      "case": {
+        "id": "game-zh-taoyuan",
+        "name": "桃源深处有人家",
+        "url": "https://taoyuan.qq.com/",
+        "subcategory": "games-official",
+        "language": "zh-CN",
+        "tags": [
+          "青绿山水",
+          "手绘田园",
+          "卷轴衔接"
+        ],
+        "subtitle": "把田园经营的邀请写进一幅青绿山水画",
+        "note": "青绿山峦、弯曲河流和近处桃树包围中央标题，颜色从远景浅淡逐渐过渡到前景饱满。多个平台入口集中成一块整齐的小面板，下方以浅色云气形状接入下一段，适合观察复杂插画如何保留清晰的阅读与操作区域。",
+        "lesson": "让风景围绕内容中心展开，用柔和边界连接上下段落。",
+        "sourceName": "腾讯游戏 · 桃源深处有人家官网",
+        "sourceUrl": "https://taoyuan.qq.com/",
+        "category": "游戏",
+        "gameType": "official",
+        "isConcept": false
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/game-zh-taoyuan.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://taoyuan.qq.com/",
+        "captureProvider": "Thum.io",
+        "review": "approved",
+        "width": 800,
+        "height": 666,
+        "sha256": "ea5a4871fa7e68e2599b4255ee4c30dd7848b9817223f4b52cf2306165fbdefd",
+        "bytes": 70048
+      },
+      "visualReview": {
+        "reviewedAt": "2026-10-05",
+        "result": "通过：真实网站界面，有可读中文及独立的导航或功能布局；未见浏览器错误、加载占位、登录或年龄验证遮挡。"
+      },
+      "providerUrl": "https://image.thum.io/get/noanimate/width/800/crop/1000/https://taoyuan.qq.com/",
+      "rights": {
+        "licenseFound": false,
+        "reuseBasis": "仅建议沿用图库现有的低分辨率网站截图引用与原站署名方式，不代表获得图片、商标或商业再利用授权。",
+        "checkedUrl": "https://taoyuan.qq.com/",
+        "statement": "未发现针对网站截图的开放复用许可。"
+      },
+      "languageEvidence": "已逐张检查实际截图中的中文导航、标题或按钮，并与官方公开页面核对。",
+      "officialVerificationSource": "https://www.taptap.cn/app/202416/all-info"
+    },
+    {
+      "case": {
+        "id": "game-zh-eggyparty",
+        "name": "蛋仔派对",
+        "url": "https://party.163.com/",
+        "subcategory": "games-official",
+        "language": "zh-CN",
+        "tags": [
+          "明黄主色",
+          "玩具角色",
+          "粗体导航"
+        ],
+        "subtitle": "用玩具般的角色与明黄背景建立活力感",
+        "note": "大面积明黄色背景统一角色、星形装饰和斜向色块，右侧不同高度的圆润角色形成向上跳跃的节奏。顶部黑色粗体导航与右下方彩色功能按钮分别成组，当前栏目用黑色胶囊强调，可学习高饱和场景中如何保持界面的可辨识度。",
+        "lesson": "用少量稳定的高对比控件，整理热闹的主视觉。",
+        "sourceName": "网易游戏 · 蛋仔派对官网",
+        "sourceUrl": "https://party.163.com/",
+        "category": "游戏",
+        "gameType": "official",
+        "isConcept": false
+      },
+      "screenshot": {
+        "src": "./assets/screenshots/game-zh-eggyparty.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://party.163.com/",
+        "captureProvider": "Thum.io",
+        "review": "approved",
+        "width": 800,
+        "height": 666,
+        "sha256": "26b211ceb797a42b0c33a83f3055c82a70c7d7774e1f755d2d39e6497e70a452",
+        "bytes": 42610
+      },
+      "visualReview": {
+        "reviewedAt": "2026-10-05",
+        "result": "通过：真实网站界面，有可读中文及独立的导航或功能布局；未见浏览器错误、加载占位、登录或年龄验证遮挡。"
+      },
+      "providerUrl": "https://image.thum.io/get/noanimate/width/800/crop/1000/https://party.163.com/",
+      "rights": {
+        "licenseFound": false,
+        "reuseBasis": "仅建议沿用图库现有的低分辨率网站截图引用与原站署名方式，不代表获得图片、商标或商业再利用授权。",
+        "checkedUrl": "https://party.163.com/",
+        "statement": "未发现针对网站截图的开放复用许可。"
+      },
+      "languageEvidence": "已逐张检查实际截图中的中文导航、标题或按钮，并与官方公开页面核对。",
+      "officialVerificationSource": "https://party.163.com/"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "games-hextris",
+      "name": "Hextris",
+      "url": "https://hextris.github.io/hextris/",
+      "retrievedAt": "2026-10-05",
+      "targetCheck": {
+        "error": "HTTP Error 502: Bad Gateway"
+      },
+      "width": 800,
+      "height": 466,
+      "providerUrl": "https://image.thum.io/get/noanimate/width/800/crop/700/https://hextris.github.io/hextris/",
+      "captureProvider": "Thum.io",
+      "status": "needs_visual_review",
+      "reason": "截图为浏览器错误页"
+    },
+    {
+      "id": "games-little-alchemy",
+      "name": "Little Alchemy 2",
+      "url": "https://littlealchemy2.com/",
+      "retrievedAt": "2026-10-05",
+      "targetCheck": {
+        "status": 200,
+        "url": "https://littlealchemy2.com/",
+        "resolvedUrl": "https://littlealchemy2.com/"
+      },
+      "width": 800,
+      "height": 466,
+      "providerUrl": "https://image.thum.io/get/noanimate/width/800/crop/700/https://littlealchemy2.com/",
+      "captureProvider": "Thum.io",
+      "status": "needs_visual_review",
+      "reason": "可见启动菜单过于空白，本轮优先保留信息更完整的界面"
+    },
+    {
+      "id": "games-townscaper-web",
+      "name": "Townscaper 浏览器实验版",
+      "url": "https://oskarstalberg.com/Townscaper/",
+      "retrievedAt": "2026-10-05",
+      "targetCheck": {
+        "status": 200,
+        "url": "https://oskarstalberg.com/Townscaper/",
+        "resolvedUrl": "https://oskarstalberg.com/Townscaper/"
+      },
+      "width": 800,
+      "height": 466,
+      "providerUrl": "https://image.thum.io/get/noanimate/width/800/crop/700/https://oskarstalberg.com/Townscaper/",
+      "captureProvider": "Thum.io",
+      "status": "needs_visual_review",
+      "reason": "两种截图均停留在加载进度条"
+    },
+    {
+      "id": "games-paper-trail",
+      "url": "https://www.papertrailgame.com/",
+      "captureProvider": "Thum.io",
+      "status": "rejected",
+      "reason": "Saved 1200×900 screenshot is white/blank; site text is publicly readable but capture not usable."
+    },
+    {
+      "id": "games-monument-valley",
+      "url": "https://www.monumentvalleygame.com/",
+      "captureProvider": "Thum.io",
+      "status": "rejected",
+      "reason": "Saved screenshot is a white loading state with tiny LOADING label; public page also reports Loading."
+    },
+    {
+      "id": "games-alba",
+      "url": "https://www.albawildlife.com/",
+      "captureProvider": "Thum.io",
+      "status": "rejected",
+      "reason": "Saved screenshot shows blurred blue background and a small release line; logo and main artwork are missing, so this is an incomplete render."
+    },
+    {
+      "id": "games-botanicula",
+      "url": "https://amanita-design.net/games/botanicula.html",
+      "status": "excluded_before_usable_capture",
+      "reason": "Conservative rights choice: official video policy allows certain video uses but disallows standalone asset distribution. No general screenshot license established. No accepted screenshot delivered."
+    },
+    {
+      "id": "games-samorost3",
+      "url": "https://amanita-design.net/games/samorost-3.html",
+      "status": "excluded_before_usable_capture",
+      "reason": "Official page could not be read through web tool and Amanita video policy is not a general screenshot-reuse license. No accepted screenshot delivered."
+    },
+    {
+      "id": "games-journey",
+      "url": "https://thatgamecompany.com/journey/",
+      "captureProvider": "Thum.io",
+      "status": "rejected",
+      "reason": "Screenshot contains large pale-yellow background and a small mountain with no Journey identity or usable content; sparse or incomplete animation state."
+    },
+    {
+      "id": "games-gorogoa-zh",
+      "url": "https://annapurnainteractive.com/zh-tw/games/gorogoa",
+      "captureProvider": "Thum.io",
+      "status": "rejected",
+      "reason": "Official Traditional Chinese publisher page is text-readable, but captured screenshot is entirely white."
+    },
+    {
+      "id": "games-paper-trail-mshots",
+      "url": "https://www.papertrailgame.com/",
+      "captureProvider": "Automattic mShots",
+      "status": "rejected",
+      "reason": "400×300 screenshot service generation placeholder, not website content."
+    },
+    {
+      "id": "games-townscaper-mshots",
+      "url": "https://www.townscapergame.com/",
+      "captureProvider": "Automattic mShots",
+      "status": "rejected",
+      "reason": "400×300 screenshot service generation placeholder, not website content. Use accepted Thum.io original only."
+    },
+    {
+      "id": "game-zh-sky",
+      "status": "rejected_attempt",
+      "reason": "网易版官网截图可用，但与已选 Sky 中文官网重复，保留构图更完整且无遮挡的版本。",
+      "capture": {
+        "id": "game-zh-sky",
+        "name": "光遇",
+        "url": "https://sky.163.com/",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://sky.163.com/",
+        "captureProvider": "Thum.io",
+        "retrievedAt": "2026-10-05",
+        "width": 600,
+        "height": 400,
+        "bytes": 271877,
+        "sha256": "c729cdb1c83166d71102c1bee12fe30c23f78f053fc991b8c7ea346b6e4f3726",
+        "status": "needs_visual_review"
+      }
+    },
+    {
+      "id": "game-zh-xd",
+      "status": "rejected_attempt",
+      "reason": "游戏发行商总入口，虽截图清晰但本批优先具体游戏官网，故因范围相关性排除。",
+      "capture": {
+        "id": "game-zh-xd",
+        "name": "心动",
+        "url": "https://www.xd.com/",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.xd.com/",
+        "captureProvider": "Thum.io",
+        "retrievedAt": "2026-10-05",
+        "width": 600,
+        "height": 400,
+        "bytes": 347313,
+        "sha256": "078bfbc9584e77879d5940b8e2a4fee564cb9a18691b461499f2d697d63cd1fe",
+        "status": "needs_visual_review"
+      }
+    },
+    {
+      "id": "game-zh-cotton",
+      "status": "rejected_attempt",
+      "reason": "官方网页可访问且中文 HTML 存在，但截图落在英语地区版本，未通过中文可视内容要求。",
+      "capture": {
+        "id": "game-zh-cotton",
+        "name": "胖布丁游戏",
+        "url": "https://www.cottongame.com/",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.cottongame.com/",
+        "captureProvider": "Thum.io",
+        "retrievedAt": "2026-10-05",
+        "width": 600,
+        "height": 400,
+        "bytes": 354935,
+        "sha256": "d449687a422fd8c1516cb833c8d03d217387a6789579f2ea4c8e09e161e4d4b5",
+        "status": "needs_visual_review"
+      }
+    },
+    {
+      "id": "game-zh-mirror",
+      "status": "rejected_attempt",
+      "reason": "Thum.io 只呈现纸质背景与飞鸟，关键内容未加载。",
+      "capture": {
+        "id": "game-zh-mirror",
+        "name": "古镜记",
+        "url": "https://talesofthemirror.lilith.com/",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://talesofthemirror.lilith.com/",
+        "captureProvider": "Thum.io",
+        "retrievedAt": "2026-10-05",
+        "width": 600,
+        "height": 400,
+        "bytes": 366158,
+        "sha256": "25e8b0b8550ec98507e85ccad070ed28eacc9258c40e7213835238026eaf099c",
+        "status": "needs_visual_review"
+      }
+    },
+    {
+      "id": "game-zh-chillyroom",
+      "status": "rejected_attempt",
+      "reason": "发布商多游戏轮播与新闻目录，视觉重心落在非优先的幻想角色推广；不为数量补入。",
+      "capture": {
+        "id": "game-zh-chillyroom",
+        "name": "凉屋游戏",
+        "url": "https://www.chillyroom.com/zh",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.chillyroom.com/zh",
+        "captureProvider": "Thum.io",
+        "retrievedAt": "2026-10-05",
+        "width": 600,
+        "height": 400,
+        "bytes": 252130,
+        "sha256": "3ae6237b91191daca5883abbcbc7810a20aa935fcf5a01b145853b266339e3ca",
+        "status": "needs_visual_review"
+      }
+    },
+    {
+      "id": "game-zh-rayark",
+      "status": "rejected_attempt",
+      "reason": "已选方向优先具体游戏，且雷亚条款存在明确复制限制；保守排除。",
+      "capture": {
+        "id": "game-zh-rayark",
+        "name": "雷亞遊戲",
+        "url": "https://rayark.com/zh/",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://rayark.com/zh/",
+        "captureProvider": "Thum.io",
+        "retrievedAt": "2026-10-05",
+        "width": 600,
+        "height": 400,
+        "bytes": 281387,
+        "sha256": "2102b10342db4f991afcfbb443cc7008a27dad0f9feac4e0eb442de5c97b853e",
+        "status": "needs_visual_review"
+      }
+    },
+    {
+      "id": "game-zh-monument2",
+      "status": "rejected_attempt",
+      "reason": "只出现黑底游戏标题与侧边下载码，主场景未呈现。",
+      "capture": {
+        "id": "game-zh-monument2",
+        "name": "纪念碑谷2",
+        "url": "https://mv2.qq.com/",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/800/crop/1000/https://mv2.qq.com/",
+        "captureProvider": "Thum.io",
+        "retrievedAt": "2026-10-05",
+        "width": 800,
+        "height": 666,
+        "bytes": 34937,
+        "sha256": "60835ecd11b9a990bd8e892b0909b4f377cbebf928dc7e6a142e89156fd5e719",
+        "status": "needs_visual_review"
+      }
+    },
+    {
+      "id": "game-zh-deemo",
+      "status": "rejected_attempt",
+      "reason": "截图本身清晰且有繁体中文，但雷亚服务条款第七条明确限制未经授权复制、传输等使用，本批保守排除。",
+      "capture": {
+        "id": "game-zh-deemo",
+        "name": "DEEMO 古树旋律",
+        "url": "https://rayark.com/zh/games/deemo/",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/800/crop/1000/https://rayark.com/zh/games/deemo/",
+        "captureProvider": "Thum.io",
+        "retrievedAt": "2026-10-05",
+        "width": 800,
+        "height": 666,
+        "bytes": 553463,
+        "sha256": "e804286ee126b5baa9e30856d90c39cbaa3062124c7cc9d8d53e0787a905159c",
+        "status": "needs_visual_review"
+      }
+    },
+    {
+      "id": "game-zh-mirror-mshots",
+      "status": "rejected_attempt",
+      "reason": "mShots 重试出现局部建筑场景，但仍无游戏标题与主要导航，不足以代表完整网站设计。",
+      "capture": {
+        "id": "game-zh-mirror-mshots",
+        "name": "古镜记",
+        "url": "https://talesofthemirror.lilith.com/",
+        "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Ftalesofthemirror.lilith.com%2F?w=1000&h=750",
+        "captureProvider": "Automattic mShots",
+        "retrievedAt": "2026-10-05",
+        "width": 400,
+        "height": 300,
+        "bytes": 8737,
+        "sha256": "499aca54997274ea22603657e5ad3d6408387fb2463158083b15e8cc94f08201",
+        "status": "needs_visual_review"
+      }
+    },
+    {
+      "id": "game-zh-rayark-mshots",
+      "status": "rejected_attempt",
+      "reason": "返回 Generating Preview 占位图，且同属雷亚版权审查排除范围。",
+      "capture": {
+        "id": "game-zh-rayark-mshots",
+        "name": "雷亞遊戲",
+        "url": "https://rayark.com/zh/",
+        "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Frayark.com%2Fzh%2F?w=1000&h=750",
+        "captureProvider": "Automattic mShots",
+        "retrievedAt": "2026-10-05",
+        "width": 400,
+        "height": 300,
+        "bytes": 8737,
+        "sha256": "499aca54997274ea22603657e5ad3d6408387fb2463158083b15e8cc94f08201",
+        "status": "needs_visual_review"
+      }
+    },
+    {
+      "id": "game-zh-mirror-mshots",
+      "status": "rejected_attempt",
+      "reason": "mShots 重试出现局部建筑场景，但仍无游戏标题与主要导航，不足以代表完整网站设计。",
+      "capture": {
+        "id": "game-zh-mirror-mshots",
+        "name": "古镜记",
+        "url": "https://talesofthemirror.lilith.com/",
+        "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Ftalesofthemirror.lilith.com%2F?w=1000&h=750",
+        "captureProvider": "Automattic mShots",
+        "retrievedAt": "2026-10-05",
+        "width": 1000,
+        "height": 750,
+        "bytes": 219198,
+        "sha256": "bc4b4d18bed77d336101bb8d5b83030b3527ca3530c049cb9ff44d4620945ebb",
+        "status": "needs_visual_review"
+      }
+    },
+    {
+      "id": "game-zh-qianshan",
+      "status": "rejected_attempt",
+      "reason": "截图为浏览器 ERR_TUNNEL_CONNECTION_FAILED 错误，不可收录。",
+      "capture": {
+        "id": "game-zh-qianshan",
+        "name": "绘真·妙笔千山",
+        "url": "https://hz.163.com/",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/800/crop/1000/https://hz.163.com/",
+        "captureProvider": "Thum.io",
+        "retrievedAt": "2026-10-05",
+        "width": 800,
+        "height": 666,
+        "bytes": 19362,
+        "sha256": "791e6347e9244b66591b8d442452069ad91981a9f6c0081fecb801d766c6fbbb",
+        "status": "needs_visual_review"
+      }
+    },
+    {
+      "id": "game-zh-monument2-mshots",
+      "status": "rejected_attempt",
+      "reason": "mShots 首次为生成占位图，完成后仍为黑底大标题、二维码和底部按钮，没有展示游戏主场景；本批不收录。",
+      "capture": {
+        "id": "game-zh-monument2-mshots",
+        "name": "纪念碑谷2",
+        "url": "https://mv2.qq.com/",
+        "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fmv2.qq.com%2F?w=1000&h=750",
+        "captureProvider": "Automattic mShots",
+        "retrievedAt": "2026-10-05",
+        "width": 400,
+        "height": 300,
+        "bytes": 8737,
+        "sha256": "499aca54997274ea22603657e5ad3d6408387fb2463158083b15e8cc94f08201",
+        "status": "needs_visual_review"
+      }
+    },
+    {
+      "id": "game-zh-monument2-mshots",
+      "status": "rejected_attempt",
+      "reason": "mShots 首次为生成占位图，完成后仍为黑底大标题、二维码和底部按钮，没有展示游戏主场景；本批不收录。",
+      "capture": {
+        "id": "game-zh-monument2-mshots",
+        "name": "纪念碑谷2",
+        "url": "https://mv2.qq.com/",
+        "providerUrl": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fmv2.qq.com%2F?w=1000&h=750",
+        "captureProvider": "Automattic mShots",
+        "retrievedAt": "2026-10-05",
+        "width": 1000,
+        "height": 750,
+        "bytes": 61024,
+        "sha256": "2e4cb592bf9513f3ee357e3e5f8ccd797c2007b51b5a85cfc56e6f392355ee11"
+      }
+    },
+    {
+      "id": "candidate-candleman",
+      "url": "https://game.spotlightor.com/",
+      "status": "rejected_before_capture",
+      "reason": "当前工作室主页主要为英语，未获得符合本批中文范围的页面。"
+    },
+    {
+      "id": "candidate-moncage",
+      "url": "https://www.optillusion.games/",
+      "status": "rejected_before_capture",
+      "reason": "开发商当前官网为英语，发行商游戏目录的笼中窥梦入口指向 TapTap 商店，未作为独立游戏官网收录。"
+    },
+    {
+      "id": "candidate-pathea",
+      "url": "https://pathea.net/",
+      "status": "rejected_before_capture",
+      "reason": "当前主站为英语，未找到经核实的中文路径。"
+    },
+    {
+      "id": "candidate-jiangnan",
+      "url": "https://jnbjt.coco.cn/",
+      "status": "rejected_before_capture",
+      "reason": "探测返回 HTTP 502；没有使用第三方下载站替代。"
+    },
+    {
+      "id": "candidate-mole",
+      "url": "https://mole.leiting.com/",
+      "status": "rejected_before_capture",
+      "reason": "公开地址实际返回问道手游页面，游戏身份不匹配。"
+    },
+    {
+      "id": "rights-rayark",
+      "status": "rights_exclusion",
+      "url": "https://www.terms.rayark.com/",
+      "evidence": "雷亚游戏使用者服务条款第七条保留作品权利并限制未经合法授权的重制与传播；有限二次创作条件不能认定覆盖网站截图。",
+      "affected": [
+        "game-zh-deemo",
+        "game-zh-rayark"
+      ],
+      "reason": "雷亚游戏使用者服务条款第七条保留作品权利并限制未经合法授权的重制与传播；有限二次创作条件不能认定覆盖网站截图。"
+    }
+  ]
+}
