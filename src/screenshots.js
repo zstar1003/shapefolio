@@ -1354,6 +1354,12 @@ export const screenshotById = {
     "captureProvider": "Automattic mShots",
     "src": "./assets/screenshots/distinct-a24.webp"
   },
+  "distinct-pouyaos": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://pouyashahri.com",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-pouyaos.webp"
+  },
   "distinct-triptych-interactive": {
     "retrievedAt": "2026-10-05",
     "sourceUrl": "https://3dv2.triptych.co/",
@@ -1456,6 +1462,30 @@ export const screenshotById = {
     "captureProvider": "Automattic mShots",
     "src": "./assets/screenshots/distinct-zainab-kabira-portfolio-2026.webp"
   },
+  "distinct-personaal-studio": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://personaal.studio/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-personaal-studio.webp"
+  },
+  "distinct-cruz-estudio": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.cruzestudio.com.ar",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-cruz-estudio.webp"
+  },
+  "distinct-huy-phan-vol-2": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://huyml.co/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-huy-phan-vol-2.webp"
+  },
+  "distinct-kavimada": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://adammount.org",
+    "captureProvider": "Direct browser capture",
+    "src": "./assets/screenshots/distinct-kavimada.webp"
+  },
   "distinct-aino-agency": {
     "retrievedAt": "2026-10-05",
     "sourceUrl": "https://aino.agency",
@@ -1497,6 +1527,12 @@ export const screenshotById = {
     "sourceUrl": "https://podium.global/",
     "captureProvider": "Automattic mShots",
     "src": "./assets/screenshots/distinct-podium.webp"
+  },
+  "distinct-draniki-digital-studio": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://draniki.studio/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-draniki-digital-studio.webp"
   },
   "distinct-ricardo-chance-portfolio": {
     "retrievedAt": "2026-10-05",
@@ -1564,11 +1600,191 @@ export const screenshotById = {
     "captureProvider": "Automattic mShots",
     "src": "./assets/screenshots/distinct-goboldtm-agency.webp"
   },
+  "distinct-thibault-guignand-portfolio": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://thibaultguignand.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-thibault-guignand-portfolio.webp"
+  },
+  "distinct-breezy-rhino": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.breezyrhino.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-breezy-rhino.webp"
+  },
+  "distinct-jordi-garreta-creative-dev": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.jordigarreta.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-jordi-garreta-creative-dev.webp"
+  },
+  "distinct-ferr-studio": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://ferrstudio.ch",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-ferr-studio.webp"
+  },
+  "distinct-sergii-butrii-portfolio": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://sergii-butrii.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-sergii-butrii-portfolio.webp"
+  },
+  "distinct-mathilde-de-chiara-portfolio": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.mathildedechiara.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-mathilde-de-chiara-portfolio.webp"
+  },
+  "distinct-bam": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://bamlab.ch/en/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-bam.webp"
+  },
+  "distinct-sauds-ps2-portfolio": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://imsaud.me/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-sauds-ps2-portfolio.webp"
+  },
+  "distinct-iris-yirei-hu": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.irisyireihu.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-iris-yirei-hu.webp"
+  },
+  "distinct-enzo-casalini": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://enzo-casalini.dev",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-enzo-casalini.webp"
+  },
+  "distinct-rs69-rogue-signal": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://rs69.dev",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-rs69-rogue-signal.webp"
+  },
+  "distinct-james-murray-3d-portfolio": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://jamesmurray.ca",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-james-murray-3d-portfolio.webp"
+  },
+  "distinct-lama-lama-2": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://lamalama.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-lama-lama-2.webp"
+  },
   "distinct-project-aperture": {
     "retrievedAt": "2026-10-05",
     "sourceUrl": "https://www.project-aperture.com/",
     "captureProvider": "Automattic mShots",
     "src": "./assets/screenshots/distinct-project-aperture.webp"
+  },
+  "distinct-san-rita": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://sanrita.ca/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-san-rita.webp"
+  },
+  "distinct-mr-pandas-paper-portfolio": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.mr-pandas-psychologically-safe-portfolio.com/",
+    "captureProvider": "Thum.io",
+    "src": "./assets/screenshots/distinct-mr-pandas-paper-portfolio.webp"
+  },
+  "distinct-voku-studiotm": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://voku.studio/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-voku-studiotm.webp"
+  },
+  "distinct-artefakt": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://artefakt.mov/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-artefakt.webp"
+  },
+  "distinct-nicola-romeitm": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.nicolaromei.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-nicola-romeitm.webp"
+  },
+  "distinct-corentin-bernadou-portfolio": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://corentinbernadou.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-corentin-bernadou-portfolio.webp"
+  },
+  "distinct-wildy-riftian-portfolio": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.wildyriftian.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-wildy-riftian-portfolio.webp"
+  },
+  "distinct-fine-thought-site": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://finethought.com.au",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-fine-thought-site.webp"
+  },
+  "distinct-cathy-dolle-portfolio-1": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.cathydolle.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-cathy-dolle-portfolio-1.webp"
+  },
+  "distinct-arqui9-visualisation": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://arqui9.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-arqui9-visualisation.webp"
+  },
+  "distinct-off-menu": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.offmenu.design/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-off-menu.webp"
+  },
+  "distinct-2xa-studio": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://2xa.studio/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-2xa-studio.webp"
+  },
+  "distinct-glitch-grit": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://glitchandgrit.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-glitch-grit.webp"
+  },
+  "distinct-edoardo-lunardi": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.edoardolunardi.dev/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-edoardo-lunardi.webp"
+  },
+  "distinct-cyphr": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.cyphr.studio/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-cyphr.webp"
+  },
+  "distinct-sutera": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.sutera.ch/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-sutera.webp"
+  },
+  "distinct-toyfight": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://toyfight.co/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-toyfight.webp"
   },
   "distinct-offpossible": {
     "retrievedAt": "2026-10-05",
@@ -1906,6 +2122,198 @@ export const screenshotById = {
     "captureProvider": "Automattic mShots",
     "src": "./assets/screenshots/distinct-21-hrs-on-the-moon.webp"
   },
+  "distinct-art-here-2025-richard-mille": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://artprize-shadows.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-art-here-2025-richard-mille.webp"
+  },
+  "distinct-razorpay-sprint-26": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://razorpay.com/sprint/26",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-razorpay-sprint-26.webp"
+  },
+  "distinct-shopify-live-globe-2025": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://bfcm.shop",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-shopify-live-globe-2025.webp"
+  },
+  "distinct-kinetics": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://kineticsplay.com",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-kinetics.webp"
+  },
+  "distinct-fandom": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://fandomalbum.io/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-fandom.webp"
+  },
+  "distinct-xrecer": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://xrecer.com",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-xrecer.webp"
+  },
+  "distinct-cassette-jury": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://cassettejury.farm/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-cassette-jury.webp"
+  },
+  "distinct-sukima": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://claygarden.jp/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-sukima.webp"
+  },
+  "distinct-infinite-field": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.infinitefield.xyz/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-infinite-field.webp"
+  },
+  "distinct-obys-design-books": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://library.obys.agency/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-obys-design-books.webp"
+  },
+  "distinct-becane-paris": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.becaneparis.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-becane-paris.webp"
+  },
+  "distinct-dirac-com": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.dirac.com",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-dirac-com.webp"
+  },
+  "distinct-directionless": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://directionless.webflow.io/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-directionless.webp"
+  },
+  "distinct-the-renaissance-edition": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.shopify.com/editions/winter2026",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-the-renaissance-edition.webp"
+  },
+  "distinct-frequency-breathwork": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.frequencybreathwork.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-frequency-breathwork.webp"
+  },
+  "distinct-calculated-camouflage": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://calculatedcamouflage.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-calculated-camouflage.webp"
+  },
+  "distinct-wild-week-athens": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://week.wild.plus/athens-26",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-wild-week-athens.webp"
+  },
+  "distinct-maskatorium": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.maskatorium.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-maskatorium.webp"
+  },
+  "distinct-maddys-2025": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://maddys2025.ripplear.live",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-maddys-2025.webp"
+  },
+  "distinct-flying-squirrels-wiki-site": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.flyingsquirrelmicro.site/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-flying-squirrels-wiki-site.webp"
+  },
+  "distinct-even-the-devil-smiles": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.e-t-d-s.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-even-the-devil-smiles.webp"
+  },
+  "distinct-searching-for-birds": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://searchingforbirds.visualcinnamon.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-searching-for-birds.webp"
+  },
+  "distinct-incomplete-glossary-of-time": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://glossaryoftime.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-incomplete-glossary-of-time.webp"
+  },
+  "distinct-smooothy": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://smooothy.federic.ooo/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-smooothy.webp"
+  },
+  "distinct-enzos-legacy": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.enzoslegacy.com",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-enzos-legacy.webp"
+  },
+  "distinct-wild-memory-radio": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://wild-memory-radio.wetransfer.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-wild-memory-radio.webp"
+  },
+  "distinct-retrocast-now": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://weather.com/retro",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-retrocast-now.webp"
+  },
+  "distinct-science-meets-faith": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://kamidesgn.com/faith",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-science-meets-faith.webp"
+  },
+  "distinct-un-verano-sin-ti": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://unveranosinti.tilda.ws/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-un-verano-sin-ti.webp"
+  },
+  "distinct-the-tremaine-collection": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.tremainecollection.org/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-the-tremaine-collection.webp"
+  },
+  "distinct-movya-storyverse": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://storyverse.fi/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-movya-storyverse.webp"
+  },
+  "distinct-relats": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://toptier.relats.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-relats.webp"
+  },
   "distinct-zh-campaign": {
     "retrievedAt": "2026-10-05T05:06:02.795500+00:00",
     "sourceUrl": "https://1111.rethinktw.org",
@@ -2194,6 +2602,300 @@ export const screenshotById = {
     "captureProvider": "Thum.io",
     "src": "./assets/screenshots/distinct-cn-dunhuang-cave.webp"
   },
+  "narrative-point-of-view": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://readingstones.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-point-of-view.webp"
+  },
+  "narrative-1000-whales": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://1000whales.com/",
+    "captureProvider": "Cloud browser via cua_repl",
+    "src": "./assets/screenshots/narrative-1000-whales.webp"
+  },
+  "narrative-eladio-dieste": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.eladiodieste.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-eladio-dieste.webp"
+  },
+  "narrative-blood-donation": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://blood-donation.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-blood-donation.webp"
+  },
+  "narrative-let-pixels-breathe": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.somyajain.com/let-pixels-breathe",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-let-pixels-breathe.webp"
+  },
+  "narrative-coveo-music-1": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://coveomusic.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-coveo-music-1.webp"
+  },
+  "narrative-pixel-solar-system": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-pixel-solar-system.webp"
+  },
+  "narrative-the-true-size": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.thetruesize.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-the-true-size.webp"
+  },
+  "narrative-5051-punk-band": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://band5051.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-5051-punk-band.webp"
+  },
+  "narrative-auwa": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://auwa.life",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-auwa.webp"
+  },
+  "narrative-bam-83": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://bam83.webflow.io/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-bam-83.webp"
+  },
+  "narrative-coffee-ground-zero-bkkdw2026": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://bkkdw26.greydientlab.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-coffee-ground-zero-bkkdw2026.webp"
+  },
+  "narrative-falastin-records": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.falastinrecords.org/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-falastin-records.webp"
+  },
+  "narrative-looking-for-parking": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://lookingforparkingthegame.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-looking-for-parking.webp"
+  },
+  "narrative-red-blue-yellow-black-again": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://davincis.digital/rbyba",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-red-blue-yellow-black-again.webp"
+  },
+  "narrative-best-audio-brands-2026": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.bestaudiobrands.com/",
+    "captureProvider": "Cloud browser via cua_repl",
+    "src": "./assets/screenshots/narrative-best-audio-brands-2026.webp"
+  },
+  "narrative-opl-ma": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://monakadesign.online",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-opl-ma.webp"
+  },
+  "narrative-opl-jrr-tolkien-the-life-story": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://tolkienstory.tilda.ws/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-opl-jrr-tolkien-the-life-story.webp"
+  },
+  "narrative-opl-tainted-story": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.taintedstory.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-opl-tainted-story.webp"
+  },
+  "narrative-opl-the-unholy-project": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://theunholyproject.com",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-opl-the-unholy-project.webp"
+  },
+  "narrative-submarine-cable-map": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.submarinecablemap.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-submarine-cable-map.webp"
+  },
+  "narrative-seeing-theory": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://seeing-theory.brown.edu/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-seeing-theory.webp"
+  },
+  "narrative-distance-to-mars": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://distancetomars.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-distance-to-mars.webp"
+  },
+  "narrative-opl-the-legend-of-santar": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://santar.webflow.io/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-opl-the-legend-of-santar.webp"
+  },
+  "narrative-ri-mu-li-zeminaru-nippori-seminar": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://nippori.lamm.tokyo/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-ri-mu-li-zeminaru-nippori-seminar.webp"
+  },
+  "narrative-r2d3-machine-learning": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://r2d3.us/visual-intro-to-machine-learning-part-1/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-r2d3-machine-learning.webp"
+  },
+  "narrative-carbon-map": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.carbonmap.org/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-carbon-map.webp"
+  },
+  "narrative-the-fallen": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.fallen.io/ww2/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-the-fallen.webp"
+  },
+  "narrative-forest-fire-model": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.complexity-explorables.org/slides/critically-inflammatory/",
+    "captureProvider": "Cloud browser via cua_repl",
+    "src": "./assets/screenshots/narrative-forest-fire-model.webp"
+  },
+  "narrative-where-colors-dream": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://wherecolorsdream.art",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-where-colors-dream.webp"
+  },
+  "narrative-wabi-sabi": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.beautiful-imperfections.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-wabi-sabi.webp"
+  },
+  "narrative-whats-inside-an-atom": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://whatsinsideanatom.hu/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-whats-inside-an-atom.webp"
+  },
+  "narrative-valentines-day": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://alicek.design/valentines-day-2026/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-valentines-day.webp"
+  },
+  "narrative-visible-curation": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://visiblecuration.vercel.app/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-visible-curation.webp"
+  },
+  "narrative-the-importance-of-bees": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://importanceofbees.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-the-importance-of-bees.webp"
+  },
+  "narrative-transxhome": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://ogud.co.jp/urbanex/next21/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-transxhome.webp"
+  },
+  "narrative-handoff-breaking-imposter": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://imposter.framer.website/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-handoff-breaking-imposter.webp"
+  },
+  "narrative-handoff-the-history-of-muse-group": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://history.mu.se/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-handoff-the-history-of-muse-group.webp"
+  },
+  "narrative-handoff-work-in-progress-2026": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://wip.workoholics.es",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-handoff-work-in-progress-2026.webp"
+  },
+  "narrative-extra-rarest-stars-shine-brightest": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://brighteststars.org/en/explore/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-extra-rarest-stars-shine-brightest.webp"
+  },
+  "narrative-handoff-beige-force": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://beigeforce.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-handoff-beige-force.webp"
+  },
+  "narrative-handoff-tink-on": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://tinkon.zui.ooo/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-handoff-tink-on.webp"
+  },
+  "narrative-handoff-spectral-field": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.robfwa.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-handoff-spectral-field.webp"
+  },
+  "narrative-image-kernels": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://setosa.io/ev/image-kernels/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-image-kernels.webp"
+  },
+  "narrative-handoff-the-great-war": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://thegreatwar.org/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-handoff-the-great-war.webp"
+  },
+  "narrative-opl-vertigo-typeface": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://vertigo.amandapiotrowski.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-opl-vertigo-typeface.webp"
+  },
+  "narrative-fonts-in-movies": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://fontsinmovies.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-fonts-in-movies.webp"
+  },
+  "narrative-mechanical-ragger": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://oakstudios.github.io/mechanical-ragger",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/narrative-mechanical-ragger.webp"
+  },
+  "narrative-amy-winehouse": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://about-amy.com/",
+    "captureProvider": "Cloud browser via cua_repl",
+    "src": "./assets/screenshots/narrative-amy-winehouse.webp"
+  },
   "exp-patatap": {
     "retrievedAt": "2026-10-05",
     "sourceUrl": "https://patatap.com/",
@@ -2253,5 +2955,65 @@ export const screenshotById = {
     "sourceUrl": "https://stars.chromeexperiments.com/",
     "captureProvider": "Automattic mShots",
     "src": "./assets/screenshots/exp-stars.webp"
+  },
+  "distinct-kayiseisagu": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://kayiseisagu.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-kayiseisagu.webp"
+  },
+  "distinct-cyd-stumpel-portfolio-2025": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://cydstumpel.nl/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-cyd-stumpel-portfolio-2025.webp"
+  },
+  "distinct-art-clicksynth": {
+    "retrievedAt": "2026-10-05T05:46:58.417943+00:00",
+    "sourceUrl": "https://clicksynth.com/explore",
+    "captureProvider": "Thum.io",
+    "src": "./assets/screenshots/distinct-art-clicksynth.webp"
+  },
+  "distinct-aqualoqa-coming-soon": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://aqualoqa.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-aqualoqa-coming-soon.webp"
+  },
+  "distinct-sergio-ayala-art-director": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.sergio-ayala.com",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-sergio-ayala-art-director.webp"
+  },
+  "distinct-u-x-machina": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://uxmachina.co",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-u-x-machina.webp"
+  },
+  "distinct-somefolk-r": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.somefolk.co/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-somefolk-r.webp"
+  },
+  "distinct-max-milkin-portfolio": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.maxmilkin.com/",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-max-milkin-portfolio.webp"
+  },
+  "distinct-dolsten-co": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://dolsten.com",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-dolsten-co.webp"
+  },
+  "distinct-the-thread-a-personal-story": {
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://tej.as/story",
+    "captureProvider": "Automattic mShots",
+    "src": "./assets/screenshots/distinct-the-thread-a-personal-story.webp"
   }
 };

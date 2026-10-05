@@ -23,7 +23,7 @@ test('creative expansion reports additional visible cases separately from the ba
  assert.equal(evidence.baselineVisible,194);
  assert.equal(evidence.targetAdditional,300);
  assert.equal(evidence.approved.length,evidence.approvedCount);
- assert.ok(evidence.approvedCount>=40);
+ assert.ok(evidence.approvedCount>=300);
  assert.equal(cases.length,203+evidence.approvedCount);
  assert.equal(Object.keys(screenshotById).length,194+evidence.approvedCount);
  assert.equal(filterByLanguage(evidence.approved.map(r=>r.case),'zh').length,evidence.approvedChineseCount);
@@ -76,4 +76,12 @@ test('verified bilingual and Traditional Chinese pages are included in the Chine
   assert.equal(filterByLanguage([byId.get(fix.id)],'zh').length,1,fix.id);
   assert.ok(fix.evidence.length>30);assert.equal(new URL(fix.url).protocol,'https:');
  }
+});
+
+
+test('independent tributes preserve real-project status and explicit creator attribution',async()=>{
+ for(const id of ['narrative-amy-winehouse','narrative-opl-jrr-tolkien-the-life-story']){
+ const c=byId.get(id);assert.equal(c.isUnofficial,true);assert.equal(c.isConcept,false);assert.ok(c.creatorName);assert.ok(c.creatorSourceUrl.startsWith('https://'));
+ }
+ const app=await readFile('src/app.js','utf8');assert.ok(app.includes('c.isUnofficial'));assert.ok(app.includes('c.creatorName'));assert.ok(app.includes('c.isConcept ? "案例" : "网站"'));
 });
