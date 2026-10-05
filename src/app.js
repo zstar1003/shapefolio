@@ -1,4 +1,5 @@
 import {cases, filterCases} from './data.js';
+import {taxonomy, classifyCase, filterByTaxonomy, taxonomyCounts, taxonomyLabel} from './taxonomy.js';
 import {screenshotById} from './screenshots.js';
 import {createFavoritesStore, FAVORITES_STORAGE_KEY, filterByLanguage, routeFromHash} from './library-state.js';
 
@@ -16,9 +17,39 @@ let state = pageStates[route];
 let toastTimer;
 let detailOpener;
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const availableCategories = [...new Set(cases.map(c => c.category))];
-const categories = ['全部', ...availableCategories];
-$('#categories').innerHTML = categories.map(category => `<button class="filter" data-category="${escape(category)}" aria-pressed="false">${escape(category)}</button>`).join('');
+const expandedGroups = new Set();
+let drawerOpen = false;
+function renderCategories(items) {
+  const focused = document.activeElement?.dataset;
+  const focusSelector = focused?.category ? `[data-category="${focused.category}"]` : focused?.expand ? `[data-expand="${focused.expand}"]` : null;
+  const counts = taxonomyCounts(items);
+  const selectedParent = taxonomy.find(group => group.id === state.category || group.label === state.category || group.children.some(child => child.id === state.category))?.id;
+  const choice = (id, label, count, child = false) => `<button class="filter category-choice${child ? ' child-choice' : ''}${state.category === id ? ' active' : ''}" data-category="${escape(id)}" aria-pressed="${state.category === id}"><span>${escape(label)}</span><span class="category-count">${count}</span></button>`;
+  $('#categories').innerHTML = choice('全部', route === 'favorites' ? '全部收藏' : '全部网站', counts['全部']) + taxonomy.map(group => {
+    const open = expandedGroups.has(group.id);
+    return `<div class="category-group${selectedParent === group.id ? ' selected-group' : ''}"><div class="category-parent">${choice(group.id, group.label, counts[group.id])}<button class="category-expand" data-expand="${group.id}" aria-label="${open ? '收起' : '展开'}${group.label}" aria-expanded="${open}" aria-controls="children-${group.id}"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 4 4 4-4 4"/></svg></button></div><div class="category-children" id="children-${group.id}"${open ? '' : ' hidden'}>${group.children.map(child => choice(child.id,child.label,counts[child.id],true)).join('')}</div></div>`;
+  }).join('');
+  if (focusSelector) document.querySelector(focusSelector)?.focus({preventScroll:true});
+  $('#current-category').textContent = state.category === '全部' && route === 'favorites' ? '全部收藏' : taxonomyLabel(state.category);
+}
+function setDrawer(open, restoreFocus = true) {
+  drawerOpen = open;
+  const sidebar = $('#category-sidebar');
+  sidebar.classList.toggle('is-open', open);
+  $('#sidebar-backdrop').hidden = !open;
+  $('#open-categories').setAttribute('aria-expanded', String(open));
+  document.body.classList.toggle('drawer-open', open);
+  for (const selector of ['.site-header', '#gallery', 'footer']) $(selector).inert = open;
+  if (open) {
+    sidebar.setAttribute('role','dialog');
+    sidebar.setAttribute('aria-modal','true');
+    $('#close-categories').focus();
+  } else {
+    sidebar.removeAttribute('role');
+    sidebar.removeAttribute('aria-modal');
+    if (restoreFocus) $('#open-categories').focus({preventScroll:true});
+  }
+}
 
 function placeholder() {
   return '<div class="capture-placeholder"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="5" width="26" height="22" rx="4"/><path d="M3 12h26M8 9h1m3 0h1"/></svg><span>截图待补充</span></div>';
@@ -62,10 +93,11 @@ function card(c) {
 }
 function render() {
   const isFavorites = route === 'favorites';
-  const filtered = isFavorites
-    ? filterCases(cases, {...state, savedOnly: true, saved})
-    : filterCases(galleryCases, state);
-  const visible = filterByLanguage(filtered, state.language);
+  const pool = isFavorites ? cases.filter(c => saved.includes(c.id)) : galleryCases;
+  const searchable = pool.map(c => ({...c, tags:[...c.tags, taxonomyLabel(classifyCase(c).child)]}));
+  const filtered = filterByLanguage(filterCases(searchable, {...state, category:'全部'}), state.language);
+  const visible = filterByTaxonomy(filtered, state.category);
+  renderCategories(filtered);
   const shown = visible.slice(0, state.limit);
   const knownSaved = saved.filter(id => caseById.has(id)).length;
   $('#cards').innerHTML = shown.map(card).join('');
@@ -126,6 +158,7 @@ function updateRoute() {
   const nextRoute = routeFromHash(location.hash);
   if (nextRoute === route) return;
   document.querySelectorAll('dialog[open]').forEach(dialog => dialog.close());
+  if (drawerOpen) setDrawer(false, false);
   route = nextRoute;
   state = pageStates[route];
   $('#search').value = state.query;
@@ -140,7 +173,7 @@ function showDetail(id) {
   const c = caseById.get(id);
   if (!c) return;
   detailOpener = document.activeElement;
-  $('#detail-content').innerHTML = `<div class="detail-image">${screenshot(c, true)}</div><div class="detail-body"><p class="detail-category">${escape(c.category)}${c.isConcept ? " · 概念案例" : ""}</p><h2 id="detail-title">${escape(c.name)}</h2><p>${escape(c.note)}</p><p class="lesson">${escape(c.lesson)}</p><div class="tags">${c.tags.map(t => `<span class="tag">${escape(t)}</span>`).join('')}</div><div class="detail-actions"><a href="${c.url}" target="_blank" rel="noopener noreferrer">${c.isConcept ? "查看原始案例" : "访问原站"} ↗</a><button data-save="${c.id}"></button></div><p class="source-caption">来源：${escape(new URL(c.url).hostname)} · 收录核验 2026.10.04<br>${screenshotById[c.id]?.src ? `真实网站截图${screenshotById[c.id].retrievedAt ? ` · 获取日期 ${escape(screenshotById[c.id].retrievedAt)}` : ""}` : "截图待补充"}。截图可能为缓存版本。笔记为编辑学习建议。${c.sourceName ? `<br>收录来源：<a href="${escape(c.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escape(c.sourceName)}</a>。${c.isConcept ? "该作品是原站展示的概念案例，不代表同名真实商业产品。" : ""}` : ""}${c.model ? `<br>模型信息来自原站标注，未独立核验：${escape(c.model)}。` : ""}</p></div>`;
+  $('#detail-content').innerHTML = `<div class="detail-image">${screenshot(c, true)}</div><div class="detail-body"><p class="detail-category">${escape(c.category)} · ${escape(taxonomyLabel(classifyCase(c).child))}${c.isConcept ? " · 概念案例" : ""}</p><h2 id="detail-title">${escape(c.name)}</h2><p>${escape(c.note)}</p><p class="lesson">${escape(c.lesson)}</p><div class="tags">${c.tags.map(t => `<span class="tag">${escape(t)}</span>`).join('')}</div><div class="detail-actions"><a href="${c.url}" target="_blank" rel="noopener noreferrer">${c.isConcept ? "查看原始案例" : "访问原站"} ↗</a><button data-save="${c.id}"></button></div><p class="source-caption">来源：${escape(new URL(c.url).hostname)}<br>${screenshotById[c.id]?.src ? `真实网站截图${screenshotById[c.id].retrievedAt ? ` · 获取日期 ${escape(screenshotById[c.id].retrievedAt)}` : ""}` : "截图待补充"}。截图可能为缓存版本。笔记为编辑学习建议。${c.sourceName ? `<br>收录来源：<a href="${escape(c.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escape(c.sourceName)}</a>。${c.isConcept ? "该作品是原站展示的概念案例，不代表同名真实商业产品。" : ""}` : ""}${c.model ? `<br>模型信息来自原站标注，未独立核验：${escape(c.model)}。` : ""}</p></div>`;
   syncSaves();
   $('#detail').showModal();
 }
@@ -154,8 +187,23 @@ $('#detail').addEventListener('click', event => {
   if (button) toggleSave(button.dataset.save);
 });
 $('#categories').addEventListener('click', event => {
+  const toggle = event.target.closest('[data-expand]');
+  if (toggle?.dataset.expand) {
+    const id = toggle.dataset.expand;
+    expandedGroups.has(id) ? expandedGroups.delete(id) : expandedGroups.add(id);
+    render();
+    document.querySelector(`[data-expand="${id}"]`)?.focus({preventScroll:true});
+    return;
+  }
   const button = event.target.closest('[data-category]');
-  if (button) { state.category = button.dataset.category; refresh(); }
+  if (button?.dataset.category) {
+    state.category = button.dataset.category;
+    const parent = taxonomy.find(group => group.id === state.category);
+    if (parent) expandedGroups.add(parent.id);
+    refresh();
+    if (drawerOpen) setDrawer(false);
+    else document.querySelector(`[data-category="${state.category}"]`)?.focus({preventScroll:true});
+  }
 });
 $('#search').addEventListener('input', event => { state.query = event.target.value; refresh(); });
 $('#sort').addEventListener('change', event => { state.sort = event.target.value; refresh(); });
@@ -172,7 +220,16 @@ $('#reset').addEventListener('click', () => {
   $('#sort').value = 'curated';
   $('#language').value = 'all';
   refresh();
-  $('.filter').focus();
+  (window.innerWidth <= 850 ? $('#open-categories') : $('.filter')).focus();
+});
+$('#open-categories').addEventListener('click', () => setDrawer(true));
+$('#close-categories').addEventListener('click', () => setDrawer(false));
+$('#sidebar-backdrop').addEventListener('click', () => setDrawer(false));
+window.addEventListener('resize', () => {
+  if (drawerOpen && window.innerWidth > 850) {
+    setDrawer(false, false);
+    document.querySelector(`[data-category="${state.category}"]`)?.focus({preventScroll:true});
+  }
 });
 window.addEventListener('hashchange', updateRoute);
 window.addEventListener('storage', event => {
@@ -205,7 +262,14 @@ document.querySelectorAll('dialog').forEach(dialog => {
   });
 });
 document.addEventListener('keydown', event => {
-  if (event.key === '/' && !document.querySelector('dialog[open]') && !['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) {
+  if (drawerOpen && event.key === 'Escape') { event.preventDefault(); setDrawer(false); return; }
+  if (drawerOpen && event.key === 'Tab') {
+    const focusable = [...$('#category-sidebar').querySelectorAll('button')].filter(button => !button.closest('[hidden]'));
+    const first = focusable[0], last = focusable[focusable.length-1];
+    if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+    else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+  }
+  if (!drawerOpen && event.key === '/' && !document.querySelector('dialog[open]') && !['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) {
     event.preventDefault(); $('#search').focus();
   }
 });

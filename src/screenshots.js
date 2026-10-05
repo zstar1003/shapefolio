@@ -1,4 +1,4 @@
-// Reviewed genuine website screenshots. Retrieval date is not capture date.
+// Locally stored, visually reviewed website screenshots. retrievedAt is not the capture date.
 export const screenshotById = {
   "linear": {
     "src": "./assets/screenshots/linear.webp",
@@ -939,5 +939,155 @@ export const screenshotById = {
     "retrievedAt": "2026-10-05",
     "sourceUrl": "https://modao.cc/",
     "captureProvider": "Thum.io"
+  },
+  "curated-archdaily-cn": {
+    "src": "./assets/screenshots/curated-archdaily-cn.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.archdaily.cn/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-digitaling": {
+    "src": "./assets/screenshots/curated-digitaling.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.digitaling.com/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-steven-tung-art": {
+    "src": "./assets/screenshots/curated-steven-tung-art.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://steventungart.com/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-nudot-studio-works": {
+    "src": "./assets/screenshots/curated-nudot-studio-works.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://nudot.com.tw/work",
+    "captureProvider": "Thum.io"
+  },
+  "curated-kentec": {
+    "src": "./assets/screenshots/curated-kentec.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.kentec-inc.com/tw/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-megaunion": {
+    "src": "./assets/screenshots/curated-megaunion.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.megaunion-tw.com/tw",
+    "captureProvider": "Thum.io"
+  },
+  "curated-yousheng-machinery": {
+    "src": "./assets/screenshots/curated-yousheng-machinery.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.yousheng.com.tw/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-iconfont": {
+    "src": "./assets/screenshots/curated-iconfont.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.iconfont.cn/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-uisdc": {
+    "src": "./assets/screenshots/curated-uisdc.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.uisdc.com/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-steak-inn": {
+    "src": "./assets/screenshots/curated-steak-inn.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.steakinn.com.tw/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-zcool": {
+    "src": "./assets/screenshots/curated-zcool.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.zcool.com.cn/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-visual-society": {
+    "src": "./assets/screenshots/curated-visual-society.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://visualsociety.ch/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-gerosa": {
+    "src": "./assets/screenshots/curated-gerosa.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.studio-gerosa.it/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-house-honey": {
+    "src": "./assets/screenshots/curated-house-honey.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.houseofhoney.com/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-sort-office": {
+    "src": "./assets/screenshots/curated-sort-office.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://sort-office.com/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-surfers-journal": {
+    "src": "./assets/screenshots/curated-surfers-journal.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://archives.surfersjournal.com/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-bou": {
+    "src": "./assets/screenshots/curated-bou.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://wearebou.com/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-takecontrol": {
+    "src": "./assets/screenshots/curated-takecontrol.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://gettakecontrol.app/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-this-design": {
+    "src": "./assets/screenshots/curated-this-design.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://this.design/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-artemii": {
+    "src": "./assets/screenshots/curated-artemii.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://artemiilebedev.com/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-jack-jill": {
+    "src": "./assets/screenshots/curated-jack-jill.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://www.jackandjill.ai/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-felix": {
+    "src": "./assets/screenshots/curated-felix.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://felixpeault.com/",
+    "captureProvider": "Thum.io"
+  },
+  "curated-union-boulangerie": {
+    "src": "./assets/screenshots/curated-union-boulangerie.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://unionboulangerie.com/",
+    "captureProvider": "Automattic mShots"
+  },
+  "curated-studio-ol": {
+    "src": "./assets/screenshots/curated-studio-ol.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://ol.studio/",
+    "captureProvider": "Automattic mShots"
+  },
+  "curated-driftime": {
+    "src": "./assets/screenshots/curated-driftime.webp",
+    "retrievedAt": "2026-10-05",
+    "sourceUrl": "https://2025.driftime.com/",
+    "captureProvider": "Automattic mShots"
   }
 };

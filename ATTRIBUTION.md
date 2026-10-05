@@ -202,3 +202,34 @@
 - sseedd 種種 — https://www.sseedd.com.tw/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/sseedd)
 - 草率季 Taipei Art Book Fair — https://taipeiartbookfair.com/ · 发现来源：[twdc · 台灣好網站](https://twdc.design/work/03-taipei-art-book-fair)
 - 墨刀 — https://modao.cc/ · 发现来源：[优设 · 墨刀设计协作评测](https://www.uisdc.com/hangye/modao-sop-2025)
+
+
+## 2026-10-05 网站精选目录扩充
+
+本次从 Siteinspire、Minimal Gallery、twdc 及中文设计网站精选中发现事实链接，新增 25 个截图案例；原创学习笔记并非源目录的文案。未导入目录代码或整套页面资产。审核与排除记录见 `research/curated-directories.json`。截图可能为缓存版本，获取日期不代表拍摄时间。部分目标对原始 HTTP 客户端返回 403/406，保留原结果并补充可读取的页面内容核验；不将缓存网页或截图当作实时可达性保证。
+
+- **ArchDaily 中文** (zh-CN) — [原站](https://www.archdaily.cn/) · [LogoDesign · 创意设计网站精选](https://www.logodesign.cn/appreciate/2149.html) · Thum.io · `assets/screenshots/curated-archdaily-cn.webp`
+- **数英** (zh-CN) — [原站](https://www.digitaling.com/) · [LogoDesign · 创意设计网站精选](https://www.logodesign.cn/appreciate/2149.html) · Thum.io · `assets/screenshots/curated-digitaling.webp`
+- **STEVEN TUNG** (zh-TW) — [原站](https://steventungart.com/) · [twdc · 台灣好網站](https://twdc.design/work/steven-tung-art) · Thum.io · `assets/screenshots/curated-steven-tung-art.webp`
+- **核點設計** (zh-TW) — [原站](https://nudot.com.tw/work) · [twdc · 台灣好網站](https://twdc.design/work/nudot-studio-works) · Thum.io · `assets/screenshots/curated-nudot-studio-works.webp`
+- **金運科技** (zh-TW) — [原站](https://www.kentec-inc.com/tw/) · [twdc · 台灣好網站](https://twdc.design/work/kentec) · Thum.io · `assets/screenshots/curated-kentec.webp`
+- **兆聯實業** (zh-TW) — [原站](https://www.megaunion-tw.com/tw) · [twdc · 台灣好網站](https://twdc.design/work/megaunion) · Thum.io · `assets/screenshots/curated-megaunion.webp`
+- **祐聖機械** (zh-TW) — [原站](https://www.yousheng.com.tw/) · [twdc · 台灣好網站](https://twdc.design/work/yousheng-machinery) · Thum.io · `assets/screenshots/curated-yousheng-machinery.webp`
+- **Iconfont 阿里巴巴矢量图标库** (zh-CN) — [原站](https://www.iconfont.cn/) · [优设 · 设计导航](https://hao.uisdc.com/) · Thum.io · `assets/screenshots/curated-iconfont.webp`
+- **优设** (zh-CN) — [原站](https://www.uisdc.com/) · [优设 · 设计导航](https://hao.uisdc.com/) · Thum.io · `assets/screenshots/curated-uisdc.webp`
+- **雅室牛排** (zh-TW) — [原站](https://www.steakinn.com.tw/) · [twdc · 台灣好網站](https://twdc.design/work/steak-inn) · Thum.io · `assets/screenshots/curated-steak-inn.webp`
+- **站酷** (zh-CN) — [原站](https://www.zcool.com.cn/) · [优设 · 设计导航](https://hao.uisdc.com/) · Thum.io · `assets/screenshots/curated-zcool.webp`
+- **Visual (Archives) Society** (en) — [原站](https://visualsociety.ch/) · [Siteinspire](https://www.siteinspire.com/website/13620-visual-archives-society) · Thum.io · `assets/screenshots/curated-visual-society.webp`
+- **Studio Gerosa** (it) — [原站](https://www.studio-gerosa.it/) · [Siteinspire](https://www.siteinspire.com/website/13629-studio-gerosa) · Thum.io · `assets/screenshots/curated-gerosa.webp`
+- **House of Honey** (en) — [原站](https://www.houseofhoney.com/) · [Siteinspire](https://www.siteinspire.com/website/13621-house-of-honey) · Thum.io · `assets/screenshots/curated-house-honey.webp`
+- **SORT Office** (en) — [原站](https://sort-office.com/) · [Siteinspire](https://www.siteinspire.com/website/13626-sort-office) · Thum.io · `assets/screenshots/curated-sort-office.webp`
+- **The Surfer’s Journal Archives** (en) — [原站](https://archives.surfersjournal.com/) · [Siteinspire](https://www.siteinspire.com/website/13639-the-surfers-journal-archives) · Thum.io · `assets/screenshots/curated-surfers-journal.webp`
+- **Bou** (en) — [原站](https://wearebou.com/) · [Minimal Gallery](https://minimal.gallery/bou/) · Thum.io · `assets/screenshots/curated-bou.webp`
+- **TakeControl** (pt-BR) — [原站](https://gettakecontrol.app/) · [Minimal Gallery](https://minimal.gallery/takecontrol/) · Thum.io · `assets/screenshots/curated-takecontrol.webp`
+- **This Design** (en) — [原站](https://this.design/) · [Siteinspire](https://www.siteinspire.com/website/13570-this-design) · Thum.io · `assets/screenshots/curated-this-design.webp`
+- **Artemii Lebedev** (en) — [原站](https://artemiilebedev.com/) · [Siteinspire](https://www.siteinspire.com/website/13624-artemii-lebedev) · Thum.io · `assets/screenshots/curated-artemii.webp`
+- **Jack & Jill** (en) — [原站](https://www.jackandjill.ai/) · [Siteinspire](https://www.siteinspire.com/website/13614-jack-and-jill) · Thum.io · `assets/screenshots/curated-jack-jill.webp`
+- **Félix Péault** (en) — [原站](https://felixpeault.com/) · [Siteinspire](https://www.siteinspire.com/website/13634-felix-peault) · Thum.io · `assets/screenshots/curated-felix.webp`
+- **Union Boulangerie** (fr) — [原站](https://unionboulangerie.com/) · [Siteinspire](https://www.siteinspire.com/website/13641-union-boulangerie) · Automattic mShots · `assets/screenshots/curated-union-boulangerie.webp`
+- **Studio OL** (en) — [原站](https://ol.studio/) · [Siteinspire](https://www.siteinspire.com/website/13632-studio-ol) · Automattic mShots · `assets/screenshots/curated-studio-ol.webp`
+- **Driftime Impact Report** (en) — [原站](https://2025.driftime.com/) · [Minimal Gallery](https://minimal.gallery/driftime-impact-report/) · Automattic mShots · `assets/screenshots/curated-driftime.webp`

@@ -1,0 +1,1786 @@
+{
+  "checkedAt": "2026-10-05",
+  "scope": "Factual links from established curated website directories; original Chinese notes and individually reviewed screenshots. No source collection descriptions or code imported.",
+  "baselineCommit": "135d9ee9364143631bd2e9b731d777ffe7f75372",
+  "originalCases": [
+    {
+      "id": "add-taiwan-raptor",
+      "sha256": "ca8efc4cae3ae44fd5b9568c371a1907a2c231b2c90713b9b6012cd0ee31795a"
+    },
+    {
+      "id": "zh-flomo",
+      "sha256": "bf96c70393ef935ca2593dbaa8e7eae3dc10b9d0bcef05327870e543311ca3fe"
+    },
+    {
+      "id": "zh-jzn",
+      "sha256": "5d3e3de4a302799a909bef4aa5c415d143319ae730f2f79408c5dab010fd1340"
+    },
+    {
+      "id": "linear",
+      "sha256": "b8a3ca911f4e9db5dfbfd3da2713b61464918fca5266556bd5c83926ae3d6815"
+    },
+    {
+      "id": "add-aestheticell",
+      "sha256": "b55f9043623dc36d91a66f995841c0816d4bc4bbeb2af7c3dd0604d332fb6445"
+    },
+    {
+      "id": "zh-pocari",
+      "sha256": "eb83c9c28987295e7484e4ebf821598f4c51a4493777b668f3f5e973178ebfdc"
+    },
+    {
+      "id": "zh-jsdesign",
+      "sha256": "94d68dc3b3d21af691c311b43b57b6170534c17f522d3c6a4f4d2390dbe22ae5"
+    },
+    {
+      "id": "oil-voice",
+      "sha256": "49f90a3e22ca019f3cdd7fd2487cb162154d88d75d154593291c7ecc5e983906"
+    },
+    {
+      "id": "add-elvis-mao",
+      "sha256": "e48996fc4290d9f630210dea30c0962d2512ee1dd35091e4e709c15564685a2d"
+    },
+    {
+      "id": "zh-mastergo",
+      "sha256": "2a95c4995546dcd35928248dfdbbd4c29c49245430020ea6044cd53bcd6c138a"
+    },
+    {
+      "id": "zh-cubox",
+      "sha256": "885334e008722dc4a47ec54dc973c19b0032702f9c62bf58be8d57242b921bfa"
+    },
+    {
+      "id": "figma",
+      "sha256": "ddae808f4acda022f8fc7a4be2faef000d5282b3f09e7452f8e4467c306346e3"
+    },
+    {
+      "id": "add-asahihuuhu",
+      "sha256": "85252568eadb3a2afcf53827cd4297de7711ea4ed9f5adacd9a6bff885cd777b"
+    },
+    {
+      "id": "zh-eagle",
+      "sha256": "1978cc2cc89b2bead908eccfa04862f11296dd662998586b9a82b77ba5e9c1cd"
+    },
+    {
+      "id": "zh-jack",
+      "sha256": "dad40d27579472a39d7cccf638c6f6fa41e3ed3b2ea18789f8170aba801e8088"
+    },
+    {
+      "id": "oil-reel",
+      "sha256": "2201e2677c1bad3ef7398c2e6e99479ab93f64c693dea58a3e1d3b8e9e1d44e6"
+    },
+    {
+      "id": "add-jl-design",
+      "sha256": "3b92eb784be5a8bcc503e152911c99935110bec33e3b1002eb7f777a5f72819c"
+    },
+    {
+      "id": "zh-slowork",
+      "sha256": "84850b27ad08a7568460a3f1265a2fbc0bcb8c6e8b4719eb675d73773b692606"
+    },
+    {
+      "id": "zh-vvg",
+      "sha256": "8f3ce3c1f7dac03a8a2fe7dfafbcdb79f0088aa66db287310df66c6657571ef2"
+    },
+    {
+      "id": "pentagram",
+      "sha256": "4ab754f8e7578f291ab82fb8e7c0053270bdbc100682f3ac6535d94c04472982"
+    },
+    {
+      "id": "add-kdan",
+      "sha256": "45d2454a0844125806d330d9122c221896a38c1c745d232a6fe2111329983e61"
+    },
+    {
+      "id": "zh-yayu",
+      "sha256": "6f3ce309356eef9d5b81c089c552117f764b86f8c4a29fc0cb84f86c32c1110e"
+    },
+    {
+      "id": "zh-plainlaw",
+      "sha256": "495532f3e67cc9714e0032fd5abb70c8403b483064e0ab9a55a59d18acdf5ca9"
+    },
+    {
+      "id": "oil-components",
+      "sha256": "59fcff95405b80cdfbf25d3a8256f1ee74344c75c307b15e721419fc5d7a87c0"
+    },
+    {
+      "id": "add-fa-movie-appreciation",
+      "sha256": "684c8a4370b05c15b70782b7a3a2a6d2bc4c64cc01760fd91d9a5dd7cb35a533"
+    },
+    {
+      "id": "zh-kzhik",
+      "sha256": "d401c9d6eb907770260f08f84933aa62761a8679d6492d7c8ecb0116f5a24e8f"
+    },
+    {
+      "id": "zh-blatr",
+      "sha256": "d15902d80aec5afa9beed8cc7953a099f0f96a2afa6e19a343c93325739eeb0a"
+    },
+    {
+      "id": "stripe",
+      "sha256": "caf57f80c31e6076352f15cda1a7b054a9e781353a6de37b52b6807331005f5a"
+    },
+    {
+      "id": "add-paul-chiang-art-center",
+      "sha256": "6dbf534e7d68202dbd6bb9a681250d42d3d82de84bc7427f01b9764b543b27ab"
+    },
+    {
+      "id": "zh-flowus",
+      "sha256": "675994f6d6e427157239522f5ccb10a2f1b62a0eb6fb5119c9c299070b0e608b"
+    },
+    {
+      "id": "zh-pixso",
+      "sha256": "37d8db5329bcf7659172e703a42352106809576c3fd62aa8306e67e3738d1768"
+    },
+    {
+      "id": "oil-muse",
+      "sha256": "64cf06886186d39f1a7a4d3589372cc96e2ec88063ea21d6300d6777ddd74132"
+    },
+    {
+      "id": "add-aapd-product-design-academy",
+      "sha256": "4e1a444abea468987c8db910cd865d2480de3ef52b7f632c425b9a7c71cdc605"
+    },
+    {
+      "id": "zh-yuque",
+      "sha256": "a836a307f0e55f798f559649623c5d769b4f44baf071add996fb5e66bcc36123"
+    },
+    {
+      "id": "zh-feishu-docs",
+      "sha256": "b06a4d59ce70066bfd9a54969bef7ab701f0485e59c81180ca0ffe292305370b"
+    },
+    {
+      "id": "canva",
+      "sha256": "095cc531f8f47bcb4ad20716d0ce922da6dc3caadcfee65d4c7264197b5ec88b"
+    },
+    {
+      "id": "add-bluehe",
+      "sha256": "f4ee7cc0a36eb028d3d25c19339cf608b3cc55593de442808ffbbc5b1e73a97f"
+    },
+    {
+      "id": "zh-yixi",
+      "sha256": "c7819f30f04445879ef4c683bf942074281151f792ed0091c6dc21180c1fc53f"
+    },
+    {
+      "id": "zh-ucca",
+      "sha256": "66fcbd0518ea6052ce4f2feb0b1794b81781abfa822f463b84e52e22ae7f22b5"
+    },
+    {
+      "id": "oil-stay",
+      "sha256": "37f73b5e94f751da589e072a7bea60a7a97b4aa8eaff1175cbf70e80ac03e47b"
+    },
+    {
+      "id": "add-weight-books",
+      "sha256": "09a778945126cfeb3c13b0095a6acfa07ba9ff7b863be5006d52181ecc9848bd"
+    },
+    {
+      "id": "zh-colorpalette",
+      "sha256": "adc0768d9507d74a859be28ea4a6d45a894479a92e5d868c69682c3d77d96a70"
+    },
+    {
+      "id": "zh-krjojo",
+      "sha256": "61dce63fda622efc77bab3d73aa7c1f5177954c0f68fa4675451868ac56d6942"
+    },
+    {
+      "id": "collins",
+      "sha256": "73d5dcc19be35fa443e5b90d285570e1a4ef336be64bfb279b60a2928910261b"
+    },
+    {
+      "id": "add-o-oo",
+      "sha256": "262a1f1d5e67a451ba354bfed565c4bf007eeecfe8f22ef309749052b99d1167"
+    },
+    {
+      "id": "zh-wolai",
+      "sha256": "4b01f6ad3be79f70c72023901ac7a4a6210f4d4bbd31e868b145972d351ffaa8"
+    },
+    {
+      "id": "zh-mubu",
+      "sha256": "f7cc08d9bf987ce0a2eb6ae1071ca49f4da5c22831f25cbc2bd2fad3a7668195"
+    },
+    {
+      "id": "oil-diary",
+      "sha256": "fff2c388ae7a0b9f718933f83769ff97200fadd392c7d0f4ce40a9ae47d8b307"
+    },
+    {
+      "id": "add-simpany",
+      "sha256": "4f12a2b61bac3b25c367cb504427f7491d52c080abbf148173dbba8236d5ccc0"
+    },
+    {
+      "id": "zh-sspai",
+      "sha256": "e104c0656fc31321faef9767378b9f469c38e7a587565ccaa802e9afe4aa95bc"
+    },
+    {
+      "id": "zh-semi",
+      "sha256": "373bd7a5b79302aa38a9be987be23731aa9ff04d3124e2dc14bfaca186bb507c"
+    },
+    {
+      "id": "framer",
+      "sha256": "1f99e9b5271afafb308314fba2790bd12d49e4425f9749ec465de8c8d4d634eb"
+    },
+    {
+      "id": "add-fountain-magazine",
+      "sha256": "3dd5363b918ef1972e5a4a5674e3b34c336647585613cdb7976f98b6478aa2e4"
+    },
+    {
+      "id": "zh-tdesign",
+      "sha256": "5bbaec345aca87e853b7aeb92d85b0908d2007fbdbf1961c8386d84da4598495"
+    },
+    {
+      "id": "zh-gooood",
+      "sha256": "932f559444cd6d7d52c97d41366fcfd71971877b548678ad6c2ac6034c745f33"
+    },
+    {
+      "id": "oil-home",
+      "sha256": "a87eaf2cf7092cdb5d6773b7b66c0ed1096d741eb2762afd56bc85d46b225eec"
+    },
+    {
+      "id": "add-rethink-tw",
+      "sha256": "128a81f634f67bf7bbc5245c7316cccd4d742a379acfae0062b2a0a2456a2d23"
+    },
+    {
+      "id": "zh-zenart",
+      "sha256": "6ae341b70550d5219f2411362f7f49178d76f9afa48a4a9059833c0e2f5f7280"
+    },
+    {
+      "id": "zh-islandlife",
+      "sha256": "3cb9bed26abfbb492bcece0a1003002937e0d6a4af892e6c31bbdd0a363c0d42"
+    },
+    {
+      "id": "webflow",
+      "sha256": "5ac9395706d68b85775fd1d60cbaee54e31da4912c2279d4d0d147957730e191"
+    },
+    {
+      "id": "add-lanyanghei",
+      "sha256": "f6ab400012cea93493c7865f02851e0d4cce45499b787c633aa3aeb2f1d4e764"
+    },
+    {
+      "id": "zh-leaping",
+      "sha256": "62be504e7196932b2cce0d1643f2f93e4f913ec8ecf520c8bb3d18b94dd107e8"
+    },
+    {
+      "id": "oil-anime",
+      "sha256": "93b98f5a49fedc6bd61e336b9ee03bbcb195d19995a9f63f73890fdd8bdb8a13"
+    },
+    {
+      "id": "instrument",
+      "sha256": "4208e987e83cfc6320ec475b716878923f7055fb576c227843f1586142d42811"
+    },
+    {
+      "id": "add-weizwz",
+      "sha256": "2485b9a38983089199fcda0524bb894f16d9605e135c4975c8cc6f1c66c02540"
+    },
+    {
+      "id": "oil-lingo",
+      "sha256": "ae9ccc30680c3c053a05f2226ec068082f13bab858c93ebf336217e311ec860d"
+    },
+    {
+      "id": "vercel",
+      "sha256": "b21ad210a47bfcded84f02b198f1eb4146377f96f501220b3c7e4278fd279536"
+    },
+    {
+      "id": "oil-tracker",
+      "sha256": "0612de44c150399afc7c061a759c04d06ea6485e1ee7b2875352aa6c40c3f6c4"
+    },
+    {
+      "id": "add-hot-spring-onion",
+      "sha256": "36ad3f70070617b4792fc24402f1ddb9a02f1b3acae9945d25839d974c710ddb"
+    },
+    {
+      "id": "spline",
+      "sha256": "adfa626049aef0d07263d9c29e6af6244a0aa5375f3ebfb06e691e6e9f9c89dd"
+    },
+    {
+      "id": "oil-freight",
+      "sha256": "39f9cdd43e2350674fb0a4d8b807a1453fc8961281ff5716e317ad75eae0fece"
+    },
+    {
+      "id": "koto",
+      "sha256": "e70bbf4ef05750b8fa5e3ed7a75396d54a4742305117f81feeed191222834a17"
+    },
+    {
+      "id": "add-verse",
+      "sha256": "85e99f060e56325333c669558751e3193ed694b397e26ea739befc9ffcda5813"
+    },
+    {
+      "id": "oil-ride",
+      "sha256": "8decdf72823d5c3da0046a069364ac5ac9172ce4d84349193631fd85374b6051"
+    },
+    {
+      "id": "notion",
+      "sha256": "56ed0b06dc3a067e11bcce331abccbc5864c3ccb89375219dc8cb885e48b9c68"
+    },
+    {
+      "id": "oil-knot",
+      "sha256": "14636bc022dcaf8e65de026551459df7ff02a3988b4ffae452f2ab2cd356cf67"
+    },
+    {
+      "id": "add-slowfood-taitung",
+      "sha256": "d640113da71a26d467b634a3c44642b5fbf6dbfae1582ea9d8b272072c8ac199"
+    },
+    {
+      "id": "loom",
+      "sha256": "40d1d989d5b7869314690168aa1ac35812cdc90c692483803a91ac8dfeb50944"
+    },
+    {
+      "id": "oil-recipe",
+      "sha256": "96896b9b3bcf1273ef43052bb184a1fd68c9da774676d4686306fc5e20566b94"
+    },
+    {
+      "id": "itsnicethat",
+      "sha256": "b8814536744fc12f4b9bf598d132d78b920d9cdedbe413caf3de96542f21a39c"
+    },
+    {
+      "id": "add-cardledge",
+      "sha256": "9a077daa5ab00de209c69968adffb26e1a14009bc96aedcd0d752dced3e35802"
+    },
+    {
+      "id": "oil-cards",
+      "sha256": "50517dca6532bf3918f6d5bbe826e7d123d0d639fb5918a297f3f09fbfe61893"
+    },
+    {
+      "id": "raycast",
+      "sha256": "6c72015111909ec483a2aa106ad3e48a4f558d7702d6815380dc90ae92fa1284"
+    },
+    {
+      "id": "oil-pulse",
+      "sha256": "32fda5a3fa29633e030021945888442d46404807d7d327bbe382ca161abdd868"
+    },
+    {
+      "id": "add-qlad",
+      "sha256": "75824705b442af69c50f46ada8e66fad18fac6d10710c9524289b67d822f23b0"
+    },
+    {
+      "id": "miro",
+      "sha256": "1afbcdf7bf843ac7965b0edfefdd13f8b862661e464bb71e6434f7c9886c2564"
+    },
+    {
+      "id": "oil-keeb",
+      "sha256": "2a77ec913b1695684a7fdd54a91349fbae91f2449f4a6dcf0d8285536b025a6e"
+    },
+    {
+      "id": "wallpaper",
+      "sha256": "191c000c5f6cb46700862f64af650f05d030c0407813c377635d54c8aa69601d"
+    },
+    {
+      "id": "add-moom",
+      "sha256": "76fed46d0cfb232028b2fcc72d55de842c413121fa30f588cf2a47e5aa7b5e0a"
+    },
+    {
+      "id": "oil-editor",
+      "sha256": "d9421266e26032a87a6c3178ad4ca30e1ebc72963214de0696acbf36115b7c08"
+    },
+    {
+      "id": "arc",
+      "sha256": "b9b569f107acf4a9179ac1927580806774d0fa09695c9422fd51be9302fb8b44"
+    },
+    {
+      "id": "oil-weather",
+      "sha256": "25946292bbb35a83e56ee0c59edb81a4942bfadec70087669eef70481c3c98e8"
+    },
+    {
+      "id": "add-reporter-kids",
+      "sha256": "572ea3553412fc3f358dbea796e769de310ba37e0bbe77020f53b3085db19659"
+    },
+    {
+      "id": "dropbox",
+      "sha256": "a4833aa00cd98a5fea424c570a78c69c574d002aa2c6ed060a031a5c25ef3b89"
+    },
+    {
+      "id": "oil-contract",
+      "sha256": "00f2afacbe44655789c26b3099269fbb63b1de536c0e929f869042e87435ee60"
+    },
+    {
+      "id": "gentlewoman",
+      "sha256": "369edbbeb2064e34733bb9e8f0feff8f98d3a2b241196f4888fb84281dc8c949"
+    },
+    {
+      "id": "add-tcam-museum",
+      "sha256": "4c1861f6604ca1c6446e6a6101ec28bba892900b5ee2a0765abe66520ebf7525"
+    },
+    {
+      "id": "oil-ledger",
+      "sha256": "88e579090f4f77167f3cd603407baddad22dae17328dcf19e7f8c86a453c8813"
+    },
+    {
+      "id": "awwwards",
+      "sha256": "f9a40e464cd2cc3517b83a36e9aed596a8ff966cd6f0b2ed86cffa88edf45883"
+    },
+    {
+      "id": "oil-folio",
+      "sha256": "c3796e78e6b6bbc5c81b707bcded350fc966fc67db75cff233bf43425b07f63b"
+    },
+    {
+      "id": "add-word-game",
+      "sha256": "538ada023dd823f644d9db2234cb3d804942bb5cb50226646a1d17ed6d4ea9e3"
+    },
+    {
+      "id": "pitch",
+      "sha256": "49def1566a330dc45d0e693650c263d37410c3d44adbb7d4e7494e868c456735"
+    },
+    {
+      "id": "oil-camera",
+      "sha256": "55a315f8fc34d4adde0d7e656729f54669f96bea76f7b4b15d48e43d1dfca2fb"
+    },
+    {
+      "id": "monocle",
+      "sha256": "b1f225264d9e195ea39f6f1e8b0489416c2f09dc4fa1f5576df9278a3a320106"
+    },
+    {
+      "id": "add-a-ling",
+      "sha256": "3a2977ff49a181a9f3aae3912890769dc535c0d2ae2c7324dcf541f14c6477ba"
+    },
+    {
+      "id": "oil-silver",
+      "sha256": "dbd6ecdd14f2aa7ae97966385c55d61a4afa4ce1f2dacafe460b22073faaa480"
+    },
+    {
+      "id": "supabase",
+      "sha256": "d32a0305dc0331736cf1fa3de57acfba5de8cd18139d52aef3f0053236644612"
+    },
+    {
+      "id": "oil-reader",
+      "sha256": "0eff5f3abadef811ce41c9b6b5ae384ac1da46b4da2106a01ef24037154fd024"
+    },
+    {
+      "id": "add-brandinlabs",
+      "sha256": "d3d2d445c1a44ad177e7df13143562565d4f1af79ae1d76a26925859efc3ed4e"
+    },
+    {
+      "id": "things",
+      "sha256": "e7b2d7544858ce88785712c3a52106a94a84e14702024b29697719594e7ad7f2"
+    },
+    {
+      "id": "oil-lims",
+      "sha256": "241749af02d889fb275415b9404fb1cd1aa0f2f2a91f04cbea5cfcf6c7a7808b"
+    },
+    {
+      "id": "moma",
+      "sha256": "55f426b3437ebfee7fd2339dc4dbe3edaa0c6f4f791f007b6eaffaedf8ec1521"
+    },
+    {
+      "id": "add-taipei-performing-arts-center",
+      "sha256": "412828bc49407c08fc91cb2d79ab3d289be9de462684d2adbf0916550c71c2dc"
+    },
+    {
+      "id": "oil-calendar",
+      "sha256": "0a766c9f2eb4c8bcacdd26a54357a2f3613e0e03023ef80c6c9a142b51883796"
+    },
+    {
+      "id": "resend",
+      "sha256": "68e2e29c2fc7e2aab516f39addfca791db171481ce43102bef6229f6627a1fd3"
+    },
+    {
+      "id": "oil-checkout",
+      "sha256": "972a068bd5958d3a6c8074911911f2407e78121c8580472c012ef3e65fd5e217"
+    },
+    {
+      "id": "add-lanhu",
+      "sha256": "fae42f1cb3127041790d70e2291a2a6ec46b924df0496797e3a5514e76437c41"
+    },
+    {
+      "id": "todoist",
+      "sha256": "59c935e5010c5012706242657f8048e1cc65711664eae51208ca9b93cda0836c"
+    },
+    {
+      "id": "oil-maker",
+      "sha256": "18f410dd0b96e11f5854a8b235ab67bcf836ea5a6d6f4f089c876d5634c09ac6"
+    },
+    {
+      "id": "designmuseum",
+      "sha256": "45007d4498c2631ff9ca4dacd5240c0c96eecc9ca51d693d01331e0ea14962e6"
+    },
+    {
+      "id": "add-sseedd",
+      "sha256": "4c7140f8c23b1c8963f172e5a332f521119bea9873b2968ecb023825024e1eb5"
+    },
+    {
+      "id": "oil-trail",
+      "sha256": "579fbbd21d0a059474cab018b4adf761bb818eb1b6d7fc8f361f8e012583ca2d"
+    },
+    {
+      "id": "astro",
+      "sha256": "57d8a8454cd0d2235ab969f43ae99fc7cf702c3e2e653ef71457421dbc177018"
+    },
+    {
+      "id": "oil-brew",
+      "sha256": "383b95c9b824aab35dcbdff7909991fe533a0cf641922f1089db788a88160fb6"
+    },
+    {
+      "id": "add-taipei-art-book-fair",
+      "sha256": "cdcdc8733993485131ee8427770d6ef3910838600d0cbff454e76c71c51fda92"
+    },
+    {
+      "id": "obsidian",
+      "sha256": "760f51f138239c47939693b86c564346d12b7c8eedff767a64960f38c743da00"
+    },
+    {
+      "id": "oil-watch",
+      "sha256": "54c489fd074e1fe1c3b93c67f8bafbe612180e1139223ebd8990a64e656d79df"
+    },
+    {
+      "id": "rijksmuseum",
+      "sha256": "dc7919dbb0cdf7a89c445682ae74c289f1333acaf8f5d5f17c61b94d89f41527"
+    },
+    {
+      "id": "add-modao",
+      "sha256": "7e66e7b70a0599f9585daadfa9fdbb78628c71a50f47342871f490563afb0e5e"
+    },
+    {
+      "id": "oil-roast",
+      "sha256": "931182f9a873f417fe356e4c172c64d7054edcd0c88d92fd162a5d1d422939ba"
+    },
+    {
+      "id": "shadcn",
+      "sha256": "6f6bf7872a8c6185023e0a2e14e8499694d56c8dc2a758bcea010f958dc7cc65"
+    },
+    {
+      "id": "oil-letter",
+      "sha256": "35010dca9e4f9dbb463ee5104084ca62e20eaa581f6591bc042ce5a46e8babb8"
+    },
+    {
+      "id": "github",
+      "sha256": "90bb494c3bbe492656d02393e91a928039b437f85db4b878486f3d2eba0c5dd3"
+    },
+    {
+      "id": "oil-sneaker",
+      "sha256": "6484a8e1d92f3227c1155b1cafcc51cc33d406992ca614aefdda51972039727d"
+    },
+    {
+      "id": "barbican",
+      "sha256": "2b1e25fef2fa1b5fd33b80acd93172111c331a167c813134dcf5f1da70e97006"
+    },
+    {
+      "id": "oil-copilot",
+      "sha256": "427dde37508190f843e31e87a704543fb784c62111d2c0b7cfa94eb14ab79e13"
+    },
+    {
+      "id": "deno",
+      "sha256": "f9244e8dea2aa26f6f5ac077423fe7d87bf3e521eb2e3aa82a67141c3d31518a"
+    },
+    {
+      "id": "oil-scent",
+      "sha256": "2509d7b7edf1f4d9d632a5a07e5f281a7d4acedc384248cae7c87ca2556a3479"
+    },
+    {
+      "id": "aesop",
+      "sha256": "7642a20f83b030729da9b5c84a94263cdd327ffb7da36947af5971bfe3d867f5"
+    },
+    {
+      "id": "oil-upload",
+      "sha256": "487b695892183e33c6afc7e4fe4ec01c77ef5d3ffb143a55649108842b29bbac"
+    },
+    {
+      "id": "rust",
+      "sha256": "3ebbcdc7692fb001b9f34845950b1e949143fe7bc52ee4239d969f70674a7509"
+    },
+    {
+      "id": "oil-club",
+      "sha256": "d0895ff55b8ec13d38a3541d319a63c1ba4fc331b7931b69a2dca11c7b0c4055"
+    },
+    {
+      "id": "muji",
+      "sha256": "eaa1186fb458ae73fd3e1592b8b62098ab74464cfc5943da4be7ae587f4be5b5"
+    },
+    {
+      "id": "oil-vinyl",
+      "sha256": "1f5834833046944a99df7ecbc4747e8c1e1b32527a252525d8e56ede0b957c52"
+    },
+    {
+      "id": "firefox",
+      "sha256": "118a88d71f528eded4f2adce7ee9833aced905ab4095f0e01571290bb0e44801"
+    },
+    {
+      "id": "oil-canvas",
+      "sha256": "cf0a6fecf6ac42b31194f17093f464f1b4af1d277d221241a60af219305c6e27"
+    },
+    {
+      "id": "patagonia",
+      "sha256": "a394dc9c3164d755afb5672012b21476cc8b6f82a216be4cb3f1d7a1cf7e6f89"
+    },
+    {
+      "id": "oil-studio",
+      "sha256": "97babe1d7088619581d193a0c6cc2543d51406e6ad2580e0e7939bd38c6df939"
+    },
+    {
+      "id": "1password",
+      "sha256": "72542df8c7ac06a3015976d0e0a1df8a346c5d73b906fbe98482064f285227ff"
+    },
+    {
+      "id": "oil-podcast",
+      "sha256": "bd2f10c2ac4bdaf8d0946d9e9437cd3ad3768eb42a3f127a98ce12ec6afbad52"
+    },
+    {
+      "id": "vitra",
+      "sha256": "081da18e9aae19432f7550ebe5b3d97b661bff3b9094445ccb7252219f5ddeef"
+    },
+    {
+      "id": "oil-device",
+      "sha256": "6e311e9bf661b81f1f5aaaed0e653d1bdc411aefe6e67a251c5fc3f2005f797e"
+    },
+    {
+      "id": "tailscale",
+      "sha256": "afd882ba50225d8d0dff9cd02a7876f20082c5f958f5150cc4dd5e543d58f723"
+    },
+    {
+      "id": "oil-wrapped",
+      "sha256": "5172df0e0fe781bee4a2154842b0ad9ee3fc9fe335b3c3e2819615559642c9c6"
+    },
+    {
+      "id": "bangolufsen",
+      "sha256": "858ef015e391a2c4f5563aa7f5a18e2483a62a67678a4c1ab40836347cf20cad"
+    },
+    {
+      "id": "oil-mail",
+      "sha256": "3041ab7263396cd01321b10c9a4d9db3ae8571b4fbf651bc9cb7973400b52879"
+    },
+    {
+      "id": "craft",
+      "sha256": "a4849d216a65fd279b7e03e320ade761be9ea1389c5565a3a38f7dd7eb29ae67"
+    },
+    {
+      "id": "gentlemonster",
+      "sha256": "1b76f7ed71766229045f60f1176606583acc06f7d5fb7186281712e4a6f2b2e0"
+    }
+  ],
+  "approvedCount": 25,
+  "approvedChineseCount": 11,
+  "approved": [
+    {
+      "id": "curated-archdaily-cn",
+      "url": "https://www.archdaily.cn/",
+      "sourceName": "LogoDesign · 创意设计网站精选",
+      "sourceUrl": "https://www.logodesign.cn/appreciate/2149.html",
+      "language": "zh-CN",
+      "targetCheck": {
+        "url": "https://www.archdaily.cn/",
+        "finalUrl": "https://www.archdaily.com/zh",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:53:25.975929+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://www.logodesign.cn/appreciate/2149.html",
+        "finalUrl": "https://www.logodesign.cn/appreciate/2149.html",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:53:20.601125+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-archdaily-cn.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.archdaily.cn/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/1000/crop/750/https://www.archdaily.cn/",
+        "review": "approved",
+        "observation": "主内容用一张宽图带出建筑主题，右侧较窄图片与编辑精选形成补充阅读区。上方将检索框与地区筛选分成两层，蓝色链接在浅灰背景里保持一致，适合观察大型内容站如何并置发现与查找。",
+        "width": 1000,
+        "height": 625,
+        "bytes": 49044,
+        "sha256": "47016d16f688f4aacbdd4e57f278b9dfda8babd92fac59f9d48f5e76576c0ad2"
+      }
+    },
+    {
+      "id": "curated-digitaling",
+      "url": "https://www.digitaling.com/",
+      "sourceName": "LogoDesign · 创意设计网站精选",
+      "sourceUrl": "https://www.logodesign.cn/appreciate/2149.html",
+      "language": "zh-CN",
+      "targetCheck": {
+        "url": "https://www.digitaling.com/",
+        "finalUrl": "https://www.digitaling.com/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:53:11.502479+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://www.logodesign.cn/appreciate/2149.html",
+        "finalUrl": "https://www.logodesign.cn/appreciate/2149.html",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:53:06.504950+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-digitaling.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.digitaling.com/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/1000/crop/750/https://www.digitaling.com/",
+        "review": "approved",
+        "observation": "白底主栏以缩略图、标题与时间形成重复的文章单元，右侧承担作者与活动入口。黑色导航带稳定页面骨架，粉色只落在搜索和关键入口上，使内容密集时仍保有可识别的路径。",
+        "width": 1000,
+        "height": 625,
+        "bytes": 74084,
+        "sha256": "77900051aa8488b17be6d1b68b63165be0c38431f0301e3e07042c696e93a702"
+      }
+    },
+    {
+      "id": "curated-steven-tung-art",
+      "url": "https://steventungart.com/",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/steven-tung-art",
+      "language": "zh-TW",
+      "targetCheck": {
+        "url": "https://steventungart.com/",
+        "finalUrl": "https://steventungart.com/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:53:39.733840+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://twdc.design/work/steven-tung-art",
+        "finalUrl": "https://twdc.design/work/steven-tung-art",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:53:33.059619+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-steven-tung-art.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://steventungart.com/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/1000/crop/750/https://steventungart.com/",
+        "review": "approved",
+        "observation": "细线描绘的人物插画铺满导航下方，灰绿、黄色与淡粉形成统一氛围。白色导航带采用大间距的衬线姓名，金黄色公告条只占很窄一行，作品展示与商店入口并存而不互相争夺。",
+        "width": 1000,
+        "height": 625,
+        "bytes": 101604,
+        "sha256": "a385ca08f30ecded812ed3571fc97a8493271c2704f296955cfb591cd69ae402"
+      }
+    },
+    {
+      "id": "curated-nudot-studio-works",
+      "url": "https://nudot.com.tw/work",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/nudot-studio-works",
+      "language": "zh-TW",
+      "targetCheck": {
+        "url": "https://nudot.com.tw/work",
+        "finalUrl": "https://nudot.com.tw/work",
+        "status": 403,
+        "checkedAt": "2026-10-05T02:56:22.465291+00:00",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "sourceCheck": {
+        "url": "https://twdc.design/work/nudot-studio-works",
+        "finalUrl": "https://twdc.design/work/nudot-studio-works",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:56:18.189933+00:00"
+      },
+      "supplementalChecks": [
+        {
+          "tool": "web.open",
+          "checkedAt": "2026-10-05T03:02:25.906584+00:00",
+          "result": "Public Chinese page text retrieved successfully; tool does not expose HTTP status, may use cached crawl"
+        }
+      ],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-nudot-studio-works.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://nudot.com.tw/work",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/1000/crop/750/https://nudot.com.tw/work",
+        "review": "approved",
+        "observation": "WORK 与 DESIGN 分占页头两侧，中间放置小号定位说明，细线和年份标注把标题与案例分开。下方以等宽双栏陈列网站情境图，黑色颗粒背景给白色字与项目照片留下明确边界。",
+        "width": 1000,
+        "height": 625,
+        "bytes": 93130,
+        "sha256": "75288ad74faa6ad9e6e9d604c6173e6e57ab835789e4db436ecf615409b939cd"
+      }
+    },
+    {
+      "id": "curated-kentec",
+      "url": "https://www.kentec-inc.com/tw/",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/kentec",
+      "language": "zh-TW",
+      "targetCheck": {
+        "url": "https://www.kentec-inc.com/tw/",
+        "finalUrl": "https://www.kentec-inc.com/tw/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:55:48.659163+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://twdc.design/work/kentec",
+        "finalUrl": "https://twdc.design/work/kentec",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:55:41.864620+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-kentec.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.kentec-inc.com/tw/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/1000/crop/750/https://www.kentec-inc.com/tw/",
+        "review": "approved",
+        "observation": "服务器机柜置于首屏中央，标题从两侧展开，底部蓝色光线把主体与深黑网格背景分离。导航使用中文小字，右上联系按钮则沿用蓝色，让企业信息入口和主视觉共享同一强调色。",
+        "width": 1000,
+        "height": 625,
+        "bytes": 31966,
+        "sha256": "6deb4505af02afc2debd8df66760e564f56013c4799eebfe9b90fe9465b456a9"
+      }
+    },
+    {
+      "id": "curated-megaunion",
+      "url": "https://www.megaunion-tw.com/tw",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/megaunion",
+      "language": "zh-TW",
+      "targetCheck": {
+        "url": "https://www.megaunion-tw.com/tw",
+        "finalUrl": "https://www.megaunion-tw.com/tw",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:55:48.787267+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://twdc.design/work/megaunion",
+        "finalUrl": "https://twdc.design/work/megaunion",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:55:41.863123+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-megaunion.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.megaunion-tw.com/tw",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/1000/crop/750/https://www.megaunion-tw.com/tw",
+        "review": "approved",
+        "observation": "厂区建筑照片作为整幅背景，中央依次放入英文主标题、中文定位与较小的说明。灰黑色圆角按钮处于文字下方，白色导航叠在上沿，展示了用现场影像提供行业语境的直接方式。",
+        "width": 1000,
+        "height": 625,
+        "bytes": 37204,
+        "sha256": "1fbf474e29b6f78a7ee1f4518b4780a5073201cba0e639ea2adadfaf631b98f8"
+      }
+    },
+    {
+      "id": "curated-yousheng-machinery",
+      "url": "https://www.yousheng.com.tw/",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/yousheng-machinery",
+      "language": "zh-TW",
+      "targetCheck": {
+        "url": "https://www.yousheng.com.tw/",
+        "finalUrl": "https://www.yousheng.com.tw/",
+        "status": 403,
+        "checkedAt": "2026-10-05T02:55:48.653513+00:00",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "sourceCheck": {
+        "url": "https://twdc.design/work/yousheng-machinery",
+        "finalUrl": "https://twdc.design/work/yousheng-machinery",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:55:41.864119+00:00"
+      },
+      "supplementalChecks": [
+        {
+          "tool": "web.open",
+          "checkedAt": "2026-10-05T03:02:25.906584+00:00",
+          "result": "Public Chinese page text retrieved successfully; tool does not expose HTTP status, may use cached crawl"
+        }
+      ],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-yousheng-machinery.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.yousheng.com.tw/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/1000/crop/750/https://www.yousheng.com.tw/",
+        "review": "approved",
+        "observation": "夜色中的厂区、灯光与水面占据首屏，大号字母在设备后方形成第二层视觉。左上蓝底标志块与横向中文导航保持稳定，冷色背景突出工程规模，适合观察实体场景与品牌字形的叠合。",
+        "width": 1000,
+        "height": 625,
+        "bytes": 59188,
+        "sha256": "f86f46a46763fc2e2c097612f319873d9fa3a38cfa62d339fe1340fb49d52579"
+      }
+    },
+    {
+      "id": "curated-iconfont",
+      "url": "https://www.iconfont.cn/",
+      "sourceName": "优设 · 设计导航",
+      "sourceUrl": "https://hao.uisdc.com/",
+      "language": "zh-CN",
+      "targetCheck": {
+        "url": "https://www.iconfont.cn/",
+        "finalUrl": "https://www.iconfont.cn/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:56:37.322229+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://hao.uisdc.com/",
+        "finalUrl": "https://hao.uisdc.com/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:56:27.963780+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-iconfont.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.iconfont.cn/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/1000/crop/750/https://www.iconfont.cn/",
+        "review": "approved",
+        "observation": "宽幅搜索框紧跟主标题，搜索与 AI 创作模式以小标签区分，下方再给出图标、插画、动效和字体入口。蓝绿渐变连接标题与激活状态，浅色素材预览卡在深底中形成明确的浏览区域。",
+        "width": 1000,
+        "height": 625,
+        "bytes": 34334,
+        "sha256": "1ff012d238737a9b09cb49102b7de0e19e82b6ebaf01873ffee625dce3a650c8"
+      }
+    },
+    {
+      "id": "curated-uisdc",
+      "url": "https://www.uisdc.com/",
+      "sourceName": "优设 · 设计导航",
+      "sourceUrl": "https://hao.uisdc.com/",
+      "language": "zh-CN",
+      "targetCheck": {
+        "url": "https://www.uisdc.com/",
+        "finalUrl": "https://www.uisdc.com/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:56:37.261569+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://hao.uisdc.com/",
+        "finalUrl": "https://hao.uisdc.com/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:56:27.965003+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-uisdc.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.uisdc.com/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/1000/crop/750/https://www.uisdc.com/",
+        "review": "approved",
+        "observation": "首屏用大幅主题图吸引阅读，右侧浓缩热门入口；下一行把趋势、必看、入门与进阶单独排列，再进入密集的栏目标签和文章卡片。橙色选中状态保持一致，适合观察多层内容导航的衔接。",
+        "width": 1000,
+        "height": 625,
+        "bytes": 82738,
+        "sha256": "8f68a92212be0ddb8e4bfe1ac5456f7e42aa9808252aa90fa3333d7414dd8429"
+      }
+    },
+    {
+      "id": "curated-steak-inn",
+      "url": "https://www.steakinn.com.tw/",
+      "sourceName": "twdc · 台灣好網站",
+      "sourceUrl": "https://twdc.design/work/steak-inn",
+      "language": "zh-TW",
+      "targetCheck": {
+        "url": "https://www.steakinn.com.tw/",
+        "finalUrl": "https://www.steakinn.com.tw/",
+        "status": 406,
+        "checkedAt": "2026-10-05T02:55:48.736611+00:00",
+        "error": "HTTP Error 406: Not Acceptable"
+      },
+      "sourceCheck": {
+        "url": "https://twdc.design/work/steak-inn",
+        "finalUrl": "https://twdc.design/work/steak-inn",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:55:41.865139+00:00"
+      },
+      "supplementalChecks": [
+        {
+          "tool": "web.open",
+          "checkedAt": "2026-10-05T03:02:25.906584+00:00",
+          "result": "Public Chinese page text retrieved successfully; tool does not expose HTTP status, may use cached crawl"
+        }
+      ],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-steak-inn.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.steakinn.com.tw/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/1000/crop/750/https://www.steakinn.com.tw/",
+        "review": "approved",
+        "observation": "主厨影像铺满深色首屏，浅金色的中英品牌字位于顶端中央，两侧导航用细线分隔。底部左右各放一小组短句，保留人物和工作台的完整画面，适合观察克制文字与氛围影像的配合。",
+        "width": 1000,
+        "height": 625,
+        "bytes": 24394,
+        "sha256": "f0b2f85fc62af18de83a359327be2b5bd09e0881317931c206ceecce7f6d828d"
+      }
+    },
+    {
+      "id": "curated-zcool",
+      "url": "https://www.zcool.com.cn/",
+      "sourceName": "优设 · 设计导航",
+      "sourceUrl": "https://hao.uisdc.com/",
+      "language": "zh-CN",
+      "targetCheck": {
+        "url": "https://www.zcool.com.cn/",
+        "finalUrl": "https://www.zcool.com.cn/",
+        "status": 200,
+        "checkedAt": "2026-10-05T03:02:31.512481+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://hao.uisdc.com/",
+        "finalUrl": "https://hao.uisdc.com/",
+        "status": 200,
+        "checkedAt": "2026-10-05T03:02:24.422113+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-zcool.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.zcool.com.cn/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/1000/crop/750/https://www.zcool.com.cn/",
+        "review": "approved",
+        "observation": "左侧用分组文字区分发布、灵感、素材和学习，内容区从活动横幅过渡到作品推荐。卡片保留作者和互动信息，橙色用于选中项与注册按钮，密集内容仍沿清楚的栏目层级排列。",
+        "width": 1000,
+        "height": 625,
+        "bytes": 72972,
+        "sha256": "d648cfc4708352a2e98492306243acb5261d8878e827a29b5d63d502c6e41fab"
+      }
+    },
+    {
+      "id": "curated-visual-society",
+      "url": "https://visualsociety.ch/",
+      "sourceName": "Siteinspire",
+      "sourceUrl": "https://www.siteinspire.com/website/13620-visual-archives-society",
+      "language": "en",
+      "targetCheck": {
+        "url": "https://visualsociety.ch/",
+        "finalUrl": "https://visualsociety.ch/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:51:22.949081+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://www.siteinspire.com/website/13620-visual-archives-society",
+        "finalUrl": "https://www.siteinspire.com/website/13620-visual-archives-society",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:51:32.330317+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-visual-society.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://visualsociety.ch/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://visualsociety.ch/",
+        "review": "approved",
+        "observation": "细窄的左侧元数据栏对应右侧超大文字清单，顶部亮蓝色导航提供稳定边界。商品名称与研究、媒体条目共用排版，适合研究如何让品牌档案与购物入口共享一种视觉秩序。",
+        "width": 600,
+        "height": 400,
+        "bytes": 51796,
+        "sha256": "036f49ef516b5aa2e5c5f8ea1237559a5c494c69c3f28eb8deff07abc477ed06"
+      }
+    },
+    {
+      "id": "curated-gerosa",
+      "url": "https://www.studio-gerosa.it/",
+      "sourceName": "Siteinspire",
+      "sourceUrl": "https://www.siteinspire.com/website/13629-studio-gerosa",
+      "language": "it",
+      "targetCheck": {
+        "url": "https://www.studio-gerosa.it/",
+        "finalUrl": "https://www.studio-gerosa.it/it",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:51:22.946891+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://www.siteinspire.com/website/13629-studio-gerosa",
+        "finalUrl": "https://www.siteinspire.com/website/13629-studio-gerosa",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:51:41.176856+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-gerosa.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.studio-gerosa.it/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.studio-gerosa.it/",
+        "review": "approved",
+        "observation": "荧光黄绿色导航带压在顶部，下方用紧凑的意大利文说明和项目编号建立上下文。建筑摄影几乎铺满余下画面，可学习大幅作品展示如何保留轻巧但完整的项目识别。",
+        "width": 600,
+        "height": 400,
+        "bytes": 21404,
+        "sha256": "64fb96f4cb3b74d22afc351019ea58979b4873967cf0aa680b2260249d13d96f"
+      }
+    },
+    {
+      "id": "curated-house-honey",
+      "url": "https://www.houseofhoney.com/",
+      "sourceName": "Siteinspire",
+      "sourceUrl": "https://www.siteinspire.com/website/13621-house-of-honey",
+      "language": "en",
+      "targetCheck": {
+        "url": "https://www.houseofhoney.com/",
+        "finalUrl": "https://www.houseofhoney.com/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:51:42.460798+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://www.siteinspire.com/website/13621-house-of-honey",
+        "finalUrl": "https://www.siteinspire.com/website/13621-house-of-honey",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:51:53.631906+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-house-honey.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.houseofhoney.com/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://www.houseofhoney.com/",
+        "review": "approved",
+        "observation": "粉杏色底上，厚重的大写字母与纤细斜体形成鲜明对照，下方室内照片延续相同暖色。顶部微型导航与大字品牌名分工清楚，适合学习如何用字体尺度表达空间品牌的个性。",
+        "width": 600,
+        "height": 400,
+        "bytes": 29650,
+        "sha256": "b795947500287df2be557a6883f65b103d09a61596bde0bcf9970e2b7f355cf8"
+      }
+    },
+    {
+      "id": "curated-sort-office",
+      "url": "https://sort-office.com/",
+      "sourceName": "Siteinspire",
+      "sourceUrl": "https://www.siteinspire.com/website/13626-sort-office",
+      "language": "en",
+      "targetCheck": {
+        "url": "https://sort-office.com/",
+        "finalUrl": "https://sort-office.com/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:51:42.351888+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://www.siteinspire.com/website/13626-sort-office",
+        "finalUrl": "https://www.siteinspire.com/website/13626-sort-office",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:51:50.063211+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-sort-office.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://sort-office.com/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://sort-office.com/",
+        "review": "approved",
+        "observation": "白底作品网格中，屏幕、金属包装与服装摄影各自保留不同的画面比例，图注压得很轻。宽松的纵向留白使密集作品仍可逐件阅读，可学习统一对齐与可变图幅的搭配。",
+        "width": 600,
+        "height": 400,
+        "bytes": 13516,
+        "sha256": "d96d54e98611043b96d8fa12f1274a86bb425af9302e78717cc360626942c5dd"
+      }
+    },
+    {
+      "id": "curated-surfers-journal",
+      "url": "https://archives.surfersjournal.com/",
+      "sourceName": "Siteinspire",
+      "sourceUrl": "https://www.siteinspire.com/website/13639-the-surfers-journal-archives",
+      "language": "en",
+      "targetCheck": {
+        "url": "https://archives.surfersjournal.com/",
+        "finalUrl": "https://archives.surfersjournal.com/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:51:42.282101+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://www.siteinspire.com/website/13639-the-surfers-journal-archives",
+        "finalUrl": "https://www.siteinspire.com/website/13639-the-surfers-journal-archives",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:51:48.802809+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-surfers-journal.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://archives.surfersjournal.com/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://archives.surfersjournal.com/",
+        "review": "approved",
+        "observation": "浅粉色背景将单本冲浪杂志封面托在中央，导航分别安排在左右两端，刊名保持居中。大量留白使封面摄影获得足够注意力，适合研究数字档案如何保留纸刊作为物件的存在感。",
+        "width": 600,
+        "height": 400,
+        "bytes": 9914,
+        "sha256": "de6c80d88143e110ec78601d9b808e315c3d630eebaab58a31e0ca770b8308c7"
+      }
+    },
+    {
+      "id": "curated-bou",
+      "url": "https://wearebou.com/",
+      "sourceName": "Minimal Gallery",
+      "sourceUrl": "https://minimal.gallery/bou/",
+      "language": "en",
+      "targetCheck": {
+        "url": "https://wearebou.com/",
+        "finalUrl": "https://wearebou.com/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:51:55.955291+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://minimal.gallery/bou/",
+        "finalUrl": "https://minimal.gallery/bou/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:52:03.473951+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-bou.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://wearebou.com/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://wearebou.com/",
+        "review": "approved",
+        "observation": "整屏人物影像保留暗部作为白色说明文字的底，居中的业务简介与小号联系信息形成一组。顶部导航保持细小，可学习动态主视觉与工作室定位之间如何分配注意力。",
+        "width": 600,
+        "height": 400,
+        "bytes": 16646,
+        "sha256": "ee0d034b060fb4547399ee9b2902b29bcfa50fba91f1e7064fbbf933fa46b093"
+      }
+    },
+    {
+      "id": "curated-takecontrol",
+      "url": "https://gettakecontrol.app/",
+      "sourceName": "Minimal Gallery",
+      "sourceUrl": "https://minimal.gallery/takecontrol/",
+      "language": "pt-BR",
+      "targetCheck": {
+        "url": "https://gettakecontrol.app/",
+        "finalUrl": "https://gettakecontrol.app/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:52:04.563455+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://minimal.gallery/takecontrol/",
+        "finalUrl": "https://minimal.gallery/takecontrol/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:52:11.960583+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-takecontrol.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://gettakecontrol.app/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/width/600/crop/800/https://gettakecontrol.app/",
+        "review": "approved",
+        "observation": "浅灰背景上的葡萄牙文大标题分成四行，说明文字与两个应用商店按钮依次向下排列，手机界面从底部进入画面。页面以单一轴线串联用途和下载行动，右上小型语言提示没有遮挡核心文案。",
+        "width": 600,
+        "height": 400,
+        "bytes": 13616,
+        "sha256": "bb17a69cee886ed55730ec2b16271bfe93e27b9d2127bec3d350edca8db8fa20"
+      }
+    },
+    {
+      "id": "curated-this-design",
+      "url": "https://this.design/",
+      "sourceName": "Siteinspire",
+      "sourceUrl": "https://www.siteinspire.com/website/13570-this-design",
+      "language": "en",
+      "targetCheck": {
+        "url": "https://this.design/",
+        "finalUrl": "https://this.design/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:52:53.363112+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://www.siteinspire.com/website/13570-this-design",
+        "finalUrl": "https://www.siteinspire.com/website/13570-this-design",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:53:02.429078+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-this-design.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://this.design/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/wait/10/width/600/crop/800/https://this.design/",
+        "review": "approved",
+        "observation": "黑底白字的工作室介绍横贯首屏，正文、粗斜体和细衬线斜体在同一句话中交替出现。导航收成右上角两个圆润控件，适合学习如何用字形差异突出概念而不增加多余色彩。",
+        "width": 600,
+        "height": 400,
+        "bytes": 14424,
+        "sha256": "ea2ee6c66699f5c5acd8f1dd32f1b3db75e3045c2adcbd3772e4f189fc78961f"
+      }
+    },
+    {
+      "id": "curated-artemii",
+      "url": "https://artemiilebedev.com/",
+      "sourceName": "Siteinspire",
+      "sourceUrl": "https://www.siteinspire.com/website/13624-artemii-lebedev",
+      "language": "en",
+      "targetCheck": {
+        "url": "https://artemiilebedev.com/",
+        "finalUrl": "https://artemiilebedev.com/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:54:03.471200+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://www.siteinspire.com/website/13624-artemii-lebedev",
+        "finalUrl": "https://www.siteinspire.com/website/13624-artemii-lebedev",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:54:09.157557+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-artemii.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://artemiilebedev.com/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/wait/10/width/600/crop/800/https://artemiilebedev.com/",
+        "review": "approved",
+        "observation": "深色影像作为背景，左上白色信息块集中姓名、目录与联系入口。下方项目清单按名称、行业和年份分列，适合学习让作品集兼具氛围和可快速扫描的结构。",
+        "width": 600,
+        "height": 400,
+        "bytes": 10000,
+        "sha256": "0e33471ca85d12ef357b4a230376d2e2ce2a917953d468e098fbcf0d744d3bd4"
+      }
+    },
+    {
+      "id": "curated-jack-jill",
+      "url": "https://www.jackandjill.ai/",
+      "sourceName": "Siteinspire",
+      "sourceUrl": "https://www.siteinspire.com/website/13614-jack-and-jill",
+      "language": "en",
+      "targetCheck": {
+        "url": "https://www.jackandjill.ai/",
+        "finalUrl": "https://www.jackandjill.ai/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:54:03.471639+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://www.siteinspire.com/website/13614-jack-and-jill",
+        "finalUrl": "https://www.siteinspire.com/website/13614-jack-and-jill",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:54:11.075097+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-jack-jill.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://www.jackandjill.ai/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/wait/10/width/600/crop/800/https://www.jackandjill.ai/",
+        "review": "approved",
+        "observation": "大号衬线标题居中留出充足呼吸空间，下方求职者与企业两栏并排，各有独立说明、按钮和界面预览。可学习双边服务如何先讲共同价值，再明确区分两条使用路径。",
+        "width": 600,
+        "height": 400,
+        "bytes": 13402,
+        "sha256": "bf6bb65e54100ee6acf0d9e26a43b2654f9603d9ce20a3e56f939a87e90ef476"
+      }
+    },
+    {
+      "id": "curated-felix",
+      "url": "https://felixpeault.com/",
+      "sourceName": "Siteinspire",
+      "sourceUrl": "https://www.siteinspire.com/website/13634-felix-peault",
+      "language": "en",
+      "targetCheck": {
+        "url": "https://felixpeault.com/",
+        "finalUrl": "https://felixpeault.com/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:54:03.470406+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://www.siteinspire.com/website/13634-felix-peault",
+        "finalUrl": "https://www.siteinspire.com/website/13634-felix-peault",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:54:08.160794+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-felix.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://felixpeault.com/",
+        "captureProvider": "Thum.io",
+        "providerUrl": "https://image.thum.io/get/noanimate/wait/10/width/600/crop/800/https://felixpeault.com/",
+        "review": "approved",
+        "observation": "蓝绿渐变由上向下变浅，中间偏左的摄影作品保持完整矩形，右侧少量栏目文字紧贴画面边缘。左上放大字母 F 作为个人标记，可学习如何以少量元素建立记忆点。",
+        "width": 600,
+        "height": 400,
+        "bytes": 20296,
+        "sha256": "185783ef51f7e034e06eb45ae574c8f820503f9d4acb9d6712acda56cc39e064"
+      }
+    },
+    {
+      "id": "curated-union-boulangerie",
+      "url": "https://unionboulangerie.com/",
+      "sourceName": "Siteinspire",
+      "sourceUrl": "https://www.siteinspire.com/website/13641-union-boulangerie",
+      "language": "fr",
+      "targetCheck": {
+        "url": "https://unionboulangerie.com/",
+        "finalUrl": "https://unionboulangerie.com/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:52:53.361544+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://www.siteinspire.com/website/13641-union-boulangerie",
+        "finalUrl": "https://www.siteinspire.com/website/13641-union-boulangerie",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:53:00.702486+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-union-boulangerie.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://unionboulangerie.com/",
+        "captureProvider": "Automattic mShots",
+        "providerUrl": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Funionboulangerie.com%2F?w=1200&h=800",
+        "review": "approved",
+        "observation": "糕点制作的近景铺满首屏，细白文字横穿影像，右半句采用手写体。顶部蓝橙导航提供鲜明行动入口，可学习如何在真实制作场景之上建立有个性、仍然易读的品牌说明。",
+        "width": 900,
+        "height": 600,
+        "bytes": 26778,
+        "sha256": "7d12dd0a7953b12e473ef89ced87724430be9e59e99e32f2896380487b4743af"
+      }
+    },
+    {
+      "id": "curated-studio-ol",
+      "url": "https://ol.studio/",
+      "sourceName": "Siteinspire",
+      "sourceUrl": "https://www.siteinspire.com/website/13632-studio-ol",
+      "language": "en",
+      "targetCheck": {
+        "url": "https://ol.studio/",
+        "finalUrl": "https://www.ol.studio/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:52:53.362246+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://www.siteinspire.com/website/13632-studio-ol",
+        "finalUrl": "https://www.siteinspire.com/website/13632-studio-ol",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:53:09.324517+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-studio-ol.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://ol.studio/",
+        "captureProvider": "Automattic mShots",
+        "providerUrl": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.ol.studio%2F?w=1200&h=800",
+        "review": "approved",
+        "observation": "暖米色页面顶部铺开超大衬线字标，中下方只有数行居中的工作室定位和手写签名，背景保留柔和的模糊色影。适合研究少量内容怎样借助尺度、距离和字形形成鲜明印象。",
+        "width": 900,
+        "height": 600,
+        "bytes": 11002,
+        "sha256": "3ca6da0e99524fe6e225cd473eaf2038981bd73b5ea1bb2e307242a4860e68ee"
+      }
+    },
+    {
+      "id": "curated-driftime",
+      "url": "https://2025.driftime.com/",
+      "sourceName": "Minimal Gallery",
+      "sourceUrl": "https://minimal.gallery/driftime-impact-report/",
+      "language": "en",
+      "targetCheck": {
+        "url": "https://2025.driftime.com/",
+        "finalUrl": "https://2025.driftime.com/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:52:07.092116+00:00"
+      },
+      "sourceCheck": {
+        "url": "https://minimal.gallery/driftime-impact-report/",
+        "finalUrl": "https://minimal.gallery/driftime-impact-report/",
+        "status": 200,
+        "checkedAt": "2026-10-05T02:52:13.181428+00:00"
+      },
+      "supplementalChecks": [],
+      "screenshot": {
+        "src": "./assets/screenshots/curated-driftime.webp",
+        "retrievedAt": "2026-10-05",
+        "sourceUrl": "https://2025.driftime.com/",
+        "captureProvider": "Automattic mShots",
+        "providerUrl": "https://s.wordpress.com/mshots/v1/https%3A%2F%2F2025.driftime.com%2F?w=1200&h=800",
+        "review": "approved",
+        "observation": "红色渐变向底部过渡为浅黄，巨大的白色 IMPACT REPORT 字样占据主要画面，年份被两个相交椭圆圈住。左上菜单与声音控件、右上章节圆点退到边缘，可学习编辑封面与网页导航的组合。",
+        "width": 900,
+        "height": 600,
+        "bytes": 26916,
+        "sha256": "8525687a0ef6633a8fe723dad451b26e7913a1f41c7f84154d89043ae44bfc4f"
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "id": "curated-cacaomag",
+      "url": "https://cacaomag.co/",
+      "sourceUrl": "https://twdc.design/work/cacaomag",
+      "reason": "Dimmed overlay/fade in captured view"
+    },
+    {
+      "id": "curated-creative-expo-taiwan",
+      "url": "https://creativexpo.tw/zh-TW",
+      "sourceUrl": "https://twdc.design/work/creative-expo-taiwan",
+      "reason": "Loading/blank/partial capture or capture unavailable; not approved for display"
+    },
+    {
+      "id": "curated-daiwa",
+      "url": "https://www.daiwaseiko.com.tw/",
+      "sourceUrl": "https://twdc.design/work/daiwa",
+      "reason": "Promotional modal obscures page"
+    },
+    {
+      "id": "curated-dawho",
+      "url": "https://dawho.tw/",
+      "sourceUrl": "https://twdc.design/work/dawho",
+      "reason": "Unreliable partially rendered header and faded text"
+    },
+    {
+      "id": "curated-dechuantea",
+      "url": "https://www.dechuantea.com/index.php",
+      "sourceUrl": "https://twdc.design/work/dechuantea",
+      "reason": "Loading/blank/partial capture or capture unavailable; not approved for display"
+    },
+    {
+      "id": "curated-deepseek",
+      "url": "https://www.deepseek.com/",
+      "sourceUrl": "https://hao.uisdc.com/",
+      "reason": "Loading/blank/partial capture or capture unavailable; not approved for display"
+    },
+    {
+      "id": "curated-drgrowup",
+      "url": "https://www.drgrowup.com.tw/",
+      "sourceUrl": "https://twdc.design/work/drgrowup",
+      "reason": "Partial hero rendering"
+    },
+    {
+      "id": "curated-end-microaggression",
+      "url": "https://end-microaggression.com/monster",
+      "sourceUrl": "https://twdc.design/work/end-microaggression",
+      "reason": "Loading/blank/partial capture or capture unavailable; not approved for display"
+    },
+    {
+      "id": "curated-eutopia-dental",
+      "url": "https://eutopiadental.com/",
+      "sourceUrl": "https://twdc.design/work/eutopia-dental",
+      "reason": "Loading/blank/partial capture or capture unavailable; not approved for display"
+    },
+    {
+      "id": "curated-frequent-headache-studio",
+      "url": "https://www.frequent-headache.com/",
+      "sourceUrl": "https://twdc.design/work/frequent-headache-studio",
+      "reason": "English navigation; Chinese-language content not established"
+    },
+    {
+      "id": "curated-fusheng-precision",
+      "url": "https://www.fusheng-precision.com/",
+      "sourceUrl": "https://twdc.design/work/fusheng-precision",
+      "reason": "Loading/blank/partial capture or capture unavailable; not approved for display"
+    },
+    {
+      "id": "curated-gq-style-fest-2025",
+      "url": "https://www.gq.com.tw/events/2025/stylefest/",
+      "sourceUrl": "https://twdc.design/work/gq-style-fest-2025",
+      "reason": "Cloudflare security verification screen; no bypass attempted"
+    },
+    {
+      "id": "curated-gracg",
+      "url": "https://www.gracg.com/",
+      "sourceUrl": "https://www.logodesign.cn/appreciate/2149.html",
+      "reason": "Browser timeout error screenshot"
+    },
+    {
+      "id": "curated-guocianyu",
+      "url": "https://guocianyu.com/",
+      "sourceUrl": "https://twdc.design/work/guocianyu",
+      "reason": "English homepage; Chinese-language content not established"
+    },
+    {
+      "id": "curated-habitat-architects",
+      "url": "https://www.harchitects2020.com/",
+      "sourceUrl": "https://twdc.design/work/habitat-architects",
+      "reason": "Loading/blank/partial capture or capture unavailable; not approved for display"
+    },
+    {
+      "id": "curated-hbr-summit-2026",
+      "url": "https://event.hbrtaiwan.com/summit/2026/",
+      "sourceUrl": "https://twdc.design/work/hbr-summit-2026",
+      "reason": "Loading/blank/partial capture or capture unavailable; not approved for display"
+    },
+    {
+      "id": "curated-hellofont",
+      "url": "https://www.hellofont.cn/",
+      "sourceUrl": "https://www.logodesign.cn/appreciate/2149.html",
+      "reason": "Loading/blank/partial capture or capture unavailable; not approved for display"
+    },
+    {
+      "id": "curated-in-motion",
+      "url": "https://www.in-motion.com.tw/",
+      "sourceUrl": "https://twdc.design/work/in-motion",
+      "reason": "Loading/blank/partial capture or capture unavailable; not approved for display"
+    },
+    {
+      "id": "curated-jjp-architects",
+      "url": "https://www.jjpan.com/",
+      "sourceUrl": "https://twdc.design/work/jjp-architects",
+      "reason": "Loading/blank/partial capture or capture unavailable; not approved for display"
+    },
+    {
+      "id": "curated-kindness-hotel",
+      "url": "https://www.kindness-hotel.com.tw/",
+      "sourceUrl": "https://twdc.design/work/kindness-hotel",
+      "reason": "Loading/blank/partial capture or capture unavailable; not approved for display"
+    },
+    {
+      "id": "curated-kuo-yi-chiau",
+      "url": "https://kuoyichiau.works/",
+      "sourceUrl": "https://twdc.design/work/kuo-yi-chiau",
+      "reason": "English navigation; Chinese-language content not established"
+    },
+    {
+      "id": "curated-layr-atelier",
+      "url": "https://layr-atelier.com/",
+      "sourceUrl": "https://twdc.design/work/layr-atelier",
+      "reason": "Chinese content evidence being checked; not included in approved package"
+    },
+    {
+      "id": "curated-levert-labs",
+      "url": "https://levertlabs.com/",
+      "sourceUrl": "https://twdc.design/work/levert-labs",
+      "reason": "Loading/blank/partial capture or capture unavailable; not approved for display"
+    },
+    {
+      "id": "curated-logonews",
+      "url": "https://www.logonews.cn/",
+      "sourceUrl": "https://www.logodesign.cn/appreciate/2149.html",
+      "reason": "Article image assets absent in screenshot"
+    },
+    {
+      "id": "curated-moodmons",
+      "url": "https://moodmons.app/",
+      "sourceUrl": "https://twdc.design/work/moodmons",
+      "reason": "English homepage"
+    },
+    {
+      "id": "curated-nowhere-netherlands",
+      "url": "https://nowherenl.myshopify.com/",
+      "sourceUrl": "https://twdc.design/work/nowhere-netherlands",
+      "reason": "English homepage despite Chinese brand name"
+    },
+    {
+      "id": "curated-office-aaa",
+      "url": "https://aaa.com.tw/info-home",
+      "sourceUrl": "https://twdc.design/work/office-aaa",
+      "reason": "Main body English; Chinese identity text insufficient"
+    },
+    {
+      "id": "curated-shang-ru-tsai",
+      "url": "https://shangrutsaiart.com/Index",
+      "sourceUrl": "https://twdc.design/work/shang-ru-tsai",
+      "reason": "English navigation; Chinese-language content not established"
+    },
+    {
+      "id": "curated-solartech",
+      "url": "https://www.solartech.com.tw/",
+      "sourceUrl": "https://twdc.design/work/solartech",
+      "reason": "Loading/blank/partial capture or capture unavailable; not approved for display"
+    },
+    {
+      "id": "curated-taoyuan-tudigong-culture-museum",
+      "url": "https://www.taoyuantudigong.org.tw/main/",
+      "sourceUrl": "https://twdc.design/work/taoyuan-tudigong-culture-museum",
+      "reason": "Loading/blank/partial capture or capture unavailable; not approved for display"
+    },
+    {
+      "id": "curated-topys",
+      "url": "https://www.topys.cn/",
+      "sourceUrl": "https://www.logodesign.cn/appreciate/2149.html",
+      "reason": "Large promotional modal obscures page"
+    },
+    {
+      "id": "curated-uiiiuiii",
+      "url": "https://uiiiuiii.com/",
+      "sourceUrl": "https://hao.uisdc.com/",
+      "reason": "Site migration prompt obscures page"
+    },
+    {
+      "id": "curated-uuu-design",
+      "url": "https://uuudesigninc.com/",
+      "sourceUrl": "https://twdc.design/work/uuu-design",
+      "reason": "Loading/blank/partial capture or capture unavailable; not approved for display"
+    },
+    {
+      "id": "curated-wakamodog",
+      "url": "https://wakamodog.com/",
+      "sourceUrl": "https://twdc.design/work/wakamodog",
+      "reason": "Loading/blank/partial capture or capture unavailable; not approved for display"
+    },
+    {
+      "id": "curated-yuf-studio",
+      "url": "https://yufstudio.com/",
+      "sourceUrl": "https://twdc.design/work/yuf-studio",
+      "reason": "Sparse captured animation state; language not established"
+    },
+    {
+      "id": "curated-gtd-good-things",
+      "url": "https://www.gtd.tw/",
+      "sourceUrl": "https://twdc.design/work/gtd-good-things",
+      "reason": "Direct GET 403 and web.open unavailable; genuine screenshot alone does not establish current accessibility."
+    },
+    {
+      "id": "curated-paixin",
+      "url": "https://www.paixin.com/",
+      "sourceUrl": "https://hao.uisdc.com/",
+      "reason": "Large signup/QR popup obscures page"
+    },
+    {
+      "id": "curated-wantquotes",
+      "url": "https://wantquotes.net/",
+      "sourceUrl": "https://hao.uisdc.com/",
+      "reason": "Query function login-gated; sparse utility view not strong enough as a design reference"
+    },
+    {
+      "id": "curated-allhistory",
+      "url": "https://www.allhistory.com/",
+      "sourceUrl": "https://hao.uisdc.com/",
+      "reason": "Loading spinner and missing body content"
+    },
+    {
+      "id": "curated-gaoding",
+      "url": "https://www.gaoding.com/",
+      "sourceUrl": "https://hao.uisdc.com/",
+      "reason": "Raw target GET 405; supplemental web.open denied by robots.txt, so direct current accessibility remains unverified despite genuine screenshot."
+    },
+    {
+      "id": "curated-nomad-labs",
+      "url": "https://nomadlabs.es/",
+      "sourceUrl": "https://minimal.gallery/nomad-labs/",
+      "reason": "Screenshot is browser verification challenge; excluded without alternate-route retry."
+    },
+    {
+      "id": "curated-grapa",
+      "url": "https://studiograpa.com/",
+      "sourceUrl": "https://www.siteinspire.com/website/13625-grapa-studio",
+      "reason": "Target HTTP 406; not included despite substantive screenshot."
+    },
+    {
+      "id": "curated-boc",
+      "url": "https://boc.studio/",
+      "sourceUrl": "https://www.siteinspire.com/website/13648-bocstudio",
+      "reason": "Captures show introductory brand screen rather than a sufficiently complete website view."
+    },
+    {
+      "id": "curated-scullion",
+      "url": "https://scullion.ie/",
+      "sourceUrl": "https://www.siteinspire.com/website/13630-scullion-architects",
+      "reason": "Captures show introductory image composition without navigational/site context."
+    },
+    {
+      "id": "curated-taylorhare",
+      "url": "https://taylorhare.com/",
+      "sourceUrl": "https://www.siteinspire.com/website/13628-taylorhare-architects",
+      "reason": "Captures remain intro video rather than complete content."
+    },
+    {
+      "id": "curated-stereoscope",
+      "url": "https://www.stereoscopecoffee.com/",
+      "sourceUrl": "https://www.siteinspire.com/website/13622-stereoscope-coffee",
+      "reason": "Initial logo screen; alternate capture contains substantial cookie panel; stronger clean alternatives selected."
+    },
+    {
+      "id": "curated-origin",
+      "url": "https://www.originbrand.io/",
+      "sourceUrl": "https://minimal.gallery/origin/",
+      "reason": "Loading 100% screen persisted."
+    },
+    {
+      "id": "curated-reach",
+      "url": "https://thereach.travel/",
+      "sourceUrl": "https://minimal.gallery/the-reach/",
+      "reason": "Intro brand screen persisted."
+    },
+    {
+      "id": "curated-komma",
+      "url": "https://kommakomma.is/",
+      "sourceUrl": "https://www.siteinspire.com/website/13619-komma-komma",
+      "reason": "Intro logo-only screen."
+    }
+  ],
+  "targetCheckCaveat": "Some raw HTTP clients receive 403/406. Those statuses are preserved, and screenshots plus supplemental indexed-page checks are not presented as proof of a successful current raw HTTP request."
+}

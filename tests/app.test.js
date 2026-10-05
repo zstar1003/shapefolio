@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import {readFile} from 'node:fs/promises';
+import {taxonomy, classifyCase, filterByTaxonomy, taxonomyCounts, taxonomyLabel} from '../src/taxonomy.js';
 import {filterCases} from '../src/data.js';
 import {createFavoritesStore, FAVORITES_STORAGE_KEY, filterByLanguage, routeFromHash} from '../src/library-state.js';
 
@@ -28,27 +29,29 @@ function app({hash = '#/', raw = null, unavailable = false} = {}) {
     showModal() { this.open = true; }
     close() { this.open = false; }
     querySelector() { return new Element(); }
+    querySelectorAll() { return this.focusable || []; }
   }
   const get = selector => {
     if (!elements.has(selector)) elements.set(selector, new Element());
     return elements.get(selector);
   };
   document = {
-    title: '', body: new Element(), activeElement: new Element(),
+    title: '', body: new Element(), activeElement: new Element(), listeners: {},
     querySelector: selector => selector === 'dialog[open]' ? null : get(selector),
     querySelectorAll: selector => selector === 'dialog' ? [get('#detail'), get('#about')] : [],
-    addEventListener() {},
+    addEventListener(type, handler) { this.listeners[type] = handler; },
   };
   const localStorage = {
     getItem() { if (unavailable) throw new Error('SecurityError'); return raw; },
     setItem(key, value) { if (unavailable) throw new Error('QuotaExceededError'); raw = value; },
   };
-  const window = {listeners: {}, addEventListener(type, handler) { this.listeners[type] = handler; }, scrollTo() {}};
+  const window = {innerWidth: 1440, listeners: {}, addEventListener(type, handler) { this.listeners[type] = handler; }, scrollTo() {}};
   const location = {hash};
   const context = {
     cases: fixtures,
     screenshotById: Object.fromEntries(fixtures.filter(c => c.id !== 'no-capture').map(c => [c.id, {src: `./assets/screenshots/${c.id}.webp`}])) ,
     filterCases, filterByLanguage, routeFromHash, FAVORITES_STORAGE_KEY,
+    taxonomy, classifyCase, filterByTaxonomy, taxonomyCounts, taxonomyLabel,
     createFavoritesStore: () => createFavoritesStore(() => localStorage),
     document, window, location, localStorage, URL,
     setTimeout: () => 1, clearTimeout() {}, matchMedia: () => ({matches: true}),
@@ -56,7 +59,10 @@ function app({hash = '#/', raw = null, unavailable = false} = {}) {
   vm.runInNewContext(source, context);
   const change = (selector, value, type = 'input') => { get(selector).value = value; get(selector).listeners[type]({target: get(selector)}); };
   return {
-    get, document,
+    get, document, window,
+    key(key, shiftKey = false) { let prevented = false; document.listeners.keydown({key, shiftKey, preventDefault() { prevented = true; }}); return prevented; },
+    click(selector) { get(selector).listeners.click(); },
+    expand(id) { get('#categories').listeners.click({target:{closest: () => ({dataset:{expand:id}})}}); },
     route(next) { location.hash = next; window.listeners.hashchange(); },
     save(id) { get('#cards').listeners.click({target: {closest: () => ({dataset: {save: id}})}}); },
     change,
@@ -169,4 +175,108 @@ test('navigation is hash-based and language, status, and local-only notices are 
   assert.match(html, /id="storage-notice"[^>]+role="status"/);
   assert.match(html, /仅保存在当前浏览器，无需登录，不会上传服务器/);
   assert.doesNotMatch(source, /\b(?:fetch|XMLHttpRequest|sendBeacon)\s*\(/);
+});
+
+
+test('parent and child filters preserve counts and independent route selections', () => {
+  const page = app({raw:'["linear","tw"]'});
+  page.category('product');
+  assert.deepEqual(page.shown(), ['linear','cn']);
+  assert.match(page.get('#categories').innerHTML, /data-category="product-work" aria-pressed="false"><span>协作与知识<\/span><span class="category-count">1<\/span>/);
+  page.category('product-work');
+  assert.deepEqual(page.shown(), ['linear']);
+  assert.equal(page.get('#current-category').textContent, '协作与知识');
+  page.route('#/favorites');
+  page.category('culture-arts');
+  assert.deepEqual(page.shown(), ['tw']);
+  assert.match(page.get('#categories').innerHTML, /data-category="全部" aria-pressed="false"><span>全部收藏<\/span><span class="category-count">2<\/span>/);
+  page.route('#/');
+  assert.deepEqual(page.shown(), ['linear']);
+  page.route('#/favorites');
+  assert.deepEqual(page.shown(), ['tw']);
+});
+
+test('sidebar counts follow language and search, omit absent captures, and include saved missing captures', () => {
+  const page = app({raw:'["linear","tw","no-capture"]'});
+  assert.match(page.get('#categories').innerHTML, /data-category="全部" aria-pressed="true"><span>全部网站<\/span><span class="category-count">3<\/span>/);
+  page.change('#language','zh','change');
+  assert.match(page.get('#categories').innerHTML, /<span>全部网站<\/span><span class="category-count">2<\/span>/);
+  page.change('#search','不存在');
+  assert.match(page.get('#categories').innerHTML, /<span>全部网站<\/span><span class="category-count">0<\/span>/);
+  page.route('#/favorites');
+  assert.match(page.get('#categories').innerHTML, /<span>全部收藏<\/span><span class="category-count">3<\/span>/);
+  page.save('linear');
+  assert.match(page.get('#categories').innerHTML, /<span>全部收藏<\/span><span class="category-count">2<\/span>/);
+});
+
+test('child category terms are searchable without changing stored source records', () => {
+  const page = app();
+  page.change('#search','协作与知识');
+  assert.deepEqual(page.shown(),['linear']);
+  assert.deepEqual(fixtures[0].tags,['秩序感']);
+});
+
+test('category groups independently expand and collapse without changing current filter', () => {
+  const page = app();
+  page.expand('brand');
+  assert.match(page.get('#categories').innerHTML,/data-expand="brand"[^>]+aria-expanded="true"/);
+  page.expand('brand');
+  assert.match(page.get('#categories').innerHTML,/data-expand="brand"[^>]+aria-expanded="false"/);
+  assert.deepEqual(page.shown(),['linear','cn','tw']);
+});
+
+test('mobile drawer closes repeatedly with Escape, close button, backdrop, selection, navigation and wide resize', () => {
+  const page = app();
+  page.window.innerWidth = 390;
+  for (const dismiss of [() => page.key('Escape'), () => page.click('#close-categories'), () => page.click('#sidebar-backdrop'), () => page.category('product-work')]) {
+    page.click('#open-categories');
+    assert.equal(page.get('#open-categories').attributes['aria-expanded'],'true');
+    assert.equal(page.get('#category-sidebar').attributes['aria-modal'],'true');
+    assert.equal(page.get('#gallery').inert,true);
+    assert.equal(page.document.activeElement,page.get('#close-categories'));
+    dismiss();
+    assert.equal(page.get('#open-categories').attributes['aria-expanded'],'false');
+    assert.equal(page.get('#sidebar-backdrop').hidden,true);
+    assert.equal(page.get('#category-sidebar').attributes['aria-modal'],undefined);
+    assert.equal(page.get('#gallery').inert,false);
+    assert.equal(page.document.activeElement,page.get('#open-categories'));
+  }
+  page.click('#open-categories');
+  page.route('#/favorites');
+  assert.equal(page.get('#open-categories').attributes['aria-expanded'],'false');
+  assert.equal(page.document.activeElement,page.get('#favorites-title'));
+  page.click('#open-categories');
+  page.window.innerWidth = 1200;
+  page.window.listeners.resize();
+  assert.equal(page.get('#open-categories').attributes['aria-expanded'],'false');
+  assert.equal(page.get('#gallery').inert,false);
+  assert.equal(page.document.activeElement,page.get('[data-category="全部"]'));
+});
+
+test('mobile drawer traps Tab in both directions and restores keyboard focus after reset', () => {
+  const page = app();
+  page.window.innerWidth = 390;
+  const first=page.get('#close-categories'), last=page.get('#last-category');
+  page.get('#category-sidebar').focusable=[first,last];
+  page.click('#open-categories');
+  assert.equal(page.key('Tab',true),true);
+  assert.equal(page.document.activeElement,last);
+  assert.equal(page.key('Tab'),true);
+  assert.equal(page.document.activeElement,first);
+  page.key('Escape');
+  page.reset();
+  assert.equal(page.document.activeElement,page.get('#open-categories'));
+});
+
+
+test('cross-tab updates preserve category keyboard focus while the drawer is open', () => {
+ const page=app({hash:'#/favorites',raw:'["linear","tw"]'});
+ page.window.innerWidth=390;
+ page.click('#open-categories');
+ const selected=page.get('[data-category="全部"]');
+ selected.dataset={category:'全部'};
+ selected.focus();
+ page.external('["tw"]');
+ assert.equal(page.document.activeElement,page.get('[data-category="全部"]'));
+ assert.equal(page.get('#open-categories').attributes['aria-expanded'],'true');
 });

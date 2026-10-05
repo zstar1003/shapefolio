@@ -27,7 +27,9 @@ test('approved screenshots correspond to curated sources and local image bytes',
 test('screenshot-first UI never falls back to illustrated covers', async () => {
   const script = await readFile('src/app.js', 'utf8');
   const css = await readFile('src/styles.css', 'utf8');
-  assert.ok(script.includes('filterCases(galleryCases'));
+  assert.ok(script.includes('cases.filter(c => Boolean(screenshotById[c.id]?.src))'));
+  assert.ok(script.includes('const pool = isFavorites ? cases.filter(c => saved.includes(c.id)) : galleryCases'));
+  assert.ok(script.includes('filterByTaxonomy(filtered, state.category)'));
   assert.ok(script.includes('loading="${detail'));
   assert.ok(script.includes('rel="noopener noreferrer"'));
   assert.ok(!script.includes('poster-title'));

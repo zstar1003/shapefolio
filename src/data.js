@@ -1,5 +1,24 @@
-// Curated sources verified 2026-10-04. Oil UI entries are concept demos, not affiliated products.
+// Curated website sources and original learning notes. Concept demos retain explicit provenance.
 export const cases = [
+  {
+    "id": "curated-archdaily-cn",
+    "name": "ArchDaily 中文",
+    "url": "https://www.archdaily.cn/",
+    "sourceName": "LogoDesign · 创意设计网站精选",
+    "sourceUrl": "https://www.logodesign.cn/appreciate/2149.html",
+    "category": "内容媒体",
+    "subcategory": "media-editorial",
+    "language": "zh-CN",
+    "tags": [
+      "建筑摄影",
+      "模块网格",
+      "专题入口"
+    ],
+    "subtitle": "把建筑项目排成可以逐层浏览的视觉目录",
+    "note": "主内容用一张宽图带出建筑主题，右侧较窄图片与编辑精选形成补充阅读区。上方将检索框与地区筛选分成两层，蓝色链接在浅灰背景里保持一致，适合观察大型内容站如何并置发现与查找。",
+    "lesson": "先区分搜索与浏览，再安排主次内容。",
+    "isConcept": false
+  },
   {
     "id": "add-taiwan-raptor",
     "name": "台灣猛禽研究會",
@@ -37,6 +56,25 @@ export const cases = [
     "isConcept": false
   },
   {
+    "id": "curated-digitaling",
+    "name": "数英",
+    "url": "https://www.digitaling.com/",
+    "sourceName": "LogoDesign · 创意设计网站精选",
+    "sourceUrl": "https://www.logodesign.cn/appreciate/2149.html",
+    "category": "内容媒体",
+    "subcategory": "media-editorial",
+    "language": "zh-CN",
+    "tags": [
+      "双栏布局",
+      "资讯列表",
+      "强调色"
+    ],
+    "subtitle": "用固定阅读节奏组织密集的创意资讯",
+    "note": "白底主栏以缩略图、标题与时间形成重复的文章单元，右侧承担作者与活动入口。黑色导航带稳定页面骨架，粉色只落在搜索和关键入口上，使内容密集时仍保有可识别的路径。",
+    "lesson": "让每条内容沿着相同的阅读顺序出现。",
+    "isConcept": false
+  },
+  {
     "id": "zh-jzn",
     "name": "舊振南",
     "category": "品牌商业",
@@ -67,6 +105,25 @@ export const cases = [
     "subtitle": "让复杂协作，回归清晰。",
     "note": "以任务协作产品为观察对象，练习如何把密集的信息整理成清晰的优先级。关注产品价值、功能分组和行动入口之间的关系。",
     "lesson": "先梳理信息层级，再决定视觉重量。"
+  },
+  {
+    "id": "curated-visual-society",
+    "name": "Visual (Archives) Society",
+    "category": "品牌商业",
+    "subcategory": "brand-lifestyle",
+    "language": "en",
+    "tags": [
+      "大字排版",
+      "档案索引",
+      "高对比"
+    ],
+    "url": "https://visualsociety.ch/",
+    "subtitle": "把商品、研究与影像放进同一份索引",
+    "note": "细窄的左侧元数据栏对应右侧超大文字清单，顶部亮蓝色导航提供稳定边界。商品名称与研究、媒体条目共用排版，适合研究如何让品牌档案与购物入口共享一种视觉秩序。",
+    "lesson": "让重复的结构承载不同类型的内容。",
+    "sourceName": "Siteinspire",
+    "sourceUrl": "https://www.siteinspire.com/website/13620-visual-archives-society",
+    "isConcept": false
   },
   {
     "id": "add-aestheticell",
@@ -102,6 +159,25 @@ export const cases = [
     "lesson": "统一识别要覆盖信息和商品展示。",
     "sourceName": "twdc · 台灣好網站",
     "sourceUrl": "https://twdc.design/work/pocari",
+    "isConcept": false
+  },
+  {
+    "id": "curated-steven-tung-art",
+    "name": "STEVEN TUNG",
+    "url": "https://steventungart.com/",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/steven-tung-art",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "zh-TW",
+    "tags": [
+      "插画作品",
+      "艺术商店",
+      "衬线标题"
+    ],
+    "subtitle": "让作品原有的色彩成为首页主角",
+    "note": "细线描绘的人物插画铺满导航下方，灰绿、黄色与淡粉形成统一氛围。白色导航带采用大间距的衬线姓名，金黄色公告条只占很窄一行，作品展示与商店入口并存而不互相争夺。",
+    "lesson": "把网站的视觉权重让给作品本身。",
     "isConcept": false
   },
   {
@@ -144,6 +220,25 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "curated-nudot-studio-works",
+    "name": "核點設計",
+    "url": "https://nudot.com.tw/work",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/nudot-studio-works",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "zh-TW",
+    "tags": [
+      "黑白对比",
+      "作品网格",
+      "超大标题"
+    ],
+    "subtitle": "先建立作品索引，再让项目图片展开",
+    "note": "WORK 与 DESIGN 分占页头两侧，中间放置小号定位说明，细线和年份标注把标题与案例分开。下方以等宽双栏陈列网站情境图，黑色颗粒背景给白色字与项目照片留下明确边界。",
+    "lesson": "让索引信息退后，让案例图承担比较。",
+    "isConcept": false
+  },
+  {
     "id": "add-elvis-mao",
     "name": "Elvis Mao",
     "category": "个人网站",
@@ -180,6 +275,25 @@ export const cases = [
     "isConcept": false
   },
   {
+    "id": "curated-gerosa",
+    "name": "Studio Gerosa",
+    "category": "设计工作室",
+    "subcategory": "studio-space",
+    "language": "it",
+    "tags": [
+      "建筑摄影",
+      "窄幅导航",
+      "荧光色"
+    ],
+    "url": "https://www.studio-gerosa.it/",
+    "subtitle": "用细小信息栏衬托完整建筑画面",
+    "note": "荧光黄绿色导航带压在顶部，下方用紧凑的意大利文说明和项目编号建立上下文。建筑摄影几乎铺满余下画面，可学习大幅作品展示如何保留轻巧但完整的项目识别。",
+    "lesson": "用小面积高对比色划清导航层。",
+    "sourceName": "Siteinspire",
+    "sourceUrl": "https://www.siteinspire.com/website/13629-studio-gerosa",
+    "isConcept": false
+  },
+  {
     "id": "zh-cubox",
     "name": "Cubox",
     "category": "产品设计",
@@ -210,6 +324,25 @@ export const cases = [
     "subtitle": "让不同角色，在同一画布相遇。",
     "note": "Figma 将设计、原型、开发交接与白板等能力放在同一产品体系里。适合研究大型产品家族如何以任务和角色划分入口，而不是只罗列工具名称。",
     "lesson": "多产品导航，要让每个人找到自己的起点。"
+  },
+  {
+    "id": "curated-kentec",
+    "name": "金運科技",
+    "url": "https://www.kentec-inc.com/tw/",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/kentec",
+    "category": "品牌商业",
+    "subcategory": "brand-enterprise",
+    "language": "zh-TW",
+    "tags": [
+      "科技产品",
+      "深色",
+      "层次光线"
+    ],
+    "subtitle": "围绕一组实体产品建立科技感",
+    "note": "服务器机柜置于首屏中央，标题从两侧展开，底部蓝色光线把主体与深黑网格背景分离。导航使用中文小字，右上联系按钮则沿用蓝色，让企业信息入口和主视觉共享同一强调色。",
+    "lesson": "产品是视觉中心，装饰光线只负责强调轮廓。",
+    "isConcept": false
   },
   {
     "id": "add-asahihuuhu",
@@ -245,6 +378,25 @@ export const cases = [
     "lesson": "让功能说明始终围绕用户处理的具体对象。",
     "sourceName": "少数派 · Eagle 使用技巧",
     "sourceUrl": "https://sspai.com/post/59988",
+    "isConcept": false
+  },
+  {
+    "id": "curated-megaunion",
+    "name": "兆聯實業",
+    "url": "https://www.megaunion-tw.com/tw",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/megaunion",
+    "category": "品牌商业",
+    "subcategory": "brand-enterprise",
+    "language": "zh-TW",
+    "tags": [
+      "工程空间",
+      "满版摄影",
+      "双语标题"
+    ],
+    "subtitle": "用真实场地说明企业的专业场景",
+    "note": "厂区建筑照片作为整幅背景，中央依次放入英文主标题、中文定位与较小的说明。灰黑色圆角按钮处于文字下方，白色导航叠在上沿，展示了用现场影像提供行业语境的直接方式。",
+    "lesson": "选能说明工作场景的照片，再补充定位。",
     "isConcept": false
   },
   {
@@ -287,6 +439,25 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "curated-house-honey",
+    "name": "House of Honey",
+    "category": "设计工作室",
+    "subcategory": "studio-space",
+    "language": "en",
+    "tags": [
+      "室内设计",
+      "字体对比",
+      "暖色"
+    ],
+    "url": "https://www.houseofhoney.com/",
+    "subtitle": "让标题与空间摄影共享温暖气质",
+    "note": "粉杏色底上，厚重的大写字母与纤细斜体形成鲜明对照，下方室内照片延续相同暖色。顶部微型导航与大字品牌名分工清楚，适合学习如何用字体尺度表达空间品牌的个性。",
+    "lesson": "先统一画面的温度，再拉开字号差距。",
+    "sourceName": "Siteinspire",
+    "sourceUrl": "https://www.siteinspire.com/website/13621-house-of-honey",
+    "isConcept": false
+  },
+  {
     "id": "add-jl-design",
     "name": "JL DESIGN",
     "category": "设计工作室",
@@ -323,6 +494,25 @@ export const cases = [
     "isConcept": false
   },
   {
+    "id": "curated-yousheng-machinery",
+    "name": "祐聖機械",
+    "url": "https://www.yousheng.com.tw/",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/yousheng-machinery",
+    "category": "品牌商业",
+    "subcategory": "brand-enterprise",
+    "language": "zh-TW",
+    "tags": [
+      "工业摄影",
+      "夜景",
+      "字图融合"
+    ],
+    "subtitle": "把品牌缩写融入工业场景",
+    "note": "夜色中的厂区、灯光与水面占据首屏，大号字母在设备后方形成第二层视觉。左上蓝底标志块与横向中文导航保持稳定，冷色背景突出工程规模，适合观察实体场景与品牌字形的叠合。",
+    "lesson": "让大字与图片建立前后层次，而非简单覆盖。",
+    "isConcept": false
+  },
+  {
     "id": "zh-vvg",
     "name": "VVG 好樣",
     "category": "品牌商业",
@@ -353,6 +543,25 @@ export const cases = [
     "subtitle": "让庞大作品库保持清晰的设计机构",
     "note": "作品入口同时提供行业与设计学科两个维度，项目标题旁配有简短的任务说明。值得学习这种先说明项目是什么、再让读者深入案例的作品集结构。",
     "lesson": "用分类帮助作品被发现"
+  },
+  {
+    "id": "curated-iconfont",
+    "name": "Iconfont 阿里巴巴矢量图标库",
+    "url": "https://www.iconfont.cn/",
+    "sourceName": "优设 · 设计导航",
+    "sourceUrl": "https://hao.uisdc.com/",
+    "category": "创意设计",
+    "subcategory": "creative-tools",
+    "language": "zh-CN",
+    "tags": [
+      "素材搜索",
+      "深色",
+      "分类入口"
+    ],
+    "subtitle": "让检索成为素材平台的首要动作",
+    "note": "宽幅搜索框紧跟主标题，搜索与 AI 创作模式以小标签区分，下方再给出图标、插画、动效和字体入口。蓝绿渐变连接标题与激活状态，浅色素材预览卡在深底中形成明确的浏览区域。",
+    "lesson": "先给出最常用的查找动作，再展开资源分类。",
+    "isConcept": false
   },
   {
     "id": "add-kdan",
@@ -388,6 +597,25 @@ export const cases = [
     "lesson": "让体验想象与实用信息沿同一条路径出现。",
     "sourceName": "twdc · 台灣好網站",
     "sourceUrl": "https://twdc.design/work/yayu-adventure",
+    "isConcept": false
+  },
+  {
+    "id": "curated-sort-office",
+    "name": "SORT Office",
+    "category": "设计工作室",
+    "subcategory": "studio-brand",
+    "language": "en",
+    "tags": [
+      "作品网格",
+      "留白",
+      "视觉识别"
+    ],
+    "url": "https://sort-office.com/",
+    "subtitle": "让多种媒介的项目保持共同节奏",
+    "note": "白底作品网格中，屏幕、金属包装与服装摄影各自保留不同的画面比例，图注压得很轻。宽松的纵向留白使密集作品仍可逐件阅读，可学习统一对齐与可变图幅的搭配。",
+    "lesson": "统一对齐关系，比统一图片比例更重要。",
+    "sourceName": "Siteinspire",
+    "sourceUrl": "https://www.siteinspire.com/website/13626-sort-office",
     "isConcept": false
   },
   {
@@ -430,6 +658,25 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "curated-uisdc",
+    "name": "优设",
+    "url": "https://www.uisdc.com/",
+    "sourceName": "优设 · 设计导航",
+    "sourceUrl": "https://hao.uisdc.com/",
+    "category": "创意设计",
+    "subcategory": "creative-learning",
+    "language": "zh-CN",
+    "tags": [
+      "内容分层",
+      "卡片布局",
+      "设计教育"
+    ],
+    "subtitle": "用不同入口照顾不同学习阶段",
+    "note": "首屏用大幅主题图吸引阅读，右侧浓缩热门入口；下一行把趋势、必看、入门与进阶单独排列，再进入密集的栏目标签和文章卡片。橙色选中状态保持一致，适合观察多层内容导航的衔接。",
+    "lesson": "按阅读目的分层，而不是把所有入口堆成一排。",
+    "isConcept": false
+  },
+  {
     "id": "add-fa-movie-appreciation",
     "name": "FA電影欣賞",
     "category": "内容媒体",
@@ -466,6 +713,25 @@ export const cases = [
     "isConcept": false
   },
   {
+    "id": "curated-steak-inn",
+    "name": "雅室牛排",
+    "url": "https://www.steakinn.com.tw/",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/work/steak-inn",
+    "category": "品牌商业",
+    "subcategory": "brand-food",
+    "language": "zh-TW",
+    "tags": [
+      "餐饮品牌",
+      "影像叙事",
+      "衬线字体"
+    ],
+    "subtitle": "用主厨工作的画面传达餐厅气质",
+    "note": "主厨影像铺满深色首屏，浅金色的中英品牌字位于顶端中央，两侧导航用细线分隔。底部左右各放一小组短句，保留人物和工作台的完整画面，适合观察克制文字与氛围影像的配合。",
+    "lesson": "让场景传递体验，导航只提供必要方向。",
+    "isConcept": false
+  },
+  {
     "id": "zh-blatr",
     "name": "青灯暮雨",
     "category": "个人网站",
@@ -496,6 +762,25 @@ export const cases = [
     "subtitle": "把复杂的商业，讲得明白。",
     "note": "金融基础设施涉及多种产品与使用场景。以 Stripe 为例，研究如何从用户目标出发组织内容，让不同体量的企业找到自己的入口。",
     "lesson": "让抽象能力落在具体的使用场景中。"
+  },
+  {
+    "id": "curated-surfers-journal",
+    "name": "The Surfer’s Journal Archives",
+    "category": "内容媒体",
+    "subcategory": "media-editorial",
+    "language": "en",
+    "tags": [
+      "杂志档案",
+      "封面展示",
+      "留白"
+    ],
+    "url": "https://archives.surfersjournal.com/",
+    "subtitle": "让期刊封面成为档案入口",
+    "note": "浅粉色背景将单本冲浪杂志封面托在中央，导航分别安排在左右两端，刊名保持居中。大量留白使封面摄影获得足够注意力，适合研究数字档案如何保留纸刊作为物件的存在感。",
+    "lesson": "让核心内容本身承担首屏视觉。",
+    "sourceName": "Siteinspire",
+    "sourceUrl": "https://www.siteinspire.com/website/13639-the-surfers-journal-archives",
+    "isConcept": false
   },
   {
     "id": "add-paul-chiang-art-center",
@@ -531,6 +816,25 @@ export const cases = [
     "lesson": "用共同的任务解释多种内容形态。",
     "sourceName": "少数派 · FlowUs 体验",
     "sourceUrl": "https://sspai.com/post/71687",
+    "isConcept": false
+  },
+  {
+    "id": "curated-zcool",
+    "name": "站酷",
+    "url": "https://www.zcool.com.cn/",
+    "sourceName": "优设 · 设计导航",
+    "sourceUrl": "https://hao.uisdc.com/",
+    "category": "创意设计",
+    "subcategory": "creative-learning",
+    "language": "zh-CN",
+    "tags": [
+      "创意社区",
+      "侧边导航",
+      "作品卡片"
+    ],
+    "subtitle": "用固定侧栏承接多种创意社区任务",
+    "note": "左侧用分组文字区分发布、灵感、素材和学习，内容区从活动横幅过渡到作品推荐。卡片保留作者和互动信息，橙色用于选中项与注册按钮，密集内容仍沿清楚的栏目层级排列。",
+    "lesson": "让全局任务固定在侧边，让作品占据主要宽度。",
     "isConcept": false
   },
   {
@@ -573,6 +877,25 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "curated-bou",
+    "name": "Bou",
+    "category": "设计工作室",
+    "subcategory": "studio-brand",
+    "language": "en",
+    "tags": [
+      "影像背景",
+      "居中文案",
+      "轻量导航"
+    ],
+    "url": "https://wearebou.com/",
+    "subtitle": "在作品影像上给出简明自我介绍",
+    "note": "整屏人物影像保留暗部作为白色说明文字的底，居中的业务简介与小号联系信息形成一组。顶部导航保持细小，可学习动态主视觉与工作室定位之间如何分配注意力。",
+    "lesson": "影像带来氛围，文字负责说清业务。",
+    "sourceName": "Minimal Gallery",
+    "sourceUrl": "https://minimal.gallery/bou/",
+    "isConcept": false
+  },
+  {
     "id": "add-aapd-product-design-academy",
     "name": "AAPD 產品設計學院",
     "category": "创意设计",
@@ -609,6 +932,25 @@ export const cases = [
     "isConcept": false
   },
   {
+    "id": "curated-takecontrol",
+    "name": "TakeControl",
+    "category": "产品设计",
+    "subcategory": "product-life",
+    "language": "pt-BR",
+    "tags": [
+      "移动应用",
+      "居中布局",
+      "行动入口"
+    ],
+    "url": "https://gettakecontrol.app/",
+    "subtitle": "把共同记账场景变成清楚的首屏目标",
+    "note": "浅灰背景上的葡萄牙文大标题分成四行，说明文字与两个应用商店按钮依次向下排列，手机界面从底部进入画面。页面以单一轴线串联用途和下载行动，右上小型语言提示没有遮挡核心文案。",
+    "lesson": "产品说明和下一步行动沿同一轴线排列。",
+    "sourceName": "Minimal Gallery",
+    "sourceUrl": "https://minimal.gallery/takecontrol/",
+    "isConcept": false
+  },
+  {
     "id": "zh-feishu-docs",
     "name": "飞书文档",
     "category": "产品设计",
@@ -639,6 +981,25 @@ export const cases = [
     "subtitle": "从一张模板，开始自己的表达。",
     "note": "Canva 围绕演示、社交内容和文档等成品类型引导创作。可以学习如何把专业能力转化为大众熟悉的任务入口，并用模板降低开始的门槛。",
     "lesson": "先问用户要做什么，再展示你能做什么。"
+  },
+  {
+    "id": "curated-this-design",
+    "name": "This Design",
+    "category": "设计工作室",
+    "subcategory": "studio-brand",
+    "language": "en",
+    "tags": [
+      "深色",
+      "混合字形",
+      "宣言排版"
+    ],
+    "url": "https://this.design/",
+    "subtitle": "让一句定位呈现多种设计语气",
+    "note": "黑底白字的工作室介绍横贯首屏，正文、粗斜体和细衬线斜体在同一句话中交替出现。导航收成右上角两个圆润控件，适合学习如何用字形差异突出概念而不增加多余色彩。",
+    "lesson": "字体变化应对应文字含义的变化。",
+    "sourceName": "Siteinspire",
+    "sourceUrl": "https://www.siteinspire.com/website/13570-this-design",
+    "isConcept": false
   },
   {
     "id": "add-bluehe",
@@ -674,6 +1035,25 @@ export const cases = [
     "lesson": "让人物与主题共同建立内容的观看理由。",
     "sourceName": "Bilibili · 一席内容推荐",
     "sourceUrl": "https://www.bilibili.com/video/BV1ts411T7a5/",
+    "isConcept": false
+  },
+  {
+    "id": "curated-artemii",
+    "name": "Artemii Lebedev",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "en",
+    "tags": [
+      "影像背景",
+      "项目索引",
+      "等宽字"
+    ],
+    "url": "https://artemiilebedev.com/",
+    "subtitle": "用轻量索引覆盖有情绪的影像",
+    "note": "深色影像作为背景，左上白色信息块集中姓名、目录与联系入口。下方项目清单按名称、行业和年份分列，适合学习让作品集兼具氛围和可快速扫描的结构。",
+    "lesson": "情绪化背景上仍要保留清晰的检索层。",
+    "sourceName": "Siteinspire",
+    "sourceUrl": "https://www.siteinspire.com/website/13624-artemii-lebedev",
     "isConcept": false
   },
   {
@@ -716,6 +1096,25 @@ export const cases = [
     "isConcept": true
   },
   {
+    "id": "curated-jack-jill",
+    "name": "Jack & Jill",
+    "category": "产品设计",
+    "subcategory": "product-platform",
+    "language": "en",
+    "tags": [
+      "双角色入口",
+      "衬线标题",
+      "产品预览"
+    ],
+    "url": "https://www.jackandjill.ai/",
+    "subtitle": "让两类用户看到各自的开始方式",
+    "note": "大号衬线标题居中留出充足呼吸空间，下方求职者与企业两栏并排，各有独立说明、按钮和界面预览。可学习双边服务如何先讲共同价值，再明确区分两条使用路径。",
+    "lesson": "共同愿景之下要有明确的角色分流。",
+    "sourceName": "Siteinspire",
+    "sourceUrl": "https://www.siteinspire.com/website/13614-jack-and-jill",
+    "isConcept": false
+  },
+  {
     "id": "add-weight-books",
     "name": "重本書店 Weight Books",
     "category": "品牌商业",
@@ -752,6 +1151,25 @@ export const cases = [
     "isConcept": false
   },
   {
+    "id": "curated-felix",
+    "name": "Félix Péault",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "en",
+    "tags": [
+      "摄影作品",
+      "渐变背景",
+      "极简导航"
+    ],
+    "url": "https://felixpeault.com/",
+    "subtitle": "用颜色建立照片之外的个人识别",
+    "note": "蓝绿渐变由上向下变浅，中间偏左的摄影作品保持完整矩形，右侧少量栏目文字紧贴画面边缘。左上放大字母 F 作为个人标记，可学习如何以少量元素建立记忆点。",
+    "lesson": "照片之外只保留必要的个人识别。",
+    "sourceName": "Siteinspire",
+    "sourceUrl": "https://www.siteinspire.com/website/13634-felix-peault",
+    "isConcept": false
+  },
+  {
     "id": "zh-krjojo",
     "name": "手里有只毛毛虫",
     "category": "个人网站",
@@ -782,6 +1200,25 @@ export const cases = [
     "subtitle": "把品牌服务写成清晰的业务命题",
     "note": "首页将服务方案、客户案例和艺术文化内容分别组织，服务标题直接对应品牌面临的问题。可借鉴这种把能力介绍转化为客户决策入口的方式。",
     "lesson": "让服务围绕问题展开"
+  },
+  {
+    "id": "curated-union-boulangerie",
+    "name": "Union Boulangerie",
+    "category": "品牌商业",
+    "subcategory": "brand-food",
+    "language": "fr",
+    "tags": [
+      "餐饮品牌",
+      "手作影像",
+      "彩色导航"
+    ],
+    "url": "https://unionboulangerie.com/",
+    "subtitle": "用手艺近景建立街区面包店的温度",
+    "note": "糕点制作的近景铺满首屏，细白文字横穿影像，右半句采用手写体。顶部蓝橙导航提供鲜明行动入口，可学习如何在真实制作场景之上建立有个性、仍然易读的品牌说明。",
+    "lesson": "以实际制作过程支持品牌气质。",
+    "sourceName": "Siteinspire",
+    "sourceUrl": "https://www.siteinspire.com/website/13641-union-boulangerie",
+    "isConcept": false
   },
   {
     "id": "add-o-oo",
@@ -817,6 +1254,25 @@ export const cases = [
     "lesson": "让用户先理解适用场景，再进入功能细节。",
     "sourceName": "少数派 · 知识工具盘点",
     "sourceUrl": "https://sspai.com/post/72235",
+    "isConcept": false
+  },
+  {
+    "id": "curated-studio-ol",
+    "name": "Studio OL",
+    "category": "设计工作室",
+    "subcategory": "studio-space",
+    "language": "en",
+    "tags": [
+      "超大字标",
+      "衬线字体",
+      "留白"
+    ],
+    "url": "https://ol.studio/",
+    "subtitle": "以极大的字标与极小的介绍形成尺度反差",
+    "note": "暖米色页面顶部铺开超大衬线字标，中下方只有数行居中的工作室定位和手写签名，背景保留柔和的模糊色影。适合研究少量内容怎样借助尺度、距离和字形形成鲜明印象。",
+    "lesson": "信息少时，更需要精确分配视觉重量。",
+    "sourceName": "Siteinspire",
+    "sourceUrl": "https://www.siteinspire.com/website/13632-studio-ol",
     "isConcept": false
   },
   {
@@ -857,6 +1313,25 @@ export const cases = [
     "model": "GPT 6.1 Sol",
     "editorialType": "独立学习笔记",
     "isConcept": true
+  },
+  {
+    "id": "curated-driftime",
+    "name": "Driftime Impact Report",
+    "category": "创意设计",
+    "subcategory": "creative-learning",
+    "language": "en",
+    "tags": [
+      "年度报告",
+      "大字排版",
+      "渐变色"
+    ],
+    "url": "https://2025.driftime.com/",
+    "subtitle": "把年度报告封面变成可探索的网页",
+    "note": "红色渐变向底部过渡为浅黄，巨大的白色 IMPACT REPORT 字样占据主要画面，年份被两个相交椭圆圈住。左上菜单与声音控件、右上章节圆点退到边缘，可学习编辑封面与网页导航的组合。",
+    "lesson": "强烈的封面表达也应留出明确的浏览线索。",
+    "sourceName": "Minimal Gallery",
+    "sourceUrl": "https://minimal.gallery/driftime-impact-report/",
+    "isConcept": false
   },
   {
     "id": "add-simpany",

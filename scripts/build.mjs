@@ -26,7 +26,8 @@ const html = (await readFile('dist/index.html', 'utf8'))
 const app = (await readFile('dist/src/app.js', 'utf8'))
   .replace("'./data.js'", `'./data.js?v=${version}'`)
   .replace("'./screenshots.js'", `'./screenshots.js?v=${version}'`)
-  .replace("'./library-state.js'", `'./library-state.js?v=${version}'`);
+  .replace("'./library-state.js'", `'./library-state.js?v=${version}'`)
+  .replace("'./taxonomy.js'", `'./taxonomy.js?v=${version}'`);
 const screenshots = (await readFile('dist/src/screenshots.js', 'utf8'))
   .replace(/(\.\/assets\/screenshots\/[a-z0-9_-]+\.(?:png|jpe?g|webp))(["'])/gi, `$1?v=${version}$2`);
 await writeFile('dist/index.html', html);
