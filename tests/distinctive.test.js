@@ -37,6 +37,7 @@ test('creative expansion reports additional visible cases separately from the ba
   const host=r.canonicalHost||new URL(c.url).hostname.replace(/^www\./,'');
   assert.ok(!hosts.has(host),`Duplicate canonical host ${host}`);hosts.add(host);
   assert.ok(r.targetCheck&&r.sourceVerification&&r.interactionEvidence&&r.rights,c.id);
+  for(const key of ['url','sourceUrl','directoryUrl'])if(r.sourceVerification[key])assert.equal(new URL(r.sourceVerification[key]).protocol,'https:',`${c.id} ${key}`);
   if(c.category==='游戏')assert.ok(['browser','official'].includes(c.gameType),c.id);
  }
 });
@@ -57,4 +58,22 @@ test('creative subcategories stay inside the compact subject taxonomy and suppor
  for(const id of ['creative-interactive','brand-experience'])assert.equal(categoryFromSearch(`?category=${id}`),id);
  assert.equal(taxonomy.find(g=>g.id==='creative').children.find(c=>c.id==='creative-interactive').label,'互动与实验');
  assert.equal(taxonomy.find(g=>g.id==='brand').children.find(c=>c.id==='brand-experience').label,'品牌互动体验');
+});
+
+test('detail previews preserve complete screenshot frames without changing gallery crops',async()=>{
+ const css=await readFile('src/styles.css','utf8');
+ assert.ok(css.includes('.detail-image{aspect-ratio:auto}'));
+ assert.ok(css.includes('.detail-image .screenshot{height:auto;object-fit:contain}'));
+ assert.ok(css.indexOf('.detail-image{aspect-ratio:auto}')>css.indexOf('@media(max-width:650px)'));
+ assert.match(css,/\.screenshot-link\{[^}]*aspect-ratio:1\.6/);
+});
+
+test('verified bilingual and Traditional Chinese pages are included in the Chinese filter',async()=>{
+ const fixes=JSON.parse(await readFile('research/distinctive-language-review.json','utf8')).fixes;
+ assert.equal(fixes.length,5);
+ for(const fix of fixes){
+  assert.equal(byId.get(fix.id).language,fix.to,fix.id);
+  assert.equal(filterByLanguage([byId.get(fix.id)],'zh').length,1,fix.id);
+  assert.ok(fix.evidence.length>30);assert.equal(new URL(fix.url).protocol,'https:');
+ }
 });

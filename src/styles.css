@@ -16,3 +16,5 @@
 
 /* Keep explicit filter resets stable while content-visibility recalculates cards. */
 html{overflow-anchor:none}
+/* Show the complete reviewed frame in design notes; gallery thumbnails stay cropped. */
+.detail-image{aspect-ratio:auto}.detail-image .screenshot{height:auto;object-fit:contain}

@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-10-05",
+  "scope": "Existing 124-case batch; conservative corrections based on current target-page language, not translated gallery notes or creator location.",
+  "fixes": [
+    {
+      "id": "distinct-zh-innovext",
+      "from": "en",
+      "to": "zh-TW",
+      "url": "https://www.innovext.com/",
+      "evidence": "Current page has Traditional Chinese navigation, a selected 繁中 language label, and substantial Traditional Chinese company/services text. Manifest targetCheck already records htmlLang=zh-hant. English hero typography does not make the page English-only.",
+      "method": "Current public page read via web"
+    },
+    {
+      "id": "distinct-zh-creative-expo-taiwan",
+      "from": "en",
+      "to": "zh-TW",
+      "url": "https://creativexpo.tw/zh-TW",
+      "evidence": "Exact linked /zh-TW page has Traditional Chinese navigation, exhibit information, opening-hours text and news. Manifest targetCheck records htmlLang=zh-Hant.",
+      "method": "Current public page read via web"
+    },
+    {
+      "id": "distinct-zh-sitcon-2026-jam-the-chaos",
+      "from": "en",
+      "to": "zh-TW",
+      "url": "https://sitcon.org/2026/",
+      "evidence": "Current event page contains extensive Traditional Chinese theme, registration, agenda and navigation text. Manifest targetCheck records htmlLang=zh-TW. The English event title in its screenshot does not negate Chinese content.",
+      "method": "Current public page read via web"
+    },
+    {
+      "id": "distinct-zh-harry-design-studio",
+      "from": "en",
+      "to": "zh-TW",
+      "url": "https://noeinoi.com/",
+      "evidence": "Current initial browser accessibility state has Chinese functional UI: theme, sound and language switchers, send-email, favorites and back-to-top. Current title is bilingual and manifest targetCheck records htmlLang=zh-Hant. Subsequent loaded-body inspection hit browser protocol timeouts, so no fully rendered body or interaction claim is made.",
+      "method": "Current cloud browser initial UI plus manifest language evidence",
+      "limitation": "Full loaded body not reverified after browser timeouts"
+    },
+    {
+      "id": "distinct-zh-microwave-fest-2025",
+      "from": "en",
+      "to": "zh-TW",
+      "url": "https://www.microwavefest.net/",
+      "evidence": "Current page is explicitly bilingual: its programme schedule repeats headings, event names, venue names and dates in English and Traditional Chinese. Chinese language filtering should include this bilingual website even though the screenshot hero is English.",
+      "method": "Current public page read via web",
+      "limitation": "Source text includes WebGL fallback; existing accepted screenshot is a rendered 3D scene, not that fallback."
+    }
+  ],
+  "unchangedAfterReview": [
+    {
+      "id": "distinct-zh-studio-ming",
+      "reason": "Current page's primary UI and explanatory body are English; Taiwan location alone is not language evidence."
+    },
+    {
+      "id": "distinct-zh-ddd-pizza",
+      "reason": "Current body is English/Japanese; Chinese work names alone do not prove a Chinese-language interface."
+    },
+    {
+      "id": "distinct-zh-floating-point-art",
+      "reason": "English UI/body with bilingual project titles; left unchanged conservatively because main page language is English."
+    },
+    {
+      "id": "distinct-cn-shan-shui",
+      "reason": "Artwork subject and Chinese creator do not alone imply Chinese UI."
+    }
+  ]
+}

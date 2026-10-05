@@ -1,79 +1,22 @@
 // Curated website sources and original learning notes. Concept demos retain explicit provenance.
 export const cases = [
   {
-    "id": "distinct-persona-studio",
-    "name": "Persona Studio",
-    "url": "https://persona-studio.com",
-    "category": "设计工作室",
-    "subcategory": "studio-digital",
-    "language": "en",
-    "tags": [
-      "3D",
-      "城市场景",
-      "空间导航"
-    ],
-    "subtitle": "让工作室导航成为一座可以探索的微型城市",
-    "note": "夜色中的等距街区用亮黄色窗户勾勒建筑，WORK、ABOUT、SERVICES 和 CONTACT 分别落在不同楼宇上。右下角角色对话框补充指引，把传统栏目转成可识别的地点。",
-    "lesson": "把导航映射到具体空间，让浏览像一次探索。",
-    "sourceName": "Awwwards · 网站收录",
-    "sourceUrl": "https://www.awwwards.com/sites/persona-studio",
-    "isConcept": false
-  },
-  {
-    "id": "distinct-cn-del-pool-duck",
-    "name": "Del Wang · 池核鸭",
-    "url": "https://del.wang/about",
-    "sourceName": "Del Wang · 项目说明",
-    "sourceUrl": "https://del.wang/projects/explore/pool-duck",
+    "id": "distinct-cn-kalan-room",
+    "name": "Kalan’s Room",
+    "url": "https://room.kalan.dev/",
+    "sourceName": "Tikgame · 原作者作品介绍",
+    "sourceUrl": "https://tikgame.org/game/kalan-room/",
     "category": "个人网站",
     "subcategory": "personal-portfolio",
-    "language": "zh-CN",
-    "tags": [
-      "泳池空间",
-      "水面折射",
-      "黄色角色"
-    ],
-    "subtitle": "把个人介绍放进一池有水光的蓝色空间",
-    "note": "泳池方格同时覆盖地面和墙壁，透视线把画面围成一个可感知深度的空间。黄色小鸭与水泡打破重复网格，手写中文和签名浮在前景，顶部导航保持很轻。",
-    "lesson": "用一个可以记住的小场景表达个性，让介绍文案成为场景的一部分。",
-    "isConcept": false
-  },
-  {
-    "id": "distinct-ultragrid",
-    "name": "ULTRAGRID",
-    "url": "https://ultragrid.studio/",
-    "category": "个人网站",
-    "subcategory": "personal-maker",
     "language": "en",
     "tags": [
-      "3D",
-      "等距房间",
-      "物件叙事"
+      "房间剖面",
+      "物件入口",
+      "柔和材质"
     ],
-    "subtitle": "把个人作品集变成一间可探索的等距工作室",
-    "note": "等距视角的房间里，书桌、吉他、书架与植物共同呈现创作者的兴趣。橙色木家具串起场景，角落菜单和左下方的小画面补充浏览线索，让日常物件承担个人介绍。",
-    "lesson": "用与创作者相关的物件，把空间变成信息目录。",
-    "sourceName": "Awwwards · 网站收录",
-    "sourceUrl": "https://www.awwwards.com/sites/ultragrid",
-    "isConcept": false
-  },
-  {
-    "id": "distinct-zh-es-design",
-    "name": "ES Design",
-    "url": "https://e-s.tw",
-    "sourceName": "twdc · 台灣好網站",
-    "sourceUrl": "https://twdc.design/",
-    "category": "设计工作室",
-    "subcategory": "studio-digital",
-    "language": "zh-TW",
-    "tags": [
-      "拆解形体",
-      "透明材质",
-      "巨型标题"
-    ],
-    "subtitle": "将几何物件拆开，展示数字创作的玩心",
-    "note": "灰色画布上，透明半球分离成上下两半，黑色球体与十字形漂在中间。巨大的黑白标题向左压住画面，黄色下划线只强调一个词，文字与立体物件相互穿插。",
-    "lesson": "让材料、拆解和排版共同解释创作态度。",
+    "subtitle": "把个人经历收进一间可以探索的小房间",
+    "note": "木地板与两面墙构成清晰的房间剖面，书桌、吉他、画作和书架被标上小编号。浅绿家具与窗帘统一色调，导航和探索进度退到四周，让每件物品都像一段个人故事的入口。",
+    "lesson": "让物件承担内容导航，用熟悉的生活空间建立探索动机。",
     "isConcept": false
   },
   {
@@ -96,79 +39,60 @@ export const cases = [
     "isConcept": false
   },
   {
-    "id": "distinct-graffico-office",
-    "name": "Graffico Office",
-    "url": "https://office.graffico.it/",
-    "category": "设计工作室",
-    "subcategory": "studio-digital",
-    "language": "en",
-    "tags": [
-      "3D",
-      "可探索空间",
-      "操作引导"
-    ],
-    "subtitle": "把工作室介绍变成进入真实感办公室的邀请",
-    "note": "三维办公室以自然侧光呈现书架、桌椅与窗户，中央透明面板先说明移动和观察方式。红色进入按钮与低亮度背景形成明确对比，让复杂空间体验有清楚的起点。",
-    "lesson": "进入沉浸场景前，用最少步骤讲清操作方式。",
-    "sourceName": "Awwwards · 网站收录",
-    "sourceUrl": "https://www.awwwards.com/sites/graffico-office",
-    "isConcept": false
-  },
-  {
-    "id": "distinct-studio-k95-3",
-    "name": "Studio K95",
-    "url": "https://k95.it",
-    "category": "设计工作室",
-    "subcategory": "studio-brand",
-    "language": "it",
-    "tags": [
-      "3D",
-      "空间画廊",
-      "高饱和蓝"
-    ],
-    "subtitle": "让设计项目围绕访问者构成一间蓝色画廊",
-    "note": "高饱和蓝色空间里，不同尺寸的项目图像悬浮在前后景中。中央较大的封面建立焦点，两侧被裁切的画面暗示内容还向外延伸，顶部导航保持细小。",
-    "lesson": "用远近与裁切让作品目录产生空间感。",
-    "sourceName": "Awwwards · 网站收录",
-    "sourceUrl": "https://www.awwwards.com/sites/studio-k95-3",
-    "isConcept": false
-  },
-  {
-    "id": "distinct-code-precision",
-    "name": "Code Precision",
-    "url": "https://codeprecision.com",
-    "category": "设计工作室",
-    "subcategory": "studio-digital",
-    "language": "en",
-    "tags": [
-      "3D",
-      "分区界面",
-      "信号隐喻"
-    ],
-    "subtitle": "把抽象品牌信号变成可探索的球体",
-    "note": "深蓝与灰白两块倾斜背景分担品牌说明与项目入口，中央黑色球体连接两侧。右上角的小型扫描面板把抽象概念转成具体界面语言。",
-    "lesson": "让概念物体与实际导航共享同一套视觉规则。",
-    "sourceName": "Awwwards · 网站收录",
-    "sourceUrl": "https://www.awwwards.com/sites/code-precision",
-    "isConcept": false
-  },
-  {
-    "id": "exp-biomes",
-    "name": "Biomes",
-    "url": "https://demo.marpi.pl/biomes/",
+    "id": "distinct-a24",
+    "name": "A24 · 磁盘影展概念",
+    "url": "https://a24.raviklaassens.com/",
     "category": "创意设计",
     "subcategory": "creative-interactive",
     "language": "en",
     "tags": [
-      "WebGL",
-      "生成地形",
-      "3D"
+      "3D",
+      "磁盘画廊",
+      "电影档案"
     ],
-    "subtitle": "用可调参数构造一片颗粒化地貌",
-    "note": "低视角的蓝紫色地面上生长出多组圆润、带密集纹理的山丘，右上角窄控制面板提供参数入口。深色天空与明亮地表形成清楚层次，适合观察生成艺术如何用统一材质把变化多端的形态组织起来。",
-    "lesson": "用一致的材质与光线，让随机变化仍然有整体感。",
-    "sourceName": "Experiments with Google",
-    "sourceUrl": "https://experiments.withgoogle.com/collection/chrome",
+    "subtitle": "把电影目录重新想象成可观看的立体光盘",
+    "note": "电影画面被印在倾斜的光盘表面，几张盘片在浅色背景中前后重叠。细小片名与分类导航退到顶部，让物件的角度与遮挡关系承担主要的浏览暗示。",
+    "lesson": "以熟悉的实体媒介重组数字内容的索引方式。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/a24",
+    "isConcept": true
+  },
+  {
+    "id": "distinct-zh-microwave-fest-2025",
+    "name": "Microwave Festival 2025",
+    "url": "https://www.microwavefest.net/",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "文化艺术",
+    "subcategory": "culture-arts",
+    "language": "zh-TW",
+    "tags": [
+      "悬浮书页",
+      "荒漠场景",
+      "手写纹理"
+    ],
+    "subtitle": "把新媒体艺术节变成荒野中的一本悬浮书",
+    "note": "开阔地景里悬着一本撕贴质感的立体书，粗粝手写文字覆盖封面。天空、远山与书页建立前后层次，活动信息缩在左下角，顶部标题仍保持清晰。",
+    "lesson": "用一个可探索的空间物件承载活动主题，而不是把主视觉当平面海报。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-mam-com-vietnamese-feast",
+    "name": "Mâm Cơm – Vietnamese Feast",
+    "url": "https://the-family-rice-tray.vercel.app",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/mam-com-vietnamese-feast",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "餐桌叙事",
+      "传统纹样",
+      "滚动叙事"
+    ],
+    "subtitle": "把家庭餐桌故事装进红金色的文化画卷",
+    "note": "深红色画布上，金色龙纹占据右半边，左侧以高窄大字和简短说明引出餐桌主题。底部圆形菜品图标与黄色入口呼应，适合学习如何把文化图案、故事文字和选择入口组织在同一张画面里。",
+    "lesson": "让文化纹样服务于主题与操作层次。",
     "isConcept": false
   },
   {
@@ -191,6 +115,25 @@ export const cases = [
     "isConcept": false
   },
   {
+    "id": "distinct-lepopee-de-steven-dieu",
+    "name": "L'épopée de Steven Dieu",
+    "url": "https://stediconsulting.fr/",
+    "category": "个人网站",
+    "subcategory": "personal-maker",
+    "language": "fr",
+    "tags": [
+      "实验交互",
+      "游戏叙事",
+      "双路径导航"
+    ],
+    "subtitle": "让技术创作者的作品集成为一场可进入的冒险",
+    "note": "紫金色天空与森林前景搭建出游戏般的景观，标题和简短介绍集中在中央。下方同时提供游玩与直接查看项目两种按钮，让沉浸体验与高效查找并行。",
+    "lesson": "把创意浏览模式和直接获取信息的路径同时保留。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/lepopee-de-steven-dieu",
+    "isConcept": false
+  },
+  {
     "id": "distinct-zh-png-ltd",
     "name": "p.n.g.",
     "url": "https://png.ltd/",
@@ -210,22 +153,136 @@ export const cases = [
     "isConcept": false
   },
   {
-    "id": "distinct-wc-2026-data-portraits",
-    "name": "WC 2026 — Data Portraits",
-    "url": "https://wc26.bogachev.fr",
-    "sourceName": "Awwwards",
-    "sourceUrl": "https://www.awwwards.com/sites/wc-2026-data-portraits",
+    "id": "exp-stars",
+    "name": "100,000 Stars",
+    "url": "https://stars.chromeexperiments.com/",
     "category": "创意设计",
     "subcategory": "creative-interactive",
     "language": "en",
     "tags": [
-      "数据艺术",
-      "空间曲面",
-      "WebGL"
+      "WebGL",
+      "星空探索",
+      "尺度变化"
     ],
-    "subtitle": "让足球数据变成流动的彩色地形",
-    "note": "紫黑底色上方横贯一条多色折面带，白色标题与多色单词一起建立视觉层级。下方把淘汰赛和场次列成克制的目录，适合学习如何将强烈的数据艺术和明确的赛事索引并置。",
-    "lesson": "让数据的表现层与查找层各有明确位置。",
+    "subtitle": "把星际尺度的变化变成一条可以探索的路径",
+    "note": "密集星点从明亮中心向黑色外缘逐渐变稀，几乎整张画面都交给星空。左上角的导览入口与右侧细长缩放尺只占边缘，把视线留在空间深处；可学习复杂可视化如何用少量固定控件支持探索。银河整体视图为艺术化呈现。",
+    "lesson": "先建立空间的层次，再把导航收进稳定的边缘位置。",
+    "sourceName": "Experiments with Google · Google Data Arts Team",
+    "sourceUrl": "https://experiments.withgoogle.com/100000-stars",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-cn-del-pool-duck",
+    "name": "Del Wang · 池核鸭",
+    "url": "https://del.wang/about",
+    "sourceName": "Del Wang · 项目说明",
+    "sourceUrl": "https://del.wang/projects/explore/pool-duck",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "zh-CN",
+    "tags": [
+      "泳池空间",
+      "水面折射",
+      "黄色角色"
+    ],
+    "subtitle": "把个人介绍放进一池有水光的蓝色空间",
+    "note": "泳池方格同时覆盖地面和墙壁，透视线把画面围成一个可感知深度的空间。黄色小鸭与水泡打破重复网格，手写中文和签名浮在前景，顶部导航保持很轻。",
+    "lesson": "用一个可以记住的小场景表达个性，让介绍文案成为场景的一部分。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-studio-ka-il",
+    "name": "Studio KA IL",
+    "url": "https://kail.studio/",
+    "category": "设计工作室",
+    "subcategory": "studio-space",
+    "language": "en",
+    "tags": [
+      "3D",
+      "泡泡场景",
+      "柔和材质"
+    ],
+    "subtitle": "用漂浮泡泡承载充满想象力的角色画面",
+    "note": "蓝紫色空间里漂浮着多颗半透明球体，中央泡泡中放置小型角色与绿色座椅。圆润轮廓、柔光反射与细窄页头共同形成轻盈的观看氛围。",
+    "lesson": "用统一材质将角色、容器与背景组织成一个世界。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/studio-ka-il",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-format",
+    "name": "FORMAT",
+    "url": "https://format.obys.agency/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/format",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "版式实验",
+      "几何构成",
+      "实验交互"
+    ],
+    "subtitle": "把版式比例变成可以直接观看的几何关系",
+    "note": "黑色画布顶部以切角几何字形拼出标题，下方用大小不同的浅灰矩形、圆形和细小文字建立比例关系。视觉元素几乎都来自基础形状，适合学习如何把版式教学变成清晰的实验界面。",
+    "lesson": "让抽象设计规则通过具体形状显现。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-code-precision",
+    "name": "Code Precision",
+    "url": "https://codeprecision.com",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "en",
+    "tags": [
+      "3D",
+      "分区界面",
+      "信号隐喻"
+    ],
+    "subtitle": "把抽象品牌信号变成可探索的球体",
+    "note": "深蓝与灰白两块倾斜背景分担品牌说明与项目入口，中央黑色球体连接两侧。右上角的小型扫描面板把抽象概念转成具体界面语言。",
+    "lesson": "让概念物体与实际导航共享同一套视觉规则。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/code-precision",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-graffico-office",
+    "name": "Graffico Office",
+    "url": "https://office.graffico.it/",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "en",
+    "tags": [
+      "3D",
+      "可探索空间",
+      "操作引导"
+    ],
+    "subtitle": "把工作室介绍变成进入真实感办公室的邀请",
+    "note": "三维办公室以自然侧光呈现书架、桌椅与窗户，中央透明面板先说明移动和观察方式。红色进入按钮与低亮度背景形成明确对比，让复杂空间体验有清楚的起点。",
+    "lesson": "进入沉浸场景前，用最少步骤讲清操作方式。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/graffico-office",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-persona-studio",
+    "name": "Persona Studio",
+    "url": "https://persona-studio.com",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "en",
+    "tags": [
+      "3D",
+      "城市场景",
+      "空间导航"
+    ],
+    "subtitle": "让工作室导航成为一座可以探索的微型城市",
+    "note": "夜色中的等距街区用亮黄色窗户勾勒建筑，WORK、ABOUT、SERVICES 和 CONTACT 分别落在不同楼宇上。右下角角色对话框补充指引，把传统栏目转成可识别的地点。",
+    "lesson": "把导航映射到具体空间，让浏览像一次探索。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/persona-studio",
     "isConcept": false
   },
   {
@@ -400,6 +457,25 @@ export const cases = [
     "isConcept": false
   },
   {
+    "id": "distinct-studio-k95-3",
+    "name": "Studio K95",
+    "url": "https://k95.it",
+    "category": "设计工作室",
+    "subcategory": "studio-brand",
+    "language": "it",
+    "tags": [
+      "3D",
+      "空间画廊",
+      "高饱和蓝"
+    ],
+    "subtitle": "让设计项目围绕访问者构成一间蓝色画廊",
+    "note": "高饱和蓝色空间里，不同尺寸的项目图像悬浮在前后景中。中央较大的封面建立焦点，两侧被裁切的画面暗示内容还向外延伸，顶部导航保持细小。",
+    "lesson": "用远近与裁切让作品目录产生空间感。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/studio-k95-3",
+    "isConcept": false
+  },
+  {
     "id": "distinct-cipher",
     "name": "Cipher",
     "url": "https://cipher.tv/",
@@ -454,6 +530,25 @@ export const cases = [
     "lesson": "复杂装饰也应围绕身份信息与下一步操作组织。",
     "sourceName": "Awwwards · 网站收录",
     "sourceUrl": "https://www.awwwards.com/sites/silvia-malavasi-portfolio",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-ultragrid",
+    "name": "ULTRAGRID",
+    "url": "https://ultragrid.studio/",
+    "category": "个人网站",
+    "subcategory": "personal-maker",
+    "language": "en",
+    "tags": [
+      "3D",
+      "等距房间",
+      "物件叙事"
+    ],
+    "subtitle": "把个人作品集变成一间可探索的等距工作室",
+    "note": "等距视角的房间里，书桌、吉他、书架与植物共同呈现创作者的兴趣。橙色木家具串起场景，角落菜单和左下方的小画面补充浏览线索，让日常物件承担个人介绍。",
+    "lesson": "用与创作者相关的物件，把空间变成信息目录。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/ultragrid",
     "isConcept": false
   },
   {
@@ -514,6 +609,25 @@ export const cases = [
     "isConcept": false
   },
   {
+    "id": "distinct-omri-malka",
+    "name": "Omri Malka",
+    "url": "https://omrimalka.art",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "en",
+    "tags": [
+      "实验交互",
+      "满版拼贴",
+      "筛选导航"
+    ],
+    "subtitle": "把不同媒介的作品铺成一面可发现的创作墙",
+    "note": "海报、角色、摄影与抽象图形铺满整个画面，顶部小型筛选栏浮在图像之上。缩略图保持相邻接触，让色彩与形状之间的对照直接构成浏览节奏。",
+    "lesson": "用图像之间的邻接关系引导发现，而不是过早加入文字说明。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/omri-malka",
+    "isConcept": false
+  },
+  {
     "id": "distinct-px-push",
     "name": "PX PUSH",
     "url": "https://pxpush.com/",
@@ -530,6 +644,44 @@ export const cases = [
     "lesson": "用一致的图像质感把字标、文字与背景连接起来。",
     "sourceName": "Awwwards · 网站收录",
     "sourceUrl": "https://www.awwwards.com/sites/px-push",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-mensch",
+    "name": "MENSCH",
+    "url": "https://www.mensch.club/",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "en",
+    "tags": [
+      "WebGL",
+      "悬浮字形",
+      "天空场景"
+    ],
+    "subtitle": "让鲜红字形漂浮在柔和的云层之间",
+    "note": "明亮蓝天与淡粉色云层铺成背景，中央是一枚厚实的红色立体符号。标志与菜单缩在顶部两角，使主要形体有充足空间呈现轮廓与材质。",
+    "lesson": "把复杂品牌表达浓缩成一个有材质的空间符号。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/mensch",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-triptych-interactive",
+    "name": "Triptych Interactive",
+    "url": "https://3dv2.triptych.co/",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "en",
+    "tags": [
+      "3D",
+      "拱形画框",
+      "紫色网格"
+    ],
+    "subtitle": "把自然景色分割成三扇通向远方的拱门",
+    "note": "紫黑渐变与细网格构成背景，三扇圆拱形窗口共同显示远处的山谷。白色主张横跨窗口，底部景深与拱门边缘形成虚实对照。",
+    "lesson": "用重复窗口把大幅场景转化成有秩序的入口。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/triptych-interactive",
     "isConcept": false
   },
   {
@@ -552,6 +704,82 @@ export const cases = [
     "isConcept": false
   },
   {
+    "id": "distinct-van-lent",
+    "name": "Van Lent",
+    "url": "https://vanlent.dev",
+    "category": "个人网站",
+    "subcategory": "personal-maker",
+    "language": "en",
+    "tags": [
+      "3D",
+      "技术网格",
+      "线框物体"
+    ],
+    "subtitle": "让个人网站像一张正在展示形体的技术图纸",
+    "note": "浅灰网格覆盖全页，中心线框球体被方形标注区框住，四周分散放置身份、地点与联系信息。极低饱和度让线条密度与位置关系成为主要视觉语言。",
+    "lesson": "把技术标注的秩序转成作品集的信息结构。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/van-lent",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-y-vision",
+    "name": "Y-VISION",
+    "url": "https://y-vision.co.kr/",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "ko",
+    "tags": [
+      "3D",
+      "弧形画廊",
+      "韩文排字"
+    ],
+    "subtitle": "让项目封面沿弧线展开成一组立体展示牌",
+    "note": "黑底中央以大号韩文建立信息层级，下方多张项目封面倾斜排成弧形。白色胶囊标签与顶部圆角导航呼应，为立体图像提供清楚的分类线索。",
+    "lesson": "让空间排列服务于项目分组，而不只是增加装饰。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/y-vision",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-gil-huybrecht",
+    "name": "Gil Huybrecht",
+    "url": "https://gilhuybrecht.com/",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "en",
+    "tags": [
+      "WebGL",
+      "连续画廊",
+      "密集索引"
+    ],
+    "subtitle": "用连续的作品图带组织设计师的项目档案",
+    "note": "页顶用细小文字分列姓名、服务与获奖信息，下方项目图像构成两条连续横带。不同大小的封面保留各自比例，黑色空白把元信息与作品浏览区分开。",
+    "lesson": "在作品密集时，先稳定元信息的位置与阅读层级。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/gil-huybrecht",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-sasha-martynchuk",
+    "name": "Sasha Martynchuk",
+    "url": "https://www.sashamartynchuk.com/",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "en",
+    "tags": [
+      "WebGL",
+      "曲面作品墙",
+      "镜面层次"
+    ],
+    "subtitle": "把产品设计作品展示成包围视野的一面屏幕墙",
+    "note": "多张产品界面排列在弯曲的大幅画面中，下部的暗色反射延伸了空间深度。巨大的职业标题压在前景，让专业身份与真实作品共同构成第一印象。",
+    "lesson": "把作品集合设计成一个整体场景，再叠加身份信息。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/sasha-martynchuk",
+    "isConcept": false
+  },
+  {
     "id": "distinct-loehx-com",
     "name": "loehx.com",
     "url": "https://loehx.com/",
@@ -571,6 +799,101 @@ export const cases = [
     "isConcept": false
   },
   {
+    "id": "distinct-ree-b-handheld-portfolio",
+    "name": "ree|b. Handheld Portfolio",
+    "url": "https://areebali.com/",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "en",
+    "tags": [
+      "实验交互",
+      "设备隐喻",
+      "线稿叙事"
+    ],
+    "subtitle": "以一台手持设备的设计草图开启个人作品集",
+    "note": "手持播放器的线稿以斜向近景铺满页面，屏幕、按键与接口被画在同一张带手写注释的纸上。轻微景深让草图有实体感，形成从物件进入数字内容的提示。",
+    "lesson": "用实体产品的结构为个人作品集建立可理解的隐喻。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/ree-b-handheld-portfolio",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-jacques-paris-agence-a-impact-positif",
+    "name": "Jacques Paris - Agence à impact positif",
+    "url": "https://www.agencejacquesparis.fr/",
+    "category": "设计工作室",
+    "subcategory": "studio-brand",
+    "language": "fr",
+    "tags": [
+      "滚动叙事",
+      "手绘街区",
+      "插画场景"
+    ],
+    "subtitle": "让品牌介绍从一座手绘街区中展开",
+    "note": "蓝绿线稿勾勒房屋、街道、树木与高架列车，中央白色字标浮在整幅插画前。不同方向的道路与建筑把场景组织成可继续探索的城市切片。",
+    "lesson": "用场景中的路线与地标为故事建立方向。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/jacques-paris-agence-a-impact-positif",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-nexstudio",
+    "name": "NexStudio",
+    "url": "https://nexstudio.tech",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "en",
+    "tags": [
+      "3D",
+      "金属手势",
+      "超大排字"
+    ],
+    "subtitle": "让镜面手势从巨大文字中伸出来",
+    "note": "三行粗黑文字几乎铺满浅灰页面，中央的镜面手势遮住部分字形，冷暖反光为黑白结构带来变化。页顶的小号导航避免与主视觉争抢重量。",
+    "lesson": "把实体造型与文字相互遮挡，建立有记忆点的层次。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/nexstudio",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-benjamin-hoang",
+    "name": "Benjamin Hoang",
+    "url": "https://benjamincreative.me/",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "en",
+    "tags": [
+      "3D",
+      "月面场景",
+      "黑白影像"
+    ],
+    "subtitle": "把个人介绍放在低照度的月面景观上",
+    "note": "黑色星点背景与粗糙地貌形成深远空间，一张黑白个人影像与白色介绍并排浮在前景。下沿突然出现的橙色区域提示内容将进入下一段，形成鲜明节奏。",
+    "lesson": "以安静的场景托住身份信息，再用色块提示内容转折。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/benjamin-hoang",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-kott-studio-the-impossible-one",
+    "name": "Kott Studio The Impossible One",
+    "url": "https://kott.studio",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "en",
+    "tags": [
+      "3D",
+      "视觉错觉",
+      "字形融合"
+    ],
+    "subtitle": "让不可能三角成为品牌主张中的一个字母",
+    "note": "浅色页面中央，一枚黑色不可能三角嵌入大号单词，蓝色字母与黑色主体拉开层级。柔和投影增加物体的实体感，也强化了几何结构与文字的冲突。",
+    "lesson": "让核心概念直接进入字形结构，而不是单独摆放插图。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/kott-studio-the-impossible-one",
+    "isConcept": false
+  },
+  {
     "id": "distinct-ai-garage-by-bryan-oh",
     "name": "AI Garage by Bryan Oh",
     "url": "https://bryangarage.dev/",
@@ -587,6 +910,44 @@ export const cases = [
     "lesson": "让作品集入口借用创作者熟悉的工作环境。",
     "sourceName": "Awwwards · 网站收录",
     "sourceUrl": "https://www.awwwards.com/sites/ai-garage-by-bryan-oh",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-josh-goldsmith-director-ep",
+    "name": "Josh Goldsmith - Director & EP",
+    "url": "https://josh-goldsmith.com/",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "en",
+    "tags": [
+      "3D",
+      "影像立方体",
+      "空间轮播"
+    ],
+    "subtitle": "把导演作品展示在漂浮的影像立方体上",
+    "note": "模糊的暖灰背景中央，一枚立方体的两个可见面播放不同影像画面。下方细小箭头与页顶导航保持克制，让观看从空间物体本身开始。",
+    "lesson": "通过展示载体的形状变化，让影像目录获得新的浏览方式。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/josh-goldsmith-director-ep",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zainab-kabira-portfolio-2026",
+    "name": "Zainab Kabira – Portfolio 2026",
+    "url": "https://zainabkabira.com/",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "en",
+    "tags": [
+      "3D",
+      "播放器隐喻",
+      "天空插画"
+    ],
+    "subtitle": "让个人网站以一台小型播放器发出邀请",
+    "note": "浅蓝天空、白色云朵与条纹太阳构成轻松背景，金属质感的小型播放器嵌在大号衬线标题之间。页顶圆角导航保持轻巧，把个人介绍变成一段可以开始的体验。",
+    "lesson": "把自我介绍的入口设计成一个可识别的物件。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/zainab-kabira-portfolio-2026",
     "isConcept": false
   },
   {
@@ -739,6 +1100,196 @@ export const cases = [
     "lesson": "用一个鲜明的抽象造型建立个人作品集的识别点。",
     "sourceName": "Awwwards · 网站收录",
     "sourceUrl": "https://www.awwwards.com/sites/ricardo-chance-portfolio",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-3dyco",
+    "name": "3DYCO",
+    "url": "https://www.3dyco.com/",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "en",
+    "tags": [
+      "3D",
+      "金属造型",
+      "哥特边框"
+    ],
+    "subtitle": "让尖刺金属雕塑成为作品集的视觉宣言",
+    "note": "镜面金属尖刺造型占据右侧，左下角的窄体项目导航与细线装饰边框形成冷峻对照。黑色背景保留反光边缘，让材质与轮廓成为最先被感知的信息。",
+    "lesson": "用强烈的材质个性统一主视觉与导航字体。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/3dyco",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-acid-crunch",
+    "name": "Acid Crunch",
+    "url": "https://acid-crunch.com/",
+    "category": "设计工作室",
+    "subcategory": "studio-space",
+    "language": "en",
+    "tags": [
+      "3D",
+      "强烈光色",
+      "幻想场景"
+    ],
+    "subtitle": "用金属角色与高饱和云团构造超现实创作世界",
+    "note": "红紫色云团几乎填满全屏，前景的镜面角色反射出蓝色光泽。少量细字与边角标记退居次要位置，让材质、光线和空间成为工作室的主要表达。",
+    "lesson": "让不同材质在统一光色下形成完整的视觉世界。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/acid-crunch",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-craft-engineered",
+    "name": "Craft, engineered.",
+    "url": "https://craft.wild.as/",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "en",
+    "tags": [
+      "实验交互",
+      "像素纹理",
+      "技术排字"
+    ],
+    "subtitle": "把数字像素排成有方向感的色彩流场",
+    "note": "白底页头用紧凑排字并置设计与技术定位，下方的蓝、黄、黑色像素沿斜向聚合。整块图像既像数据可视化，也像被放大的编织材料，形成清晰的媒介对照。",
+    "lesson": "用媒介的颗粒结构表达设计与工程之间的关系。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/craft-engineered",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-tolis-c",
+    "name": "Tolis C.",
+    "url": "https://tol.is",
+    "category": "个人网站",
+    "subcategory": "personal-maker",
+    "language": "en",
+    "tags": [
+      "WebGL",
+      "粒子云",
+      "线条实验"
+    ],
+    "subtitle": "以并置的粒子与曲线展示代码中的视觉可能",
+    "note": "黑色画面中，细碎白点组成起伏云团，右侧连续白线延续相似的波动方向。标题保持微小，把视线集中到两种绘图语言的差异。",
+    "lesson": "将同一形态用不同视觉规则表达，可以突出实验过程。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/tolis-c",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-creativeapproa-ch",
+    "name": "creativeapproa.ch",
+    "url": "https://creativeapproa.ch",
+    "category": "设计工作室",
+    "subcategory": "studio-brand",
+    "language": "en",
+    "tags": [
+      "实验交互",
+      "图像集群",
+      "密集索引"
+    ],
+    "subtitle": "让设计作品聚成一团可探索的图像档案",
+    "note": "大量不同尺寸的海报与图像在黑底中交错聚集，两侧以细小列表补充项目线索。中心密集、边缘疏散的结构让作品集合呈现有机形态。",
+    "lesson": "让档案的整体轮廓也传达创作方法。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/creativeapproa-ch",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-parallel-universe",
+    "name": "Parallel Universe",
+    "url": "https://paralleluniverse.com.ua/en/",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "uk",
+    "tags": [
+      "3D",
+      "机械世界",
+      "仪式入口"
+    ],
+    "subtitle": "用齿轮与入口提示构建通往平行世界的起点",
+    "note": "暗色场景中的金属齿轮大小错落，中央大齿轮包围进入提示。细微星点与低亮度材质让普通机械零件带上宇宙装置的感觉。",
+    "lesson": "让进入动作与场景中的核心物件发生关系。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/parallel-universe",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-blit-studio",
+    "name": "Blit Studio",
+    "url": "https://blit.studio/",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "en",
+    "tags": [
+      "实验交互",
+      "自由拼贴",
+      "艺术科技"
+    ],
+    "subtitle": "让工作室介绍像一张开放的创意工作台",
+    "note": "白色页面中，影像、雕塑切片、抽象线条和黑色小图标错落分布。大号字标与简短定位文案形成几个稳定锚点，其余项目自由穿插，保留发现的空间。",
+    "lesson": "在自由布局中保留少量固定锚点，帮助理解内容关系。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/blit-studio",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-valentin-gassend-portfolio",
+    "name": "Valentin Gassend Portfolio",
+    "url": "https://valentingassend.com/",
+    "category": "个人网站",
+    "subcategory": "personal-maker",
+    "language": "fr",
+    "tags": [
+      "实验交互",
+      "字标贴纸",
+      "绿色网格"
+    ],
+    "subtitle": "把自己的名字变成遍布画面的活跃贴纸",
+    "note": "淡粉网格上散布大量不同角度的小字标，中央黑绿组合的姓名保持最大尺寸。紫色心形符号与随机排列的小标记让理性的网格获得玩耍感。",
+    "lesson": "让一个身份元素反复变形，形成整站的互动语汇。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/valentin-gassend-portfolio",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-paul-dunbar-selected-work",
+    "name": "Paul Dunbar Selected Work",
+    "url": "https://studiodunbar.xyz/",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "en",
+    "tags": [
+      "实验交互",
+      "复古窗口",
+      "作品桌面"
+    ],
+    "subtitle": "把精选作品放进一张复古的多窗口桌面",
+    "note": "奶油色方格背景中漂浮着蓝色描边窗口，照片、视频封面、图标和标注共同组成工作桌面。不同尺寸窗口保留独立边界，使作品浏览像切换正在打开的内容。",
+    "lesson": "用熟悉的窗口结构组织不一样的作品媒介。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/paul-dunbar-selected-work",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-goboldtm-agency",
+    "name": "GOBOLD™ Agency",
+    "url": "https://gobold.live/",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "en",
+    "tags": [
+      "3D",
+      "暗红空间",
+      "发光文字"
+    ],
+    "subtitle": "用发光面板与透明结构制造数字工作室的空间感",
+    "note": "暗红色环境里，发光文字与人物影像被嵌入倾斜的立体结构。镜面边缘与红色光线成为画面的主要坐标，角落微小的控制元素延续仪表盘般的气质。",
+    "lesson": "在低照度场景中用发光边缘维持空间层次。",
+    "sourceName": "Awwwards · 网站收录",
+    "sourceUrl": "https://www.awwwards.com/sites/goboldtm-agency",
     "isConcept": false
   },
   {
@@ -914,6 +1465,26 @@ export const cases = [
     "gameType": "browser"
   },
   {
+    "id": "distinct-the-tie-break",
+    "name": "The Tie-break",
+    "url": "https://thetiebreak.merci-michel.com/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/the-tie-break",
+    "category": "游戏",
+    "subcategory": "games-browser",
+    "language": "en",
+    "tags": [
+      "品牌小游戏",
+      "球场网格",
+      "WebGL"
+    ],
+    "subtitle": "把网球场的线条叠在柔焦的品牌开场上",
+    "note": "蓝灰色球场影像被有意柔化，白色场地线横贯首屏，中央的衬线标题和小型开始按钮保持清晰。线条同时解释运动场地与界面边界，适合学习如何用少量符号把品牌活动转成游戏入口。",
+    "lesson": "让游戏规则中的空间线索进入界面构图。",
+    "isConcept": false,
+    "gameType": "browser"
+  },
+  {
     "id": "distinct-the-360deg-racing-studio",
     "name": "THE 360° RACING STUDIO",
     "url": "https://www.logitechg.com/en-gb/360-racing-studio",
@@ -1009,6 +1580,63 @@ export const cases = [
     "isConcept": false
   },
   {
+    "id": "distinct-singularity-1",
+    "name": "Singularity",
+    "url": "https://singularity.engl.design/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/singularity-1",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "de",
+    "tags": [
+      "知识叙事",
+      "透视光线",
+      "3D"
+    ],
+    "subtitle": "用向外发散的光线表现知识主题的张力",
+    "note": "蓝黑色背景里，细线、光点和矩形轮廓从中央向边缘伸展，巨大的白色德文标题保持稳定。明暗和透视把视线集中到中心，适合学习抽象技术议题如何借助空间方向建立观看节奏。",
+    "lesson": "让空间的运动方向和阅读中心保持一致。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-see-what-eye-see-simulator",
+    "name": "See What Eye See: Simulator",
+    "url": "https://www.seewhateyesee.org",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/see-what-eye-see-simulator",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "感知体验",
+      "室内场景",
+      "实验交互"
+    ],
+    "subtitle": "让室内场景成为感知差异的叙事起点",
+    "note": "昏暗的客厅里，座椅、台灯和角色保留低照度细节，画面中央用白色与粉红色短句建立注意力焦点。文字没有挤满环境，而是成为场景中的短暂提示，可学习如何让环境图像承载体验主题。",
+    "lesson": "把解释压缩为少量提示，让场景保留表达空间。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-money-in-check-a-novel-by-oscar-perez",
+    "name": "Money in Check",
+    "url": "https://moneyincheck.org/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/money-in-check-a-novel-by-oscar-perez",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "en",
+    "tags": [
+      "书籍叙事",
+      "棋子隐喻",
+      "3D"
+    ],
+    "subtitle": "让棋子穿过书名与纸面网格",
+    "note": "浅灰网格背景中，大号绿色衬线书名分成两行，一枚深色马形棋子直立在字母之间，纸币与小人物散布在边缘。现实物件与平面排版的穿插让小说宣传页有了空间张力，适合学习书籍主题如何转成视觉隐喻。",
+    "lesson": "选择能与标题发生关系的物件，而不只是配图。",
+    "isConcept": false
+  },
+  {
     "id": "distinct-astrodither",
     "name": "ASTRODITHER",
     "url": "https://astrodither.robertborghesi.is/",
@@ -1025,6 +1653,25 @@ export const cases = [
     "subtitle": "把一个球面藏进密集的彩色像素里",
     "note": "画面由整齐排列的细小圆点构成，中央黑白圆形轮廓向四周弯曲，边缘出现彩色摩尔纹。进入与开启声音的提示压在中心位置，适合学习如何把进入页本身也做成一件完整的实验图像。",
     "lesson": "让视觉效果在进入之前就表达作品的规则。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-wc-2026-data-portraits",
+    "name": "WC 2026 — Data Portraits",
+    "url": "https://wc26.bogachev.fr",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/wc-2026-data-portraits",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "数据艺术",
+      "空间曲面",
+      "WebGL"
+    ],
+    "subtitle": "让足球数据变成流动的彩色地形",
+    "note": "紫黑底色上方横贯一条多色折面带，白色标题与多色单词一起建立视觉层级。下方把淘汰赛和场次列成克制的目录，适合学习如何将强烈的数据艺术和明确的赛事索引并置。",
+    "lesson": "让数据的表现层与查找层各有明确位置。",
     "isConcept": false
   },
   {
@@ -1504,6 +2151,177 @@ export const cases = [
     "isConcept": false
   },
   {
+    "id": "distinct-where-the-shadow-fell",
+    "name": "Where the Shadow Fell",
+    "url": "https://eclipses.bogachev.fr/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/where-the-shadow-fell",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "天文可视化",
+      "时间地球",
+      "3D"
+    ],
+    "subtitle": "用一颗轻盈地球展示日食轨迹的时间线",
+    "note": "浅灰背景中，细线国界勾勒出半透明地球，一条深色弧带穿过球面，底部的大号年份成为时间锚点。右侧控件刻意弱化，适合学习如何用很少的颜色表现空间、路径与年代三个信息层次。",
+    "lesson": "让轨迹与时间保持最清楚的对照。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-anidachi",
+    "name": "Anidachi",
+    "url": "https://anidachi.com",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/anidachi",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "en",
+    "tags": [
+      "玩具化产品",
+      "同色空间",
+      "3D"
+    ],
+    "subtitle": "把蓝色电子玩具放进同色的品牌世界",
+    "note": "明亮蓝色背景铺满重复的大号字形，一件圆润、有挂绳的蓝色装置悬在中央，白色按键和侧面细节提供材质对比。下方的巨大字标继续延伸同一种视觉语言，可学习产品造型如何影响整页的字形和配色。",
+    "lesson": "让界面的形状与产品自身的造型互相呼应。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-unitree-go2-ai-robots",
+    "name": "Unitree Go2 — AI Robots",
+    "url": "https://ai-robots.apps.mdxpreview.xyz/unitree-go2",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/unitree-go2-ai-robots",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "en",
+    "tags": [
+      "产品预览",
+      "机械角色",
+      "3D"
+    ],
+    "subtitle": "用跃起的机器狗说明产品的动作与结构",
+    "note": "这是设计方公开展示的产品页面预览。四足机器人悬在庭院场景中，头部、关节与脚端的细节成为视觉中心，产品名称在上方而说明压在下方暗部。可学习如何利用运动姿态同时表现机械结构和使用场景。",
+    "lesson": "选择能同时解释结构与能力的产品姿态。",
+    "isConcept": true
+  },
+  {
+    "id": "distinct-mosbys-files",
+    "name": "Mosby's Files",
+    "url": "https://www.mosbyfiles.com/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/mosbys-files",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "档案夹导航",
+      "建筑档案",
+      "实验交互"
+    ],
+    "subtitle": "把建筑史目录做成一叠彩色档案夹",
+    "note": "黑色页面上，蓝、红、绿、黄的文件夹标签错位堆叠，每个建筑师名称都占据一个可辨认的入口。上方白色高窄标题保留清楚的总主题，可学习如何把分类结构转换成有触感的界面隐喻。",
+    "lesson": "让目录的组织方式本身也成为视觉设计。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-world-cup-2026-simplified",
+    "name": "World Cup 2026, simplified.",
+    "url": "https://sheets.works/data-viz/world-cup-2026/index.html",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/world-cup-2026-simplified",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "赛事图谱",
+      "象征物",
+      "3D"
+    ],
+    "subtitle": "用一座圆润奖杯作为赛事图谱的起点",
+    "note": "奶白色空间中央摆放简化造型的金色奖杯，粗黑标题从物体后方横穿页面。画面先集中在单个象征物上，其他入口缩得很小，适合学习数据型专题如何在复杂信息之前建立一个清楚的视觉锚点。",
+    "lesson": "先用一个核心物件统一复杂主题。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-pp-neue-montreal",
+    "name": "PP Neue Montreal",
+    "url": "https://neuemontreal.com/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/pp-neue-montreal",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "字体标本",
+      "海报排版",
+      "实验交互"
+    ],
+    "subtitle": "让字体标本像一张鲜红城市海报",
+    "note": "明亮红色底上排出几乎占满屏幕的黑色字体名称，小块街景影像贴在上方细分区内。圆形字样和细线分栏补充印刷品气质，适合学习字体展示如何把字形本身当作图像来组织。",
+    "lesson": "让需要被观察的字形占据真正足够的尺度。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-damso",
+    "name": "Damso",
+    "url": "https://damso.com/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/damso",
+    "category": "品牌商业",
+    "subcategory": "brand-experience",
+    "language": "fr",
+    "tags": [
+      "悬浮陈列",
+      "商品舞台",
+      "3D"
+    ],
+    "subtitle": "把周边商品悬在一个几乎空白的舞台上",
+    "note": "白色背景中，帽子与上衣沿横向分散陈列，中央衣服较大，两侧物件退到画面边缘。底部的黑色圆形控制器形成稳定的操作焦点，可学习如何借助留白与尺度差替代常见的商品卡片。",
+    "lesson": "用空间陈列关系代替密集的商品网格。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-hearst-exhibit-2026",
+    "name": "Hearst Exhibit 2026",
+    "url": "https://www.hollywoodexhibit2026.com",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/hearst-exhibit-2026",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "摄影展览",
+      "空间画廊",
+      "WebGL"
+    ],
+    "subtitle": "让摄影展的影像碎片在黑色空间里展开",
+    "note": "多张人像与场景照片以不同角度悬在黑色画布中，近处照片切入右下角，远处小图则向中央聚拢。大小、倾斜与裁切形成观看距离，适合学习如何将展览目录组织为一个可探索的视觉空间。",
+    "lesson": "用距离感和留白连接独立影像。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-21-hrs-on-the-moon",
+    "name": "21 Hrs On The Moon",
+    "url": "https://www.21hrs.space/",
+    "sourceName": "Awwwards",
+    "sourceUrl": "https://www.awwwards.com/sites/21-hrs-on-the-moon",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "航天故事",
+      "月面场景",
+      "3D"
+    ],
+    "subtitle": "从月球地平线开始一段航天叙事",
+    "note": "黑色星空中，月面弧线从下方升起，银灰色巨大标题落在地平线上方。任务、年份和滚动入口被组织在细线边框内，适合学习如何把航天视觉里的仪器感转成网页的信息结构。",
+    "lesson": "用场景轮廓和轻量边框共同组织叙事入口。",
+    "isConcept": false
+  },
+  {
     "id": "distinct-zh-campaign",
     "name": "緣滅雙十一",
     "url": "https://1111.rethinktw.org",
@@ -1656,6 +2474,25 @@ export const cases = [
     "isConcept": false
   },
   {
+    "id": "distinct-art-citizen-dj",
+    "name": "Citizen DJ · Inventing Entertainment",
+    "url": "https://citizen-dj.labs.loc.gov/loc-edison/explore/",
+    "sourceName": "美国国会图书馆 · 官方项目",
+    "sourceUrl": "https://citizen-dj.labs.loc.gov/",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "声音地图",
+      "频谱矩阵",
+      "资料可视化"
+    ],
+    "subtitle": "把声音档案编排成可探索的频谱织物",
+    "note": "黑底画布由长短不同的频谱小块排成密集竖列，颜色从绿过渡到蓝紫；红框标出当前采样位置。顶部保留集合与模式切换，底部显示所选录音标题，让抽象纹理始终能回到具体资料。",
+    "lesson": "为抽象数据保留清晰的选中反馈与来源详情，探索感才不会牺牲可理解性。",
+    "isConcept": false
+  },
+  {
     "id": "distinct-art-earth-wind",
     "name": "Earth · 流动地球",
     "url": "https://earth.nullschool.net/zh-cn/",
@@ -1751,6 +2588,44 @@ export const cases = [
     "isConcept": false
   },
   {
+    "id": "distinct-art-form-follows-function",
+    "name": "Form Follows Function",
+    "url": "https://fff.cmiscm.com/",
+    "sourceName": "Jongmin Kim · 官方作品",
+    "sourceUrl": "https://fff.cmiscm.com/",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "扇形目录",
+      "海报卡片",
+      "空间导航"
+    ],
+    "subtitle": "把实验目录排成一副展开的彩色纸牌",
+    "note": "彩色海报卡片沿弧线依次展开，中央紫色卡片最大且保持竖直，两侧逐渐倾斜并被画面边缘裁切。大号衬线标题与编号统一卡片结构，白色背景和极少的导航把注意力集中在这组立体化目录。",
+    "lesson": "让列表获得连续的空间秩序，颜色与角度就能共同提示当前焦点和相邻内容。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-art-mikutap",
+    "name": "Mikutap",
+    "url": "https://aidn.jp/mikutap/",
+    "sourceName": "daniwell · 官方作品",
+    "sourceUrl": "https://aidn.jp/mikutap/",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "几何画布",
+      "高彩度碰撞",
+      "即时视听"
+    ],
+    "subtitle": "用按键把几何图形叠成一张即时海报",
+    "note": "浅青底色上，深青横条重复排列，中央的粉红多边形与浅桃圆点形成高彩度对比；巨大的深灰折线从边缘穿过画面。界面提示几乎退场，按键触发的简单形状叠在一起，构成鲜明而直接的视觉反馈。",
+    "lesson": "让每次输入对应清楚的图形语汇，叠加后也能保持色彩与形状的可读性。",
+    "isConcept": false
+  },
+  {
     "id": "distinct-art-texter",
     "name": "Texter · Draw with Words",
     "url": "https://tholman.com/texter/",
@@ -1767,6 +2642,44 @@ export const cases = [
     "subtitle": "文字从段落里走出来，成为交叉的笔触",
     "note": "白色画布里，几道黑色英文沿斜线交叉，字母从细小逐渐放大，在中央形成近似结点的密集区。右上角把文字内容、字号和颜色收进紧凑控制面板，绘画结果占据大部分空间。",
     "lesson": "将文字作为可操作的视觉材料，参数面板应留在作品边缘。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-art-incredibox",
+    "name": "Incredibox · 试玩版",
+    "url": "https://www.incredibox.com/cn/demo/",
+    "sourceName": "Incredibox · 官方试玩",
+    "sourceUrl": "https://www.incredibox.com/demo/",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "zh-CN",
+    "tags": [
+      "角色化音轨",
+      "拖放创作",
+      "高饱和配色"
+    ],
+    "subtitle": "把混音控制器变成一排可装扮的角色",
+    "note": "七个并排角色拥有不同帽子、眼镜与鲜艳服装，下方两排配件图标对应同一套形象语言。已使用的图标转灰，角色上方的圆形进度与细小色条提供状态提示，把抽象的音轨组合变成直观的装扮过程。",
+    "lesson": "让声音参数拥有可辨认的角色外观，并用图标状态反馈帮助用户理解组合关系。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-art-touch-pianist",
+    "name": "Touch Pianist",
+    "url": "https://touchpianist.com/",
+    "sourceName": "Touch Pianist · 官方体验",
+    "sourceUrl": "https://touchpianist.com/",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "音符点阵",
+      "柔光背景",
+      "极简舞台"
+    ],
+    "subtitle": "让一串发光圆点承担音乐界面的全部表情",
+    "note": "深蓝绿背景被处理成模糊光斑，浅黄绿色圆点按高低错落的路径排列在下半屏，形成一条清楚的视觉节奏。除了顶部极小的曲目菜单，画面没有密集控件，留白让每个光点都成为独立焦点。",
+    "lesson": "当体验围绕节奏展开时，用少量有序元素代替复杂仪表，仍能建立强烈的参与感。",
     "isConcept": false
   },
   {
@@ -1910,7 +2823,7 @@ export const cases = [
     "sourceUrl": "https://twdc.design/",
     "category": "文化艺术",
     "subcategory": "culture-arts",
-    "language": "en",
+    "language": "zh-TW",
     "tags": [
       "聊天界面",
       "像素字标",
@@ -1938,6 +2851,25 @@ export const cases = [
     "subtitle": "让录音工作室成为一张可以播放的线描画",
     "note": "白底中央用细黑线画出音箱、麦克风、电脑和几只小角色，黄色只点亮标志与少量细节。播放三角形直接放在场景下方，联系信息则顺着一条音频线伸向右侧。",
     "lesson": "把功能入口画进品牌场景里，让操作和插画说同一种语言。",
+    "isConcept": false
+  },
+  {
+    "id": "distinct-zh-es-design",
+    "name": "ES Design",
+    "url": "https://e-s.tw",
+    "sourceName": "twdc · 台灣好網站",
+    "sourceUrl": "https://twdc.design/",
+    "category": "设计工作室",
+    "subcategory": "studio-digital",
+    "language": "zh-TW",
+    "tags": [
+      "拆解形体",
+      "透明材质",
+      "巨型标题"
+    ],
+    "subtitle": "将几何物件拆开，展示数字创作的玩心",
+    "note": "灰色画布上，透明半球分离成上下两半，黑色球体与十字形漂在中间。巨大的黑白标题向左压住画面，黄色下划线只强调一个词，文字与立体物件相互穿插。",
+    "lesson": "让材料、拆解和排版共同解释创作态度。",
     "isConcept": false
   },
   {
@@ -2006,7 +2938,7 @@ export const cases = [
     "sourceUrl": "https://twdc.design/",
     "category": "设计工作室",
     "subcategory": "studio-digital",
-    "language": "en",
+    "language": "zh-TW",
     "tags": [
       "几何切分",
       "薄荷绿",
@@ -2025,7 +2957,7 @@ export const cases = [
     "sourceUrl": "https://twdc.design/",
     "category": "个人网站",
     "subcategory": "personal-portfolio",
-    "language": "en",
+    "language": "zh-TW",
     "tags": [
       "像素字标",
       "粗框网格",
@@ -2094,25 +3026,6 @@ export const cases = [
     "isConcept": false
   },
   {
-    "id": "distinct-zh-microwave-fest-2025",
-    "name": "Microwave Festival 2025",
-    "url": "https://www.microwavefest.net/",
-    "sourceName": "twdc · 台灣好網站",
-    "sourceUrl": "https://twdc.design/",
-    "category": "文化艺术",
-    "subcategory": "culture-arts",
-    "language": "en",
-    "tags": [
-      "悬浮书页",
-      "荒漠场景",
-      "手写纹理"
-    ],
-    "subtitle": "把新媒体艺术节变成荒野中的一本悬浮书",
-    "note": "开阔地景里悬着一本撕贴质感的立体书，粗粝手写文字覆盖封面。天空、远山与书页建立前后层次，活动信息缩在左下角，顶部标题仍保持清晰。",
-    "lesson": "用一个可探索的空间物件承载活动主题，而不是把主视觉当平面海报。",
-    "isConcept": false
-  },
-  {
     "id": "distinct-zh-sitcon-2026-jam-the-chaos",
     "name": "SITCON 2026 Jam the Chaos",
     "url": "https://sitcon.org/2026/",
@@ -2120,7 +3033,7 @@ export const cases = [
     "sourceUrl": "https://twdc.design/",
     "category": "文化艺术",
     "subcategory": "culture-arts",
-    "language": "en",
+    "language": "zh-TW",
     "tags": [
       "轨迹线条",
       "漂浮几何",
@@ -2189,6 +3102,25 @@ export const cases = [
     "isConcept": false
   },
   {
+    "id": "distinct-cn-laynechen",
+    "name": "Layne Chen · Portfolio",
+    "url": "https://www.laynechen.com/",
+    "sourceName": "Layne Chen · 官方网站",
+    "sourceUrl": "https://www.laynechen.com/",
+    "category": "个人网站",
+    "subcategory": "personal-portfolio",
+    "language": "en",
+    "tags": [
+      "金属雕塑",
+      "反光材质",
+      "绿色光幕"
+    ],
+    "subtitle": "用一件金色悬浮雕塑展示创意开发的质感",
+    "note": "绿色光带像幕布般纵向铺开，中央金属形体以高光、凹陷和反射形成复杂表面。顶部半透明细栏收拢姓名与作品链接，大量空间让观看者专注于一个被充分塑造的对象。",
+    "lesson": "把技术能力浓缩为一个值得停留观看的物件，而不是罗列更多装饰。",
+    "isConcept": false
+  },
+  {
     "id": "distinct-cn-dunhuang-cave",
     "name": "数字敦煌 · 数字藏经洞",
     "url": "https://dlc.e-dunhuang.com/",
@@ -2224,6 +3156,25 @@ export const cases = [
     "lesson": "减少解释，让每一次输入都有鲜明反馈。",
     "sourceName": "Patatap · 项目官网",
     "sourceUrl": "https://patatap.com/",
+    "isConcept": false
+  },
+  {
+    "id": "exp-biomes",
+    "name": "Biomes",
+    "url": "https://demo.marpi.pl/biomes/",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "WebGL",
+      "生成地形",
+      "3D"
+    ],
+    "subtitle": "用可调参数构造一片颗粒化地貌",
+    "note": "低视角的蓝紫色地面上生长出多组圆润、带密集纹理的山丘，右上角窄控制面板提供参数入口。深色天空与明亮地表形成清楚层次，适合观察生成艺术如何用统一材质把变化多端的形态组织起来。",
+    "lesson": "用一致的材质与光线，让随机变化仍然有整体感。",
+    "sourceName": "Experiments with Google",
+    "sourceUrl": "https://experiments.withgoogle.com/collection/chrome",
     "isConcept": false
   },
   {
