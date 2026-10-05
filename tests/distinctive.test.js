@@ -24,8 +24,8 @@ test('creative expansion reports additional visible cases separately from the ba
  assert.equal(evidence.targetAdditional,300);
  assert.equal(evidence.approved.length,evidence.approvedCount);
  assert.ok(evidence.approvedCount>=300);
- assert.equal(cases.length,203+evidence.approvedCount);
- assert.equal(Object.keys(screenshotById).length,194+evidence.approvedCount);
+ assert.equal(cases.filter(c=>!c.id.startsWith('threeui-')).length,203+evidence.approvedCount);
+ assert.equal(Object.keys(screenshotById).filter(id=>!id.startsWith('threeui-')).length,194+evidence.approvedCount);
  assert.equal(filterByLanguage(evidence.approved.map(r=>r.case),'zh').length,evidence.approvedChineseCount);
  const hosts=new Set();
  for(const r of evidence.approved){

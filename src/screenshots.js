@@ -1,5 +1,235 @@
 // Locally stored, visually reviewed website screenshots. retrievedAt is not the capture date.
 export const screenshotById = {
+  "threeui-character-carousel": {
+    "src": "./assets/screenshots/threeui-character-carousel.webp",
+    "sourceUrl": "https://threeui.com/ui-elements/character-carousel",
+    "capturedUrl": "https://threeui.com/ui-elements/character-carousel?capture=preview",
+    "retrievedAt": "2026-10-05",
+    "capturedAt": "2026-10-05",
+    "captureProvider": "Chrome · cloud browser",
+    "width": 960,
+    "height": 540,
+    "bytes": 20260,
+    "sha256": "fa7f79a7d4f99d62e089d7be4fcf3b2f39e53db09e9ebd3095133648f5c97ad9",
+    "review": "approved",
+    "crop": [
+      0,
+      47,
+      1179,
+      710
+    ],
+    "originalSize": [
+      1179,
+      757
+    ]
+  },
+  "threeui-engraved-certificate": {
+    "src": "./assets/screenshots/threeui-engraved-certificate.webp",
+    "sourceUrl": "https://threeui.com/ui-elements/engraved-certificate",
+    "capturedUrl": "https://threeui.com/ui-elements/engraved-certificate?capture=preview",
+    "retrievedAt": "2026-10-05",
+    "capturedAt": "2026-10-05",
+    "captureProvider": "Chrome · cloud browser",
+    "width": 960,
+    "height": 540,
+    "bytes": 15936,
+    "sha256": "568e20e4a7f27b01a979e21fd10045cc5d0992fc676e78991ea8830d7047a121",
+    "review": "approved",
+    "crop": [
+      0,
+      47,
+      1179,
+      710
+    ],
+    "originalSize": [
+      1179,
+      757
+    ]
+  },
+  "threeui-performance-gauges": {
+    "src": "./assets/screenshots/threeui-performance-gauges.webp",
+    "sourceUrl": "https://threeui.com/css/performance-gauges",
+    "capturedUrl": "https://threeui.com/css/performance-gauges?capture=preview",
+    "retrievedAt": "2026-10-05",
+    "capturedAt": "2026-10-05",
+    "captureProvider": "Chrome · cloud browser",
+    "width": 960,
+    "height": 540,
+    "bytes": 13446,
+    "sha256": "4ba0b0b11721d5141cddcbdcbe410d6042e56a3eb84f3d36f815e8617d8f8418",
+    "review": "approved",
+    "crop": [
+      0,
+      47,
+      1179,
+      710
+    ],
+    "originalSize": [
+      1179,
+      757
+    ]
+  },
+  "threeui-typography-vortex": {
+    "src": "./assets/screenshots/threeui-typography-vortex.webp",
+    "sourceUrl": "https://threeui.com/text-animation/typography-vortex",
+    "capturedUrl": "https://threeui.com/text-animation/typography-vortex?capture=preview",
+    "retrievedAt": "2026-10-05",
+    "capturedAt": "2026-10-05",
+    "captureProvider": "Chrome · cloud browser",
+    "width": 960,
+    "height": 540,
+    "bytes": 37782,
+    "sha256": "826c74ba3d5c687a8d13624e54261fc902cc8ef4aafcdc05c6051ce7812279bf",
+    "review": "approved",
+    "crop": [
+      0,
+      47,
+      1179,
+      710
+    ],
+    "originalSize": [
+      1179,
+      757
+    ]
+  },
+  "threeui-globe-study": {
+    "src": "./assets/screenshots/threeui-globe-study.webp",
+    "sourceUrl": "https://threeui.com/text-animation/globe-study",
+    "capturedUrl": "https://threeui.com/text-animation/globe-study?capture=preview",
+    "retrievedAt": "2026-10-05",
+    "capturedAt": "2026-10-05",
+    "captureProvider": "Chrome · cloud browser",
+    "width": 960,
+    "height": 540,
+    "bytes": 23436,
+    "sha256": "3927c2594214f3294201c39a6148aed2492f2262f45584d945e4a1eb6146a81d",
+    "review": "approved",
+    "crop": [
+      0,
+      47,
+      1179,
+      710
+    ],
+    "originalSize": [
+      1179,
+      757
+    ]
+  },
+  "threeui-semantic-bloom": {
+    "src": "./assets/screenshots/threeui-semantic-bloom.webp",
+    "sourceUrl": "https://threeui.com/text-animation/semantic-bloom",
+    "capturedUrl": "https://threeui.com/text-animation/semantic-bloom?capture=preview",
+    "retrievedAt": "2026-10-05",
+    "capturedAt": "2026-10-05",
+    "captureProvider": "Chrome · cloud browser",
+    "width": 700,
+    "height": 450,
+    "bytes": 4450,
+    "sha256": "398256235a75e44155811a4f55e4b3cee256f4081cc063c3090436098a1b4c0e",
+    "review": "approved",
+    "crop": [
+      239,
+      153,
+      939,
+      603
+    ],
+    "originalSize": [
+      1179,
+      757
+    ]
+  },
+  "threeui-uplink-loader": {
+    "src": "./assets/screenshots/threeui-uplink-loader.webp",
+    "sourceUrl": "https://threeui.com/css/uplink-loader",
+    "capturedUrl": "https://threeui.com/css/uplink-loader?capture=preview",
+    "retrievedAt": "2026-10-05",
+    "capturedAt": "2026-10-05",
+    "captureProvider": "Chrome · cloud browser",
+    "width": 960,
+    "height": 540,
+    "bytes": 8978,
+    "sha256": "37fe2e7597f05d005e38ed32c8bc1e6d20654beeb74240bcb7c41f44b01efbd5",
+    "review": "approved",
+    "crop": [
+      0,
+      47,
+      1179,
+      710
+    ],
+    "originalSize": [
+      1179,
+      757
+    ]
+  },
+  "threeui-skeuomorphic-toggle": {
+    "src": "./assets/screenshots/threeui-skeuomorphic-toggle.webp",
+    "sourceUrl": "https://threeui.com/ui-elements/skeuomorphic-toggle",
+    "capturedUrl": "https://threeui.com/skeuomorphic-toggle--skeuomorphic-toggle",
+    "retrievedAt": "2026-10-05",
+    "capturedAt": "2026-10-05",
+    "captureProvider": "Chrome · cloud browser",
+    "width": 560,
+    "height": 380,
+    "bytes": 2692,
+    "sha256": "c04e5c46c648d1eaf7e1b8bc9b5256a1aec82f76582f627b1b1eae1c88572670",
+    "review": "approved",
+    "crop": [
+      309,
+      189,
+      869,
+      569
+    ],
+    "originalSize": [
+      1179,
+      757
+    ]
+  },
+  "threeui-animated-top-dock": {
+    "src": "./assets/screenshots/threeui-animated-top-dock.webp",
+    "sourceUrl": "https://threeui.com/css/animated-top-dock/sable",
+    "capturedUrl": "https://threeui.com/animated-top-dock--sable",
+    "retrievedAt": "2026-10-05",
+    "capturedAt": "2026-10-05",
+    "captureProvider": "Chrome · cloud browser",
+    "width": 700,
+    "height": 450,
+    "bytes": 3148,
+    "sha256": "b52684013a58f370bc95bcbb375c3f442bbc2ee3416ff94c3372de21d756b78a",
+    "review": "approved",
+    "crop": [
+      239,
+      0,
+      939,
+      450
+    ],
+    "originalSize": [
+      1179,
+      757
+    ]
+  },
+  "threeui-diagnostics-panel": {
+    "src": "./assets/screenshots/threeui-diagnostics-panel.webp",
+    "sourceUrl": "https://threeui.com/ui-elements/diagnostics-panel",
+    "capturedUrl": "https://threeui.com/diagnostics-panel--layers",
+    "retrievedAt": "2026-10-05",
+    "capturedAt": "2026-10-05",
+    "captureProvider": "Chrome · cloud browser",
+    "width": 560,
+    "height": 380,
+    "bytes": 2100,
+    "sha256": "af0249c5418098fcb2491e6661ff7656105cd3b834c18b8d8a4bc77b8b582900",
+    "review": "approved",
+    "crop": [
+      309,
+      189,
+      869,
+      569
+    ],
+    "originalSize": [
+      1179,
+      757
+    ]
+  },
   "linear": {
     "src": "./assets/screenshots/linear.webp",
     "retrievedAt": "2026-10-04",

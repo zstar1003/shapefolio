@@ -4,7 +4,7 @@
 
 ## 真实网站截图
 
-图库展示对应官网的真实浏览器截图，不以原创海报、生成图片或品牌介绍图代替。截图经第三方 Thum.io 或 Automattic mShots 服务获取并保存为本地图片，逐项来源记录见 `src/screenshots.js`；服务文档：https://www.thum.io/documentation/api/url ；mShots 项目：https://github.com/Automattic/mShots 。
+图库展示对应官网的真实浏览器截图，不以原创海报、生成图片或品牌介绍图代替。截图通过直接浏览器拍摄或第三方 Thum.io、Automattic mShots 服务获取并保存为本地图片，逐项来源记录见 `src/screenshots.js`；服务文档：https://www.thum.io/documentation/api/url ；mShots 项目：https://github.com/Automattic/mShots 。
 
 获取日期（retrievedAt）是本项目拿到图片的日期。截图服务可能返回缓存内容，不能将其视为已确认的截图拍摄日期。截图与当前官网可能不同；访问原站查看最新页面。无法获得合适截图时明确标注“截图待补充”。
 
@@ -589,3 +589,55 @@
 
 - Amy Winehouse 纪念网站：Valentina Pastushenko 的独立非营利项目，https://about-amy.com/ 。
 - J.R.R. Tolkien: The Life Story：Irina Kalina 的独立致敬页面，作者收录署名：https://onepagelove.com/jrr-tolkien-the-life-story 。
+
+
+## ThreeUI Community 概念组件（2026-10-05）
+
+新增 10 个公开 Community 组件家族，均明确标注为概念作品，不代表独立商业品牌官网。设计与创作署名：**ThreeUI / Meng To**。截图是公开运行预览的实际浏览器画面（部分裁去空白边缘），不是下载 ThreeUI 目录缩略图或预览视频；未复制模板源码或 Pro 内容。中文设计笔记为本项目原创的视觉观察。
+
+Community 代码与随代码分发的 ThreeUI 原创素材适用 MIT；保留 `Copyright (c) 2026 Meng To` 及下方完整许可文本。此说明不把 ThreeUI 全站素材、第三方商标或所有截图内容概括为 MIT。托管目录缩略图/视频不在其仓库 MIT 授权范围；第三方素材与字体仍适用各自权利说明。
+
+- 发现来源：https://threeui.com/browse?sort=recent
+- 使用条款：https://threeui.com/terms
+- 上游许可：https://github.com/MengTo/threeui/blob/main/LICENSE
+- 素材范围：https://github.com/MengTo/threeui/blob/main/ASSET-LICENSES.md
+- 第三方说明：https://github.com/MengTo/threeui/blob/main/THIRD_PARTY_NOTICES.md
+
+- Skeuomorphic Toggle · 开关组件概念 — https://threeui.com/ui-elements/skeuomorphic-toggle；实际截图页：https://threeui.com/skeuomorphic-toggle--skeuomorphic-toggle
+- Animated Top Dock · 导航组件概念 — https://threeui.com/css/animated-top-dock/sable；实际截图页：https://threeui.com/animated-top-dock--sable
+- Diagnostics Panel · 诊断组件概念 — https://threeui.com/ui-elements/diagnostics-panel；实际截图页：https://threeui.com/diagnostics-panel--layers
+- Typography Vortex · 字体实验概念 — https://threeui.com/text-animation/typography-vortex；实际截图页：https://threeui.com/text-animation/typography-vortex?capture=preview
+- Semantic Bloom · 文字造型概念 — https://threeui.com/text-animation/semantic-bloom；实际截图页：https://threeui.com/text-animation/semantic-bloom?capture=preview
+- Character Carousel · 卡片组件概念 — https://threeui.com/ui-elements/character-carousel；实际截图页：https://threeui.com/ui-elements/character-carousel?capture=preview
+- Uplink Loader · 加载组件概念 — https://threeui.com/css/uplink-loader；实际截图页：https://threeui.com/css/uplink-loader?capture=preview
+- Engraved Certificate · 证书组件概念 — https://threeui.com/ui-elements/engraved-certificate；实际截图页：https://threeui.com/ui-elements/engraved-certificate?capture=preview
+- Text Path Studies · 字体实验概念 — https://threeui.com/text-animation/globe-study；实际截图页：https://threeui.com/text-animation/globe-study?capture=preview
+- Performance Gauges · 仪表组件概念 — https://threeui.com/css/performance-gauges；实际截图页：https://threeui.com/css/performance-gauges?capture=preview
+
+仓库中另存许可副本：`research/THREEUI-LICENSE.txt`。
+
+### ThreeUI Community MIT License
+
+```text
+MIT License
+
+Copyright (c) 2026 Meng To
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```

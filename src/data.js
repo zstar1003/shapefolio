@@ -1,6 +1,216 @@
 // Curated website sources and original learning notes. Concept demos retain explicit provenance.
 export const cases = [
   {
+    "id": "threeui-character-carousel",
+    "name": "Character Carousel · 卡片组件概念",
+    "url": "https://threeui.com/ui-elements/character-carousel",
+    "sourceName": "ThreeUI · Community",
+    "sourceUrl": "https://threeui.com/ui-elements/character-carousel",
+    "creatorName": "Meng To",
+    "creatorSourceUrl": "https://github.com/MengTo/threeui",
+    "category": "创意设计",
+    "subcategory": "creative-system",
+    "language": "en",
+    "tags": [
+      "人物卡列",
+      "景深排列",
+      "纸质边框"
+    ],
+    "subtitle": "以尺度和清晰度差异突出卡片队列中的主角",
+    "note": "米色纹理背景上，人物肖像卡片沿左右方向排成带有纵深的队列。中央卡片最大且最清楚，浅色纸边、黑色姓名栏与橙色编号完整呈现；两侧卡片逐级缩小并降低对比度，让当前焦点和相邻内容的关系一眼可辨。",
+    "lesson": "用尺寸、遮挡和对比度共同表达卡片优先级，保留邻近内容的存在感。",
+    "isConcept": true
+  },
+  {
+    "id": "threeui-engraved-certificate",
+    "name": "Engraved Certificate · 证书组件概念",
+    "url": "https://threeui.com/ui-elements/engraved-certificate",
+    "sourceName": "ThreeUI · Community",
+    "sourceUrl": "https://threeui.com/ui-elements/engraved-certificate",
+    "creatorName": "Meng To",
+    "creatorSourceUrl": "https://github.com/MengTo/threeui",
+    "category": "创意设计",
+    "subcategory": "creative-system",
+    "language": "en",
+    "tags": [
+      "雕刻花纹",
+      "奶油纸面",
+      "中心章纹"
+    ],
+    "subtitle": "将细线雕刻的精密感收进一张安静的证书",
+    "note": "奶油色方形纸面以多重细线花边围出边框，中央的墨绿色圆形章纹由透明感曲面与密集弧线层层叠合。上下的小号字标签和下方的衬线标题沿同一中轴排列，大片空白衬托出纹样的精细程度与纸面的柔和质感。",
+    "lesson": "把复杂纹样限定在中心与边缘，让留白和轴线维持整体秩序。",
+    "isConcept": true
+  },
+  {
+    "id": "threeui-performance-gauges",
+    "name": "Performance Gauges · 仪表组件概念",
+    "url": "https://threeui.com/css/performance-gauges",
+    "sourceName": "ThreeUI · Community",
+    "sourceUrl": "https://threeui.com/css/performance-gauges",
+    "creatorName": "Meng To",
+    "creatorSourceUrl": "https://github.com/MengTo/threeui",
+    "category": "创意设计",
+    "subcategory": "creative-system",
+    "language": "en",
+    "tags": [
+      "橙色表盘",
+      "机械刻度",
+      "嵌套仪表"
+    ],
+    "subtitle": "把机械仪表的读数层次与材料细节带进界面",
+    "note": "橙色圆形表盘嵌在深色圆角底座中，外圈的密集齿纹、四角金属螺钉与表盘内侧阴影共同表现实体厚度。粗细不同的刻度围绕红色指针排列，下部另嵌一枚小温度表，右侧红色弧带又为读数增加一层范围提示。",
+    "lesson": "先建立主读数、辅助读数和范围提示的层级，再用材质细节强化仪表隐喻。",
+    "isConcept": true
+  },
+  {
+    "id": "threeui-typography-vortex",
+    "name": "Typography Vortex · 字体实验概念",
+    "url": "https://threeui.com/text-animation/typography-vortex",
+    "sourceName": "ThreeUI · Community",
+    "sourceUrl": "https://threeui.com/text-animation/typography-vortex",
+    "creatorName": "Meng To",
+    "creatorSourceUrl": "https://github.com/MengTo/threeui",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "同心字环",
+      "文字透视",
+      "灰阶深度"
+    ],
+    "subtitle": "让重复字句围出一条向画面深处延伸的通道",
+    "note": "灰白色英文短句沿一圈圈圆形路径排列，越靠近中心字号越小、间距越紧，外围字环则延伸到画面边界之外。不同字环的明暗与字距并不完全相同，黑色中央留白因此像一个入口，让纯文字构成具有纵深的视觉图形。",
+    "lesson": "重复同一文字材料时，通过尺度、密度和留白建立空间层次。",
+    "isConcept": true
+  },
+  {
+    "id": "threeui-globe-study",
+    "name": "Text Path Studies · 字体实验概念",
+    "url": "https://threeui.com/text-animation/globe-study",
+    "sourceName": "ThreeUI · Community",
+    "sourceUrl": "https://threeui.com/text-animation/globe-study",
+    "creatorName": "Meng To",
+    "creatorSourceUrl": "https://github.com/MengTo/threeui",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "字形塑形",
+      "六格研究",
+      "路径排字"
+    ],
+    "subtitle": "用六个并列样本比较文字如何成为空间材料",
+    "note": "深色页面以三列两行网格陈列六组字体造型：球体、结状标记、放射形、书页、卡片与布面。每格都把图形留在上半部，标题和简短说明置于下方，细分隔线与统一编号把变化丰富的字形实验组织成可比较的研究样本。",
+    "lesson": "展示系列实验时保持说明和版式一致，让观者把注意力放在变量差异上。",
+    "isConcept": true
+  },
+  {
+    "id": "threeui-semantic-bloom",
+    "name": "Semantic Bloom · 文字造型概念",
+    "url": "https://threeui.com/text-animation/semantic-bloom",
+    "sourceName": "ThreeUI · Community",
+    "sourceUrl": "https://threeui.com/text-animation/semantic-bloom",
+    "creatorName": "Meng To",
+    "creatorSourceUrl": "https://github.com/MengTo/threeui",
+    "category": "创意设计",
+    "subcategory": "creative-interactive",
+    "language": "en",
+    "tags": [
+      "字形遮叠",
+      "白色褶皱",
+      "黑底留白"
+    ],
+    "subtitle": "把简短单词与不规则褶皱体叠成一个视觉焦点",
+    "note": "大片黑色留白围绕中央的灰色大字，字母背后叠着一团明亮的白色褶皱形体。规则的无衬线笔画与不规则曲面互相遮挡，局部明暗又把两者区分开来，使极少的文字和形状也能形成鲜明的前后关系。",
+    "lesson": "用规则字形与有机形体的对照建立焦点，并保留足够空间让轮廓被看见。",
+    "isConcept": true
+  },
+  {
+    "id": "threeui-uplink-loader",
+    "name": "Uplink Loader · 加载组件概念",
+    "url": "https://threeui.com/css/uplink-loader",
+    "sourceName": "ThreeUI · Community",
+    "sourceUrl": "https://threeui.com/css/uplink-loader",
+    "creatorName": "Meng To",
+    "creatorSourceUrl": "https://github.com/MengTo/threeui",
+    "category": "创意设计",
+    "subcategory": "creative-system",
+    "language": "en",
+    "tags": [
+      "荧绿条栅",
+      "百分比标牌",
+      "瞄准刻度"
+    ],
+    "subtitle": "让加载进度拥有一套清楚的科幻仪表语言",
+    "note": "深色画面中央是一排倾斜的荧绿色条栅，已亮起与仍暗淡的区段形成明确分界。上方的切角标牌显示百分比，下方辅以状态小字，两侧对称分布准星、方框与短线，装饰细节始终围绕主要进度条展开。",
+    "lesson": "让数字、图形进度和状态说明分工清楚，再用同一视觉语言补充氛围。",
+    "isConcept": true
+  },
+  {
+    "id": "threeui-skeuomorphic-toggle",
+    "name": "Skeuomorphic Toggle · 开关组件概念",
+    "url": "https://threeui.com/ui-elements/skeuomorphic-toggle",
+    "sourceName": "ThreeUI · Community",
+    "sourceUrl": "https://threeui.com/ui-elements/skeuomorphic-toggle",
+    "creatorName": "Meng To",
+    "creatorSourceUrl": "https://github.com/MengTo/threeui",
+    "category": "创意设计",
+    "subcategory": "creative-system",
+    "language": "en",
+    "tags": [
+      "蓝光凹槽",
+      "金属滑块",
+      "细纹材质"
+    ],
+    "subtitle": "用凹槽与高光赋予小开关清晰的触感",
+    "note": "深蓝背景中央只放置一枚胶囊形开关，细密竖纹铺满蓝色凹槽，银白滑块以顶部高光和底部阴影表现厚度。外沿的双层细线与微弱蓝光共同勾勒边界，让体积很小的控件仍有明确的视觉重心。",
+    "lesson": "把材质细节集中在操作主体，以克制的光影建立可触摸感。",
+    "isConcept": true
+  },
+  {
+    "id": "threeui-animated-top-dock",
+    "name": "Animated Top Dock · 导航组件概念",
+    "url": "https://threeui.com/css/animated-top-dock/sable",
+    "sourceName": "ThreeUI · Community",
+    "sourceUrl": "https://threeui.com/css/animated-top-dock/sable",
+    "creatorName": "Meng To",
+    "creatorSourceUrl": "https://github.com/MengTo/threeui",
+    "category": "创意设计",
+    "subcategory": "creative-system",
+    "language": "en",
+    "tags": [
+      "顶部浮坞",
+      "单色选中态",
+      "紧凑分段"
+    ],
+    "subtitle": "让一条窄导航在深色页面上保持清楚的层次",
+    "note": "顶部中央的长条浮坞由多个圆角分段组成，每段都配有小图标与等宽字样。浅灰色选中项在近黑背景中形成唯一的高对比区域，其余项目保留暗边框与低亮度文字，左侧独立方形图标又为整组导航提供起点。",
+    "lesson": "先用明度明确当前项，再用统一间距和边框组织相邻入口。",
+    "isConcept": true
+  },
+  {
+    "id": "threeui-diagnostics-panel",
+    "name": "Diagnostics Panel · 诊断组件概念",
+    "url": "https://threeui.com/ui-elements/diagnostics-panel",
+    "sourceName": "ThreeUI · Community",
+    "sourceUrl": "https://threeui.com/ui-elements/diagnostics-panel",
+    "creatorName": "Meng To",
+    "creatorSourceUrl": "https://github.com/MengTo/threeui",
+    "category": "创意设计",
+    "subcategory": "creative-system",
+    "language": "en",
+    "tags": [
+      "等轴线框",
+      "层叠芯片",
+      "青绿轮廓"
+    ],
+    "subtitle": "用逐层变暗的线框描绘一个小型系统模型",
+    "note": "近黑的绿色画布中央，数层菱形线框沿垂直方向错开，构成等轴视角下的薄片堆叠。最上层轮廓更亮，中间嵌入一枚横向细纹矩形；下层逐渐隐入背景，仅凭线条强弱与层间距离便建立了轻量的空间感。",
+    "lesson": "用线条明度和层间距表现结构深度，避免小型状态图形过度复杂。",
+    "isConcept": true
+  },
+  {
     "id": "distinct-cn-kalan-room",
     "name": "Kalan’s Room",
     "url": "https://room.kalan.dev/",

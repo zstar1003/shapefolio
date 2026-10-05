@@ -1,0 +1,187 @@
+{
+  "source": "https://threeui.com/browse?sort=recent",
+  "reviewedAt": "2026-10-05",
+  "baseCommit": "f488196c8dfff34075c43ec190fdb5187091b66f",
+  "baseline": {
+    "records": 504,
+    "visible": 495,
+    "chinese": 105
+  },
+  "accepted": [
+    "threeui-character-carousel",
+    "threeui-engraved-certificate",
+    "threeui-performance-gauges",
+    "threeui-typography-vortex",
+    "threeui-globe-study",
+    "threeui-semantic-bloom",
+    "threeui-uplink-loader",
+    "threeui-skeuomorphic-toggle",
+    "threeui-animated-top-dock",
+    "threeui-diagnostics-panel"
+  ],
+  "entries": [
+    {
+      "id": "threeui-character-carousel",
+      "family": "character-carousel",
+      "sourceUrl": "https://threeui.com/ui-elements/character-carousel",
+      "capturedUrl": "https://threeui.com/ui-elements/character-carousel?capture=preview",
+      "isConcept": true,
+      "access": "Community",
+      "license": "MIT for Community code and included ThreeUI-authored assets; third-party notices retained. Hosted catalog thumbnails/videos not reused.",
+      "visualReview": "Approved actual rendered browser screenshot; no loading shell, blank frame, or error; original Chinese editorial notes.",
+      "interactionVerification": "Visual render inspected; full interaction flows not exhaustively tested."
+    },
+    {
+      "id": "threeui-engraved-certificate",
+      "family": "engraved-certificate",
+      "sourceUrl": "https://threeui.com/ui-elements/engraved-certificate",
+      "capturedUrl": "https://threeui.com/ui-elements/engraved-certificate?capture=preview",
+      "isConcept": true,
+      "access": "Community",
+      "license": "MIT for Community code and included ThreeUI-authored assets; third-party notices retained. Hosted catalog thumbnails/videos not reused.",
+      "visualReview": "Approved actual rendered browser screenshot; no loading shell, blank frame, or error; original Chinese editorial notes.",
+      "interactionVerification": "Visual render inspected; full interaction flows not exhaustively tested."
+    },
+    {
+      "id": "threeui-performance-gauges",
+      "family": "performance-gauges",
+      "sourceUrl": "https://threeui.com/css/performance-gauges",
+      "capturedUrl": "https://threeui.com/css/performance-gauges?capture=preview",
+      "isConcept": true,
+      "access": "Community",
+      "license": "MIT for Community code and included ThreeUI-authored assets; third-party notices retained. Hosted catalog thumbnails/videos not reused.",
+      "visualReview": "Approved actual rendered browser screenshot; no loading shell, blank frame, or error; original Chinese editorial notes.",
+      "interactionVerification": "Visual render inspected; full interaction flows not exhaustively tested."
+    },
+    {
+      "id": "threeui-typography-vortex",
+      "family": "typography-vortex",
+      "sourceUrl": "https://threeui.com/text-animation/typography-vortex",
+      "capturedUrl": "https://threeui.com/text-animation/typography-vortex?capture=preview",
+      "isConcept": true,
+      "access": "Community",
+      "license": "MIT for Community code and included ThreeUI-authored assets; third-party notices retained. Hosted catalog thumbnails/videos not reused.",
+      "visualReview": "Approved actual rendered browser screenshot; no loading shell, blank frame, or error; original Chinese editorial notes.",
+      "interactionVerification": "Visual render inspected; full interaction flows not exhaustively tested."
+    },
+    {
+      "id": "threeui-globe-study",
+      "family": "globe-study",
+      "sourceUrl": "https://threeui.com/text-animation/globe-study",
+      "capturedUrl": "https://threeui.com/text-animation/globe-study?capture=preview",
+      "isConcept": true,
+      "access": "Community",
+      "license": "MIT for Community code and included ThreeUI-authored assets; third-party notices retained. Hosted catalog thumbnails/videos not reused.",
+      "visualReview": "Approved actual rendered browser screenshot; no loading shell, blank frame, or error; original Chinese editorial notes.",
+      "interactionVerification": "Visual render inspected; full interaction flows not exhaustively tested."
+    },
+    {
+      "id": "threeui-semantic-bloom",
+      "family": "semantic-bloom",
+      "sourceUrl": "https://threeui.com/text-animation/semantic-bloom",
+      "capturedUrl": "https://threeui.com/text-animation/semantic-bloom?capture=preview",
+      "isConcept": true,
+      "access": "Community",
+      "license": "MIT for Community code and included ThreeUI-authored assets; third-party notices retained. Hosted catalog thumbnails/videos not reused.",
+      "visualReview": "Approved actual rendered browser screenshot; no loading shell, blank frame, or error; original Chinese editorial notes.",
+      "interactionVerification": "Visual render inspected; full interaction flows not exhaustively tested."
+    },
+    {
+      "id": "threeui-uplink-loader",
+      "family": "uplink-loader",
+      "sourceUrl": "https://threeui.com/css/uplink-loader",
+      "capturedUrl": "https://threeui.com/css/uplink-loader?capture=preview",
+      "isConcept": true,
+      "access": "Community",
+      "license": "MIT for Community code and included ThreeUI-authored assets; third-party notices retained. Hosted catalog thumbnails/videos not reused.",
+      "visualReview": "Approved actual rendered browser screenshot; no loading shell, blank frame, or error; original Chinese editorial notes.",
+      "interactionVerification": "Visual render inspected; full interaction flows not exhaustively tested."
+    },
+    {
+      "id": "threeui-skeuomorphic-toggle",
+      "family": "skeuomorphic-toggle",
+      "sourceUrl": "https://threeui.com/ui-elements/skeuomorphic-toggle",
+      "capturedUrl": "https://threeui.com/skeuomorphic-toggle--skeuomorphic-toggle",
+      "isConcept": true,
+      "access": "Community",
+      "license": "MIT for Community code and included ThreeUI-authored assets; third-party notices retained. Hosted catalog thumbnails/videos not reused.",
+      "visualReview": "Approved actual rendered browser screenshot; no loading shell, blank frame, or error; original Chinese editorial notes.",
+      "interactionVerification": "Visual render inspected; full interaction flows not exhaustively tested."
+    },
+    {
+      "id": "threeui-animated-top-dock",
+      "family": "animated-top-dock",
+      "sourceUrl": "https://threeui.com/css/animated-top-dock/sable",
+      "capturedUrl": "https://threeui.com/animated-top-dock--sable",
+      "isConcept": true,
+      "access": "Community",
+      "license": "MIT for Community code and included ThreeUI-authored assets; third-party notices retained. Hosted catalog thumbnails/videos not reused.",
+      "visualReview": "Approved actual rendered browser screenshot; no loading shell, blank frame, or error; original Chinese editorial notes.",
+      "interactionVerification": "Visual render inspected; full interaction flows not exhaustively tested."
+    },
+    {
+      "id": "threeui-diagnostics-panel",
+      "family": "diagnostics-panel",
+      "sourceUrl": "https://threeui.com/ui-elements/diagnostics-panel",
+      "capturedUrl": "https://threeui.com/diagnostics-panel--layers",
+      "isConcept": true,
+      "access": "Community",
+      "license": "MIT for Community code and included ThreeUI-authored assets; third-party notices retained. Hosted catalog thumbnails/videos not reused.",
+      "visualReview": "Approved actual rendered browser screenshot; no loading shell, blank frame, or error; original Chinese editorial notes.",
+      "interactionVerification": "Visual render inspected; full interaction flows not exhaustively tested."
+    }
+  ],
+  "excluded": [
+    {
+      "id": "threeui-kibori",
+      "reason": "Loader did not complete; repository asset license not independently matched."
+    },
+    {
+      "id": "threeui-sublevel-studio",
+      "reason": "Loader did not complete; repository asset license not independently matched."
+    },
+    {
+      "id": "threeui-kage",
+      "reason": "Cloud renderer timed out."
+    },
+    {
+      "id": "threeui-gallery",
+      "reason": "WebGL context unavailable; cloud browser and Microlink showed error page."
+    },
+    {
+      "id": "threeui-portal-field",
+      "reason": "Blank WebGL render in cloud browser."
+    },
+    {
+      "id": "threeui-wireframe-forms",
+      "reason": "Blank render."
+    },
+    {
+      "id": "threeui-sketchbook",
+      "reason": "Browser frame crashed."
+    },
+    {
+      "id": "threeui-gallery-heading",
+      "reason": "Capture RPC timed out."
+    },
+    {
+      "id": "threeui-article-headings",
+      "reason": "Captured logo-only state offered insufficient visual detail."
+    },
+    {
+      "id": "threeui-rectangle-buttons",
+      "reason": "Rejected to avoid a weak isolated-button thumbnail and repetitive selection."
+    },
+    {
+      "id": "threeui-circle-buttons",
+      "reason": "Rejected to avoid a weak isolated-button thumbnail and repetitive selection."
+    }
+  ],
+  "rightsSources": [
+    "https://threeui.com/terms",
+    "https://github.com/MengTo/threeui/blob/main/LICENSE",
+    "https://github.com/MengTo/threeui/blob/main/ASSET-LICENSES.md",
+    "https://github.com/MengTo/threeui/blob/main/THIRD_PARTY_NOTICES.md"
+  ],
+  "captureNotes": "Fresh browser screenshots of public Community previews; no hosted ThreeUI thumbnails, videos, template code, paid Pro materials, or credentials copied. Public capture=preview routes are documented in upstream App.tsx. Tight crops remove unused surrounding space without altering rendered artwork. WebGL is disabled in this cloud browser; rejected render failures were not published."
+}
