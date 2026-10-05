@@ -169,6 +169,8 @@ test('storage updates from another tab refresh the visible collection and count'
 
 test('navigation is hash-based and language, status, and local-only notices are accessible', async () => {
   const html = await readFile(new URL('../index.html', import.meta.url), 'utf8');
+  const css = await readFile(new URL('../src/styles.css', import.meta.url), 'utf8');
+  assert.match(css, /html\{overflow-anchor:none\}/);
   assert.match(html, /id="nav-saved" href="#\/favorites"/);
   assert.match(html, /class="back-link" href="#\/"/);
   assert.match(html, /id="language" aria-label="网站语言"/);
